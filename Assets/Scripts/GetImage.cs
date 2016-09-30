@@ -32,6 +32,10 @@ public class GetImage : MonoBehaviour
 	private List<Mat> tempImgs = new List<Mat>();
 	private List<Mat> matList=new List<Mat>();	
 
+	[DllImport("__Internal")]  
+	private static extern int testLua(string imgPath, string modelPath);
+
+
 	[DllImport("__Internal")]
 	private static extern void _SavePhoto (string readAddr);
 
@@ -104,39 +108,39 @@ public class GetImage : MonoBehaviour
 			Mat tmpImg = frameImg.clone ();
 			rotateCamera.rotate (ref tmpImg);
 
-
 			matList=recognizeAlgo.createDataSet(tmpImg);//切割图片
 			Debug.Log ("matList.Count"+matList.Count);
 
-//			texture.Resize(tmpImg.cols(), tmpImg.rows());
-//			Utils.matToTexture2D(tmpImg, texture);	
 			texture.Resize(28, 28);
-			//Utils.matToTexture2D(matList[0], texture);
+
         }
-
-		for (int i = 0; i < matList.Count; i++) //把小图片存到相册中 
+		if (matList.Count>0)
 		{
-			#if UNITY_EDITOR 
-			string path=Application.dataPath+"/Photos/"+System.DateTime.Now.Ticks+".jpg";
-			#elif UNITY_IPHONE 
-			string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
-			Debug.Log ("ios--path===" + path);
-			#endif 
-			//Texture2D tex = new Texture2D (28, 28);
-			//Utils.matToTexture2D(matList[i],tex);
-			Utils.matToTexture2D(matList[i],texture);
-			//File.WriteAllBytes(path, tex.EncodeToJPG ());//tex写入路径
-			File.WriteAllBytes(path, texture.EncodeToJPG ());
+			for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
+			{
+				#if UNITY_EDITOR 
+				string path=Application.dataPath+"/Photos/"+System.DateTime.Now.Ticks+".jpg";
+				#elif UNITY_IPHONE 
+				string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
+				Debug.Log ("ios--path===" + path);
+				#endif 
+				Utils.matToTexture2D(matList[i],texture);
+				File.WriteAllBytes(path, texture.EncodeToJPG ());
 
-//			byte [] texData=File.ReadAllBytes(path);
-//			Texture2D texRead = new Texture2D (28, 28);
-//			texRead.LoadImage (texData);
-//			texture = texRead;
+				string pathIphone = Application.dataPath.Substring (0, Application.dataPath.Length - 4) + "Models/5.mdl";
+				Debug.Log ("path==" + path);
+				Debug.Log ("pathIphone==" + pathIphone);
+				#if UNITY_EDITOR 
+				#elif UNITY_IPHONE  
 
-			#if UNITY_EDITOR 
-			#elif UNITY_IPHONE  
-			_SavePhoto (path);
-			#endif 
+				_SavePhoto (path);
+				int tempInt=testLua (path, pathIphone);
+				Debug.Log ("tempInt==" + tempInt);
+				#endif 
+
+
+			}
 		}
+
     }
 }
