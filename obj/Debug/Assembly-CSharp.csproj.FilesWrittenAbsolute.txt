@@ -1,0 +1,4 @@
+/Users/WangQian/Documents/GitWorkspace/GetDataset/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/WangQian/Documents/GitWorkspace/GetDataset/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/WangQian/Documents/GitWorkspace/GetDataset/obj/Debug/Assembly-CSharp.dll
+/Users/WangQian/Documents/GitWorkspace/GetDataset/obj/Debug/Assembly-CSharp.dll.mdb
