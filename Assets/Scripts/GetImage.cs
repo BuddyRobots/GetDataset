@@ -6,15 +6,10 @@ using System.Collections.Generic;
 using MagicCircuit;
 using System.Threading;
 using System.Runtime.InteropServices;
-
-
-
-
+using System;
 
 public class GetImage : MonoBehaviour
 {
-	public static GetImage _instance;
-
 	/// <summary>
 	/// 用作识别界面显示的照片
 	/// </summary>
@@ -24,69 +19,39 @@ public class GetImage : MonoBehaviour
     private WebCamTexture webCamTexture;
     private WebCamDevice webCamDevice;
     private Mat frameImg;
-
+	Mat img=new Mat();
 	private const int cam_width  = 640;
 	private const int cam_height = 480;
 	private const int tex_width  = 640;//1120;//640;
 	private const int tex_height = 480;
 
-	// textures
-	public Texture2D light_tex;
-	public Texture2D battery_tex;
-	public Texture2D switch_tex;
-	public Texture2D line_tex;
-
 	public RecognizeAlgo recognizeAlgo;
 	private RotateCamera rotateCamera;
 
-	//public List<CircuitItem> listItem;
-
-	/// <summary>
-	/// this is a mark to judge if the snapshot is done
-	/// </summary>
-	private bool isShotTook=false;
 	private bool initDone = false;
-	/// <summary>
-	/// this is a mark to judge if 10 photos were save
-	/// </summary>
-	private bool isTakePicture;
-	/// <summary>
-	/// a mark to judge if the thread of 10-photos-handling was over 
-	/// </summary>
-	private bool isFinishHandlePicture;
 
 	private List<Mat> tempImgs = new List<Mat>();
-	//public List<List<CircuitItem>> itemLists=new List<List<CircuitItem>>(); //多个图标集合的集合，之后会根据这个集合提炼出最终的一个List<CircuitItem>（），用来做识别界面取图标的依据
+	private List<Mat> matList=new List<Mat>();	
 
+	[DllImport("__Internal")]  
+	private static extern int testLuaWithArr(float [] arr,int len);
 
-	void Awake()
-	{
-		_instance = this;
+//	[DllImport("__Internal")]
+//	private static extern void _SavePhoto (string readAddr);
 
-	}
-		
     void Start() 
 	{
-		rotateCamera = new RotateCamera ();  
-		// Intialize RecogniazeAlgo
+		//rotateCamera = new RotateCamera ();  
 		recognizeAlgo = new RecognizeAlgo();
-
-		//listItem = new List<CircuitItem>();
     }
 
 	void OnEnable()
 	{
-		isShotTook=false;
-		isTakePicture = false;
-		isFinishHandlePicture = false;
 		initDone = false;
-
 		tempImgs.Clear ();
 
 		StartCoroutine(init());
 	}
-
-
 
     private IEnumerator init()
     {
@@ -112,10 +77,8 @@ public class GetImage : MonoBehaviour
             if (webCamTexture.didUpdateThisFrame)
             {
                 frameImg = new Mat(webCamTexture.height, webCamTexture.width, CvType.CV_8UC3);
-
                 texture = new Texture2D(tex_width, tex_height, TextureFormat.RGBA32, false);
                 gameObject.GetComponent<Renderer>().material.mainTexture = texture;
-
                 initDone = true;
                 break;
             }
@@ -129,134 +92,82 @@ public class GetImage : MonoBehaviour
 	void Update()
 	{
 		TakePhoto();
-		if (!isFinishHandlePicture && tempImgs.Count >= 10) 
-		{
-			TakePicture_Start ();
-			isFinishHandlePicture = true;
-		}
 	}
 
-	public void TakePicture()
-	{
-		isTakePicture = true; 
-	}
-
-	/// <summary>
-	/// Take photos 
-	/// </summary>
 	public void TakePhoto() 
 	{
-		
         if (!initDone)
             return;
         if (webCamTexture.didUpdateThisFrame)
         {
-
 			Utils.webCamTextureToMat(webCamTexture, frameImg);
 			Mat tmpImg = frameImg.clone ();
-			rotateCamera.rotate (ref tmpImg);
+			//rotateCamera.rotate (ref tmpImg);
 
-			if (isTakePicture && tempImgs.Count < 10) {
-				tempImgs.Add (tmpImg);
-			}
-				
-			texture.Resize(tmpImg.cols(), tmpImg.rows());
-			Utils.matToTexture2D(tmpImg, texture);
-			        
-			if (!isShotTook) 
+			matList=recognizeAlgo.createDataSet(tmpImg);//切割图片
+			//texture.Resize(tmpImg.cols(),tmpImg.rows());
+			Debug.Log ("matList.Count=="+matList.Count);
+			texture.Resize(28, 28);
+			byte[] arr=new byte[28*28*3];
+			float[] sample=new float[arr.Length];
+			if (matList.Count>0) 
 			{
-				TakeSnapShot ();
-				isShotTook = true;
+				for (int i = 0; i < matList.Count; i++) 
+				{
+					Utils.matToTexture2D(matList[i],texture);
+					matList [i].get(0, 0, arr);
+
+				}
+
+				for (int i = 0; i < 100; i++) 
+				{
+					Debug.Log ("arr==="+arr [i]);
+				}	
+				for (int i = 0; i < arr.Length; i++) 
+				{
+					sample [i] = (float)arr [i]/255;
+
+					Debug.Log ("sample==="+sample [i]);
+				}
+				//testLuaWithPara (sample);
+				int ret = testLuaWithArr(sample,sample.Length);
+				Debug.Log ("unity__testLuaWithArr_ret=="+ ret);
 			}
+
+
         }
+//		if (matList.Count>0)
+//		{
+//			for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
+//			{
+//				#if UNITY_EDITOR 
+//				string path=Application.dataPath+"/Photos/"+System.DateTime.Now.Ticks+".jpg";
+//				#elif UNITY_IPHONE 
+//				string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
+//				#endif 
+//
+//				Utils.matToTexture2D(matList[i],texture);
+//				File.WriteAllBytes(path, texture.EncodeToJPG ());
+//
+//				string pathIphone = Application.dataPath.Substring (0, Application.dataPath.Length - 4) + "Models/5.mdl";
+//				Debug.Log ("ios--path===" + path);
+//				Debug.Log ("pathIphone==" + pathIphone);
+//				#if UNITY_EDITOR 
+//				#elif UNITY_IPHONE  
+//				_SavePhoto (path);
+//				testLuaWithPara (path, pathIphone);
+//				#endif 
+//			}
+//		}
     }
-	//开启线程的地方
-	private void TakePicture_Start()
+
+
+	void testResult (string msg)
 	{
-		Thread takePicture = new Thread (ThreadTakePicture);
-		takePicture.IsBackground = true;
-		takePicture.Start ();
-		//Debug.Log ("itemList.count : " + itemLists.Count);
+		Debug.Log("testResult:" +msg);
+		int ret = int.Parse (msg);
+		Debug.Log ("ret==" + ret);
 	}
-
-	Mat img=new Mat();
-
-	//线程函数,此函数用于处理已经获得的照片
-	private void ThreadTakePicture()
-	{
-		//itemLists.Clear ();                                                                                                                                                                                                                                                                                                                         
-
-		for (int i = 0; i < tempImgs.Count; i++) 
-		{
-			
-			//List<CircuitItem> temp = new List<CircuitItem>();//用作识别界面显示图标的数据依据
-
-			////Mat resultImg = recognizeAlgo.process(tempImgs[i], ref temp);
-			///img = resultImg;
-			//itemLists.Add (temp);
-
-			//texture.Resize(resultImg.cols(), resultImg.rows());
-			//Utils.matToTexture2D(resultImg, texture);
-		}
-		//Debug.Log ("itemList.count : " + itemLists[4].Count);
-	}
-		
-
-
-	/// <summary>
-	/// Take a snap shot.
-	/// </summary>
-	void TakeSnapShot()
-	{
-		Texture2D snap = new Texture2D(webCamTexture.width, webCamTexture.height);
-		snap.SetPixels(webCamTexture.GetPixels());
-		snap.Apply();
-
-		#if UNITY_EDITOR  
-		string filepath = Application.dataPath +"/PaiZhao/" + "a.jpg";
-		#elif UNITY_IPHONE 
-		string filepath =Application.persistentDataPath+"/a.jpg";
-		#endif 
-
-		File.WriteAllBytes(filepath, snap.EncodeToJPG ());
-
-
-	}
-
-
-
-	[DllImport("__Internal")]
-	private static extern void _SavePhoto (string readAddr);
-	//private string _cptrAddr;
-
-
-
-	public void SavePic()
-	{
-		Debug.Log ("SavePic()");
-
-		Texture2D tex2D = new Texture2D (img.cols(), img.rows());
-		Utils.matToTexture2D (img, tex2D);
-		tex2D.Apply ();
-
-		#if UNITY_EDITOR  
-		string path = Application.dataPath +"/PaiZhao/" + "savepic.jpg";
-		#elif UNITY_IPHONE 
-		string path =Application.persistentDataPath+"/savepic.jpg";
-		_SavePhoto (path);
-		#endif 
-
-
-		File.WriteAllBytes(path, tex2D.EncodeToJPG ());
-
-		Debug.Log ("path===" + path);
-
-
-
-
-	}
-
-
 
 
 
