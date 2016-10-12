@@ -39,7 +39,17 @@ public class CardDetector
                 }
 
                 if (maxCosine < 0.8)
+                {
                     squares.Add(approx.toList());
+
+
+
+                    ////////////////////////////////////
+                    Debug.Log("maxCosine = " + maxCosine);
+                    ////////////////////////////////////
+
+
+                }
             }
         }
 
@@ -103,7 +113,18 @@ public class CardDetector
                 continue;
             }
             if (isSquareClockwise(squares[j]))
+            {
                 filterSquares.Add(squares[j]);
+
+
+                /////////////////////////////////////////
+                Debug.Log("curMaxLen = " + curMaxLen);
+                Debug.Log("curMinLen = " + curMinLen);
+                /////////////////////////////////////////
+
+
+
+            }
         }
         return filterSquares;
     }
