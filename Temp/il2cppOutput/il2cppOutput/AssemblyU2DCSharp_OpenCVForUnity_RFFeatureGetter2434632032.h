@@ -1,0 +1,34 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+
+// System.String
+struct String_t;
+
+#include "AssemblyU2DCSharp_OpenCVForUnity_Algorithm3404350434.h"
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// OpenCVForUnity.RFFeatureGetter
+struct  RFFeatureGetter_t2434632032  : public Algorithm_t3404350434
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

@@ -38,7 +38,7 @@ public class CardDetector
                     maxCosine = maxCosine > cosine ? maxCosine : cosine;
                 }
 
-                if (maxCosine < 0.8)
+                if (maxCosine < 0.4)
                 {
                     squares.Add(approx.toList());
 
@@ -92,8 +92,8 @@ public class CardDetector
 
     private static List<List<Point>> filterSquares(List<List<Point>> squares)
     {
-        int m_maxSquareLen = 400;
-        int m_minSquareLen = 10;
+        int m_maxSquareLen = 200;
+        int m_minSquareLen = 70;
         double m_maxSquareLenRatio = 1.2;
         List<List<Point>> filterSquares = new List<List<Point>>();
 

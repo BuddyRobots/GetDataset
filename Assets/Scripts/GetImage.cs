@@ -36,12 +36,12 @@ public class GetImage : MonoBehaviour
 	[DllImport("__Internal")]  
 	private static extern int testLuaWithArr(float [] arr,int len);
 
-//	[DllImport("__Internal")]
-//	private static extern void _SavePhoto (string readAddr);
+	[DllImport("__Internal")]
+	private static extern void _SavePhoto (string readAddr);
 
     void Start() 
 	{
-		//rotateCamera = new RotateCamera ();  
+		rotateCamera = new RotateCamera ();  
 		recognizeAlgo = new RecognizeAlgo();
     }
 
@@ -102,40 +102,63 @@ public class GetImage : MonoBehaviour
         {
 			Utils.webCamTextureToMat(webCamTexture, frameImg);
 			Mat tmpImg = frameImg.clone ();
-			//rotateCamera.rotate (ref tmpImg);
+			rotateCamera.rotate (ref tmpImg);
 
 			matList=recognizeAlgo.createDataSet(tmpImg);//切割图片
+
 			//texture.Resize(tmpImg.cols(),tmpImg.rows());
+			//Utils.matToTexture2D(tmpImg,texture);
+
 			Debug.Log ("matList.Count=="+matList.Count);
+
 			texture.Resize(28, 28);
+
 			byte[] arr=new byte[28*28*3];
 			float[] sample=new float[arr.Length];
-			if (matList.Count>0) 
+
+			//call lua func 
+//			if (matList.Count>0) 
+//			{
+//				for (int i = 0; i < matList.Count; i++) 
+//				{
+//					Utils.matToTexture2D(matList[i],texture);
+//					Imgproc.cvtColor (matList [i], matList [i], Imgproc.COLOR_BGR2RGB);
+//					matList [i].get(0, 0, arr);
+//				}
+//					
+//				for (int i = 0; i < arr.Length; i++) 
+//				{
+//					sample [i] = (float)arr [i]/255;
+//				}
+//				//testLuaWithPara (sample);
+//				int ret = testLuaWithArr(sample,sample.Length);
+//				Debug.Log ("unity__testLuaWithArr_ret=="+ ret);
+//			}
+
+			//save item pics into pad album
+			if (matList.Count>0)
 			{
-				for (int i = 0; i < matList.Count; i++) 
+				for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
 				{
+					#if UNITY_EDITOR 
+					string path=Application.dataPath+"/Photos/"+System.DateTime.Now.Ticks+".jpg";
+					#elif UNITY_IPHONE 
+					string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
+					#endif 
+	
 					Utils.matToTexture2D(matList[i],texture);
-					matList [i].get(0, 0, arr);
-
+					File.WriteAllBytes(path, texture.EncodeToJPG ());
+	
+					#if UNITY_EDITOR 
+					#elif UNITY_IPHONE  
+					_SavePhoto (path);
+					#endif 
 				}
-
-				for (int i = 0; i < 100; i++) 
-				{
-					Debug.Log ("arr==="+arr [i]);
-				}	
-				for (int i = 0; i < arr.Length; i++) 
-				{
-					sample [i] = (float)arr [i]/255;
-
-					Debug.Log ("sample==="+sample [i]);
-				}
-				//testLuaWithPara (sample);
-				int ret = testLuaWithArr(sample,sample.Length);
-				Debug.Log ("unity__testLuaWithArr_ret=="+ ret);
 			}
 
 
         }
+
 //		if (matList.Count>0)
 //		{
 //			for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
