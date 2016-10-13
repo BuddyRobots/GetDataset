@@ -111,10 +111,10 @@ public class GetImage : MonoBehaviour
 
 			Debug.Log ("matList.Count=="+matList.Count);
 
-			texture.Resize(28, 28);
 
-			byte[] arr=new byte[28*28*3];
-			float[] sample=new float[arr.Length];
+
+//			byte[] arr=new byte[28*28*3];
+//			float[] sample=new float[arr.Length];
 
 			//call lua func 
 //			if (matList.Count>0) 
@@ -136,24 +136,32 @@ public class GetImage : MonoBehaviour
 //			}
 
 			//save item pics into pad album
-			if (matList.Count>0)
+			if (matList.Count > 0) 
 			{
-				for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
-				{
+				
+				for (int i = 0; i <1/* matList.Count*/; i++) { //把小图片存到相册中 
 					#if UNITY_EDITOR 
-					string path=Application.dataPath+"/Photos/"+System.DateTime.Now.Ticks+".jpg";
+					string path = Application.dataPath + "/Photos/" + System.DateTime.Now.Ticks + ".jpg";
 					#elif UNITY_IPHONE 
 					string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
 					#endif 
-	
-					Utils.matToTexture2D(matList[i],texture);
-					File.WriteAllBytes(path, texture.EncodeToJPG ());
+
+					texture.Resize(28, 28);
+					Utils.matToTexture2D (matList [i], texture);
+
+					File.WriteAllBytes (path, texture.EncodeToJPG ());
 	
 					#if UNITY_EDITOR 
 					#elif UNITY_IPHONE  
 					_SavePhoto (path);
 					#endif 
 				}
+			} 
+			else 
+			{
+				texture.Resize(tmpImg.cols(),tmpImg.rows());
+				Utils.matToTexture2D(tmpImg,texture);
+			
 			}
 
 

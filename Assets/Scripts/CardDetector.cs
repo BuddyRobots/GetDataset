@@ -38,17 +38,18 @@ public class CardDetector
                     maxCosine = maxCosine > cosine ? maxCosine : cosine;
                 }
 
-                if (maxCosine < 0.4)
+
+
+
+				////////////////////////////////////
+				Debug.Log("maxCosine = " + maxCosine);
+				////////////////////////////////////
+
+
+				///@@TODO
+                if (maxCosine < 0.8)
                 {
                     squares.Add(approx.toList());
-
-
-
-                    ////////////////////////////////////
-                    Debug.Log("maxCosine = " + maxCosine);
-                    ////////////////////////////////////
-
-
                 }
             }
         }
@@ -92,9 +93,12 @@ public class CardDetector
 
     private static List<List<Point>> filterSquares(List<List<Point>> squares)
     {
-        int m_maxSquareLen = 200;
-        int m_minSquareLen = 70;
-        double m_maxSquareLenRatio = 1.2;
+		///@@TODO
+        int m_maxSquareLen = 150;
+        int m_minSquareLen = 60;
+        double m_maxSquareLenRatio = 1.4;
+
+
         List<List<Point>> filterSquares = new List<List<Point>>();
 
         for (int j = 0; j < squares.Count; j++)
@@ -108,6 +112,14 @@ public class CardDetector
                 curMinLen = len < curMinLen ? len : curMinLen;
             }
 
+
+
+			/////////////////////////////////////////
+			Debug.Log("curMaxLen = " + curMaxLen);
+			Debug.Log("curMinLen = " + curMinLen);
+			/////////////////////////////////////////
+
+
             if (curMaxLen > m_maxSquareLen || curMinLen < m_minSquareLen || curMaxLen / curMinLen > m_maxSquareLenRatio)
             {
                 continue;
@@ -115,15 +127,6 @@ public class CardDetector
             if (isSquareClockwise(squares[j]))
             {
                 filterSquares.Add(squares[j]);
-
-
-                /////////////////////////////////////////
-                Debug.Log("curMaxLen = " + curMaxLen);
-                Debug.Log("curMinLen = " + curMinLen);
-                /////////////////////////////////////////
-
-
-
             }
         }
         return filterSquares;
