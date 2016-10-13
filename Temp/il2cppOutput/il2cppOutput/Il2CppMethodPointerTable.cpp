@@ -10449,7 +10449,7 @@ extern "C" void ColorObject_setType_m1776056095 ();
 extern "C" void ColorObject_getColor_m1370431462 ();
 extern "C" void ColorObject_setColor_m844947653 ();
 extern "C" void GetImage__ctor_m1189836918 ();
-extern "C" void GetImage_testLuaWithArr_m1864495551 ();
+extern "C" void GetImage_testLuaWithArr_m704296776 ();
 extern "C" void GetImage__SavePhoto_m3015803326 ();
 extern "C" void GetImage_Start_m136974710 ();
 extern "C" void GetImage_OnEnable_m2138108752 ();
@@ -24790,7 +24790,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ColorObject_getColor_m1370431462,
 	ColorObject_setColor_m844947653,
 	GetImage__ctor_m1189836918,
-	GetImage_testLuaWithArr_m1864495551,
+	GetImage_testLuaWithArr_m704296776,
 	GetImage__SavePhoto_m3015803326,
 	GetImage_Start_m136974710,
 	GetImage_OnEnable_m2138108752,

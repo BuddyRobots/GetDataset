@@ -14,8 +14,8 @@
 
 // GetImage
 struct GetImage_t2020783045;
-// System.Single[]
-struct SingleU5BU5D_t1219431280;
+// System.Double[]
+struct DoubleU5BU5D_t1048280995;
 // System.String
 struct String_t;
 // System.Collections.IEnumerator
@@ -26,8 +26,8 @@ struct IEnumerator_t287207039;
 
 // System.Void GetImage::.ctor()
 extern "C"  void GetImage__ctor_m1189836918 (GetImage_t2020783045 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Int32 GetImage::testLuaWithArr(System.Single[],System.Int32)
-extern "C"  int32_t GetImage_testLuaWithArr_m1864495551 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t1219431280* ___arr, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 GetImage::testLuaWithArr(System.Double[],System.Int32)
+extern "C"  int32_t GetImage_testLuaWithArr_m704296776 (Il2CppObject * __this /* static, unused */, DoubleU5BU5D_t1048280995* ___arr, int32_t ___len, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GetImage::_SavePhoto(System.String)
 extern "C"  void GetImage__SavePhoto_m3015803326 (Il2CppObject * __this /* static, unused */, String_t* ___readAddr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GetImage::Start()

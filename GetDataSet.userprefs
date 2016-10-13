@@ -1,11 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CardDetector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GetImage.cs">
     <Files>
-      <File FileName="Assets/Scripts/RecognizeAlgo.cs" Line="46" Column="23" />
+      <File FileName="Assets/Scripts/GetImage.cs" Line="30" Column="2" />
+      <File FileName="Assets/Scripts/RecognizeAlgo.cs" Line="1" Column="1" />
       <File FileName="Assets/OpenCVForUnity/org/opencv/unity/Utils.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CardDetector.cs" Line="96" Column="33" />
-      <File FileName="Assets/Scripts/GetImage.cs" Line="148" Column="2" />
+      <File FileName="Assets/Scripts/CardDetector.cs" Line="97" Column="34" />
+      <File FileName="Assets/Scripts/RotateCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

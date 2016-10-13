@@ -34,7 +34,7 @@ public class GetImage : MonoBehaviour
 	private List<Mat> matList=new List<Mat>();	
 
 	[DllImport("__Internal")]  
-	private static extern int testLuaWithArr(float [] arr,int len);
+	private static extern int testLuaWithArr(double[] arr,int len);
 
 	[DllImport("__Internal")]
 	private static extern void _SavePhoto (string readAddr);
@@ -112,29 +112,40 @@ public class GetImage : MonoBehaviour
 			Debug.Log ("matList.Count=="+matList.Count);
 
 
-
+			#region call lua func with double/float paras
 //			byte[] arr=new byte[28*28*3];
-//			float[] sample=new float[arr.Length];
-
-			//call lua func 
+//			double[] sample=new double[arr.Length];
+//
+//
 //			if (matList.Count>0) 
 //			{
-//				for (int i = 0; i < matList.Count; i++) 
+//				for (int i = 0; i < 1/*matList.Count*/; i++) 
 //				{
+//					texture.Resize(28,28);
+//					//Imgproc.cvtColor (matList [i], matList [i], Imgproc.COLOR_BGR2RGB);
 //					Utils.matToTexture2D(matList[i],texture);
-//					Imgproc.cvtColor (matList [i], matList [i], Imgproc.COLOR_BGR2RGB);
 //					matList [i].get(0, 0, arr);
 //				}
 //					
 //				for (int i = 0; i < arr.Length; i++) 
 //				{
-//					sample [i] = (float)arr [i]/255;
+//					sample [i] = (double)arr [i]/255;
 //				}
+//
 //				//testLuaWithPara (sample);
 //				int ret = testLuaWithArr(sample,sample.Length);
 //				Debug.Log ("unity__testLuaWithArr_ret=="+ ret);
 //			}
+//			else 
+//			{
+//				texture.Resize(tmpImg.cols(),tmpImg.rows());
+//				Utils.matToTexture2D(tmpImg,texture);
+//
+//			}
+			#endregion
 
+
+			#region save item pics into pad album
 			//save item pics into pad album
 			if (matList.Count > 0) 
 			{
@@ -163,10 +174,10 @@ public class GetImage : MonoBehaviour
 				Utils.matToTexture2D(tmpImg,texture);
 			
 			}
-
+			#endregion
 
         }
-
+		#region  call lua func with string paras
 //		if (matList.Count>0)
 //		{
 //			for (int i = 0; i < 1/*matList.Count*/; i++) //把小图片存到相册中 
@@ -190,6 +201,7 @@ public class GetImage : MonoBehaviour
 //				#endif 
 //			}
 //		}
+		#endregion
     }
 
 
