@@ -12,31 +12,19 @@
 #include <assert.h>
 #include <exception>
 
-// System.Array
-struct Il2CppArray;
-// System.Object
-struct Il2CppObject;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0.h"
-#include "mscorlib_System_Array2840145358.h"
-#include "mscorlib_System_Collections_SortedList_Slot2579998.h"
+#include "mscorlib_System_Array_InternalEnumerator_1_gen2953159047MethodDeclarations.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::.ctor(System.Array)
-extern "C"  void InternalEnumerator_1__ctor_m831950091_gshared (InternalEnumerator_1_t4205037798 * __this, Il2CppArray * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m831950091(__this, ___array, method) ((  void (*) (InternalEnumerator_1_t4205037798 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m831950091_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::System.Collections.IEnumerator.Reset()
-extern "C"  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m234798773_gshared (InternalEnumerator_1_t4205037798 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m234798773(__this, method) ((  void (*) (InternalEnumerator_1_t4205037798 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m234798773_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4234291809_gshared (InternalEnumerator_1_t4205037798 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4234291809(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t4205037798 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m4234291809_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::Dispose()
-extern "C"  void InternalEnumerator_1_Dispose_m857987234_gshared (InternalEnumerator_1_t4205037798 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m857987234(__this, method) ((  void (*) (InternalEnumerator_1_t4205037798 *, const MethodInfo*))InternalEnumerator_1_Dispose_m857987234_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::MoveNext()
-extern "C"  bool InternalEnumerator_1_MoveNext_m3764038305_gshared (InternalEnumerator_1_t4205037798 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m3764038305(__this, method) ((  bool (*) (InternalEnumerator_1_t4205037798 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m3764038305_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Collections.SortedList/Slot>::get_Current()
-extern "C"  Slot_t2579999  InternalEnumerator_1_get_Current_m2267962386_gshared (InternalEnumerator_1_t4205037798 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m2267962386(__this, method) ((  Slot_t2579999  (*) (InternalEnumerator_1_t4205037798 *, const MethodInfo*))InternalEnumerator_1_get_Current_m2267962386_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::.ctor(System.Array)
+#define InternalEnumerator_1__ctor_m3818991403(__this, ___array0, method) ((  void (*) (InternalEnumerator_1_t2116716175 *, Il2CppArray *, const MethodInfo*))InternalEnumerator_1__ctor_m2616641763_gshared)(__this, ___array0, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m4059419191(__this, method) ((  void (*) (InternalEnumerator_1_t2116716175 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m2224260061_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m2838454371(__this, method) ((  Il2CppObject * (*) (InternalEnumerator_1_t2116716175 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m390763987_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::Dispose()
+#define InternalEnumerator_1_Dispose_m2758657410(__this, method) ((  void (*) (InternalEnumerator_1_t2116716175 *, const MethodInfo*))InternalEnumerator_1_Dispose_m2760671866_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m2131574307(__this, method) ((  bool (*) (InternalEnumerator_1_t2116716175 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m3716548237_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Math.BigInteger>::get_Current()
+#define InternalEnumerator_1_get_Current_m1672825778(__this, method) ((  BigInteger_t3334373499 * (*) (InternalEnumerator_1_t2116716175 *, const MethodInfo*))InternalEnumerator_1_get_Current_m2178852364_gshared)(__this, method)

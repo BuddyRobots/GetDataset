@@ -13,9 +13,9 @@
 // System.String
 struct String_t;
 // OpenCVForUnity.Scalar
-struct Scalar_t3645537183;
+struct Scalar_t3445295492;
 
-#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_Object4170816371.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -34,11 +34,11 @@ public:
 	// System.String ColorObject::type
 	String_t* ___type_2;
 	// OpenCVForUnity.Scalar ColorObject::HSVmin
-	Scalar_t3645537183 * ___HSVmin_3;
+	Scalar_t3445295492 * ___HSVmin_3;
 	// OpenCVForUnity.Scalar ColorObject::HSVmax
-	Scalar_t3645537183 * ___HSVmax_4;
+	Scalar_t3445295492 * ___HSVmax_4;
 	// OpenCVForUnity.Scalar ColorObject::Color
-	Scalar_t3645537183 * ___Color_5;
+	Scalar_t3445295492 * ___Color_5;
 
 public:
 	inline static int32_t get_offset_of_xPos_0() { return static_cast<int32_t>(offsetof(ColorObject_t2518683746, ___xPos_0)); }
@@ -67,27 +67,27 @@ public:
 	}
 
 	inline static int32_t get_offset_of_HSVmin_3() { return static_cast<int32_t>(offsetof(ColorObject_t2518683746, ___HSVmin_3)); }
-	inline Scalar_t3645537183 * get_HSVmin_3() const { return ___HSVmin_3; }
-	inline Scalar_t3645537183 ** get_address_of_HSVmin_3() { return &___HSVmin_3; }
-	inline void set_HSVmin_3(Scalar_t3645537183 * value)
+	inline Scalar_t3445295492 * get_HSVmin_3() const { return ___HSVmin_3; }
+	inline Scalar_t3445295492 ** get_address_of_HSVmin_3() { return &___HSVmin_3; }
+	inline void set_HSVmin_3(Scalar_t3445295492 * value)
 	{
 		___HSVmin_3 = value;
 		Il2CppCodeGenWriteBarrier(&___HSVmin_3, value);
 	}
 
 	inline static int32_t get_offset_of_HSVmax_4() { return static_cast<int32_t>(offsetof(ColorObject_t2518683746, ___HSVmax_4)); }
-	inline Scalar_t3645537183 * get_HSVmax_4() const { return ___HSVmax_4; }
-	inline Scalar_t3645537183 ** get_address_of_HSVmax_4() { return &___HSVmax_4; }
-	inline void set_HSVmax_4(Scalar_t3645537183 * value)
+	inline Scalar_t3445295492 * get_HSVmax_4() const { return ___HSVmax_4; }
+	inline Scalar_t3445295492 ** get_address_of_HSVmax_4() { return &___HSVmax_4; }
+	inline void set_HSVmax_4(Scalar_t3445295492 * value)
 	{
 		___HSVmax_4 = value;
 		Il2CppCodeGenWriteBarrier(&___HSVmax_4, value);
 	}
 
 	inline static int32_t get_offset_of_Color_5() { return static_cast<int32_t>(offsetof(ColorObject_t2518683746, ___Color_5)); }
-	inline Scalar_t3645537183 * get_Color_5() const { return ___Color_5; }
-	inline Scalar_t3645537183 ** get_address_of_Color_5() { return &___Color_5; }
-	inline void set_Color_5(Scalar_t3645537183 * value)
+	inline Scalar_t3445295492 * get_Color_5() const { return ___Color_5; }
+	inline Scalar_t3445295492 ** get_address_of_Color_5() { return &___Color_5; }
+	inline void set_Color_5(Scalar_t3445295492 * value)
 	{
 		___Color_5 = value;
 		Il2CppCodeGenWriteBarrier(&___Color_5, value);

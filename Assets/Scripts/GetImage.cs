@@ -19,7 +19,6 @@ public class GetImage : MonoBehaviour
     private WebCamTexture webCamTexture;
     private WebCamDevice webCamDevice;
     private Mat frameImg;
-	Mat img=new Mat();
 	private const int cam_width  = 640;
 	private const int cam_height = 480;
 	private const int tex_width  = 640;//1120;//640;
@@ -48,7 +47,7 @@ public class GetImage : MonoBehaviour
 	void OnEnable()
 	{
 		initDone = false;
-		tempImgs.Clear ();
+		tempImgs.Clear();
 
 		StartCoroutine(init());
 	}
@@ -64,13 +63,13 @@ public class GetImage : MonoBehaviour
 		WebCamDevice[] devices = WebCamTexture.devices;
 
 		#if UNITY_EDITOR  
-		webCamDevice = WebCamTexture.devices [0];
+		webCamDevice = WebCamTexture.devices[0];
 		#elif UNITY_IPHONE 
-		webCamDevice = WebCamTexture.devices [1];
+		webCamDevice = WebCamTexture.devices[1];
 		#endif 
 
-		webCamTexture = new WebCamTexture (webCamDevice.name, cam_width, cam_height);
-		webCamTexture.Play ();
+		webCamTexture = new WebCamTexture(webCamDevice.name, cam_width, cam_height);
+		webCamTexture.Play();
 
         while (true)
         {
@@ -83,9 +82,7 @@ public class GetImage : MonoBehaviour
                 break;
             }
             else
-            {
                 yield return 0;
-            }
         }
     }
 
@@ -102,81 +99,85 @@ public class GetImage : MonoBehaviour
         {
 			Utils.webCamTextureToMat(webCamTexture, frameImg);
 			Mat tmpImg = frameImg.clone ();
-			rotateCamera.rotate (ref tmpImg);
+			rotateCamera.rotate(ref tmpImg);
 
-			matList=recognizeAlgo.createDataSet(tmpImg);//切割图片
+			matList = recognizeAlgo.createDataSet(tmpImg);//切割图片
 
 			//texture.Resize(tmpImg.cols(),tmpImg.rows());
 			//Utils.matToTexture2D(tmpImg,texture);
 
 			Debug.Log ("matList.Count=="+matList.Count);
 
-
 			#region call lua func with double/float paras
-//			byte[] arr=new byte[28*28*3];
-//			double[] sample=new double[arr.Length];
-//
-//
-//			if (matList.Count>0) 
-//			{
-//				for (int i = 0; i < 1/*matList.Count*/; i++) 
-//				{
-//					texture.Resize(28,28);
-//					//Imgproc.cvtColor (matList [i], matList [i], Imgproc.COLOR_BGR2RGB);
-//					Utils.matToTexture2D(matList[i],texture);
-//					matList [i].get(0, 0, arr);
-//				}
-//					
-//				for (int i = 0; i < arr.Length; i++) 
-//				{
-//					sample [i] = (double)arr [i]/255;
-//				}
-//
-//				//testLuaWithPara (sample);
-//				int ret = testLuaWithArr(sample,sample.Length);
-//				Debug.Log ("unity__testLuaWithArr_ret=="+ ret);
-//			}
-//			else 
-//			{
-//				texture.Resize(tmpImg.cols(),tmpImg.rows());
-//				Utils.matToTexture2D(tmpImg,texture);
-//
-//			}
-			#endregion
 
+			double[] sample = new double[28*28*3];
 
-			#region save item pics into pad album
-			//save item pics into pad album
 			if (matList.Count > 0) 
 			{
-				
-				for (int i = 0; i <1/* matList.Count*/; i++) { //把小图片存到相册中 
-					#if UNITY_EDITOR 
-					string path = Application.dataPath + "/Photos/" + System.DateTime.Now.Ticks + ".jpg";
-					#elif UNITY_IPHONE 
-					string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
-					#endif 
-
+				for (int i = 0; i < 1/*matList.Count*/; i++) 
+				{
 					texture.Resize(28, 28);
-					Utils.matToTexture2D (matList [i], texture);
+					Utils.matToTexture2D(matList[i], texture);
 
-					File.WriteAllBytes (path, texture.EncodeToJPG ());
-	
-					#if UNITY_EDITOR 
-					#elif UNITY_IPHONE  
-					_SavePhoto (path);
-					#endif 
+					int pointer = 0;
+					for (var y = 0; y < matList[i].rows(); y++)
+						for (var x = 0; x < matList[i].cols(); x++)
+						{
+							double[] value = new double[3];
+							value = matList[i].get(x, y);
+
+							sample[pointer]        = value[0] / 255;
+							sample[pointer + 784]  = value[1] / 255;
+							sample[pointer + 1568] = value[2] / 255;
+							pointer++;
+						}
 				}
-			} 
+
+				//testLuaWithPara (sample);
+				int ret = testLuaWithArr(sample, sample.Length);
+			}
 			else 
 			{
 				texture.Resize(tmpImg.cols(),tmpImg.rows());
 				Utils.matToTexture2D(tmpImg,texture);
-			
 			}
+
+			#endregion
+
+
+			#region save item pics into pad album
+//			//save item pics into pad album
+//			if (matList.Count > 0) 
+//			{
+//				
+//				for (int i = 0; i <1/* matList.Count*/; i++) { //把小图片存到相册中 
+//					#if UNITY_EDITOR 
+//					string path = Application.dataPath + "/Photos/" + System.DateTime.Now.Ticks + ".jpg";
+//					#elif UNITY_IPHONE 
+//					string path =Application.persistentDataPath+"/"+System.DateTime.Now.Ticks+".jpg";
+//					#endif 
+//
+//					texture.Resize(28, 28);
+//					Utils.matToTexture2D (matList [i], texture);
+//
+//					File.WriteAllBytes (path, texture.EncodeToJPG ());
+//	
+//					#if UNITY_EDITOR 
+//					#elif UNITY_IPHONE  
+//					_SavePhoto (path);
+//					#endif 
+//				}
+//			} 
+//			else 
+//			{
+//				texture.Resize(tmpImg.cols(),tmpImg.rows());
+//				Utils.matToTexture2D(tmpImg,texture);
+//			
+//			}
 			#endregion
 
         }
+
 		#region  call lua func with string paras
 //		if (matList.Count>0)
 //		{
@@ -203,15 +204,4 @@ public class GetImage : MonoBehaviour
 //		}
 		#endregion
     }
-
-
-	void testResult (string msg)
-	{
-		Debug.Log("testResult:" +msg);
-		int ret = int.Parse (msg);
-		Debug.Log ("ret==" + ret);
-	}
-
-
-
 }

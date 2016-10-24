@@ -19,7 +19,7 @@ extern "C" void SafeWaitHandle__ctor_m2304648142 ();
 extern "C" void SafeWaitHandle_ReleaseHandle_m225694928 ();
 extern "C" void CodePointIndexer__ctor_m1627820919 ();
 extern "C" void CodePointIndexer_ToIndex_m2811911057 ();
-extern "C" void TableRange__ctor_m3599194282 ();
+extern "C" void TableRange__ctor_m3599194282_AdjustorThunk ();
 extern "C" void Contraction__ctor_m4198429461 ();
 extern "C" void ContractionComparer__ctor_m1678187352 ();
 extern "C" void ContractionComparer__cctor_m2104149 ();
@@ -102,8 +102,8 @@ extern "C" void SimpleCollator_MatchesForwardCore_m4219153676 ();
 extern "C" void SimpleCollator_MatchesPrimitive_m4274637912 ();
 extern "C" void SimpleCollator_MatchesBackward_m2723732854 ();
 extern "C" void SimpleCollator_MatchesBackwardCore_m1571229341 ();
-extern "C" void Context__ctor_m1103265712 ();
-extern "C" void PreviousInfo__ctor_m144561586 ();
+extern "C" void Context__ctor_m1103265712_AdjustorThunk ();
+extern "C" void PreviousInfo__ctor_m144561586_AdjustorThunk ();
 extern "C" void SortKeyBuffer__ctor_m3429486059 ();
 extern "C" void SortKeyBuffer_Reset_m3243252295 ();
 extern "C" void SortKeyBuffer_Initialize_m100616957 ();
@@ -517,6 +517,7 @@ extern "C" void AttrListImpl_get_Values_m713372555 ();
 extern "C" void AttrListImpl_Clear_m110682032 ();
 extern "C" void AttrListImpl_Add_m1977035706 ();
 extern "C" void SmallXmlParserException__ctor_m2365134382 ();
+extern "C" void __Il2CppComObject_Finalize_m3853271133 ();
 extern "C" void AccessViolationException__ctor_m1376995463 ();
 extern "C" void AccessViolationException__ctor_m1694290248 ();
 extern "C" void ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m1366995411 ();
@@ -557,8 +558,8 @@ extern "C" void ApplicationException__ctor_m1208591594 ();
 extern "C" void ApplicationException__ctor_m2651787575 ();
 extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m769720520 ();
 extern "C" void ApplicationIdentity_ToString_m654104720 ();
-extern "C" void ArgIterator_Equals_m1215992796 ();
-extern "C" void ArgIterator_GetHashCode_m3474761664 ();
+extern "C" void ArgIterator_Equals_m1215992796_AdjustorThunk ();
+extern "C" void ArgIterator_GetHashCode_m3474761664_AdjustorThunk ();
 extern "C" void ArgumentException__ctor_m571182463 ();
 extern "C" void ArgumentException__ctor_m3544856547 ();
 extern "C" void ArgumentException__ctor_m2711220147 ();
@@ -727,85 +728,85 @@ extern "C" void BitConverter_ToInt64_m3205751581 ();
 extern "C" void BitConverter_ToString_m1865594174 ();
 extern "C" void BitConverter_ToString_m190732574 ();
 extern "C" void Boolean__cctor_m1619527460 ();
-extern "C" void Boolean_System_IConvertible_ToType_m305773363 ();
-extern "C" void Boolean_System_IConvertible_ToBoolean_m1529027437 ();
-extern "C" void Boolean_System_IConvertible_ToByte_m689202539 ();
-extern "C" void Boolean_System_IConvertible_ToChar_m61046955 ();
-extern "C" void Boolean_System_IConvertible_ToDateTime_m2146018443 ();
-extern "C" void Boolean_System_IConvertible_ToDecimal_m2708222975 ();
-extern "C" void Boolean_System_IConvertible_ToDouble_m4044182987 ();
-extern "C" void Boolean_System_IConvertible_ToInt16_m1902909573 ();
-extern "C" void Boolean_System_IConvertible_ToInt32_m282594809 ();
-extern "C" void Boolean_System_IConvertible_ToInt64_m2886263351 ();
-extern "C" void Boolean_System_IConvertible_ToSByte_m2350844819 ();
-extern "C" void Boolean_System_IConvertible_ToSingle_m249236267 ();
-extern "C" void Boolean_System_IConvertible_ToUInt16_m136688779 ();
-extern "C" void Boolean_System_IConvertible_ToUInt32_m3723299531 ();
-extern "C" void Boolean_System_IConvertible_ToUInt64_m119372075 ();
-extern "C" void Boolean_CompareTo_m324613897 ();
-extern "C" void Boolean_Equals_m1178456600 ();
-extern "C" void Boolean_CompareTo_m3388665506 ();
-extern "C" void Boolean_Equals_m4087985523 ();
-extern "C" void Boolean_GetHashCode_m841540860 ();
+extern "C" void Boolean_System_IConvertible_ToType_m305773363_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToBoolean_m1529027437_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToByte_m689202539_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToChar_m61046955_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToDateTime_m2146018443_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToDecimal_m2708222975_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToDouble_m4044182987_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToInt16_m1902909573_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToInt32_m282594809_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToInt64_m2886263351_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToSByte_m2350844819_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToSingle_m249236267_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToUInt16_m136688779_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToUInt32_m3723299531_AdjustorThunk ();
+extern "C" void Boolean_System_IConvertible_ToUInt64_m119372075_AdjustorThunk ();
+extern "C" void Boolean_CompareTo_m324613897_AdjustorThunk ();
+extern "C" void Boolean_Equals_m1178456600_AdjustorThunk ();
+extern "C" void Boolean_CompareTo_m3388665506_AdjustorThunk ();
+extern "C" void Boolean_Equals_m4087985523_AdjustorThunk ();
+extern "C" void Boolean_GetHashCode_m841540860_AdjustorThunk ();
 extern "C" void Boolean_Parse_m3007515274 ();
-extern "C" void Boolean_ToString_m2512358154 ();
-extern "C" void Boolean_GetTypeCode_m1624087223 ();
-extern "C" void Boolean_ToString_m2019601528 ();
+extern "C" void Boolean_ToString_m2512358154_AdjustorThunk ();
+extern "C" void Boolean_GetTypeCode_m1624087223_AdjustorThunk ();
+extern "C" void Boolean_ToString_m2019601528_AdjustorThunk ();
 extern "C" void Buffer_ByteLength_m3699202119 ();
 extern "C" void Buffer_BlockCopy_m1580643184 ();
 extern "C" void Buffer_ByteLengthInternal_m22076516 ();
 extern "C" void Buffer_BlockCopyInternal_m1988595087 ();
-extern "C" void Byte_System_IConvertible_ToType_m2101067301 ();
-extern "C" void Byte_System_IConvertible_ToBoolean_m750195189 ();
-extern "C" void Byte_System_IConvertible_ToByte_m2117963023 ();
-extern "C" void Byte_System_IConvertible_ToChar_m1237710763 ();
-extern "C" void Byte_System_IConvertible_ToDateTime_m3914393141 ();
-extern "C" void Byte_System_IConvertible_ToDecimal_m2270065237 ();
-extern "C" void Byte_System_IConvertible_ToDouble_m2741577889 ();
-extern "C" void Byte_System_IConvertible_ToInt16_m1270736309 ();
-extern "C" void Byte_System_IConvertible_ToInt32_m1299459829 ();
-extern "C" void Byte_System_IConvertible_ToInt64_m3271837141 ();
-extern "C" void Byte_System_IConvertible_ToSByte_m864432533 ();
-extern "C" void Byte_System_IConvertible_ToSingle_m3059059407 ();
-extern "C" void Byte_System_IConvertible_ToUInt16_m1061177661 ();
-extern "C" void Byte_System_IConvertible_ToUInt32_m4228367665 ();
-extern "C" void Byte_System_IConvertible_ToUInt64_m2529248559 ();
-extern "C" void Byte_CompareTo_m1774805901 ();
-extern "C" void Byte_Equals_m4077775008 ();
-extern "C" void Byte_GetHashCode_m2610389752 ();
-extern "C" void Byte_CompareTo_m3248632740 ();
-extern "C" void Byte_Equals_m2522538359 ();
+extern "C" void Byte_System_IConvertible_ToType_m2101067301_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToBoolean_m750195189_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToByte_m2117963023_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToChar_m1237710763_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToDateTime_m3914393141_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToDecimal_m2270065237_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToDouble_m2741577889_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToInt16_m1270736309_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToInt32_m1299459829_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToInt64_m3271837141_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToSByte_m864432533_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToSingle_m3059059407_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToUInt16_m1061177661_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToUInt32_m4228367665_AdjustorThunk ();
+extern "C" void Byte_System_IConvertible_ToUInt64_m2529248559_AdjustorThunk ();
+extern "C" void Byte_CompareTo_m1774805901_AdjustorThunk ();
+extern "C" void Byte_Equals_m4077775008_AdjustorThunk ();
+extern "C" void Byte_GetHashCode_m2610389752_AdjustorThunk ();
+extern "C" void Byte_CompareTo_m3248632740_AdjustorThunk ();
+extern "C" void Byte_Equals_m2522538359_AdjustorThunk ();
 extern "C" void Byte_Parse_m1558065596 ();
 extern "C" void Byte_Parse_m3498070023 ();
 extern "C" void Byte_Parse_m2576952376 ();
 extern "C" void Byte_TryParse_m1476880242 ();
 extern "C" void Byte_TryParse_m570779293 ();
-extern "C" void Byte_ToString_m961894880 ();
-extern "C" void Byte_ToString_m3965014306 ();
-extern "C" void Byte_ToString_m4244510414 ();
-extern "C" void Byte_ToString_m1210459538 ();
+extern "C" void Byte_ToString_m961894880_AdjustorThunk ();
+extern "C" void Byte_ToString_m3965014306_AdjustorThunk ();
+extern "C" void Byte_ToString_m4244510414_AdjustorThunk ();
+extern "C" void Byte_ToString_m1210459538_AdjustorThunk ();
 extern "C" void Char__cctor_m3887439662 ();
-extern "C" void Char_System_IConvertible_ToType_m2466414707 ();
-extern "C" void Char_System_IConvertible_ToBoolean_m661905383 ();
-extern "C" void Char_System_IConvertible_ToByte_m4241151069 ();
-extern "C" void Char_System_IConvertible_ToChar_m3360898809 ();
-extern "C" void Char_System_IConvertible_ToDateTime_m1177409155 ();
-extern "C" void Char_System_IConvertible_ToDecimal_m2181775431 ();
-extern "C" void Char_System_IConvertible_ToDouble_m3015824495 ();
-extern "C" void Char_System_IConvertible_ToInt16_m2665056295 ();
-extern "C" void Char_System_IConvertible_ToInt32_m2693779815 ();
-extern "C" void Char_System_IConvertible_ToInt64_m371189831 ();
-extern "C" void Char_System_IConvertible_ToSByte_m2258752519 ();
-extern "C" void Char_System_IConvertible_ToSingle_m3333306013 ();
-extern "C" void Char_System_IConvertible_ToUInt16_m1335424267 ();
-extern "C" void Char_System_IConvertible_ToUInt32_m207646975 ();
-extern "C" void Char_System_IConvertible_ToUInt64_m2803495165 ();
+extern "C" void Char_System_IConvertible_ToType_m2466414707_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToBoolean_m661905383_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToByte_m4241151069_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToChar_m3360898809_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToDateTime_m1177409155_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToDecimal_m2181775431_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToDouble_m3015824495_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToInt16_m2665056295_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToInt32_m2693779815_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToInt64_m371189831_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToSByte_m2258752519_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToSingle_m3333306013_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToUInt16_m1335424267_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToUInt32_m207646975_AdjustorThunk ();
+extern "C" void Char_System_IConvertible_ToUInt64_m2803495165_AdjustorThunk ();
 extern "C" void Char_GetDataTablePointers_m2324968695 ();
-extern "C" void Char_CompareTo_m3049402459 ();
-extern "C" void Char_Equals_m158269074 ();
-extern "C" void Char_CompareTo_m2003432292 ();
-extern "C" void Char_Equals_m2979193691 ();
-extern "C" void Char_GetHashCode_m3546188522 ();
+extern "C" void Char_CompareTo_m3049402459_AdjustorThunk ();
+extern "C" void Char_Equals_m158269074_AdjustorThunk ();
+extern "C" void Char_CompareTo_m2003432292_AdjustorThunk ();
+extern "C" void Char_Equals_m2979193691_AdjustorThunk ();
+extern "C" void Char_GetHashCode_m3546188522_AdjustorThunk ();
 extern "C" void Char_GetUnicodeCategory_m494586991 ();
 extern "C" void Char_IsDigit_m1743537211 ();
 extern "C" void Char_IsLetter_m1699036490 ();
@@ -822,9 +823,9 @@ extern "C" void Char_ToLowerInvariant_m2407684316 ();
 extern "C" void Char_ToLower_m849361594 ();
 extern "C" void Char_ToUpper_m3343442427 ();
 extern "C" void Char_ToUpperInvariant_m4158859197 ();
-extern "C" void Char_ToString_m2089191214 ();
-extern "C" void Char_ToString_m2826712476 ();
-extern "C" void Char_GetTypeCode_m4226232807 ();
+extern "C" void Char_ToString_m2089191214_AdjustorThunk ();
+extern "C" void Char_ToString_m2826712476_AdjustorThunk ();
+extern "C" void Char_GetTypeCode_m4226232807_AdjustorThunk ();
 extern "C" void CharEnumerator__ctor_m2119134439 ();
 extern "C" void CharEnumerator_System_Collections_IEnumerator_get_Current_m1493871051 ();
 extern "C" void CharEnumerator_System_IDisposable_Dispose_m2219960452 ();
@@ -1022,9 +1023,9 @@ extern "C" void Comparer__ctor_m357023199 ();
 extern "C" void Comparer__cctor_m647232606 ();
 extern "C" void Comparer_Compare_m3505220244 ();
 extern "C" void Comparer_GetObjectData_m2758478157 ();
-extern "C" void DictionaryEntry__ctor_m2600671860 ();
-extern "C" void DictionaryEntry_get_Key_m3516209325 ();
-extern "C" void DictionaryEntry_get_Value_m4281303039 ();
+extern "C" void DictionaryEntry__ctor_m2600671860_AdjustorThunk ();
+extern "C" void DictionaryEntry_get_Key_m3516209325_AdjustorThunk ();
+extern "C" void DictionaryEntry_get_Value_m4281303039_AdjustorThunk ();
 extern "C" void KeyNotFoundException__ctor_m3542895460 ();
 extern "C" void KeyNotFoundException__ctor_m171814565 ();
 extern "C" void Hashtable__ctor_m1514037738 ();
@@ -1399,59 +1400,59 @@ extern "C" void CurrentSystemTimeZone_GetDaylightChanges_m2350299512 ();
 extern "C" void CurrentSystemTimeZone_GetUtcOffset_m376788806 ();
 extern "C" void CurrentSystemTimeZone_OnDeserialization_m3995478209 ();
 extern "C" void CurrentSystemTimeZone_GetDaylightTimeFromData_m3433378959 ();
-extern "C" void DateTime__ctor_m4059138700 ();
-extern "C" void DateTime__ctor_m145640619 ();
-extern "C" void DateTime__ctor_m580066412 ();
-extern "C" void DateTime__ctor_m1594789867 ();
-extern "C" void DateTime__ctor_m270463751 ();
-extern "C" void DateTime__ctor_m2747883466 ();
-extern "C" void DateTime__ctor_m3805233578 ();
+extern "C" void DateTime__ctor_m4059138700_AdjustorThunk ();
+extern "C" void DateTime__ctor_m145640619_AdjustorThunk ();
+extern "C" void DateTime__ctor_m580066412_AdjustorThunk ();
+extern "C" void DateTime__ctor_m1594789867_AdjustorThunk ();
+extern "C" void DateTime__ctor_m270463751_AdjustorThunk ();
+extern "C" void DateTime__ctor_m2747883466_AdjustorThunk ();
+extern "C" void DateTime__ctor_m3805233578_AdjustorThunk ();
 extern "C" void DateTime__cctor_m2266812979 ();
-extern "C" void DateTime_System_IConvertible_ToBoolean_m2607169538 ();
-extern "C" void DateTime_System_IConvertible_ToByte_m3369899810 ();
-extern "C" void DateTime_System_IConvertible_ToChar_m4085197502 ();
-extern "C" void DateTime_System_IConvertible_ToDateTime_m1478929736 ();
-extern "C" void DateTime_System_IConvertible_ToDecimal_m53652706 ();
-extern "C" void DateTime_System_IConvertible_ToDouble_m3492146548 ();
-extern "C" void DateTime_System_IConvertible_ToInt16_m3303672066 ();
-extern "C" void DateTime_System_IConvertible_ToInt32_m2595315522 ();
-extern "C" void DateTime_System_IConvertible_ToInt64_m3286355362 ();
-extern "C" void DateTime_System_IConvertible_ToSByte_m551886946 ();
-extern "C" void DateTime_System_IConvertible_ToSingle_m1051597858 ();
-extern "C" void DateTime_System_IConvertible_ToType_m1980756024 ();
-extern "C" void DateTime_System_IConvertible_ToUInt16_m3136984848 ();
-extern "C" void DateTime_System_IConvertible_ToUInt32_m634562052 ();
-extern "C" void DateTime_System_IConvertible_ToUInt64_m2163654274 ();
+extern "C" void DateTime_System_IConvertible_ToBoolean_m2607169538_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToByte_m3369899810_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToChar_m4085197502_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToDateTime_m1478929736_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToDecimal_m53652706_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToDouble_m3492146548_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToInt16_m3303672066_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToInt32_m2595315522_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToInt64_m3286355362_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToSByte_m551886946_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToSingle_m1051597858_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToType_m1980756024_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToUInt16_m3136984848_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToUInt32_m634562052_AdjustorThunk ();
+extern "C" void DateTime_System_IConvertible_ToUInt64_m2163654274_AdjustorThunk ();
 extern "C" void DateTime_AbsoluteDays_m1774199309 ();
-extern "C" void DateTime_FromTicks_m1238653738 ();
-extern "C" void DateTime_get_Month_m1871036171 ();
-extern "C" void DateTime_get_Day_m609985447 ();
-extern "C" void DateTime_get_DayOfWeek_m1793620473 ();
-extern "C" void DateTime_get_Hour_m1857077531 ();
-extern "C" void DateTime_get_Minute_m1138831307 ();
-extern "C" void DateTime_get_Second_m3430069803 ();
+extern "C" void DateTime_FromTicks_m1238653738_AdjustorThunk ();
+extern "C" void DateTime_get_Month_m1871036171_AdjustorThunk ();
+extern "C" void DateTime_get_Day_m609985447_AdjustorThunk ();
+extern "C" void DateTime_get_DayOfWeek_m1793620473_AdjustorThunk ();
+extern "C" void DateTime_get_Hour_m1857077531_AdjustorThunk ();
+extern "C" void DateTime_get_Minute_m1138831307_AdjustorThunk ();
+extern "C" void DateTime_get_Second_m3430069803_AdjustorThunk ();
 extern "C" void DateTime_GetTimeMonotonic_m2483860980 ();
 extern "C" void DateTime_GetNow_m2752959917 ();
 extern "C" void DateTime_get_Now_m1812131422 ();
-extern "C" void DateTime_get_Ticks_m386468226 ();
+extern "C" void DateTime_get_Ticks_m386468226_AdjustorThunk ();
 extern "C" void DateTime_get_Today_m3010825801 ();
 extern "C" void DateTime_get_UtcNow_m685282732 ();
-extern "C" void DateTime_get_Year_m2333942068 ();
-extern "C" void DateTime_get_Kind_m3496013602 ();
-extern "C" void DateTime_Add_m1332740042 ();
-extern "C" void DateTime_AddTicks_m2395456952 ();
-extern "C" void DateTime_AddMilliseconds_m1717403134 ();
-extern "C" void DateTime_AddSeconds_m2515640243 ();
+extern "C" void DateTime_get_Year_m2333942068_AdjustorThunk ();
+extern "C" void DateTime_get_Kind_m3496013602_AdjustorThunk ();
+extern "C" void DateTime_Add_m1332740042_AdjustorThunk ();
+extern "C" void DateTime_AddTicks_m2395456952_AdjustorThunk ();
+extern "C" void DateTime_AddMilliseconds_m1717403134_AdjustorThunk ();
+extern "C" void DateTime_AddSeconds_m2515640243_AdjustorThunk ();
 extern "C" void DateTime_Compare_m1646075697 ();
-extern "C" void DateTime_CompareTo_m246114144 ();
-extern "C" void DateTime_CompareTo_m1522800900 ();
-extern "C" void DateTime_Equals_m1479384337 ();
+extern "C" void DateTime_CompareTo_m246114144_AdjustorThunk ();
+extern "C" void DateTime_CompareTo_m1522800900_AdjustorThunk ();
+extern "C" void DateTime_Equals_m1479384337_AdjustorThunk ();
 extern "C" void DateTime_FromBinary_m1447091502 ();
 extern "C" void DateTime_SpecifyKind_m2123544880 ();
 extern "C" void DateTime_DaysInMonth_m1394183022 ();
-extern "C" void DateTime_Equals_m13666989 ();
-extern "C" void DateTime_CheckDateTimeKind_m1840811157 ();
-extern "C" void DateTime_GetHashCode_m2255586565 ();
+extern "C" void DateTime_Equals_m13666989_AdjustorThunk ();
+extern "C" void DateTime_CheckDateTimeKind_m1840811157_AdjustorThunk ();
+extern "C" void DateTime_GetHashCode_m2255586565_AdjustorThunk ();
 extern "C" void DateTime_IsLeapYear_m3404721384 ();
 extern "C" void DateTime_Parse_m1801557718 ();
 extern "C" void DateTime_Parse_m1424797081 ();
@@ -1469,12 +1470,12 @@ extern "C" void DateTime_ParseExact_m3158704214 ();
 extern "C" void DateTime_ParseExact_m4017898168 ();
 extern "C" void DateTime_CheckStyle_m1804676438 ();
 extern "C" void DateTime_ParseExact_m3576065686 ();
-extern "C" void DateTime_Subtract_m4130550807 ();
-extern "C" void DateTime_ToString_m3221907059 ();
-extern "C" void DateTime_ToString_m1268589345 ();
-extern "C" void DateTime_ToString_m2141430949 ();
-extern "C" void DateTime_ToLocalTime_m3629183118 ();
-extern "C" void DateTime_ToUniversalTime_m691668206 ();
+extern "C" void DateTime_Subtract_m4130550807_AdjustorThunk ();
+extern "C" void DateTime_ToString_m3221907059_AdjustorThunk ();
+extern "C" void DateTime_ToString_m1268589345_AdjustorThunk ();
+extern "C" void DateTime_ToString_m2141430949_AdjustorThunk ();
+extern "C" void DateTime_ToLocalTime_m3629183118_AdjustorThunk ();
+extern "C" void DateTime_ToUniversalTime_m691668206_AdjustorThunk ();
 extern "C" void DateTime_op_Addition_m4061583523 ();
 extern "C" void DateTime_op_Equality_m2277436664 ();
 extern "C" void DateTime_op_GreaterThan_m3846016869 ();
@@ -1483,23 +1484,23 @@ extern "C" void DateTime_op_Inequality_m3446449971 ();
 extern "C" void DateTime_op_LessThan_m35073816 ();
 extern "C" void DateTime_op_LessThanOrEqual_m354447689 ();
 extern "C" void DateTime_op_Subtraction_m3609021319 ();
-extern "C" void DateTimeOffset__ctor_m206991153 ();
-extern "C" void DateTimeOffset__ctor_m2612619655 ();
-extern "C" void DateTimeOffset__ctor_m2468003023 ();
-extern "C" void DateTimeOffset__ctor_m846097640 ();
+extern "C" void DateTimeOffset__ctor_m206991153_AdjustorThunk ();
+extern "C" void DateTimeOffset__ctor_m2612619655_AdjustorThunk ();
+extern "C" void DateTimeOffset__ctor_m2468003023_AdjustorThunk ();
+extern "C" void DateTimeOffset__ctor_m846097640_AdjustorThunk ();
 extern "C" void DateTimeOffset__cctor_m2485435494 ();
-extern "C" void DateTimeOffset_System_IComparable_CompareTo_m1459743069 ();
-extern "C" void DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m2682194308 ();
-extern "C" void DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m3161484655 ();
-extern "C" void DateTimeOffset_CompareTo_m1122350244 ();
-extern "C" void DateTimeOffset_Equals_m4108087019 ();
-extern "C" void DateTimeOffset_Equals_m1431331290 ();
-extern "C" void DateTimeOffset_GetHashCode_m1972583858 ();
-extern "C" void DateTimeOffset_ToString_m983707174 ();
-extern "C" void DateTimeOffset_ToString_m4001156824 ();
-extern "C" void DateTimeOffset_get_DateTime_m2501837032 ();
-extern "C" void DateTimeOffset_get_Offset_m3938299132 ();
-extern "C" void DateTimeOffset_get_UtcDateTime_m2831969300 ();
+extern "C" void DateTimeOffset_System_IComparable_CompareTo_m1459743069_AdjustorThunk ();
+extern "C" void DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m2682194308_AdjustorThunk ();
+extern "C" void DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m3161484655_AdjustorThunk ();
+extern "C" void DateTimeOffset_CompareTo_m1122350244_AdjustorThunk ();
+extern "C" void DateTimeOffset_Equals_m4108087019_AdjustorThunk ();
+extern "C" void DateTimeOffset_Equals_m1431331290_AdjustorThunk ();
+extern "C" void DateTimeOffset_GetHashCode_m1972583858_AdjustorThunk ();
+extern "C" void DateTimeOffset_ToString_m983707174_AdjustorThunk ();
+extern "C" void DateTimeOffset_ToString_m4001156824_AdjustorThunk ();
+extern "C" void DateTimeOffset_get_DateTime_m2501837032_AdjustorThunk ();
+extern "C" void DateTimeOffset_get_Offset_m3938299132_AdjustorThunk ();
+extern "C" void DateTimeOffset_get_UtcDateTime_m2831969300_AdjustorThunk ();
 extern "C" void DateTimeUtils_CountRepeat_m1708225203 ();
 extern "C" void DateTimeUtils_ZeroPad_m685144038 ();
 extern "C" void DateTimeUtils_ParseQuotedString_m3109565730 ();
@@ -1528,54 +1529,54 @@ extern "C" void DBNull_System_IConvertible_ToUInt64_m2860308204 ();
 extern "C" void DBNull_GetObjectData_m825308334 ();
 extern "C" void DBNull_ToString_m1866708381 ();
 extern "C" void DBNull_ToString_m1417959115 ();
-extern "C" void Decimal__ctor_m2513372273 ();
-extern "C" void Decimal__ctor_m3224507889 ();
-extern "C" void Decimal__ctor_m2172724314 ();
-extern "C" void Decimal__ctor_m3224510834 ();
-extern "C" void Decimal__ctor_m2172727259 ();
-extern "C" void Decimal__ctor_m1313518859 ();
-extern "C" void Decimal__ctor_m1063956130 ();
+extern "C" void Decimal__ctor_m2513372273_AdjustorThunk ();
+extern "C" void Decimal__ctor_m3224507889_AdjustorThunk ();
+extern "C" void Decimal__ctor_m2172724314_AdjustorThunk ();
+extern "C" void Decimal__ctor_m3224510834_AdjustorThunk ();
+extern "C" void Decimal__ctor_m2172727259_AdjustorThunk ();
+extern "C" void Decimal__ctor_m1313518859_AdjustorThunk ();
+extern "C" void Decimal__ctor_m1063956130_AdjustorThunk ();
 extern "C" void Decimal__cctor_m2694156045 ();
-extern "C" void Decimal_System_IConvertible_ToType_m3174931036 ();
-extern "C" void Decimal_System_IConvertible_ToBoolean_m632609316 ();
-extern "C" void Decimal_System_IConvertible_ToByte_m852949524 ();
-extern "C" void Decimal_System_IConvertible_ToChar_m224793940 ();
-extern "C" void Decimal_System_IConvertible_ToDateTime_m126860468 ();
-extern "C" void Decimal_System_IConvertible_ToDecimal_m1811804854 ();
-extern "C" void Decimal_System_IConvertible_ToDouble_m2491245620 ();
-extern "C" void Decimal_System_IConvertible_ToInt16_m2684098812 ();
-extern "C" void Decimal_System_IConvertible_ToInt32_m1063784048 ();
-extern "C" void Decimal_System_IConvertible_ToInt64_m3667452590 ();
-extern "C" void Decimal_System_IConvertible_ToSByte_m3132034058 ();
-extern "C" void Decimal_System_IConvertible_ToSingle_m2991266196 ();
-extern "C" void Decimal_System_IConvertible_ToUInt16_m2878718708 ();
-extern "C" void Decimal_System_IConvertible_ToUInt32_m2170362164 ();
-extern "C" void Decimal_System_IConvertible_ToUInt64_m2861402004 ();
+extern "C" void Decimal_System_IConvertible_ToType_m3174931036_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToBoolean_m632609316_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToByte_m852949524_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToChar_m224793940_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToDateTime_m126860468_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToDecimal_m1811804854_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToDouble_m2491245620_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToInt16_m2684098812_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToInt32_m1063784048_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToInt64_m3667452590_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToSByte_m3132034058_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToSingle_m2991266196_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToUInt16_m2878718708_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToUInt32_m2170362164_AdjustorThunk ();
+extern "C" void Decimal_System_IConvertible_ToUInt64_m2861402004_AdjustorThunk ();
 extern "C" void Decimal_GetBits_m3135740910 ();
 extern "C" void Decimal_Add_m228744192 ();
 extern "C" void Decimal_Subtract_m4038646005 ();
-extern "C" void Decimal_GetHashCode_m3725649587 ();
+extern "C" void Decimal_GetHashCode_m3725649587_AdjustorThunk ();
 extern "C" void Decimal_u64_m2792266019 ();
 extern "C" void Decimal_s64_m2409928640 ();
 extern "C" void Decimal_Equals_m1154754945 ();
-extern "C" void Decimal_Equals_m3414174927 ();
-extern "C" void Decimal_IsZero_m379800408 ();
+extern "C" void Decimal_Equals_m3414174927_AdjustorThunk ();
+extern "C" void Decimal_IsZero_m379800408_AdjustorThunk ();
 extern "C" void Decimal_Floor_m2586872671 ();
 extern "C" void Decimal_Multiply_m201714661 ();
 extern "C" void Decimal_Divide_m555230192 ();
 extern "C" void Decimal_Compare_m2326407199 ();
-extern "C" void Decimal_CompareTo_m2551434482 ();
-extern "C" void Decimal_CompareTo_m2260095952 ();
-extern "C" void Decimal_Equals_m3235245971 ();
+extern "C" void Decimal_CompareTo_m2551434482_AdjustorThunk ();
+extern "C" void Decimal_CompareTo_m2260095952_AdjustorThunk ();
+extern "C" void Decimal_Equals_m3235245971_AdjustorThunk ();
 extern "C" void Decimal_Parse_m3786250826 ();
 extern "C" void Decimal_ThrowAtPos_m2498186320 ();
 extern "C" void Decimal_ThrowInvalidExp_m2882909866 ();
 extern "C" void Decimal_stripStyles_m1011490529 ();
 extern "C" void Decimal_Parse_m2075137301 ();
 extern "C" void Decimal_PerformParse_m2251733520 ();
-extern "C" void Decimal_ToString_m3542473445 ();
-extern "C" void Decimal_ToString_m143310003 ();
-extern "C" void Decimal_ToString_m1778338145 ();
+extern "C" void Decimal_ToString_m3542473445_AdjustorThunk ();
+extern "C" void Decimal_ToString_m143310003_AdjustorThunk ();
+extern "C" void Decimal_ToString_m1778338145_AdjustorThunk ();
 extern "C" void Decimal_decimal2UInt64_m3964664210 ();
 extern "C" void Decimal_decimal2Int64_m4033216548 ();
 extern "C" void Decimal_decimalIncr_m877616783 ();
@@ -1676,26 +1677,26 @@ extern "C" void DivideByZeroException__ctor_m3910919290 ();
 extern "C" void DivideByZeroException__ctor_m581941947 ();
 extern "C" void DllNotFoundException__ctor_m3414970969 ();
 extern "C" void DllNotFoundException__ctor_m2210937882 ();
-extern "C" void Double_System_IConvertible_ToType_m3081766574 ();
-extern "C" void Double_System_IConvertible_ToBoolean_m1420114956 ();
-extern "C" void Double_System_IConvertible_ToByte_m3166411992 ();
-extern "C" void Double_System_IConvertible_ToChar_m832351220 ();
-extern "C" void Double_System_IConvertible_ToDateTime_m2501791934 ();
-extern "C" void Double_System_IConvertible_ToDecimal_m87321260 ();
-extern "C" void Double_System_IConvertible_ToDouble_m233905130 ();
-extern "C" void Double_System_IConvertible_ToInt16_m3883955340 ();
-extern "C" void Double_System_IConvertible_ToInt32_m1264391244 ();
-extern "C" void Double_System_IConvertible_ToInt64_m1713000172 ();
-extern "C" void Double_System_IConvertible_ToSByte_m140140076 ();
-extern "C" void Double_System_IConvertible_ToSingle_m1798614104 ();
-extern "C" void Double_System_IConvertible_ToUInt16_m3970470150 ();
-extern "C" void Double_System_IConvertible_ToUInt32_m2350155386 ();
-extern "C" void Double_System_IConvertible_ToUInt64_m658856632 ();
-extern "C" void Double_CompareTo_m2864423062 ();
-extern "C" void Double_Equals_m1597124279 ();
-extern "C" void Double_CompareTo_m2074073668 ();
-extern "C" void Double_Equals_m806774885 ();
-extern "C" void Double_GetHashCode_m2106126735 ();
+extern "C" void Double_System_IConvertible_ToType_m3081766574_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToBoolean_m1420114956_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToByte_m3166411992_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToChar_m832351220_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToDateTime_m2501791934_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToDecimal_m87321260_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToDouble_m233905130_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToInt16_m3883955340_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToInt32_m1264391244_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToInt64_m1713000172_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToSByte_m140140076_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToSingle_m1798614104_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToUInt16_m3970470150_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToUInt32_m2350155386_AdjustorThunk ();
+extern "C" void Double_System_IConvertible_ToUInt64_m658856632_AdjustorThunk ();
+extern "C" void Double_CompareTo_m2864423062_AdjustorThunk ();
+extern "C" void Double_Equals_m1597124279_AdjustorThunk ();
+extern "C" void Double_CompareTo_m2074073668_AdjustorThunk ();
+extern "C" void Double_Equals_m806774885_AdjustorThunk ();
+extern "C" void Double_GetHashCode_m2106126735_AdjustorThunk ();
 extern "C" void Double_IsInfinity_m3094155474 ();
 extern "C" void Double_IsNaN_m506471885 ();
 extern "C" void Double_IsNegativeInfinity_m553043933 ();
@@ -1706,9 +1707,9 @@ extern "C" void Double_Parse_m3249074997 ();
 extern "C" void Double_Parse_m1451965917 ();
 extern "C" void Double_TryParseStringConstant_m2653461779 ();
 extern "C" void Double_ParseImpl_m1244982012 ();
-extern "C" void Double_ToString_m3380246633 ();
-extern "C" void Double_ToString_m937670807 ();
-extern "C" void Double_ToString_m2573497243 ();
+extern "C" void Double_ToString_m3380246633_AdjustorThunk ();
+extern "C" void Double_ToString_m937670807_AdjustorThunk ();
+extern "C" void Double_ToString_m2573497243_AdjustorThunk ();
 extern "C" void EntryPointNotFoundException__ctor_m2371781647 ();
 extern "C" void EntryPointNotFoundException__ctor_m3139612880 ();
 extern "C" void Enum__ctor_m701753108 ();
@@ -1785,6 +1786,7 @@ extern "C" void Exception__ctor_m3870771296 ();
 extern "C" void Exception__ctor_m3602014243 ();
 extern "C" void Exception__ctor_m1328171222 ();
 extern "C" void Exception_get_InnerException_m1427945535 ();
+extern "C" void Exception_get_HResult_m3941496800 ();
 extern "C" void Exception_set_HResult_m3566571225 ();
 extern "C" void Exception_get_ClassName_m2925782135 ();
 extern "C" void Exception_get_Message_m1013139483 ();
@@ -2001,79 +2003,80 @@ extern "C" void TextInfo_ToString_m2104789920 ();
 extern "C" void TextInfo_ToLower_m4134533294 ();
 extern "C" void TextInfo_ToUpper_m87931053 ();
 extern "C" void TextInfo_ToLower_m1323104334 ();
+extern "C" void TextInfo_ToUpper_m3778720909 ();
 extern "C" void TextInfo_Clone_m2796816861 ();
-extern "C" void Guid__ctor_m4231849149 ();
-extern "C" void Guid__ctor_m1439809125 ();
+extern "C" void Guid__ctor_m4231849149_AdjustorThunk ();
+extern "C" void Guid__ctor_m1439809125_AdjustorThunk ();
 extern "C" void Guid__cctor_m2766110369 ();
 extern "C" void Guid_CheckNull_m2831368219 ();
 extern "C" void Guid_CheckLength_m1965613350 ();
 extern "C" void Guid_CheckArray_m2333985879 ();
 extern "C" void Guid_Compare_m3677181275 ();
-extern "C" void Guid_CompareTo_m899467726 ();
-extern "C" void Guid_Equals_m1613304319 ();
-extern "C" void Guid_CompareTo_m4163940548 ();
-extern "C" void Guid_Equals_m2229489973 ();
-extern "C" void Guid_GetHashCode_m885349207 ();
+extern "C" void Guid_CompareTo_m899467726_AdjustorThunk ();
+extern "C" void Guid_Equals_m1613304319_AdjustorThunk ();
+extern "C" void Guid_CompareTo_m4163940548_AdjustorThunk ();
+extern "C" void Guid_Equals_m2229489973_AdjustorThunk ();
+extern "C" void Guid_GetHashCode_m885349207_AdjustorThunk ();
 extern "C" void Guid_ToHex_m1518905113 ();
 extern "C" void Guid_NewGuid_m3560729310 ();
 extern "C" void Guid_AppendInt_m60474956 ();
 extern "C" void Guid_AppendShort_m2766674707 ();
 extern "C" void Guid_AppendByte_m1375613333 ();
-extern "C" void Guid_BaseToString_m2905357353 ();
-extern "C" void Guid_ToString_m2528531937 ();
-extern "C" void Guid_ToString_m2135662273 ();
-extern "C" void Guid_ToString_m3177248019 ();
+extern "C" void Guid_BaseToString_m2905357353_AdjustorThunk ();
+extern "C" void Guid_ToString_m2528531937_AdjustorThunk ();
+extern "C" void Guid_ToString_m2135662273_AdjustorThunk ();
+extern "C" void Guid_ToString_m3177248019_AdjustorThunk ();
 extern "C" void IndexOutOfRangeException__ctor_m707236112 ();
 extern "C" void IndexOutOfRangeException__ctor_m1621772274 ();
 extern "C" void IndexOutOfRangeException__ctor_m2445908561 ();
-extern "C" void Int16_System_IConvertible_ToBoolean_m669530817 ();
-extern "C" void Int16_System_IConvertible_ToByte_m3751510295 ();
-extern "C" void Int16_System_IConvertible_ToChar_m946778327 ();
-extern "C" void Int16_System_IConvertible_ToDateTime_m1660193143 ();
-extern "C" void Int16_System_IConvertible_ToDecimal_m86989203 ();
-extern "C" void Int16_System_IConvertible_ToDouble_m2343874615 ();
-extern "C" void Int16_System_IConvertible_ToInt16_m1181902809 ();
-extern "C" void Int16_System_IConvertible_ToInt32_m54125517 ();
-extern "C" void Int16_System_IConvertible_ToInt64_m2649973707 ();
-extern "C" void Int16_System_IConvertible_ToSByte_m2013479079 ();
-extern "C" void Int16_System_IConvertible_ToSingle_m2834549719 ();
-extern "C" void Int16_System_IConvertible_ToType_m1209633567 ();
-extern "C" void Int16_System_IConvertible_ToUInt16_m2309149559 ();
-extern "C" void Int16_System_IConvertible_ToUInt32_m3984552759 ();
-extern "C" void Int16_System_IConvertible_ToUInt64_m138194391 ();
-extern "C" void Int16_CompareTo_m2745013685 ();
-extern "C" void Int16_Equals_m3652534636 ();
-extern "C" void Int16_GetHashCode_m2943154640 ();
-extern "C" void Int16_CompareTo_m759386634 ();
-extern "C" void Int16_Equals_m373019507 ();
+extern "C" void Int16_System_IConvertible_ToBoolean_m669530817_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToByte_m3751510295_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToChar_m946778327_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToDateTime_m1660193143_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToDecimal_m86989203_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToDouble_m2343874615_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToInt16_m1181902809_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToInt32_m54125517_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToInt64_m2649973707_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToSByte_m2013479079_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToSingle_m2834549719_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToType_m1209633567_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToUInt16_m2309149559_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToUInt32_m3984552759_AdjustorThunk ();
+extern "C" void Int16_System_IConvertible_ToUInt64_m138194391_AdjustorThunk ();
+extern "C" void Int16_CompareTo_m2745013685_AdjustorThunk ();
+extern "C" void Int16_Equals_m3652534636_AdjustorThunk ();
+extern "C" void Int16_GetHashCode_m2943154640_AdjustorThunk ();
+extern "C" void Int16_CompareTo_m759386634_AdjustorThunk ();
+extern "C" void Int16_Equals_m373019507_AdjustorThunk ();
 extern "C" void Int16_Parse_m1211345080 ();
 extern "C" void Int16_Parse_m1815685098 ();
 extern "C" void Int16_Parse_m1284520629 ();
 extern "C" void Int16_TryParse_m1822994460 ();
-extern "C" void Int16_ToString_m1124031606 ();
-extern "C" void Int16_ToString_m3882509540 ();
-extern "C" void Int16_ToString_m2054337100 ();
-extern "C" void Int16_ToString_m416093480 ();
-extern "C" void Int32_System_IConvertible_ToBoolean_m1849098567 ();
-extern "C" void Int32_System_IConvertible_ToByte_m3739727953 ();
-extern "C" void Int32_System_IConvertible_ToChar_m934995985 ();
-extern "C" void Int32_System_IConvertible_ToDateTime_m3867055025 ();
-extern "C" void Int32_System_IConvertible_ToDecimal_m1266556953 ();
-extern "C" void Int32_System_IConvertible_ToDouble_m3905945841 ();
-extern "C" void Int32_System_IConvertible_ToInt16_m816650207 ();
-extern "C" void Int32_System_IConvertible_ToInt32_m3983840211 ();
-extern "C" void Int32_System_IConvertible_ToInt64_m2284721105 ();
-extern "C" void Int32_System_IConvertible_ToSByte_m1648226477 ();
-extern "C" void Int32_System_IConvertible_ToSingle_m101653649 ();
-extern "C" void Int32_System_IConvertible_ToType_m3850025817 ();
-extern "C" void Int32_System_IConvertible_ToUInt16_m3871220785 ();
-extern "C" void Int32_System_IConvertible_ToUInt32_m1251656689 ();
-extern "C" void Int32_System_IConvertible_ToUInt64_m1700265617 ();
-extern "C" void Int32_CompareTo_m2684051823 ();
-extern "C" void Int32_Equals_m4061110258 ();
-extern "C" void Int32_GetHashCode_m3396943446 ();
-extern "C" void Int32_CompareTo_m2558537238 ();
-extern "C" void Int32_Equals_m3849884467 ();
+extern "C" void Int16_ToString_m1124031606_AdjustorThunk ();
+extern "C" void Int16_ToString_m3882509540_AdjustorThunk ();
+extern "C" void Int16_ToString_m2054337100_AdjustorThunk ();
+extern "C" void Int16_ToString_m416093480_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToBoolean_m1849098567_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToByte_m3739727953_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToChar_m934995985_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToDateTime_m3867055025_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToDecimal_m1266556953_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToDouble_m3905945841_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToInt16_m816650207_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToInt32_m3983840211_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToInt64_m2284721105_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToSByte_m1648226477_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToSingle_m101653649_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToType_m3850025817_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToUInt16_m3871220785_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToUInt32_m1251656689_AdjustorThunk ();
+extern "C" void Int32_System_IConvertible_ToUInt64_m1700265617_AdjustorThunk ();
+extern "C" void Int32_CompareTo_m2684051823_AdjustorThunk ();
+extern "C" void Int32_Equals_m4061110258_AdjustorThunk ();
+extern "C" void Int32_GetHashCode_m3396943446_AdjustorThunk ();
+extern "C" void Int32_CompareTo_m2558537238_AdjustorThunk ();
+extern "C" void Int32_Equals_m3849884467_AdjustorThunk ();
 extern "C" void Int32_ProcessTrailingWhitespace_m1289423315 ();
 extern "C" void Int32_Parse_m95497208 ();
 extern "C" void Int32_Parse_m981442986 ();
@@ -2090,31 +2093,31 @@ extern "C" void Int32_Parse_m3837759498 ();
 extern "C" void Int32_Parse_m2659730549 ();
 extern "C" void Int32_TryParse_m695344220 ();
 extern "C" void Int32_TryParse_m2457543725 ();
-extern "C" void Int32_ToString_m1286526384 ();
-extern "C" void Int32_ToString_m881186462 ();
-extern "C" void Int32_ToString_m3853485906 ();
-extern "C" void Int32_ToString_m4261017954 ();
-extern "C" void Int32_GetTypeCode_m1231080401 ();
-extern "C" void Int64_System_IConvertible_ToBoolean_m3781149192 ();
-extern "C" void Int64_System_IConvertible_ToByte_m1202689840 ();
-extern "C" void Int64_System_IConvertible_ToChar_m2692925168 ();
-extern "C" void Int64_System_IConvertible_ToDateTime_m3631082256 ();
-extern "C" void Int64_System_IConvertible_ToDecimal_m3198607578 ();
-extern "C" void Int64_System_IConvertible_ToDouble_m1058776080 ();
-extern "C" void Int64_System_IConvertible_ToInt16_m3772847328 ();
-extern "C" void Int64_System_IConvertible_ToInt32_m2645070036 ();
-extern "C" void Int64_System_IConvertible_ToInt64_m945950930 ();
-extern "C" void Int64_System_IConvertible_ToSByte_m309456302 ();
-extern "C" void Int64_System_IConvertible_ToSingle_m1549451184 ();
-extern "C" void Int64_System_IConvertible_ToType_m3213378488 ();
-extern "C" void Int64_System_IConvertible_ToUInt16_m1024051024 ();
-extern "C" void Int64_System_IConvertible_ToUInt32_m2699454224 ();
-extern "C" void Int64_System_IConvertible_ToUInt64_m3148063152 ();
-extern "C" void Int64_CompareTo_m3843070222 ();
-extern "C" void Int64_Equals_m1990436019 ();
-extern "C" void Int64_GetHashCode_m2140836887 ();
-extern "C" void Int64_CompareTo_m1210454552 ();
-extern "C" void Int64_Equals_m1843428819 ();
+extern "C" void Int32_ToString_m1286526384_AdjustorThunk ();
+extern "C" void Int32_ToString_m881186462_AdjustorThunk ();
+extern "C" void Int32_ToString_m3853485906_AdjustorThunk ();
+extern "C" void Int32_ToString_m4261017954_AdjustorThunk ();
+extern "C" void Int32_GetTypeCode_m1231080401_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToBoolean_m3781149192_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToByte_m1202689840_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToChar_m2692925168_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToDateTime_m3631082256_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToDecimal_m3198607578_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToDouble_m1058776080_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToInt16_m3772847328_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToInt32_m2645070036_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToInt64_m945950930_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToSByte_m309456302_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToSingle_m1549451184_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToType_m3213378488_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToUInt16_m1024051024_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToUInt32_m2699454224_AdjustorThunk ();
+extern "C" void Int64_System_IConvertible_ToUInt64_m3148063152_AdjustorThunk ();
+extern "C" void Int64_CompareTo_m3843070222_AdjustorThunk ();
+extern "C" void Int64_Equals_m1990436019_AdjustorThunk ();
+extern "C" void Int64_GetHashCode_m2140836887_AdjustorThunk ();
+extern "C" void Int64_CompareTo_m1210454552_AdjustorThunk ();
+extern "C" void Int64_Equals_m1843428819_AdjustorThunk ();
 extern "C" void Int64_Parse_m3451396568 ();
 extern "C" void Int64_Parse_m1096035146 ();
 extern "C" void Int64_Parse_m3299867831 ();
@@ -2122,22 +2125,22 @@ extern "C" void Int64_Parse_m2426231402 ();
 extern "C" void Int64_Parse_m913466901 ();
 extern "C" void Int64_TryParse_m2106581948 ();
 extern "C" void Int64_TryParse_m1199101227 ();
-extern "C" void Int64_ToString_m3478011791 ();
-extern "C" void Int64_ToString_m1593114429 ();
-extern "C" void Int64_ToString_m2505400275 ();
-extern "C" void Int64_ToString_m3523878849 ();
-extern "C" void IntPtr__ctor_m2136600871 ();
-extern "C" void IntPtr__ctor_m2136603816 ();
-extern "C" void IntPtr__ctor_m2509422495 ();
-extern "C" void IntPtr__ctor_m1930682647 ();
-extern "C" void IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1875995893 ();
+extern "C" void Int64_ToString_m3478011791_AdjustorThunk ();
+extern "C" void Int64_ToString_m1593114429_AdjustorThunk ();
+extern "C" void Int64_ToString_m2505400275_AdjustorThunk ();
+extern "C" void Int64_ToString_m3523878849_AdjustorThunk ();
+extern "C" void IntPtr__ctor_m2136600871_AdjustorThunk ();
+extern "C" void IntPtr__ctor_m2136603816_AdjustorThunk ();
+extern "C" void IntPtr__ctor_m2509422495_AdjustorThunk ();
+extern "C" void IntPtr__ctor_m1930682647_AdjustorThunk ();
+extern "C" void IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1875995893_AdjustorThunk ();
 extern "C" void IntPtr_get_Size_m2848612188 ();
-extern "C" void IntPtr_Equals_m3488505417 ();
-extern "C" void IntPtr_GetHashCode_m783209249 ();
-extern "C" void IntPtr_ToInt64_m2695254659 ();
-extern "C" void IntPtr_ToPointer_m2676680906 ();
-extern "C" void IntPtr_ToString_m1212174359 ();
-extern "C" void IntPtr_ToString_m2416995403 ();
+extern "C" void IntPtr_Equals_m3488505417_AdjustorThunk ();
+extern "C" void IntPtr_GetHashCode_m783209249_AdjustorThunk ();
+extern "C" void IntPtr_ToInt64_m2695254659_AdjustorThunk ();
+extern "C" void IntPtr_ToPointer_m2676680906_AdjustorThunk ();
+extern "C" void IntPtr_ToString_m1212174359_AdjustorThunk ();
+extern "C" void IntPtr_ToString_m2416995403_AdjustorThunk ();
 extern "C" void IntPtr_op_Equality_m72843924 ();
 extern "C" void IntPtr_op_Inequality_m10053967 ();
 extern "C" void IntPtr_op_Explicit_m2174167756 ();
@@ -2563,7 +2566,7 @@ extern "C" void AttributeInfo__ctor_m2873601639 ();
 extern "C" void AttributeInfo_get_Usage_m2602974155 ();
 extern "C" void AttributeInfo_get_InheritanceLevel_m2614791067 ();
 extern "C" void MonoDocumentationNoteAttribute__ctor_m723067872 ();
-extern "C" void MonoEnumInfo__ctor_m427288990 ();
+extern "C" void MonoEnumInfo__ctor_m427288990_AdjustorThunk ();
 extern "C" void MonoEnumInfo__cctor_m2878678058 ();
 extern "C" void MonoEnumInfo_get_enum_info_m1623052572 ();
 extern "C" void MonoEnumInfo_get_Cache_m295946653 ();
@@ -2652,7 +2655,6 @@ extern "C" void NotSupportedException__ctor_m149930845 ();
 extern "C" void NotSupportedException__ctor_m133757637 ();
 extern "C" void NotSupportedException__ctor_m1093508894 ();
 extern "C" void NullReferenceException__ctor_m622546858 ();
-extern "C" void NullReferenceException__ctor_m2208732056 ();
 extern "C" void NullReferenceException__ctor_m2985950699 ();
 extern "C" void NumberFormatter__ctor_m2111196867 ();
 extern "C" void NumberFormatter__cctor_m1125188925 ();
@@ -2882,12 +2884,12 @@ extern "C" void CustomAttributeData_GetCustomAttributes_m3662380525 ();
 extern "C" void CustomAttributeData_ToString_m440699946 ();
 extern "C" void CustomAttributeData_Equals_m613333846 ();
 extern "C" void CustomAttributeData_GetHashCode_m2481020718 ();
-extern "C" void CustomAttributeNamedArgument_ToString_m3812330896 ();
-extern "C" void CustomAttributeNamedArgument_Equals_m109042642 ();
-extern "C" void CustomAttributeNamedArgument_GetHashCode_m910635190 ();
-extern "C" void CustomAttributeTypedArgument_ToString_m2065140801 ();
-extern "C" void CustomAttributeTypedArgument_Equals_m464286849 ();
-extern "C" void CustomAttributeTypedArgument_GetHashCode_m1079175269 ();
+extern "C" void CustomAttributeNamedArgument_ToString_m3812330896_AdjustorThunk ();
+extern "C" void CustomAttributeNamedArgument_Equals_m109042642_AdjustorThunk ();
+extern "C" void CustomAttributeNamedArgument_GetHashCode_m910635190_AdjustorThunk ();
+extern "C" void CustomAttributeTypedArgument_ToString_m2065140801_AdjustorThunk ();
+extern "C" void CustomAttributeTypedArgument_Equals_m464286849_AdjustorThunk ();
+extern "C" void CustomAttributeTypedArgument_GetHashCode_m1079175269_AdjustorThunk ();
 extern "C" void DefaultMemberAttribute__ctor_m66421301 ();
 extern "C" void DefaultMemberAttribute_get_MemberName_m2366986664 ();
 extern "C" void AssemblyBuilder_get_Location_m2002209681 ();
@@ -3053,11 +3055,11 @@ extern "C" void MethodBuilder_get_IsGenericMethodDefinition_m2676161411 ();
 extern "C" void MethodBuilder_get_IsGenericMethod_m3124339088 ();
 extern "C" void MethodBuilder_GetGenericArguments_m2521139370 ();
 extern "C" void MethodBuilder_get_Module_m2724160805 ();
-extern "C" void MethodToken__ctor_m3710649922 ();
+extern "C" void MethodToken__ctor_m3710649922_AdjustorThunk ();
 extern "C" void MethodToken__cctor_m2370742108 ();
-extern "C" void MethodToken_Equals_m1986642400 ();
-extern "C" void MethodToken_GetHashCode_m1919356356 ();
-extern "C" void MethodToken_get_Token_m1317996739 ();
+extern "C" void MethodToken_Equals_m1986642400_AdjustorThunk ();
+extern "C" void MethodToken_GetHashCode_m1919356356_AdjustorThunk ();
+extern "C" void MethodToken_get_Token_m1317996739_AdjustorThunk ();
 extern "C" void ModuleBuilder__cctor_m1218472467 ();
 extern "C" void ModuleBuilder_get_next_table_index_m3600803990 ();
 extern "C" void ModuleBuilder_GetTypes_m2017043429 ();
@@ -3067,14 +3069,14 @@ extern "C" void ModuleBuilder_RegisterToken_m2593402065 ();
 extern "C" void ModuleBuilder_GetTokenGenerator_m4211747974 ();
 extern "C" void ModuleBuilderTokenGenerator__ctor_m3538557064 ();
 extern "C" void ModuleBuilderTokenGenerator_GetToken_m2106467927 ();
-extern "C" void OpCode__ctor_m742870391 ();
-extern "C" void OpCode_GetHashCode_m1885918234 ();
-extern "C" void OpCode_Equals_m3328690754 ();
-extern "C" void OpCode_ToString_m4043065278 ();
-extern "C" void OpCode_get_Name_m386372902 ();
-extern "C" void OpCode_get_Size_m2313922819 ();
-extern "C" void OpCode_get_StackBehaviourPop_m4109383719 ();
-extern "C" void OpCode_get_StackBehaviourPush_m2842535718 ();
+extern "C" void OpCode__ctor_m742870391_AdjustorThunk ();
+extern "C" void OpCode_GetHashCode_m1885918234_AdjustorThunk ();
+extern "C" void OpCode_Equals_m3328690754_AdjustorThunk ();
+extern "C" void OpCode_ToString_m4043065278_AdjustorThunk ();
+extern "C" void OpCode_get_Name_m386372902_AdjustorThunk ();
+extern "C" void OpCode_get_Size_m2313922819_AdjustorThunk ();
+extern "C" void OpCode_get_StackBehaviourPop_m4109383719_AdjustorThunk ();
+extern "C" void OpCode_get_StackBehaviourPush_m2842535718_AdjustorThunk ();
 extern "C" void OpCodeNames__cctor_m1465031614 ();
 extern "C" void OpCodes__cctor_m1331312969 ();
 extern "C" void ParameterBuilder_get_Attributes_m2640139997 ();
@@ -3392,7 +3394,7 @@ extern "C" void ResourceReader_LoadResourceValues_m1190122720 ();
 extern "C" void ResourceReader_Close_m551956177 ();
 extern "C" void ResourceReader_GetEnumerator_m1820124275 ();
 extern "C" void ResourceReader_Dispose_m1411491503 ();
-extern "C" void ResourceCacheItem__ctor_m3336742541 ();
+extern "C" void ResourceCacheItem__ctor_m3336742541_AdjustorThunk ();
 extern "C" void ResourceEnumerator__ctor_m3994194575 ();
 extern "C" void ResourceEnumerator_get_Entry_m715318570 ();
 extern "C" void ResourceEnumerator_get_Key_m424542697 ();
@@ -3401,7 +3403,7 @@ extern "C" void ResourceEnumerator_get_Current_m3366221315 ();
 extern "C" void ResourceEnumerator_MoveNext_m3916307456 ();
 extern "C" void ResourceEnumerator_Reset_m4126890775 ();
 extern "C" void ResourceEnumerator_FillCache_m1751484935 ();
-extern "C" void ResourceInfo__ctor_m4205157633 ();
+extern "C" void ResourceInfo__ctor_m4205157633_AdjustorThunk ();
 extern "C" void ResourceSet__ctor_m2155833766 ();
 extern "C" void ResourceSet__ctor_m1435739197 ();
 extern "C" void ResourceSet__ctor_m1446669582 ();
@@ -3437,24 +3439,29 @@ extern "C" void CriticalFinalizerObject_Finalize_m3870795499 ();
 extern "C" void ReliabilityContractAttribute__ctor_m1813433017 ();
 extern "C" void ClassInterfaceAttribute__ctor_m3543181584 ();
 extern "C" void ComDefaultInterfaceAttribute__ctor_m3894140624 ();
+extern "C" void COMException__ctor_m2663339678 ();
+extern "C" void COMException__ctor_m3642568415 ();
+extern "C" void COMException_ToString_m3547469967 ();
 extern "C" void ComImportAttribute__ctor_m1130850294 ();
 extern "C" void ComVisibleAttribute__ctor_m1005514726 ();
 extern "C" void DispIdAttribute__ctor_m2923147436 ();
 extern "C" void DllImportAttribute__ctor_m1952564553 ();
 extern "C" void DllImportAttribute_get_Value_m819189346 ();
+extern "C" void ExternalException__ctor_m3484548022 ();
+extern "C" void ExternalException__ctor_m1975451639 ();
 extern "C" void FieldOffsetAttribute__ctor_m3654465902 ();
-extern "C" void GCHandle__ctor_m396637490 ();
-extern "C" void GCHandle_get_IsAllocated_m1991616348 ();
-extern "C" void GCHandle_get_Target_m1356841761 ();
-extern "C" void GCHandle_AddrOfPinnedObject_m292237702 ();
+extern "C" void GCHandle__ctor_m396637490_AdjustorThunk ();
+extern "C" void GCHandle_get_IsAllocated_m1991616348_AdjustorThunk ();
+extern "C" void GCHandle_get_Target_m1356841761_AdjustorThunk ();
+extern "C" void GCHandle_AddrOfPinnedObject_m292237702_AdjustorThunk ();
 extern "C" void GCHandle_Alloc_m4018232088 ();
-extern "C" void GCHandle_Free_m2878302728 ();
+extern "C" void GCHandle_Free_m2878302728_AdjustorThunk ();
 extern "C" void GCHandle_GetTarget_m385786707 ();
 extern "C" void GCHandle_GetTargetHandle_m414463034 ();
 extern "C" void GCHandle_FreeHandle_m2607926881 ();
 extern "C" void GCHandle_GetAddrOfPinnedObject_m524729089 ();
-extern "C" void GCHandle_Equals_m2737763611 ();
-extern "C" void GCHandle_GetHashCode_m3173355379 ();
+extern "C" void GCHandle_Equals_m2737763611_AdjustorThunk ();
+extern "C" void GCHandle_GetHashCode_m3173355379_AdjustorThunk ();
 extern "C" void GuidAttribute__ctor_m174694299 ();
 extern "C" void InAttribute__ctor_m476828707 ();
 extern "C" void InterfaceTypeAttribute__ctor_m2093508533 ();
@@ -3743,7 +3750,6 @@ extern "C" void MethodDictionary_GetMethodProperty_m1794768370 ();
 extern "C" void MethodDictionary_SetMethodProperty_m3901784959 ();
 extern "C" void MethodDictionary_get_Values_m1423085072 ();
 extern "C" void MethodDictionary_Add_m3929391976 ();
-extern "C" void MethodDictionary_Contains_m853564490 ();
 extern "C" void MethodDictionary_Remove_m2229484935 ();
 extern "C" void MethodDictionary_get_Count_m2528789795 ();
 extern "C" void MethodDictionary_get_IsSynchronized_m687173714 ();
@@ -4043,9 +4049,9 @@ extern "C" void CallbackHandler__ctor_m33772597 ();
 extern "C" void CallbackHandler_Invoke_m2801241699 ();
 extern "C" void CallbackHandler_BeginInvoke_m1384672208 ();
 extern "C" void CallbackHandler_EndInvoke_m522922181 ();
-extern "C" void SerializationEntry__ctor_m2883191396 ();
-extern "C" void SerializationEntry_get_Name_m929676406 ();
-extern "C" void SerializationEntry_get_Value_m522021722 ();
+extern "C" void SerializationEntry__ctor_m2883191396_AdjustorThunk ();
+extern "C" void SerializationEntry_get_Name_m929676406_AdjustorThunk ();
+extern "C" void SerializationEntry_get_Value_m522021722_AdjustorThunk ();
 extern "C" void SerializationException__ctor_m136694722 ();
 extern "C" void SerializationException__ctor_m4216356480 ();
 extern "C" void SerializationException__ctor_m987964931 ();
@@ -4074,55 +4080,55 @@ extern "C" void SerializationInfoEnumerator_get_Name_m4156977240 ();
 extern "C" void SerializationInfoEnumerator_get_Value_m4259496148 ();
 extern "C" void SerializationInfoEnumerator_MoveNext_m4116766855 ();
 extern "C" void SerializationInfoEnumerator_Reset_m1660715632 ();
-extern "C" void StreamingContext__ctor_m165676124 ();
-extern "C" void StreamingContext__ctor_m404323882 ();
-extern "C" void StreamingContext_get_State_m334223851 ();
-extern "C" void StreamingContext_Equals_m3567411783 ();
-extern "C" void StreamingContext_GetHashCode_m1804520735 ();
-extern "C" void RuntimeFieldHandle__ctor_m4059484332 ();
-extern "C" void RuntimeFieldHandle_get_Value_m2124751302 ();
-extern "C" void RuntimeFieldHandle_GetObjectData_m1415752713 ();
-extern "C" void RuntimeFieldHandle_Equals_m3155639198 ();
-extern "C" void RuntimeFieldHandle_GetHashCode_m2620685942 ();
-extern "C" void RuntimeMethodHandle__ctor_m794057668 ();
-extern "C" void RuntimeMethodHandle__ctor_m3786030033 ();
-extern "C" void RuntimeMethodHandle_get_Value_m2270388129 ();
-extern "C" void RuntimeMethodHandle_GetObjectData_m3915325998 ();
-extern "C" void RuntimeMethodHandle_Equals_m3425680831 ();
-extern "C" void RuntimeMethodHandle_GetHashCode_m1771691683 ();
-extern "C" void RuntimeTypeHandle__ctor_m437060952 ();
-extern "C" void RuntimeTypeHandle_get_Value_m3549598952 ();
-extern "C" void RuntimeTypeHandle_GetObjectData_m2331997365 ();
-extern "C" void RuntimeTypeHandle_Equals_m3214712582 ();
-extern "C" void RuntimeTypeHandle_GetHashCode_m3575892074 ();
-extern "C" void SByte_System_IConvertible_ToBoolean_m1411907866 ();
-extern "C" void SByte_System_IConvertible_ToByte_m3014394206 ();
-extern "C" void SByte_System_IConvertible_ToChar_m209662238 ();
-extern "C" void SByte_System_IConvertible_ToDateTime_m3199045182 ();
-extern "C" void SByte_System_IConvertible_ToDecimal_m829366252 ();
-extern "C" void SByte_System_IConvertible_ToDouble_m2644916926 ();
-extern "C" void SByte_System_IConvertible_ToInt16_m4101107826 ();
-extern "C" void SByte_System_IConvertible_ToInt32_m2973330534 ();
-extern "C" void SByte_System_IConvertible_ToInt64_m1274211428 ();
-extern "C" void SByte_System_IConvertible_ToSByte_m637716800 ();
-extern "C" void SByte_System_IConvertible_ToSingle_m3135592030 ();
-extern "C" void SByte_System_IConvertible_ToType_m767613158 ();
-extern "C" void SByte_System_IConvertible_ToUInt16_m2610191870 ();
-extern "C" void SByte_System_IConvertible_ToUInt32_m4285595070 ();
-extern "C" void SByte_System_IConvertible_ToUInt64_m439236702 ();
-extern "C" void SByte_CompareTo_m2989383868 ();
-extern "C" void SByte_Equals_m1310501829 ();
-extern "C" void SByte_GetHashCode_m3213675817 ();
-extern "C" void SByte_CompareTo_m874593596 ();
-extern "C" void SByte_Equals_m958983443 ();
+extern "C" void StreamingContext__ctor_m165676124_AdjustorThunk ();
+extern "C" void StreamingContext__ctor_m404323882_AdjustorThunk ();
+extern "C" void StreamingContext_get_State_m334223851_AdjustorThunk ();
+extern "C" void StreamingContext_Equals_m3567411783_AdjustorThunk ();
+extern "C" void StreamingContext_GetHashCode_m1804520735_AdjustorThunk ();
+extern "C" void RuntimeFieldHandle__ctor_m4059484332_AdjustorThunk ();
+extern "C" void RuntimeFieldHandle_get_Value_m2124751302_AdjustorThunk ();
+extern "C" void RuntimeFieldHandle_GetObjectData_m1415752713_AdjustorThunk ();
+extern "C" void RuntimeFieldHandle_Equals_m3155639198_AdjustorThunk ();
+extern "C" void RuntimeFieldHandle_GetHashCode_m2620685942_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle__ctor_m794057668_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle__ctor_m3786030033_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle_get_Value_m2270388129_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle_GetObjectData_m3915325998_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle_Equals_m3425680831_AdjustorThunk ();
+extern "C" void RuntimeMethodHandle_GetHashCode_m1771691683_AdjustorThunk ();
+extern "C" void RuntimeTypeHandle__ctor_m437060952_AdjustorThunk ();
+extern "C" void RuntimeTypeHandle_get_Value_m3549598952_AdjustorThunk ();
+extern "C" void RuntimeTypeHandle_GetObjectData_m2331997365_AdjustorThunk ();
+extern "C" void RuntimeTypeHandle_Equals_m3214712582_AdjustorThunk ();
+extern "C" void RuntimeTypeHandle_GetHashCode_m3575892074_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToBoolean_m1411907866_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToByte_m3014394206_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToChar_m209662238_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToDateTime_m3199045182_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToDecimal_m829366252_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToDouble_m2644916926_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToInt16_m4101107826_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToInt32_m2973330534_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToInt64_m1274211428_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToSByte_m637716800_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToSingle_m3135592030_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToType_m767613158_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToUInt16_m2610191870_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToUInt32_m4285595070_AdjustorThunk ();
+extern "C" void SByte_System_IConvertible_ToUInt64_m439236702_AdjustorThunk ();
+extern "C" void SByte_CompareTo_m2989383868_AdjustorThunk ();
+extern "C" void SByte_Equals_m1310501829_AdjustorThunk ();
+extern "C" void SByte_GetHashCode_m3213675817_AdjustorThunk ();
+extern "C" void SByte_CompareTo_m874593596_AdjustorThunk ();
+extern "C" void SByte_Equals_m958983443_AdjustorThunk ();
 extern "C" void SByte_Parse_m1565801368 ();
 extern "C" void SByte_Parse_m798902410 ();
 extern "C" void SByte_Parse_m1445278549 ();
 extern "C" void SByte_TryParse_m1515780220 ();
-extern "C" void SByte_ToString_m1290989501 ();
-extern "C" void SByte_ToString_m3084859627 ();
-extern "C" void SByte_ToString_m1923672677 ();
-extern "C" void SByte_ToString_m926863599 ();
+extern "C" void SByte_ToString_m1290989501_AdjustorThunk ();
+extern "C" void SByte_ToString_m3084859627_AdjustorThunk ();
+extern "C" void SByte_ToString_m1923672677_AdjustorThunk ();
+extern "C" void SByte_ToString_m926863599_AdjustorThunk ();
 extern "C" void CodeAccessPermission__ctor_m1762050467 ();
 extern "C" void CodeAccessPermission_Equals_m3733109266 ();
 extern "C" void CodeAccessPermission_GetHashCode_m621045366 ();
@@ -4427,6 +4433,8 @@ extern "C" void SHA256Managed_ProcessBlock_m4117131779 ();
 extern "C" void SHA256Managed_ProcessFinalBlock_m2991256248 ();
 extern "C" void SHA256Managed_AddLength_m4004035979 ();
 extern "C" void SHA384__ctor_m2952988926 ();
+extern "C" void SHA384_Create_m594431813 ();
+extern "C" void SHA384_Create_m2276657117 ();
 extern "C" void SHA384Managed__ctor_m3972787977 ();
 extern "C" void SHA384Managed_Initialize_m2139501410 ();
 extern "C" void SHA384Managed_Initialize_m1947821355 ();
@@ -4439,6 +4447,8 @@ extern "C" void SHA384Managed_adjustByteCounts_m2303565974 ();
 extern "C" void SHA384Managed_processLength_m3108542004 ();
 extern "C" void SHA384Managed_processBlock_m2376644313 ();
 extern "C" void SHA512__ctor_m3297938999 ();
+extern "C" void SHA512_Create_m543419283 ();
+extern "C" void SHA512_Create_m4182661711 ();
 extern "C" void SHA512Managed__ctor_m2261764016 ();
 extern "C" void SHA512Managed_Initialize_m3491115867 ();
 extern "C" void SHA512Managed_Initialize_m1471536356 ();
@@ -4618,12 +4628,12 @@ extern "C" void SecurityException_get_GrantedSet_m3460059773 ();
 extern "C" void SecurityException_get_RefusedSet_m4272843656 ();
 extern "C" void SecurityException_GetObjectData_m2715021970 ();
 extern "C" void SecurityException_ToString_m3022084793 ();
-extern "C" void SecurityFrame__ctor_m1972945906 ();
+extern "C" void SecurityFrame__ctor_m1972945906_AdjustorThunk ();
 extern "C" void SecurityFrame__GetSecurityStack_m4181326791 ();
-extern "C" void SecurityFrame_InitFromRuntimeFrame_m2623746169 ();
-extern "C" void SecurityFrame_get_Assembly_m2156341276 ();
-extern "C" void SecurityFrame_get_Domain_m2707144406 ();
-extern "C" void SecurityFrame_ToString_m3072626007 ();
+extern "C" void SecurityFrame_InitFromRuntimeFrame_m2623746169_AdjustorThunk ();
+extern "C" void SecurityFrame_get_Assembly_m2156341276_AdjustorThunk ();
+extern "C" void SecurityFrame_get_Domain_m2707144406_AdjustorThunk ();
+extern "C" void SecurityFrame_ToString_m3072626007_AdjustorThunk ();
 extern "C" void SecurityFrame_GetStack_m2712475205 ();
 extern "C" void SecurityManager__cctor_m3992604439 ();
 extern "C" void SecurityManager_get_SecurityEnabled_m2857115566 ();
@@ -4633,35 +4643,35 @@ extern "C" void SecuritySafeCriticalAttribute__ctor_m4074397875 ();
 extern "C" void SuppressUnmanagedCodeSecurityAttribute__ctor_m4118844453 ();
 extern "C" void UnverifiableCodeAttribute__ctor_m3261770352 ();
 extern "C" void SerializableAttribute__ctor_m3559493780 ();
-extern "C" void Single_System_IConvertible_ToBoolean_m1763424693 ();
-extern "C" void Single_System_IConvertible_ToByte_m3813746639 ();
-extern "C" void Single_System_IConvertible_ToChar_m1479685867 ();
-extern "C" void Single_System_IConvertible_ToDateTime_m259491893 ();
-extern "C" void Single_System_IConvertible_ToDecimal_m430630997 ();
-extern "C" void Single_System_IConvertible_ToDouble_m3847210273 ();
-extern "C" void Single_System_IConvertible_ToInt16_m2476492917 ();
-extern "C" void Single_System_IConvertible_ToInt32_m4151896117 ();
-extern "C" void Single_System_IConvertible_ToInt64_m305537749 ();
-extern "C" void Single_System_IConvertible_ToSByte_m3027644949 ();
-extern "C" void Single_System_IConvertible_ToSingle_m1116951951 ();
-extern "C" void Single_System_IConvertible_ToType_m1756485413 ();
-extern "C" void Single_System_IConvertible_ToUInt16_m3288807997 ();
-extern "C" void Single_System_IConvertible_ToUInt32_m1668493233 ();
-extern "C" void Single_System_IConvertible_ToUInt64_m4272161775 ();
-extern "C" void Single_CompareTo_m4059132493 ();
-extern "C" void Single_Equals_m2650902624 ();
-extern "C" void Single_CompareTo_m3518345828 ();
-extern "C" void Single_Equals_m2110115959 ();
-extern "C" void Single_GetHashCode_m65342520 ();
+extern "C" void Single_System_IConvertible_ToBoolean_m1763424693_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToByte_m3813746639_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToChar_m1479685867_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToDateTime_m259491893_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToDecimal_m430630997_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToDouble_m3847210273_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToInt16_m2476492917_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToInt32_m4151896117_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToInt64_m305537749_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToSByte_m3027644949_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToSingle_m1116951951_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToType_m1756485413_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToUInt16_m3288807997_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToUInt32_m1668493233_AdjustorThunk ();
+extern "C" void Single_System_IConvertible_ToUInt64_m4272161775_AdjustorThunk ();
+extern "C" void Single_CompareTo_m4059132493_AdjustorThunk ();
+extern "C" void Single_Equals_m2650902624_AdjustorThunk ();
+extern "C" void Single_CompareTo_m3518345828_AdjustorThunk ();
+extern "C" void Single_Equals_m2110115959_AdjustorThunk ();
+extern "C" void Single_GetHashCode_m65342520_AdjustorThunk ();
 extern "C" void Single_IsInfinity_m1725004900 ();
 extern "C" void Single_IsNaN_m2036953453 ();
 extern "C" void Single_IsNegativeInfinity_m3390831215 ();
 extern "C" void Single_IsPositiveInfinity_m1894985771 ();
 extern "C" void Single_Parse_m4064562812 ();
-extern "C" void Single_ToString_m5736032 ();
-extern "C" void Single_ToString_m1436803918 ();
-extern "C" void Single_ToString_m3798733330 ();
-extern "C" void Single_GetTypeCode_m4165632757 ();
+extern "C" void Single_ToString_m5736032_AdjustorThunk ();
+extern "C" void Single_ToString_m1436803918_AdjustorThunk ();
+extern "C" void Single_ToString_m3798733330_AdjustorThunk ();
+extern "C" void Single_GetTypeCode_m4165632757_AdjustorThunk ();
 extern "C" void String__ctor_m2618237231 ();
 extern "C" void String__ctor_m683273815 ();
 extern "C" void String__ctor_m2956844983 ();
@@ -4753,6 +4763,9 @@ extern "C" void String_Remove_m242090629 ();
 extern "C" void String_ToLower_m2421900555 ();
 extern "C" void String_ToLower_m2140020155 ();
 extern "C" void String_ToLowerInvariant_m4111189975 ();
+extern "C" void String_ToUpper_m1841663596 ();
+extern "C" void String_ToUpper_m1750246172 ();
+extern "C" void String_ToUpperInvariant_m267877270 ();
 extern "C" void String_ToString_m1382284457 ();
 extern "C" void String_ToString_m1534627031 ();
 extern "C" void String_Format_m2471250780 ();
@@ -4917,6 +4930,7 @@ extern "C" void Encoding_GetHashCode_m2437082384 ();
 extern "C" void Encoding_GetPreamble_m1160659539 ();
 extern "C" void Encoding_GetString_m565750122 ();
 extern "C" void Encoding_GetString_m3808087178 ();
+extern "C" void Encoding_get_HeaderName_m1171313419 ();
 extern "C" void Encoding_get_ASCII_m1425378925 ();
 extern "C" void Encoding_get_BigEndianUnicode_m1578127592 ();
 extern "C" void Encoding_InternalCodePage_m1810234872 ();
@@ -4946,6 +4960,7 @@ extern "C" void Latin1Encoding_GetMaxByteCount_m2399868668 ();
 extern "C" void Latin1Encoding_GetMaxCharCount_m3191404014 ();
 extern "C" void Latin1Encoding_GetString_m1453607223 ();
 extern "C" void Latin1Encoding_GetString_m2574520983 ();
+extern "C" void Latin1Encoding_get_HeaderName_m1411610136 ();
 extern "C" void StringBuilder__ctor_m4031300257 ();
 extern "C" void StringBuilder__ctor_m3542181846 ();
 extern "C" void StringBuilder__ctor_m135953004 ();
@@ -5196,39 +5211,39 @@ extern "C" void WaitHandle_WaitOne_m467737785 ();
 extern "C" void WaitHandle_CheckDisposed_m3718910029 ();
 extern "C" void WaitHandle_Finalize_m1174780672 ();
 extern "C" void ThreadStaticAttribute__ctor_m1966759021 ();
-extern "C" void TimeSpan__ctor_m477860848 ();
-extern "C" void TimeSpan__ctor_m4160332047 ();
-extern "C" void TimeSpan__ctor_m3191091631 ();
+extern "C" void TimeSpan__ctor_m477860848_AdjustorThunk ();
+extern "C" void TimeSpan__ctor_m4160332047_AdjustorThunk ();
+extern "C" void TimeSpan__ctor_m3191091631_AdjustorThunk ();
 extern "C" void TimeSpan__cctor_m2918891343 ();
 extern "C" void TimeSpan_CalculateTicks_m897131370 ();
-extern "C" void TimeSpan_get_Days_m1311834346 ();
-extern "C" void TimeSpan_get_Hours_m1664362814 ();
-extern "C" void TimeSpan_get_Milliseconds_m424744421 ();
-extern "C" void TimeSpan_get_Minutes_m1876674446 ();
-extern "C" void TimeSpan_get_Seconds_m4185591086 ();
-extern "C" void TimeSpan_get_Ticks_m315930342 ();
-extern "C" void TimeSpan_get_TotalDays_m3523943921 ();
-extern "C" void TimeSpan_get_TotalHours_m1520282903 ();
-extern "C" void TimeSpan_get_TotalMilliseconds_m4053613548 ();
-extern "C" void TimeSpan_get_TotalMinutes_m854833447 ();
-extern "C" void TimeSpan_get_TotalSeconds_m3163750087 ();
-extern "C" void TimeSpan_Add_m1523355138 ();
+extern "C" void TimeSpan_get_Days_m1311834346_AdjustorThunk ();
+extern "C" void TimeSpan_get_Hours_m1664362814_AdjustorThunk ();
+extern "C" void TimeSpan_get_Milliseconds_m424744421_AdjustorThunk ();
+extern "C" void TimeSpan_get_Minutes_m1876674446_AdjustorThunk ();
+extern "C" void TimeSpan_get_Seconds_m4185591086_AdjustorThunk ();
+extern "C" void TimeSpan_get_Ticks_m315930342_AdjustorThunk ();
+extern "C" void TimeSpan_get_TotalDays_m3523943921_AdjustorThunk ();
+extern "C" void TimeSpan_get_TotalHours_m1520282903_AdjustorThunk ();
+extern "C" void TimeSpan_get_TotalMilliseconds_m4053613548_AdjustorThunk ();
+extern "C" void TimeSpan_get_TotalMinutes_m854833447_AdjustorThunk ();
+extern "C" void TimeSpan_get_TotalSeconds_m3163750087_AdjustorThunk ();
+extern "C" void TimeSpan_Add_m1523355138_AdjustorThunk ();
 extern "C" void TimeSpan_Compare_m206019349 ();
-extern "C" void TimeSpan_CompareTo_m4037254268 ();
-extern "C" void TimeSpan_CompareTo_m2960988804 ();
-extern "C" void TimeSpan_Equals_m3271948249 ();
-extern "C" void TimeSpan_Duration_m4177061277 ();
-extern "C" void TimeSpan_Equals_m2969422609 ();
+extern "C" void TimeSpan_CompareTo_m4037254268_AdjustorThunk ();
+extern "C" void TimeSpan_CompareTo_m2960988804_AdjustorThunk ();
+extern "C" void TimeSpan_Equals_m3271948249_AdjustorThunk ();
+extern "C" void TimeSpan_Duration_m4177061277_AdjustorThunk ();
+extern "C" void TimeSpan_Equals_m2969422609_AdjustorThunk ();
 extern "C" void TimeSpan_FromDays_m2307041176 ();
 extern "C" void TimeSpan_FromHours_m3804628420 ();
 extern "C" void TimeSpan_FromMinutes_m785017204 ();
 extern "C" void TimeSpan_FromSeconds_m1904297940 ();
 extern "C" void TimeSpan_FromMilliseconds_m1386660477 ();
 extern "C" void TimeSpan_From_m739812553 ();
-extern "C" void TimeSpan_GetHashCode_m3188156777 ();
-extern "C" void TimeSpan_Negate_m3511877003 ();
-extern "C" void TimeSpan_Subtract_m1410255071 ();
-extern "C" void TimeSpan_ToString_m2803989647 ();
+extern "C" void TimeSpan_GetHashCode_m3188156777_AdjustorThunk ();
+extern "C" void TimeSpan_Negate_m3511877003_AdjustorThunk ();
+extern "C" void TimeSpan_Subtract_m1410255071_AdjustorThunk ();
+extern "C" void TimeSpan_ToString_m2803989647_AdjustorThunk ();
 extern "C" void TimeSpan_op_Addition_m141072959 ();
 extern "C" void TimeSpan_op_Equality_m2213378780 ();
 extern "C" void TimeSpan_op_GreaterThan_m3920451985 ();
@@ -5316,8 +5331,8 @@ extern "C" void Type_MakeGenericType_m2305919041 ();
 extern "C" void Type_get_IsGenericParameter_m1053942860 ();
 extern "C" void Type_get_IsNested_m2782386097 ();
 extern "C" void Type_GetPseudoCustomAttributes_m3344475752 ();
-extern "C" void TypedReference_Equals_m2626069127 ();
-extern "C" void TypedReference_GetHashCode_m1538911 ();
+extern "C" void TypedReference_Equals_m2626069127_AdjustorThunk ();
+extern "C" void TypedReference_GetHashCode_m1538911_AdjustorThunk ();
 extern "C" void TypeInitializationException__ctor_m679814589 ();
 extern "C" void TypeInitializationException_GetObjectData_m2924961818 ();
 extern "C" void TypeLoadException__ctor_m2756824898 ();
@@ -5325,103 +5340,103 @@ extern "C" void TypeLoadException__ctor_m249965312 ();
 extern "C" void TypeLoadException__ctor_m2496850307 ();
 extern "C" void TypeLoadException_get_Message_m2467761275 ();
 extern "C" void TypeLoadException_GetObjectData_m1260387808 ();
-extern "C" void UInt16_System_IConvertible_ToBoolean_m1669361982 ();
-extern "C" void UInt16_System_IConvertible_ToByte_m1909834982 ();
-extern "C" void UInt16_System_IConvertible_ToChar_m3870741506 ();
-extern "C" void UInt16_System_IConvertible_ToDateTime_m1638515148 ();
-extern "C" void UInt16_System_IConvertible_ToDecimal_m336568286 ();
-extern "C" void UInt16_System_IConvertible_ToDouble_m3844175992 ();
-extern "C" void UInt16_System_IConvertible_ToInt16_m3584773694 ();
-extern "C" void UInt16_System_IConvertible_ToInt32_m965209598 ();
-extern "C" void UInt16_System_IConvertible_ToInt64_m1413818526 ();
-extern "C" void UInt16_System_IConvertible_ToSByte_m4135925726 ();
-extern "C" void UInt16_System_IConvertible_ToSingle_m1113917670 ();
-extern "C" void UInt16_System_IConvertible_ToType_m435718588 ();
-extern "C" void UInt16_System_IConvertible_ToUInt16_m3285773716 ();
-extern "C" void UInt16_System_IConvertible_ToUInt32_m1665458952 ();
-extern "C" void UInt16_System_IConvertible_ToUInt64_m4269127494 ();
-extern "C" void UInt16_CompareTo_m2016984612 ();
-extern "C" void UInt16_Equals_m857648105 ();
-extern "C" void UInt16_GetHashCode_m592888001 ();
-extern "C" void UInt16_CompareTo_m2335401604 ();
-extern "C" void UInt16_Equals_m1176065097 ();
+extern "C" void UInt16_System_IConvertible_ToBoolean_m1669361982_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToByte_m1909834982_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToChar_m3870741506_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToDateTime_m1638515148_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToDecimal_m336568286_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToDouble_m3844175992_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToInt16_m3584773694_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToInt32_m965209598_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToInt64_m1413818526_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToSByte_m4135925726_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToSingle_m1113917670_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToType_m435718588_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToUInt16_m3285773716_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToUInt32_m1665458952_AdjustorThunk ();
+extern "C" void UInt16_System_IConvertible_ToUInt64_m4269127494_AdjustorThunk ();
+extern "C" void UInt16_CompareTo_m2016984612_AdjustorThunk ();
+extern "C" void UInt16_Equals_m857648105_AdjustorThunk ();
+extern "C" void UInt16_GetHashCode_m592888001_AdjustorThunk ();
+extern "C" void UInt16_CompareTo_m2335401604_AdjustorThunk ();
+extern "C" void UInt16_Equals_m1176065097_AdjustorThunk ();
 extern "C" void UInt16_Parse_m1444018254 ();
 extern "C" void UInt16_Parse_m148894233 ();
 extern "C" void UInt16_TryParse_m1136207264 ();
 extern "C" void UInt16_TryParse_m3401065021 ();
-extern "C" void UInt16_ToString_m741885559 ();
-extern "C" void UInt16_ToString_m921266213 ();
-extern "C" void UInt16_ToString_m3898855915 ();
-extern "C" void UInt16_ToString_m1090572969 ();
-extern "C" void UInt32_System_IConvertible_ToBoolean_m2848929732 ();
-extern "C" void UInt32_System_IConvertible_ToByte_m1898052640 ();
-extern "C" void UInt32_System_IConvertible_ToChar_m3858959164 ();
-extern "C" void UInt32_System_IConvertible_ToDateTime_m3845377030 ();
-extern "C" void UInt32_System_IConvertible_ToDecimal_m1516136036 ();
-extern "C" void UInt32_System_IConvertible_ToDouble_m1111279922 ();
-extern "C" void UInt32_System_IConvertible_ToInt16_m3219521092 ();
-extern "C" void UInt32_System_IConvertible_ToInt32_m599956996 ();
-extern "C" void UInt32_System_IConvertible_ToInt64_m1048565924 ();
-extern "C" void UInt32_System_IConvertible_ToSByte_m3770673124 ();
-extern "C" void UInt32_System_IConvertible_ToSingle_m2675988896 ();
-extern "C" void UInt32_System_IConvertible_ToType_m3076110838 ();
-extern "C" void UInt32_System_IConvertible_ToUInt16_m552877646 ();
-extern "C" void UInt32_System_IConvertible_ToUInt32_m3227530178 ();
-extern "C" void UInt32_System_IConvertible_ToUInt64_m1536231424 ();
-extern "C" void UInt32_CompareTo_m1956022750 ();
-extern "C" void UInt32_Equals_m1266223727 ();
-extern "C" void UInt32_GetHashCode_m1046676807 ();
-extern "C" void UInt32_CompareTo_m2274441540 ();
-extern "C" void UInt32_Equals_m1584642517 ();
+extern "C" void UInt16_ToString_m741885559_AdjustorThunk ();
+extern "C" void UInt16_ToString_m921266213_AdjustorThunk ();
+extern "C" void UInt16_ToString_m3898855915_AdjustorThunk ();
+extern "C" void UInt16_ToString_m1090572969_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToBoolean_m2848929732_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToByte_m1898052640_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToChar_m3858959164_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToDateTime_m3845377030_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToDecimal_m1516136036_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToDouble_m1111279922_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToInt16_m3219521092_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToInt32_m599956996_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToInt64_m1048565924_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToSByte_m3770673124_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToSingle_m2675988896_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToType_m3076110838_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToUInt16_m552877646_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToUInt32_m3227530178_AdjustorThunk ();
+extern "C" void UInt32_System_IConvertible_ToUInt64_m1536231424_AdjustorThunk ();
+extern "C" void UInt32_CompareTo_m1956022750_AdjustorThunk ();
+extern "C" void UInt32_Equals_m1266223727_AdjustorThunk ();
+extern "C" void UInt32_GetHashCode_m1046676807_AdjustorThunk ();
+extern "C" void UInt32_CompareTo_m2274441540_AdjustorThunk ();
+extern "C" void UInt32_Equals_m1584642517_AdjustorThunk ();
 extern "C" void UInt32_Parse_m178847972 ();
 extern "C" void UInt32_Parse_m3291857117 ();
 extern "C" void UInt32_Parse_m1670428837 ();
 extern "C" void UInt32_Parse_m3087278554 ();
 extern "C" void UInt32_TryParse_m537116052 ();
 extern "C" void UInt32_TryParse_m3950000893 ();
-extern "C" void UInt32_ToString_m904380337 ();
-extern "C" void UInt32_ToString_m2214910431 ();
-extern "C" void UInt32_ToString_m1403037425 ();
-extern "C" void UInt32_ToString_m640530147 ();
-extern "C" void UInt64_System_IConvertible_ToBoolean_m486013061 ();
-extern "C" void UInt64_System_IConvertible_ToByte_m3655981823 ();
-extern "C" void UInt64_System_IConvertible_ToChar_m1321921051 ();
-extern "C" void UInt64_System_IConvertible_ToDateTime_m3609404261 ();
-extern "C" void UInt64_System_IConvertible_ToDecimal_m3448186661 ();
-extern "C" void UInt64_System_IConvertible_ToDouble_m2559077457 ();
-extern "C" void UInt64_System_IConvertible_ToInt16_m1880750917 ();
-extern "C" void UInt64_System_IConvertible_ToInt32_m3556154117 ();
-extern "C" void UInt64_System_IConvertible_ToInt64_m4004763045 ();
-extern "C" void UInt64_System_IConvertible_ToSByte_m2431902949 ();
-extern "C" void UInt64_System_IConvertible_ToSingle_m4123786431 ();
-extern "C" void UInt64_System_IConvertible_ToType_m2439463509 ();
-extern "C" void UInt64_System_IConvertible_ToUInt16_m2000675181 ();
-extern "C" void UInt64_System_IConvertible_ToUInt32_m380360417 ();
-extern "C" void UInt64_System_IConvertible_ToUInt64_m2984028959 ();
-extern "C" void UInt64_CompareTo_m3115041149 ();
-extern "C" void UInt64_Equals_m3490516784 ();
-extern "C" void UInt64_GetHashCode_m4085537544 ();
-extern "C" void UInt64_CompareTo_m3433462884 ();
-extern "C" void UInt64_Equals_m3808938519 ();
+extern "C" void UInt32_ToString_m904380337_AdjustorThunk ();
+extern "C" void UInt32_ToString_m2214910431_AdjustorThunk ();
+extern "C" void UInt32_ToString_m1403037425_AdjustorThunk ();
+extern "C" void UInt32_ToString_m640530147_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToBoolean_m486013061_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToByte_m3655981823_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToChar_m1321921051_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToDateTime_m3609404261_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToDecimal_m3448186661_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToDouble_m2559077457_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToInt16_m1880750917_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToInt32_m3556154117_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToInt64_m4004763045_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToSByte_m2431902949_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToSingle_m4123786431_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToType_m2439463509_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToUInt16_m2000675181_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToUInt32_m380360417_AdjustorThunk ();
+extern "C" void UInt64_System_IConvertible_ToUInt64_m2984028959_AdjustorThunk ();
+extern "C" void UInt64_CompareTo_m3115041149_AdjustorThunk ();
+extern "C" void UInt64_Equals_m3490516784_AdjustorThunk ();
+extern "C" void UInt64_GetHashCode_m4085537544_AdjustorThunk ();
+extern "C" void UInt64_CompareTo_m3433462884_AdjustorThunk ();
+extern "C" void UInt64_Equals_m3808938519_AdjustorThunk ();
 extern "C" void UInt64_Parse_m3335137308 ();
 extern "C" void UInt64_Parse_m4183475069 ();
 extern "C" void UInt64_Parse_m3644239463 ();
 extern "C" void UInt64_TryParse_m1333073810 ();
-extern "C" void UInt64_ToString_m3095865744 ();
-extern "C" void UInt64_ToString_m2926838398 ();
-extern "C" void UInt64_ToString_m54951794 ();
-extern "C" void UInt64_ToString_m4198358338 ();
-extern "C" void UIntPtr__ctor_m3952300446 ();
-extern "C" void UIntPtr__ctor_m3952297501 ();
-extern "C" void UIntPtr__ctor_m1853619782 ();
+extern "C" void UInt64_ToString_m3095865744_AdjustorThunk ();
+extern "C" void UInt64_ToString_m2926838398_AdjustorThunk ();
+extern "C" void UInt64_ToString_m54951794_AdjustorThunk ();
+extern "C" void UInt64_ToString_m4198358338_AdjustorThunk ();
+extern "C" void UIntPtr__ctor_m3952300446_AdjustorThunk ();
+extern "C" void UIntPtr__ctor_m3952297501_AdjustorThunk ();
+extern "C" void UIntPtr__ctor_m1853619782_AdjustorThunk ();
 extern "C" void UIntPtr__cctor_m3952213328 ();
-extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1506461934 ();
-extern "C" void UIntPtr_Equals_m2746368876 ();
-extern "C" void UIntPtr_GetHashCode_m939387472 ();
-extern "C" void UIntPtr_ToUInt32_m3683901238 ();
-extern "C" void UIntPtr_ToUInt64_m958857238 ();
-extern "C" void UIntPtr_ToPointer_m365084105 ();
-extern "C" void UIntPtr_ToString_m2250548790 ();
+extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1506461934_AdjustorThunk ();
+extern "C" void UIntPtr_Equals_m2746368876_AdjustorThunk ();
+extern "C" void UIntPtr_GetHashCode_m939387472_AdjustorThunk ();
+extern "C" void UIntPtr_ToUInt32_m3683901238_AdjustorThunk ();
+extern "C" void UIntPtr_ToUInt64_m958857238_AdjustorThunk ();
+extern "C" void UIntPtr_ToPointer_m365084105_AdjustorThunk ();
+extern "C" void UIntPtr_ToString_m2250548790_AdjustorThunk ();
 extern "C" void UIntPtr_get_Size_m3534433933 ();
 extern "C" void UIntPtr_op_Equality_m2619366549 ();
 extern "C" void UIntPtr_op_Inequality_m3507406160 ();
@@ -5483,54 +5498,6 @@ extern "C" void WeakReference_get_Target_m2183973397 ();
 extern "C" void WeakReference_get_TrackResurrection_m2498111523 ();
 extern "C" void WeakReference_Finalize_m3030916772 ();
 extern "C" void WeakReference_GetObjectData_m1524996508 ();
-extern "C" void Locale_GetText_m2031928403 ();
-extern "C" void Locale_GetText_m2138526911 ();
-extern "C" void KeyBuilder_get_Rng_m1224245225 ();
-extern "C" void KeyBuilder_Key_m489708312 ();
-extern "C" void KeyBuilder_IV_m3901719576 ();
-extern "C" void SymmetricTransform__ctor_m1205754880 ();
-extern "C" void SymmetricTransform_System_IDisposable_Dispose_m455424824 ();
-extern "C" void SymmetricTransform_Finalize_m1432383547 ();
-extern "C" void SymmetricTransform_Dispose_m2730879931 ();
-extern "C" void SymmetricTransform_get_CanReuseTransform_m725989976 ();
-extern "C" void SymmetricTransform_Transform_m3903574043 ();
-extern "C" void SymmetricTransform_CBC_m2217465763 ();
-extern "C" void SymmetricTransform_CFB_m3609349384 ();
-extern "C" void SymmetricTransform_OFB_m962939772 ();
-extern "C" void SymmetricTransform_CTS_m122988069 ();
-extern "C" void SymmetricTransform_CheckInput_m3506478922 ();
-extern "C" void SymmetricTransform_TransformBlock_m1944043099 ();
-extern "C" void SymmetricTransform_get_KeepLastBlock_m2173858210 ();
-extern "C" void SymmetricTransform_InternalTransformBlock_m3380491768 ();
-extern "C" void SymmetricTransform_Random_m3415780681 ();
-extern "C" void SymmetricTransform_ThrowBadPaddingException_m2083216889 ();
-extern "C" void SymmetricTransform_FinalEncrypt_m975601255 ();
-extern "C" void SymmetricTransform_FinalDecrypt_m3742401599 ();
-extern "C" void SymmetricTransform_TransformFinalBlock_m2524388439 ();
-extern "C" void Check_SourceAndPredicate_m2252398949 ();
-extern "C" void Check_FirstAndSecond_m3893233125 ();
-extern "C" void ExtensionAttribute__ctor_m1242622322 ();
-extern "C" void Aes__ctor_m380511311 ();
-extern "C" void AesManaged__ctor_m1572578968 ();
-extern "C" void AesManaged_GenerateIV_m4188712014 ();
-extern "C" void AesManaged_GenerateKey_m1003425312 ();
-extern "C" void AesManaged_CreateDecryptor_m1952358980 ();
-extern "C" void AesManaged_CreateEncryptor_m2258087532 ();
-extern "C" void AesManaged_get_IV_m3771642968 ();
-extern "C" void AesManaged_set_IV_m2456625939 ();
-extern "C" void AesManaged_get_Key_m959186774 ();
-extern "C" void AesManaged_set_Key_m1884561361 ();
-extern "C" void AesManaged_get_KeySize_m1856785595 ();
-extern "C" void AesManaged_set_KeySize_m838068010 ();
-extern "C" void AesManaged_CreateDecryptor_m2733487560 ();
-extern "C" void AesManaged_CreateEncryptor_m3462881952 ();
-extern "C" void AesManaged_Dispose_m2950523276 ();
-extern "C" void AesTransform__ctor_m2781154868 ();
-extern "C" void AesTransform__cctor_m1179286690 ();
-extern "C" void AesTransform_ECB_m2589908703 ();
-extern "C" void AesTransform_SubByte_m1214814958 ();
-extern "C" void AesTransform_Encrypt128_m3651261907 ();
-extern "C" void AesTransform_Decrypt128_m3310750971 ();
 extern "C" void Locale_GetText_m3269873186 ();
 extern "C" void Locale_GetText_m946430094 ();
 extern "C" void HybridDictionary__ctor_m951312923 ();
@@ -5543,7 +5510,6 @@ extern "C" void HybridDictionary_get_Item_m1101975172 ();
 extern "C" void HybridDictionary_set_Item_m2233477417 ();
 extern "C" void HybridDictionary_get_SyncRoot_m1280025498 ();
 extern "C" void HybridDictionary_Add_m1798913928 ();
-extern "C" void HybridDictionary_Contains_m356410114 ();
 extern "C" void HybridDictionary_CopyTo_m1553338168 ();
 extern "C" void HybridDictionary_GetEnumerator_m3022935527 ();
 extern "C" void HybridDictionary_Remove_m1597248871 ();
@@ -5562,7 +5528,6 @@ extern "C" void ListDictionary_get_Item_m151625826 ();
 extern "C" void ListDictionary_set_Item_m588649799 ();
 extern "C" void ListDictionary_Add_m1089190058 ();
 extern "C" void ListDictionary_Clear_m3043881700 ();
-extern "C" void ListDictionary_Contains_m142502176 ();
 extern "C" void ListDictionary_GetEnumerator_m2156198277 ();
 extern "C" void ListDictionary_Remove_m4061265285 ();
 extern "C" void DictionaryNode__ctor_m424034580 ();
@@ -5923,10 +5888,10 @@ extern "C" void X509ChainPolicy_get_RevocationMode_m2618017401 ();
 extern "C" void X509ChainPolicy_get_VerificationFlags_m1052595485 ();
 extern "C" void X509ChainPolicy_get_VerificationTime_m2439570886 ();
 extern "C" void X509ChainPolicy_Reset_m3900463811 ();
-extern "C" void X509ChainStatus__ctor_m452901827 ();
-extern "C" void X509ChainStatus_get_Status_m805216413 ();
-extern "C" void X509ChainStatus_set_Status_m2412197578 ();
-extern "C" void X509ChainStatus_set_StatusInformation_m2801383985 ();
+extern "C" void X509ChainStatus__ctor_m452901827_AdjustorThunk ();
+extern "C" void X509ChainStatus_get_Status_m805216413_AdjustorThunk ();
+extern "C" void X509ChainStatus_set_Status_m2412197578_AdjustorThunk ();
+extern "C" void X509ChainStatus_set_StatusInformation_m2801383985_AdjustorThunk ();
 extern "C" void X509ChainStatus_GetInformation_m369546830 ();
 extern "C" void X509EnhancedKeyUsageExtension__ctor_m1143045852 ();
 extern "C" void X509EnhancedKeyUsageExtension_CopyFrom_m3559074914 ();
@@ -5981,14 +5946,7 @@ extern "C" void X509SubjectKeyIdentifierExtension_Decode_m3290786035 ();
 extern "C" void X509SubjectKeyIdentifierExtension_Encode_m852919050 ();
 extern "C" void X509SubjectKeyIdentifierExtension_ToString_m2596463486 ();
 extern "C" void BaseMachine__ctor_m17432691 ();
-extern "C" void BaseMachine_Replace_m3336556800 ();
 extern "C" void BaseMachine_Scan_m223381495 ();
-extern "C" void BaseMachine_LTRReplace_m3233399719 ();
-extern "C" void BaseMachine_RTLReplace_m1984309653 ();
-extern "C" void MatchAppendEvaluator__ctor_m44201646 ();
-extern "C" void MatchAppendEvaluator_Invoke_m2910809428 ();
-extern "C" void MatchAppendEvaluator_BeginInvoke_m1979969071 ();
-extern "C" void MatchAppendEvaluator_EndInvoke_m4264062910 ();
 extern "C" void Capture__ctor_m3100758399 ();
 extern "C" void Capture__ctor_m3886528031 ();
 extern "C" void Capture_get_Index_m2179527098 ();
@@ -6049,10 +6007,10 @@ extern "C" void Interpreter_CreateMark_m1503065567 ();
 extern "C" void Interpreter_GetGroupInfo_m10584263 ();
 extern "C" void Interpreter_PopulateGroup_m2805800912 ();
 extern "C" void Interpreter_GenerateMatch_m2993936796 ();
-extern "C" void IntStack_Pop_m1434102286 ();
-extern "C" void IntStack_Push_m2506448672 ();
-extern "C" void IntStack_get_Count_m897242211 ();
-extern "C" void IntStack_set_Count_m518204432 ();
+extern "C" void IntStack_Pop_m1434102286_AdjustorThunk ();
+extern "C" void IntStack_Push_m2506448672_AdjustorThunk ();
+extern "C" void IntStack_get_Count_m897242211_AdjustorThunk ();
+extern "C" void IntStack_set_Count_m518204432_AdjustorThunk ();
 extern "C" void RepeatContext__ctor_m788719250 ();
 extern "C" void RepeatContext_get_Count_m4097254526 ();
 extern "C" void RepeatContext_set_Count_m4149390859 ();
@@ -6072,19 +6030,19 @@ extern "C" void InterpreterFactory_get_Mapping_m4280686600 ();
 extern "C" void InterpreterFactory_set_Mapping_m1196240885 ();
 extern "C" void InterpreterFactory_get_NamesMapping_m2841689669 ();
 extern "C" void InterpreterFactory_set_NamesMapping_m2940156550 ();
-extern "C" void Interval__ctor_m4154124910 ();
+extern "C" void Interval__ctor_m4154124910_AdjustorThunk ();
 extern "C" void Interval_get_Empty_m2836746235 ();
-extern "C" void Interval_get_IsDiscontiguous_m4161255183 ();
-extern "C" void Interval_get_IsSingleton_m4044965956 ();
-extern "C" void Interval_get_IsEmpty_m2142357766 ();
-extern "C" void Interval_get_Size_m2053259174 ();
-extern "C" void Interval_IsDisjoint_m1461504100 ();
-extern "C" void Interval_IsAdjacent_m1171307166 ();
-extern "C" void Interval_Contains_m2884982059 ();
-extern "C" void Interval_Contains_m724747494 ();
-extern "C" void Interval_Intersects_m1836714230 ();
-extern "C" void Interval_Merge_m2623693586 ();
-extern "C" void Interval_CompareTo_m953943694 ();
+extern "C" void Interval_get_IsDiscontiguous_m4161255183_AdjustorThunk ();
+extern "C" void Interval_get_IsSingleton_m4044965956_AdjustorThunk ();
+extern "C" void Interval_get_IsEmpty_m2142357766_AdjustorThunk ();
+extern "C" void Interval_get_Size_m2053259174_AdjustorThunk ();
+extern "C" void Interval_IsDisjoint_m1461504100_AdjustorThunk ();
+extern "C" void Interval_IsAdjacent_m1171307166_AdjustorThunk ();
+extern "C" void Interval_Contains_m2884982059_AdjustorThunk ();
+extern "C" void Interval_Contains_m724747494_AdjustorThunk ();
+extern "C" void Interval_Intersects_m1836714230_AdjustorThunk ();
+extern "C" void Interval_Merge_m2623693586_AdjustorThunk ();
+extern "C" void Interval_CompareTo_m953943694_AdjustorThunk ();
 extern "C" void IntervalCollection__ctor_m1317729402 ();
 extern "C" void IntervalCollection_get_Item_m658194390 ();
 extern "C" void IntervalCollection_Add_m622937095 ();
@@ -6108,9 +6066,9 @@ extern "C" void LinkRef__ctor_m2896599248 ();
 extern "C" void LinkStack__ctor_m840569467 ();
 extern "C" void LinkStack_Push_m185806851 ();
 extern "C" void LinkStack_Pop_m192057428 ();
-extern "C" void Mark_get_IsDefined_m36891578 ();
-extern "C" void Mark_get_Index_m4214982375 ();
-extern "C" void Mark_get_Length_m3639380819 ();
+extern "C" void Mark_get_IsDefined_m36891578_AdjustorThunk ();
+extern "C" void Mark_get_Index_m4214982375_AdjustorThunk ();
+extern "C" void Mark_get_Length_m3639380819_AdjustorThunk ();
 extern "C" void Match__ctor_m4051317828 ();
 extern "C" void Match__ctor_m798974407 ();
 extern "C" void Match__ctor_m4138800752 ();
@@ -6132,10 +6090,6 @@ extern "C" void Enumerator__ctor_m2762289495 ();
 extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m4262909997 ();
 extern "C" void Enumerator_System_Collections_IEnumerator_get_Current_m360409 ();
 extern "C" void Enumerator_System_Collections_IEnumerator_MoveNext_m1106607422 ();
-extern "C" void MatchEvaluator__ctor_m2957600143 ();
-extern "C" void MatchEvaluator_Invoke_m3215261838 ();
-extern "C" void MatchEvaluator_BeginInvoke_m3315747252 ();
-extern "C" void MatchEvaluator_EndInvoke_m3976645020 ();
 extern "C" void MRUList__ctor_m3161932411 ();
 extern "C" void MRUList_Use_m4144664628 ();
 extern "C" void MRUList_Evict_m3673261069 ();
@@ -6200,15 +6154,12 @@ extern "C" void Regex__ctor_m2068483208 ();
 extern "C" void Regex__ctor_m1618790979 ();
 extern "C" void Regex__cctor_m2866248683 ();
 extern "C" void Regex_System_Runtime_Serialization_ISerializable_GetObjectData_m522480713 ();
-extern "C" void Regex_Replace_m2658391113 ();
-extern "C" void Regex_Replace_m1218008337 ();
 extern "C" void Regex_validate_options_m625353623 ();
 extern "C" void Regex_Init_m938259986 ();
 extern "C" void Regex_InitNewRegex_m2419508729 ();
 extern "C" void Regex_CreateMachineFactory_m2347116393 ();
 extern "C" void Regex_get_Options_m3928047814 ();
 extern "C" void Regex_get_RightToLeft_m3494755007 ();
-extern "C" void Regex_GroupNumberFromName_m2580513429 ();
 extern "C" void Regex_GetGroupIndex_m547759882 ();
 extern "C" void Regex_default_startat_m996366267 ();
 extern "C" void Regex_IsMatch_m2967892253 ();
@@ -6216,23 +6167,11 @@ extern "C" void Regex_IsMatch_m3759940314 ();
 extern "C" void Regex_Match_m1021969427 ();
 extern "C" void Regex_Matches_m3092142232 ();
 extern "C" void Regex_Matches_m4271078207 ();
-extern "C" void Regex_Replace_m853874381 ();
-extern "C" void Regex_Replace_m1882314221 ();
 extern "C" void Regex_ToString_m3480281169 ();
-extern "C" void Regex_get_GroupCount_m2128334859 ();
 extern "C" void Regex_get_Gap_m2153899613 ();
 extern "C" void Regex_CreateMachine_m1572823491 ();
 extern "C" void Regex_GetGroupNamesArray_m3739926801 ();
 extern "C" void Regex_get_GroupNumbers_m2500558052 ();
-extern "C" void ReplacementEvaluator__ctor_m2774850658 ();
-extern "C" void ReplacementEvaluator_Evaluate_m4205324994 ();
-extern "C" void ReplacementEvaluator_EvaluateAppend_m4266406947 ();
-extern "C" void ReplacementEvaluator_get_NeedsGroupsOrCaptures_m1475641324 ();
-extern "C" void ReplacementEvaluator_Ensure_m619661651 ();
-extern "C" void ReplacementEvaluator_AddFromReplacement_m4144056411 ();
-extern "C" void ReplacementEvaluator_AddInt_m3650451619 ();
-extern "C" void ReplacementEvaluator_Compile_m763546001 ();
-extern "C" void ReplacementEvaluator_CompileTerm_m2939168366 ();
 extern "C" void Alternation__ctor_m1090419051 ();
 extern "C" void Alternation_get_Alternatives_m1740410205 ();
 extern "C" void Alternation_AddAlternative_m3695967311 ();
@@ -6377,8 +6316,10 @@ extern "C" void Repetition_GetAnchorInfo_m337026333 ();
 extern "C" void Uri__ctor_m1721267859 ();
 extern "C" void Uri__ctor_m4101815696 ();
 extern "C" void Uri__ctor_m1689224330 ();
+extern "C" void Uri__ctor_m2876888702 ();
 extern "C" void Uri__cctor_m2145170622 ();
 extern "C" void Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m3581151196 ();
+extern "C" void Uri_Merge_m1925025748 ();
 extern "C" void Uri_get_AbsoluteUri_m2228269430 ();
 extern "C" void Uri_get_Authority_m1914393796 ();
 extern "C" void Uri_get_Host_m1446697833 ();
@@ -6420,9 +6361,11 @@ extern "C" void Uri_GetDefaultPort_m711645873 ();
 extern "C" void Uri_GetOpaqueWiseSchemeDelimiter_m3781205887 ();
 extern "C" void Uri_IsPredefinedScheme_m2987522946 ();
 extern "C" void Uri_get_Parser_m533607664 ();
+extern "C" void Uri_NeedToEscapeDataChar_m2713938880 ();
+extern "C" void Uri_EscapeDataString_m3238747918 ();
 extern "C" void Uri_EnsureAbsoluteUri_m3407571844 ();
 extern "C" void Uri_op_Equality_m877019543 ();
-extern "C" void UriScheme__ctor_m535258662 ();
+extern "C" void UriScheme__ctor_m535258662_AdjustorThunk ();
 extern "C" void UriFormatException__ctor_m2977644479 ();
 extern "C" void UriFormatException__ctor_m3185454499 ();
 extern "C" void UriFormatException__ctor_m262177920 ();
@@ -6577,6 +6520,24 @@ extern "C" void MD2Managed_Initialize_m1198478313 ();
 extern "C" void MD2Managed_HashCore_m848434243 ();
 extern "C" void MD2Managed_HashFinal_m3903508827 ();
 extern "C" void MD2Managed_MD2Transform_m1178472146 ();
+extern "C" void MD4__ctor_m1413318394 ();
+extern "C" void MD4_Create_m2349802207 ();
+extern "C" void MD4_Create_m3484180099 ();
+extern "C" void MD4Managed__ctor_m669187469 ();
+extern "C" void MD4Managed_Initialize_m1417333031 ();
+extern "C" void MD4Managed_HashCore_m1409134021 ();
+extern "C" void MD4Managed_HashFinal_m31243357 ();
+extern "C" void MD4Managed_Padding_m4232872567 ();
+extern "C" void MD4Managed_F_m2420274358 ();
+extern "C" void MD4Managed_G_m1395580437 ();
+extern "C" void MD4Managed_H_m370886516 ();
+extern "C" void MD4Managed_ROL_m1328645290 ();
+extern "C" void MD4Managed_FF_m1309814654 ();
+extern "C" void MD4Managed_GG_m1268768670 ();
+extern "C" void MD4Managed_HH_m1227722686 ();
+extern "C" void MD4Managed_Encode_m3840946190 ();
+extern "C" void MD4Managed_Decode_m3307472097 ();
+extern "C" void MD4Managed_MD4Transform_m352429890 ();
 extern "C" void MD5SHA1__ctor_m2374690196 ();
 extern "C" void MD5SHA1_Initialize_m1333120384 ();
 extern "C" void MD5SHA1_HashFinal_m1928907216 ();
@@ -7263,7 +7224,7 @@ extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_get_Cur
 extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m1008796181 ();
 extern "C" void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m2173605650 ();
 extern "C" void X509CertificateEnumerator_get_Current_m1696796071 ();
-extern "C" void X509CertificateEnumerator_MoveNext_m4038787598 ();
+extern "C" void X509CertificateEnumerator_MoveNext_m1597080434 ();
 extern "C" void X509CertificateEnumerator_Reset_m2282105749 ();
 extern "C" void X509Chain__ctor_m4239706530 ();
 extern "C" void X509Chain__ctor_m2818311608 ();
@@ -7323,6 +7284,55 @@ extern "C" void X509StoreManager_get_TrustedRootCertificates_m2593128238 ();
 extern "C" void X509Stores__ctor_m3067409489 ();
 extern "C" void X509Stores_get_TrustedRoot_m4006515680 ();
 extern "C" void X509Stores_Open_m3798926259 ();
+extern "C" void Locale_GetText_m2031928403 ();
+extern "C" void Locale_GetText_m2138526911 ();
+extern "C" void KeyBuilder_get_Rng_m1224245225 ();
+extern "C" void KeyBuilder_Key_m489708312 ();
+extern "C" void KeyBuilder_IV_m3901719576 ();
+extern "C" void SymmetricTransform__ctor_m1205754880 ();
+extern "C" void SymmetricTransform_System_IDisposable_Dispose_m455424824 ();
+extern "C" void SymmetricTransform_Finalize_m1432383547 ();
+extern "C" void SymmetricTransform_Dispose_m2730879931 ();
+extern "C" void SymmetricTransform_get_CanReuseTransform_m725989976 ();
+extern "C" void SymmetricTransform_Transform_m3903574043 ();
+extern "C" void SymmetricTransform_CBC_m2217465763 ();
+extern "C" void SymmetricTransform_CFB_m3609349384 ();
+extern "C" void SymmetricTransform_OFB_m962939772 ();
+extern "C" void SymmetricTransform_CTS_m122988069 ();
+extern "C" void SymmetricTransform_CheckInput_m3506478922 ();
+extern "C" void SymmetricTransform_TransformBlock_m1944043099 ();
+extern "C" void SymmetricTransform_get_KeepLastBlock_m2173858210 ();
+extern "C" void SymmetricTransform_InternalTransformBlock_m3380491768 ();
+extern "C" void SymmetricTransform_Random_m3415780681 ();
+extern "C" void SymmetricTransform_ThrowBadPaddingException_m2083216889 ();
+extern "C" void SymmetricTransform_FinalEncrypt_m975601255 ();
+extern "C" void SymmetricTransform_FinalDecrypt_m3742401599 ();
+extern "C" void SymmetricTransform_TransformFinalBlock_m2524388439 ();
+extern "C" void Check_SourceAndPredicate_m2252398949 ();
+extern "C" void Check_FirstAndSecond_m3893233125 ();
+extern "C" void MonoTODOAttribute__ctor_m1033053463 ();
+extern "C" void ExtensionAttribute__ctor_m1242622322 ();
+extern "C" void Aes__ctor_m380511311 ();
+extern "C" void AesManaged__ctor_m1572578968 ();
+extern "C" void AesManaged_GenerateIV_m4188712014 ();
+extern "C" void AesManaged_GenerateKey_m1003425312 ();
+extern "C" void AesManaged_CreateDecryptor_m1952358980 ();
+extern "C" void AesManaged_CreateEncryptor_m2258087532 ();
+extern "C" void AesManaged_get_IV_m3771642968 ();
+extern "C" void AesManaged_set_IV_m2456625939 ();
+extern "C" void AesManaged_get_Key_m959186774 ();
+extern "C" void AesManaged_set_Key_m1884561361 ();
+extern "C" void AesManaged_get_KeySize_m1856785595 ();
+extern "C" void AesManaged_set_KeySize_m838068010 ();
+extern "C" void AesManaged_CreateDecryptor_m2733487560 ();
+extern "C" void AesManaged_CreateEncryptor_m3462881952 ();
+extern "C" void AesManaged_Dispose_m2950523276 ();
+extern "C" void AesTransform__ctor_m2781154868 ();
+extern "C" void AesTransform__cctor_m1179286690 ();
+extern "C" void AesTransform_ECB_m2589908703 ();
+extern "C" void AesTransform_SubByte_m1214814958 ();
+extern "C" void AesTransform_Encrypt128_m3651261907 ();
+extern "C" void AesTransform_Decrypt128_m3310750971 ();
 extern "C" void AddComponentMenu__ctor_m1521317712 ();
 extern "C" void AddComponentMenu__ctor_m3281913735 ();
 extern "C" void AnimationCurve__ctor_m2436282331 ();
@@ -7359,26 +7369,26 @@ extern "C" void Animator_get_runtimeAnimatorController_m1822082727 ();
 extern "C" void Animator_StringToHash_m4020897098 ();
 extern "C" void Animator_SetTriggerString_m1378271133 ();
 extern "C" void Animator_ResetTriggerString_m1817269834 ();
-extern "C" void AnimatorStateInfo_IsName_m1653922768 ();
-extern "C" void AnimatorStateInfo_get_fullPathHash_m3257074542 ();
-extern "C" void AnimatorStateInfo_get_nameHash_m453823205 ();
-extern "C" void AnimatorStateInfo_get_shortNameHash_m994885515 ();
-extern "C" void AnimatorStateInfo_get_normalizedTime_m2531821060 ();
-extern "C" void AnimatorStateInfo_get_length_m3147284742 ();
-extern "C" void AnimatorStateInfo_get_speed_m247405833 ();
-extern "C" void AnimatorStateInfo_get_speedMultiplier_m489756842 ();
-extern "C" void AnimatorStateInfo_get_tagHash_m3543262078 ();
-extern "C" void AnimatorStateInfo_IsTag_m119936877 ();
-extern "C" void AnimatorStateInfo_get_loop_m1495892586 ();
-extern "C" void AnimatorTransitionInfo_IsName_m1283663078 ();
-extern "C" void AnimatorTransitionInfo_IsUserName_m2732197659 ();
-extern "C" void AnimatorTransitionInfo_get_fullPathHash_m3335466636 ();
-extern "C" void AnimatorTransitionInfo_get_nameHash_m2102867203 ();
-extern "C" void AnimatorTransitionInfo_get_userNameHash_m249220782 ();
-extern "C" void AnimatorTransitionInfo_get_normalizedTime_m3258684986 ();
-extern "C" void AnimatorTransitionInfo_get_anyState_m3421556405 ();
-extern "C" void AnimatorTransitionInfo_get_entry_m2038132324 ();
-extern "C" void AnimatorTransitionInfo_get_exit_m2568505102 ();
+extern "C" void AnimatorStateInfo_IsName_m1653922768_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_fullPathHash_m3257074542_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_nameHash_m453823205_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_shortNameHash_m994885515_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_normalizedTime_m2531821060_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_length_m3147284742_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_speed_m247405833_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_speedMultiplier_m489756842_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_tagHash_m3543262078_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_IsTag_m119936877_AdjustorThunk ();
+extern "C" void AnimatorStateInfo_get_loop_m1495892586_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_IsName_m1283663078_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_IsUserName_m2732197659_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_fullPathHash_m3335466636_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_nameHash_m2102867203_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_userNameHash_m249220782_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_normalizedTime_m3258684986_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_anyState_m3421556405_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_entry_m2038132324_AdjustorThunk ();
+extern "C" void AnimatorTransitionInfo_get_exit_m2568505102_AdjustorThunk ();
 extern "C" void Application_get_isPlaying_m987993960 ();
 extern "C" void Application_get_isEditor_m1279348309 ();
 extern "C" void Application_get_platform_m2918632856 ();
@@ -7392,7 +7402,8 @@ extern "C" void LogCallback_EndInvoke_m2883514883 ();
 extern "C" void AssemblyIsEditorAssembly__ctor_m582741130 ();
 extern "C" void AssetBundleCreateRequest__ctor_m109192972 ();
 extern "C" void AssetBundleCreateRequest_get_assetBundle_m198975995 ();
-extern "C" void AssetBundleCreateRequest_DisableCompatibilityChecks_m616322731 ();
+extern "C" void AssetBundleCreateRequest_get_compatibilityChecks_m2695878008 ();
+extern "C" void AssetBundleCreateRequest_set_compatibilityChecks_m2361646811 ();
 extern "C" void AssetBundleRequest__ctor_m1736261360 ();
 extern "C" void AssetBundleRequest_get_asset_m1874521436 ();
 extern "C" void AssetBundleRequest_get_allAssets_m2335877586 ();
@@ -7455,20 +7466,20 @@ extern "C" void BitStream_Serialize_m3563231771 ();
 extern "C" void BitStream_get_isReading_m3929869641 ();
 extern "C" void BitStream_get_isWriting_m3632391065 ();
 extern "C" void BitStream_Serialize_m2763015060 ();
-extern "C" void Bounds__ctor_m4160293652 ();
-extern "C" void Bounds_GetHashCode_m3067388679 ();
-extern "C" void Bounds_Equals_m2517451939 ();
-extern "C" void Bounds_get_center_m4084610404 ();
-extern "C" void Bounds_set_center_m2605643707 ();
-extern "C" void Bounds_get_size_m3666348432 ();
-extern "C" void Bounds_set_size_m4109809039 ();
-extern "C" void Bounds_get_extents_m2111648188 ();
-extern "C" void Bounds_set_extents_m2603836823 ();
-extern "C" void Bounds_get_min_m2329472069 ();
-extern "C" void Bounds_get_max_m2329243351 ();
-extern "C" void Bounds_SetMinMax_m2186020994 ();
-extern "C" void Bounds_Encapsulate_m3624685234 ();
-extern "C" void Bounds_ToString_m1795228795 ();
+extern "C" void Bounds__ctor_m4160293652_AdjustorThunk ();
+extern "C" void Bounds_GetHashCode_m3067388679_AdjustorThunk ();
+extern "C" void Bounds_Equals_m2517451939_AdjustorThunk ();
+extern "C" void Bounds_get_center_m4084610404_AdjustorThunk ();
+extern "C" void Bounds_set_center_m2605643707_AdjustorThunk ();
+extern "C" void Bounds_get_size_m3666348432_AdjustorThunk ();
+extern "C" void Bounds_set_size_m4109809039_AdjustorThunk ();
+extern "C" void Bounds_get_extents_m2111648188_AdjustorThunk ();
+extern "C" void Bounds_set_extents_m2603836823_AdjustorThunk ();
+extern "C" void Bounds_get_min_m2329472069_AdjustorThunk ();
+extern "C" void Bounds_get_max_m2329243351_AdjustorThunk ();
+extern "C" void Bounds_SetMinMax_m2186020994_AdjustorThunk ();
+extern "C" void Bounds_Encapsulate_m3624685234_AdjustorThunk ();
+extern "C" void Bounds_ToString_m1795228795_AdjustorThunk ();
 extern "C" void Bounds_op_Equality_m2855966622 ();
 extern "C" void Bounds_op_Inequality_m4292292377 ();
 extern "C" void Camera_get_nearClipPlane_m4074655061 ();
@@ -7518,7 +7529,9 @@ extern "C" void Canvas_get_sortingOrder_m1274160674 ();
 extern "C" void Canvas_set_sortingOrder_m1522807655 ();
 extern "C" void Canvas_get_sortingLayerID_m3425838272 ();
 extern "C" void Canvas_set_sortingLayerID_m2317502469 ();
+extern "C" void Canvas_get_rootCanvas_m3652460242 ();
 extern "C" void Canvas_GetDefaultCanvasMaterial_m1655363178 ();
+extern "C" void Canvas_GetETC1SupportedCanvasMaterial_m91460986 ();
 extern "C" void Canvas_SendWillRenderCanvases_m1768133093 ();
 extern "C" void Canvas_ForceUpdateCanvases_m1970133101 ();
 extern "C" void WillRenderCanvases__ctor_m1509285774 ();
@@ -7546,6 +7559,7 @@ extern "C" void CanvasRenderer_SetMaterial_m1603188579 ();
 extern "C" void CanvasRenderer_set_popMaterialCount_m589784503 ();
 extern "C" void CanvasRenderer_SetPopMaterial_m1315408685 ();
 extern "C" void CanvasRenderer_SetTexture_m137327939 ();
+extern "C" void CanvasRenderer_SetAlphaTexture_m2838514431 ();
 extern "C" void CanvasRenderer_SetMesh_m1150548475 ();
 extern "C" void CanvasRenderer_Clear_m1606508093 ();
 extern "C" void CanvasRenderer_SplitUIVertexStreams_m4126093916 ();
@@ -7579,11 +7593,11 @@ extern "C" void Collision2D_get_transform_m2182628532 ();
 extern "C" void Collision2D_get_gameObject_m718845954 ();
 extern "C" void Collision2D_get_contacts_m4248754423 ();
 extern "C" void Collision2D_get_relativeVelocity_m2960747782 ();
-extern "C" void Color__ctor_m2252924356 ();
-extern "C" void Color__ctor_m103496991 ();
-extern "C" void Color_ToString_m2277845527 ();
-extern "C" void Color_GetHashCode_m170503301 ();
-extern "C" void Color_Equals_m3016668205 ();
+extern "C" void Color__ctor_m2252924356_AdjustorThunk ();
+extern "C" void Color__ctor_m103496991_AdjustorThunk ();
+extern "C" void Color_ToString_m2277845527_AdjustorThunk ();
+extern "C" void Color_GetHashCode_m170503301_AdjustorThunk ();
+extern "C" void Color_Equals_m3016668205_AdjustorThunk ();
 extern "C" void Color_Lerp_m3494628845 ();
 extern "C" void Color_get_red_m4288945411 ();
 extern "C" void Color_get_white_m3038282331 ();
@@ -7592,8 +7606,8 @@ extern "C" void Color_get_clear_m2578346879 ();
 extern "C" void Color_op_Multiply_m204757678 ();
 extern "C" void Color_op_Equality_m4163276884 ();
 extern "C" void Color_op_Implicit_m2638307542 ();
-extern "C" void Color32__ctor_m576906339 ();
-extern "C" void Color32_ToString_m909782902 ();
+extern "C" void Color32__ctor_m576906339_AdjustorThunk ();
+extern "C" void Color32_ToString_m909782902_AdjustorThunk ();
 extern "C" void Color32_op_Implicit_m3684884838 ();
 extern "C" void Color32_op_Implicit_m358459656 ();
 extern "C" void Component__ctor_m4238603388 ();
@@ -7650,6 +7664,11 @@ extern "C" void StateChanged__ctor_m3267025420 ();
 extern "C" void StateChanged_Invoke_m3174530616 ();
 extern "C" void StateChanged_BeginInvoke_m163021837 ();
 extern "C" void StateChanged_EndInvoke_m4182061596 ();
+extern "C" void Cursor_get_lockState_m2795946910 ();
+extern "C" void CustomYieldInstruction__ctor_m2800749531 ();
+extern "C" void CustomYieldInstruction_get_Current_m640561716 ();
+extern "C" void CustomYieldInstruction_MoveNext_m489270227 ();
+extern "C" void CustomYieldInstruction_Reset_m447182472 ();
 extern "C" void Debug__cctor_m37515655 ();
 extern "C" void Debug_get_logger_m275693158 ();
 extern "C" void Debug_Log_m1731103628 ();
@@ -7659,6 +7678,7 @@ extern "C" void Debug_LogException_m248970745 ();
 extern "C" void Debug_LogException_m2264672311 ();
 extern "C" void Debug_LogWarning_m3123317694 ();
 extern "C" void Debug_LogWarning_m4097176146 ();
+extern "C" void Debug_LogWarningFormat_m193815327 ();
 extern "C" void DebugLogHandler__ctor_m1521597024 ();
 extern "C" void DebugLogHandler_Internal_Log_m3731237167 ();
 extern "C" void DebugLogHandler_Internal_LogException_m1007136309 ();
@@ -7674,8 +7694,8 @@ extern "C" void DisplaysUpdatedDelegate__ctor_m3468699627 ();
 extern "C" void DisplaysUpdatedDelegate_Invoke_m3958989829 ();
 extern "C" void DisplaysUpdatedDelegate_BeginInvoke_m3264685798 ();
 extern "C" void DisplaysUpdatedDelegate_EndInvoke_m3466741627 ();
-extern "C" void DrivenRectTransformTracker_Add_m3461523141 ();
-extern "C" void DrivenRectTransformTracker_Clear_m309315364 ();
+extern "C" void DrivenRectTransformTracker_Add_m3461523141_AdjustorThunk ();
+extern "C" void DrivenRectTransformTracker_Clear_m309315364_AdjustorThunk ();
 extern "C" void Event__ctor_m1609448063 ();
 extern "C" void Event__ctor_m66398544 ();
 extern "C" void Event_Finalize_m2449826179 ();
@@ -7755,53 +7775,128 @@ extern "C" void UnityEventBase_Invoke_m3681078084 ();
 extern "C" void UnityEventBase_ToString_m249191135 ();
 extern "C" void UnityEventBase_GetValidMethodInfo_m2325301202 ();
 extern "C" void ExecuteInEditMode__ctor_m1394231890 ();
-extern "C" void Playable__ctor_m2241556995 ();
-extern "C" void Playable__ctor_m3752126010 ();
-extern "C" void Playable_Dispose_m2747727607 ();
-extern "C" void Playable_GetUniqueIDInternal_m1016415712 ();
-extern "C" void Playable_Connect_m622693985 ();
+extern "C" void AnimationPlayable_get_node_m3540398430_AdjustorThunk ();
+extern "C" void AnimationPlayable_AddInput_m522981513_AdjustorThunk ();
+extern "C" void AnimationPlayable_SetInput_m3182409941_AdjustorThunk ();
+extern "C" void AnimationPlayable_SetInputs_m2769494846_AdjustorThunk ();
+extern "C" void AnimationPlayable_RemoveInput_m2864857726_AdjustorThunk ();
+extern "C" void AnimationPlayable_RemoveAllInputs_m624300749_AdjustorThunk ();
+extern "C" void AnimationPlayable_Equals_m758693402_AdjustorThunk ();
+extern "C" void AnimationPlayable_GetHashCode_m1995312370_AdjustorThunk ();
+extern "C" void AnimationPlayable_IsValid_m3295368185_AdjustorThunk ();
+extern "C" void AnimationPlayable_get_inputCount_m3625682607_AdjustorThunk ();
+extern "C" void AnimationPlayable_GetInput_m1254613720_AdjustorThunk ();
+extern "C" void AnimationPlayable_op_Implicit_m679995841 ();
+extern "C" void AnimationPlayableUtilities_AddInputValidated_m580261089 ();
+extern "C" void AnimationPlayableUtilities_SetInputValidated_m2322495521 ();
+extern "C" void AnimationPlayableUtilities_SetInputsValidated_m1364271782 ();
+extern "C" void AnimationPlayableUtilities_RemoveInputValidated_m1233499216 ();
+extern "C" void AnimationPlayableUtilities_RemoveAllInputsValidated_m870139853 ();
+extern "C" void AnimatorControllerPlayable_get_node_m3242771325_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_Equals_m3639847979_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_GetHashCode_m3116606223_AdjustorThunk ();
+extern "C" void AnimatorControllerPlayable_op_Implicit_m10207343 ();
+extern "C" void CustomAnimationPlayable__ctor_m3236254932 ();
+extern "C" void CustomAnimationPlayable_get_node_m987475821 ();
+extern "C" void CustomAnimationPlayable_SetHandle_m3182957115 ();
+extern "C" void CustomAnimationPlayable_Destroy_m2118830892 ();
+extern "C" void CustomAnimationPlayable_PrepareFrame_m159894296 ();
+extern "C" void CustomAnimationPlayable_OnSetTime_m2716909577 ();
+extern "C" void CustomAnimationPlayable_OnSetPlayState_m1231532734 ();
+extern "C" void CustomAnimationPlayable_get_inputCount_m1582109438 ();
+extern "C" void CustomAnimationPlayable_GetInput_m301843047 ();
+extern "C" void CustomAnimationPlayable_get_outputCount_m458643767 ();
+extern "C" void CustomAnimationPlayable_GetOutput_m4116503080 ();
+extern "C" void CustomAnimationPlayable_GetInputWeight_m4148655265 ();
+extern "C" void CustomAnimationPlayable_SetInputWeight_m1269015238 ();
+extern "C" void CustomAnimationPlayable_get_state_m2235187075 ();
+extern "C" void CustomAnimationPlayable_set_state_m1222744546 ();
+extern "C" void CustomAnimationPlayable_get_time_m3450542115 ();
+extern "C" void CustomAnimationPlayable_set_time_m1309743400 ();
+extern "C" void CustomAnimationPlayable_get_duration_m3156322986 ();
+extern "C" void CustomAnimationPlayable_set_duration_m406084993 ();
+extern "C" void CustomAnimationPlayable_AddInput_m4182892888 ();
+extern "C" void CustomAnimationPlayable_SetInput_m120417254 ();
+extern "C" void CustomAnimationPlayable_SetInputs_m491446927 ();
+extern "C" void CustomAnimationPlayable_RemoveInput_m4082440847 ();
+extern "C" void CustomAnimationPlayable_RemoveAllInputs_m3435563998 ();
+extern "C" void CustomAnimationPlayable_op_Implicit_m2643963169 ();
+extern "C" void CustomAnimationPlayable_op_Implicit_m1020808859 ();
+extern "C" void GenericMixerPlayable_get_node_m1524549772_AdjustorThunk ();
+extern "C" void GenericMixerPlayable_Create_m2197665611 ();
+extern "C" void GenericMixerPlayable_InternalCreate_m1179042611 ();
+extern "C" void GenericMixerPlayable_Destroy_m153858505_AdjustorThunk ();
+extern "C" void GenericMixerPlayable_op_Implicit_m2273972689 ();
+extern "C" void Playable_Destroy_m3991820443_AdjustorThunk ();
+extern "C" void Playable_IsValid_m4190676077_AdjustorThunk ();
+extern "C" void Playable_IsValidInternal_m1664100387 ();
+extern "C" void Playable_INTERNAL_CALL_IsValidInternal_m576585442 ();
 extern "C" void Playable_Connect_m1578187905 ();
 extern "C" void Playable_Disconnect_m3811503323 ();
-extern "C" void Playable_ReleaseEnginePlayable_m2094169144 ();
-extern "C" void Playable_InstantiateEnginePlayable_m3931021595 ();
-extern "C" void Playable_GenerateUniqueId_m3980506242 ();
-extern "C" void Playable_SetInputWeightInternal_m3751861498 ();
-extern "C" void Playable_GetInputWeightInternal_m2277506695 ();
-extern "C" void Playable_get_time_m4261299130 ();
-extern "C" void Playable_set_time_m4095539287 ();
-extern "C" void Playable_get_state_m3392280896 ();
-extern "C" void Playable_set_state_m2851443923 ();
-extern "C" void Playable_ConnectInternal_m3467855684 ();
-extern "C" void Playable_DisconnectInternal_m216904862 ();
-extern "C" void Playable_GetInput_m777009268 ();
-extern "C" void Playable_GetInputs_m1899129588 ();
-extern "C" void Playable_get_inputCount_m3038792623 ();
-extern "C" void Playable_get_outputCount_m2666149542 ();
-extern "C" void Playable_ClearInputs_m4141811767 ();
-extern "C" void Playable_GetOutput_m1666786747 ();
-extern "C" void Playable_GetOutputs_m3506315017 ();
-extern "C" void Playable_GetInputsInternal_m2169096151 ();
-extern "C" void Playable_GetOutputsInternal_m891872506 ();
-extern "C" void Playable_Finalize_m175426431 ();
-extern "C" void Playable_Dispose_m2255939968 ();
-extern "C" void Playable_Equals_m1149042830 ();
-extern "C" void Playable_GetHashCode_m3165087730 ();
-extern "C" void Playable_CompareIntPtr_m2113594311 ();
-extern "C" void Playable_IsNativePlayableAlive_m1365031800 ();
-extern "C" void Playable_CheckPlayableValidity_m2318405566 ();
-extern "C" void Playable_CheckInputBounds_m1883207375 ();
-extern "C" void Playable_CheckInputBounds_m3596125390 ();
-extern "C" void Playable_GetInputWeight_m837530218 ();
-extern "C" void Playable_SetInputWeight_m2698917277 ();
-extern "C" void Playable_GetInputs_m1527871507 ();
-extern "C" void Playable_GetOutputs_m3459436598 ();
-extern "C" void Playable_PrepareFrame_m497491591 ();
-extern "C" void Playable_ProcessFrame_m2039333501 ();
-extern "C" void Playable_OnSetTime_m3177236154 ();
-extern "C" void Playable_OnSetPlayState_m3539986029 ();
-extern "C" void Playable_op_Equality_m3091846835 ();
-extern "C" void Playable_op_Inequality_m3181167342 ();
-extern "C" void Playable_op_Implicit_m2513159357 ();
+extern "C" void Playable_get_inputCount_m3038792623_AdjustorThunk ();
+extern "C" void Playable_get_outputCount_m2666149542_AdjustorThunk ();
+extern "C" void Playable_get_state_m3392280896_AdjustorThunk ();
+extern "C" void Playable_set_state_m2851443923_AdjustorThunk ();
+extern "C" void Playable_get_time_m4261299130_AdjustorThunk ();
+extern "C" void Playable_set_time_m4095539287_AdjustorThunk ();
+extern "C" void Playable_GetPlayStateInternal_m1502071519 ();
+extern "C" void Playable_INTERNAL_CALL_GetPlayStateInternal_m1885336768 ();
+extern "C" void Playable_SetPlayStateInternal_m1327718134 ();
+extern "C" void Playable_INTERNAL_CALL_SetPlayStateInternal_m387121047 ();
+extern "C" void Playable_GetTimeInternal_m4145233711 ();
+extern "C" void Playable_INTERNAL_CALL_GetTimeInternal_m2681702190 ();
+extern "C" void Playable_SetTimeInternal_m3597934204 ();
+extern "C" void Playable_INTERNAL_CALL_SetTimeInternal_m272098683 ();
+extern "C" void Playable_get_duration_m4046926529_AdjustorThunk ();
+extern "C" void Playable_set_duration_m164564272_AdjustorThunk ();
+extern "C" void Playable_GetDurationInternal_m31704136 ();
+extern "C" void Playable_INTERNAL_CALL_GetDurationInternal_m2671113415 ();
+extern "C" void Playable_SetDurationInternal_m1327518549 ();
+extern "C" void Playable_INTERNAL_CALL_SetDurationInternal_m3818554068 ();
+extern "C" void Playable_GetInputCountInternal_m3587540212 ();
+extern "C" void Playable_INTERNAL_CALL_GetInputCountInternal_m3535592179 ();
+extern "C" void Playable_GetOutputCountInternal_m3807774807 ();
+extern "C" void Playable_INTERNAL_CALL_GetOutputCountInternal_m2197385784 ();
+extern "C" void Playable_GetInputs_m1899129588_AdjustorThunk ();
+extern "C" void Playable_GetInput_m777009268_AdjustorThunk ();
+extern "C" void Playable_GetInputInternal_m3090485450 ();
+extern "C" void Playable_INTERNAL_CALL_GetInputInternal_m4091069890 ();
+extern "C" void Playable_GetOutput_m1666786747_AdjustorThunk ();
+extern "C" void Playable_GetOutputInternal_m2061023377 ();
+extern "C" void Playable_INTERNAL_CALL_GetOutputInternal_m382403975 ();
+extern "C" void Playable_SetInputWeightFromIndexInternal_m1604381493 ();
+extern "C" void Playable_INTERNAL_CALL_SetInputWeightFromIndexInternal_m3111770262 ();
+extern "C" void Playable_SetInputWeight_m2698917277_AdjustorThunk ();
+extern "C" void Playable_GetInputWeight_m837530218_AdjustorThunk ();
+extern "C" void Playable_GetInputWeightInternal_m681352128 ();
+extern "C" void Playable_INTERNAL_CALL_GetInputWeightInternal_m662708863 ();
+extern "C" void Playable_Equals_m1149042830_AdjustorThunk ();
+extern "C" void Playable_GetHashCode_m3165087730_AdjustorThunk ();
+extern "C" void Playable_CheckInputBounds_m1883207375_AdjustorThunk ();
+extern "C" void Playable_CheckInputBounds_m3596125390_AdjustorThunk ();
+extern "C" void Playables_CastToInternal_m3521890406 ();
+extern "C" void Playables_InternalDestroy_m3949572482 ();
+extern "C" void Playables_INTERNAL_CALL_InternalDestroy_m1453669761 ();
+extern "C" void Playables_ConnectInternal_m267734425 ();
+extern "C" void Playables_INTERNAL_CALL_ConnectInternal_m524648664 ();
+extern "C" void Playables_DisconnectInternal_m4214943703 ();
+extern "C" void Playables_INTERNAL_CALL_DisconnectInternal_m624205270 ();
+extern "C" void Playables_CheckInputBounds_m2114632179 ();
+extern "C" void Playables_IsValid_m2470091365 ();
+extern "C" void Playables_GetInputCountValidated_m1590651641 ();
+extern "C" void Playables_GetOutputCountValidated_m708466518 ();
+extern "C" void Playables_GetPlayStateValidated_m1788069712 ();
+extern "C" void Playables_SetPlayStateValidated_m2009824181 ();
+extern "C" void Playables_GetTimeValidated_m2484996622 ();
+extern "C" void Playables_SetTimeValidated_m778916929 ();
+extern "C" void Playables_GetDurationValidated_m2822701863 ();
+extern "C" void Playables_SetDurationValidated_m2881460762 ();
+extern "C" void Playables_GetInputValidated_m176010709 ();
+extern "C" void Playables_GetOutputValidated_m70115406 ();
+extern "C" void Playables_SetInputWeightValidated_m799805684 ();
+extern "C" void Playables_GetInputWeightValidated_m870617231 ();
+extern "C" void Playables_Equals_m2773836346 ();
+extern "C" void ScriptPlayable__ctor_m2840346104 ();
 extern "C" void Font_add_textureRebuilt_m3323945916 ();
 extern "C" void Font_remove_textureRebuilt_m2804643593 ();
 extern "C" void Font_get_material_m2407307367 ();
@@ -7909,6 +8004,7 @@ extern "C" void GUISettings_get_selectionColor_m3945610946 ();
 extern "C" void GUISettings_Internal_GetCursorFlashSpeed_m2094683006 ();
 extern "C" void GUISkin__ctor_m3819836417 ();
 extern "C" void GUISkin_OnEnable_m3659769829 ();
+extern "C" void GUISkin_CleanupRoots_m3660939120 ();
 extern "C" void GUISkin_get_font_m4064925714 ();
 extern "C" void GUISkin_set_font_m2298219977 ();
 extern "C" void GUISkin_get_box_m3284280323 ();
@@ -7969,6 +8065,7 @@ extern "C" void GUIStyle__ctor_m478034167 ();
 extern "C" void GUIStyle__ctor_m584655914 ();
 extern "C" void GUIStyle__cctor_m1452061078 ();
 extern "C" void GUIStyle_Finalize_m3401789451 ();
+extern "C" void GUIStyle_CleanupRoots_m2484468154 ();
 extern "C" void GUIStyle_InternalOnAfterDeserialize_m1012732492 ();
 extern "C" void GUIStyle_get_normal_m42729964 ();
 extern "C" void GUIStyle_set_normal_m3590268413 ();
@@ -8026,8 +8123,10 @@ extern "C" void GUIStyle_Cleanup_m2498094777 ();
 extern "C" void GUIStyle_get_name_m4046186628 ();
 extern "C" void GUIStyle_set_name_m4125925261 ();
 extern "C" void GUIStyle_GetStyleStatePtr_m2550872619 ();
+extern "C" void GUIStyle_INTERNAL_CALL_GetStyleStatePtr_m962079390 ();
 extern "C" void GUIStyle_AssignStyleState_m4030196091 ();
 extern "C" void GUIStyle_GetRectOffsetPtr_m1931607252 ();
+extern "C" void GUIStyle_INTERNAL_CALL_GetRectOffsetPtr_m3917515975 ();
 extern "C" void GUIStyle_AssignRectOffset_m519705394 ();
 extern "C" void GUIStyle_get_imagePosition_m3876152522 ();
 extern "C" void GUIStyle_set_imagePosition_m1689669769 ();
@@ -8098,6 +8197,7 @@ extern "C" void GUIStyleState_INTERNAL_set_textColor_m2711899875 ();
 extern "C" void GUITargetAttribute_GetGUITargetAttrValue_m1884776752 ();
 extern "C" void GUIUtility__cctor_m2712534225 ();
 extern "C" void GUIUtility_get_pixelsPerPoint_m2351352349 ();
+extern "C" void GUIUtility_set_guiIsExiting_m442089339 ();
 extern "C" void GUIUtility_get_hotControl_m4135893409 ();
 extern "C" void GUIUtility_GetDefaultSkin_m3151786562 ();
 extern "C" void GUIUtility_BeginGUI_m1799121707 ();
@@ -8112,6 +8212,12 @@ extern "C" void GUIUtility_set_systemCopyBuffer_m2088074937 ();
 extern "C" void GUIUtility_Internal_GetDefaultSkin_m1795114979 ();
 extern "C" void GUIUtility_Internal_ExitGUI_m725832131 ();
 extern "C" void GUIUtility_Internal_GetGUIDepth_m2619692036 ();
+extern "C" void Hash128__ctor_m425960966_AdjustorThunk ();
+extern "C" void Hash128_ToString_m1757027933_AdjustorThunk ();
+extern "C" void Hash128_Internal_Hash128ToString_m956268818 ();
+extern "C" void Hash128_Equals_m3805193063_AdjustorThunk ();
+extern "C" void Hash128_GetHashCode_m3551754047_AdjustorThunk ();
+extern "C" void Hash128_op_Equality_m784872782 ();
 extern "C" void HideInInspector__ctor_m1076518313 ();
 extern "C" void HostData__ctor_m2522227771 ();
 extern "C" void HostData_get_useNat_m4254429010 ();
@@ -8134,10 +8240,10 @@ extern "C" void HostData_get_comment_m2806883628 ();
 extern "C" void HostData_set_comment_m3861418087 ();
 extern "C" void HostData_get_guid_m4094499646 ();
 extern "C" void HostData_set_guid_m3576769299 ();
-extern "C" void HumanBone_get_boneName_m4281149553 ();
-extern "C" void HumanBone_set_boneName_m2758161818 ();
-extern "C" void HumanBone_get_humanName_m1702517944 ();
-extern "C" void HumanBone_set_humanName_m1186126593 ();
+extern "C" void HumanBone_get_boneName_m4281149553_AdjustorThunk ();
+extern "C" void HumanBone_set_boneName_m2758161818_AdjustorThunk ();
+extern "C" void HumanBone_get_humanName_m1702517944_AdjustorThunk ();
+extern "C" void HumanBone_set_humanName_m1186126593_AdjustorThunk ();
 extern "C" void IL2CPPStructAlignmentAttribute__ctor_m55581643 ();
 extern "C" void Input__cctor_m1327041086 ();
 extern "C" void Input_GetAxisRaw_m1900207208 ();
@@ -8151,6 +8257,7 @@ extern "C" void Input_get_mouseScrollDelta_m3050122505 ();
 extern "C" void Input_INTERNAL_get_mouseScrollDelta_m2726147504 ();
 extern "C" void Input_get_mousePresent_m3235491246 ();
 extern "C" void Input_GetTouch_m2282421092 ();
+extern "C" void Input_INTERNAL_CALL_GetTouch_m1845826650 ();
 extern "C" void Input_get_touchCount_m1430909390 ();
 extern "C" void Input_get_touchSupported_m634162567 ();
 extern "C" void Input_set_imeCompositionMode_m1719849947 ();
@@ -8231,18 +8338,18 @@ extern "C" void RemoteNotification_get_soundName_m2635372199 ();
 extern "C" void RemoteNotification_get_userInfo_m4136631987 ();
 extern "C" void RemoteNotification_Destroy_m570710259 ();
 extern "C" void RemoteNotification_Finalize_m1495193127 ();
-extern "C" void Keyframe__ctor_m2655645489 ();
-extern "C" void Keyframe__ctor_m3412708539 ();
-extern "C" void Keyframe_get_time_m1367974951 ();
-extern "C" void Keyframe_set_time_m2674731900 ();
-extern "C" void Keyframe_get_value_m1003136441 ();
-extern "C" void Keyframe_set_value_m2735107322 ();
-extern "C" void Keyframe_get_inTangent_m2236973672 ();
-extern "C" void Keyframe_set_inTangent_m1264152747 ();
-extern "C" void Keyframe_get_outTangent_m2520753969 ();
-extern "C" void Keyframe_set_outTangent_m4071134898 ();
-extern "C" void Keyframe_get_tangentMode_m1245220572 ();
-extern "C" void Keyframe_set_tangentMode_m2444824761 ();
+extern "C" void Keyframe__ctor_m2655645489_AdjustorThunk ();
+extern "C" void Keyframe__ctor_m3412708539_AdjustorThunk ();
+extern "C" void Keyframe_get_time_m1367974951_AdjustorThunk ();
+extern "C" void Keyframe_set_time_m2674731900_AdjustorThunk ();
+extern "C" void Keyframe_get_value_m1003136441_AdjustorThunk ();
+extern "C" void Keyframe_set_value_m2735107322_AdjustorThunk ();
+extern "C" void Keyframe_get_inTangent_m2236973672_AdjustorThunk ();
+extern "C" void Keyframe_set_inTangent_m1264152747_AdjustorThunk ();
+extern "C" void Keyframe_get_outTangent_m2520753969_AdjustorThunk ();
+extern "C" void Keyframe_set_outTangent_m4071134898_AdjustorThunk ();
+extern "C" void Keyframe_get_tangentMode_m1245220572_AdjustorThunk ();
+extern "C" void Keyframe_set_tangentMode_m2444824761_AdjustorThunk ();
 extern "C" void LayerMask_op_Implicit_m1595580047 ();
 extern "C" void LayerMask_op_Implicit_m2608572187 ();
 extern "C" void Logger__ctor_m654679389 ();
@@ -8299,37 +8406,49 @@ extern "C" void Mathf_Approximately_m1395529776 ();
 extern "C" void Mathf_SmoothDamp_m779170481 ();
 extern "C" void Mathf_Repeat_m3424250200 ();
 extern "C" void Mathf_InverseLerp_m152689993 ();
-extern "C" void Matrix4x4_get_Item_m2279862332 ();
-extern "C" void Matrix4x4_get_Item_m1280478331 ();
-extern "C" void Matrix4x4_GetHashCode_m4083477721 ();
-extern "C" void Matrix4x4_Equals_m3534208385 ();
-extern "C" void Matrix4x4_GetColumn_m786071102 ();
-extern "C" void Matrix4x4_MultiplyPoint3x4_m2198174902 ();
-extern "C" void Matrix4x4_ToString_m294134723 ();
+extern "C" void Matrix4x4_get_Item_m2279862332_AdjustorThunk ();
+extern "C" void Matrix4x4_get_Item_m1280478331_AdjustorThunk ();
+extern "C" void Matrix4x4_GetHashCode_m4083477721_AdjustorThunk ();
+extern "C" void Matrix4x4_Equals_m3534208385_AdjustorThunk ();
+extern "C" void Matrix4x4_GetColumn_m786071102_AdjustorThunk ();
+extern "C" void Matrix4x4_MultiplyPoint3x4_m2198174902_AdjustorThunk ();
+extern "C" void Matrix4x4_ToString_m294134723_AdjustorThunk ();
 extern "C" void Mesh__ctor_m2684203808 ();
 extern "C" void Mesh_Internal_Create_m3749730360 ();
 extern "C" void Mesh_Clear_m1789068674 ();
 extern "C" void Mesh_Clear_m90337099 ();
+extern "C" void Mesh_get_canAccess_m3042962979 ();
+extern "C" void Mesh_PrintErrorCantAccessMesh_m548718398 ();
+extern "C" void Mesh_PrintErrorCantAccessMeshForIndices_m2814194066 ();
+extern "C" void Mesh_PrintErrorBadSubmeshIndexTriangles_m3501404064 ();
+extern "C" void Mesh_PrintErrorBadSubmeshIndexIndices_m3296825820 ();
+extern "C" void Mesh_SetArrayForChannelImpl_m1509779596 ();
+extern "C" void Mesh_GetAllocArrayFromChannelImpl_m3495880964 ();
+extern "C" void Mesh_HasChannel_m1377438973 ();
+extern "C" void Mesh_ExtractArrayFromList_m2300152603 ();
+extern "C" void Mesh_GetIndicesImpl_m2338120260 ();
+extern "C" void Mesh_SetTrianglesImpl_m3687620564 ();
+extern "C" void Mesh_SetTriangles_m456382467 ();
+extern "C" void Mesh_SetTriangles_m2073498906 ();
+extern "C" void Mesh_RecalculateBounds_m3754336742 ();
+extern "C" void Mesh_get_subMeshCount_m4159827535 ();
+extern "C" void Mesh_GetUVChannel_m584432922 ();
+extern "C" void Mesh_DefaultDimensionForChannel_m1889643149 ();
+extern "C" void Mesh_SetSizedArrayForChannel_m2551235175 ();
 extern "C" void Mesh_get_vertices_m3685486174 ();
-extern "C" void Mesh_SetVertices_m701834806 ();
-extern "C" void Mesh_SetVerticesInternal_m1274639230 ();
 extern "C" void Mesh_get_normals_m3396909641 ();
-extern "C" void Mesh_SetNormals_m2039144779 ();
-extern "C" void Mesh_SetNormalsInternal_m1710845385 ();
 extern "C" void Mesh_get_tangents_m3235865682 ();
-extern "C" void Mesh_SetTangents_m2005345740 ();
-extern "C" void Mesh_SetTangentsInternal_m763303177 ();
 extern "C" void Mesh_get_uv_m558008935 ();
 extern "C" void Mesh_get_uv2_m118417421 ();
-extern "C" void Mesh_ExtractListData_m2453560898 ();
-extern "C" void Mesh_SetUVsInternal_m4014622176 ();
-extern "C" void Mesh_SetUVs_m116216925 ();
 extern "C" void Mesh_get_colors32_m192356802 ();
+extern "C" void Mesh_SetVertices_m701834806 ();
+extern "C" void Mesh_SetNormals_m2039144779 ();
+extern "C" void Mesh_SetTangents_m2005345740 ();
 extern "C" void Mesh_SetColors_m3313707935 ();
-extern "C" void Mesh_SetColors32Internal_m1830241000 ();
-extern "C" void Mesh_RecalculateBounds_m3754336742 ();
-extern "C" void Mesh_SetTriangles_m456382467 ();
-extern "C" void Mesh_SetTrianglesInternal_m2955775213 ();
+extern "C" void Mesh_SetUVs_m116216925 ();
+extern "C" void Mesh_CheckCanAccessSubmesh_m3375419187 ();
+extern "C" void Mesh_CheckCanAccessSubmeshTriangles_m1968826789 ();
+extern "C" void Mesh_CheckCanAccessSubmeshIndices_m3478679265 ();
 extern "C" void Mesh_GetIndices_m637494532 ();
 extern "C" void MonoBehaviour__ctor_m2022291967 ();
 extern "C" void MonoBehaviour_Internal_CancelInvokeAll_m972795186 ();
@@ -8353,11 +8472,115 @@ extern "C" void MonoBehaviour_StopAllCoroutines_m1437893335 ();
 extern "C" void MonoBehaviour_print_m1497342762 ();
 extern "C" void MonoBehaviour_get_useGUILayout_m4058409766 ();
 extern "C" void MonoBehaviour_set_useGUILayout_m589898551 ();
-extern "C" void NetworkMessageInfo_get_timestamp_m3597535726 ();
-extern "C" void NetworkMessageInfo_get_sender_m2720861079 ();
-extern "C" void NetworkMessageInfo_get_networkView_m221874487 ();
-extern "C" void NetworkMessageInfo_NullNetworkView_m516412409 ();
-extern "C" void NetworkPlayer__ctor_m978047135 ();
+extern "C" void DownloadHandler__ctor_m2530543973 ();
+extern "C" void DownloadHandler_InternalCreateBuffer_m90273976 ();
+extern "C" void DownloadHandler_InternalCreateTexture_m3794532220 ();
+extern "C" void DownloadHandler_InternalCreateAssetBundle_m2968064314 ();
+extern "C" void DownloadHandler_InternalCreateAssetBundle_m4164801108 ();
+extern "C" void DownloadHandler_INTERNAL_CALL_InternalCreateAssetBundle_m900957164 ();
+extern "C" void DownloadHandler_InternalCreateAudioClip_m3659398341 ();
+extern "C" void DownloadHandler_InternalDestroy_m2735807296 ();
+extern "C" void DownloadHandler_Finalize_m2272026845 ();
+extern "C" void DownloadHandler_Dispose_m799551586 ();
+extern "C" void DownloadHandlerAssetBundle__ctor_m1343790375 ();
+extern "C" void DownloadHandlerAssetBundle__ctor_m3076523803 ();
+extern "C" void DownloadHandlerAssetBundle__ctor_m3772065217 ();
+extern "C" void DownloadHandlerAudioClip__ctor_m2530782554 ();
+extern "C" void DownloadHandlerBuffer__ctor_m890192773 ();
+extern "C" void DownloadHandlerTexture__ctor_m1620444605 ();
+extern "C" void UnityWebRequest__ctor_m1876705495 ();
+extern "C" void UnityWebRequest__ctor_m800174987 ();
+extern "C" void UnityWebRequest__ctor_m2883079303 ();
+extern "C" void UnityWebRequest__ctor_m3561636576 ();
+extern "C" void UnityWebRequest__cctor_m1861199286 ();
+extern "C" void UnityWebRequest_Get_m242769177 ();
+extern "C" void UnityWebRequest_Delete_m263716936 ();
+extern "C" void UnityWebRequest_Head_m587951091 ();
+extern "C" void UnityWebRequest_GetTexture_m3181785294 ();
+extern "C" void UnityWebRequest_GetTexture_m1775545583 ();
+extern "C" void UnityWebRequest_GetAudioClip_m1644470838 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m3001500023 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m3192971115 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m1397031519 ();
+extern "C" void UnityWebRequest_GetAssetBundle_m3405356549 ();
+extern "C" void UnityWebRequest_Put_m2257537347 ();
+extern "C" void UnityWebRequest_Put_m20375676 ();
+extern "C" void UnityWebRequest_Post_m1220303919 ();
+extern "C" void UnityWebRequest_Post_m1253059835 ();
+extern "C" void UnityWebRequest_Post_m2284933306 ();
+extern "C" void UnityWebRequest_Post_m1323437117 ();
+extern "C" void UnityWebRequest_Post_m3509843812 ();
+extern "C" void UnityWebRequest_SerializeFormSections_m1305467155 ();
+extern "C" void UnityWebRequest_GenerateBoundary_m3873910070 ();
+extern "C" void UnityWebRequest_SerializeSimpleForm_m302816210 ();
+extern "C" void UnityWebRequest_get_disposeDownloadHandlerOnDispose_m2347066627 ();
+extern "C" void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4263077100 ();
+extern "C" void UnityWebRequest_get_disposeUploadHandlerOnDispose_m2617950012 ();
+extern "C" void UnityWebRequest_set_disposeUploadHandlerOnDispose_m3879152613 ();
+extern "C" void UnityWebRequest_InternalCreate_m2803869286 ();
+extern "C" void UnityWebRequest_InternalDestroy_m2409049138 ();
+extern "C" void UnityWebRequest_InternalSetDefaults_m2130746124 ();
+extern "C" void UnityWebRequest_Finalize_m1446616107 ();
+extern "C" void UnityWebRequest_Dispose_m3820966740 ();
+extern "C" void UnityWebRequest_InternalBegin_m3730330388 ();
+extern "C" void UnityWebRequest_InternalAbort_m2162080680 ();
+extern "C" void UnityWebRequest_Send_m3727536514 ();
+extern "C" void UnityWebRequest_Abort_m1526250789 ();
+extern "C" void UnityWebRequest_InternalSetMethod_m2772078444 ();
+extern "C" void UnityWebRequest_InternalSetCustomMethod_m1516182 ();
+extern "C" void UnityWebRequest_InternalGetMethod_m3295898255 ();
+extern "C" void UnityWebRequest_InternalGetCustomMethod_m1233973213 ();
+extern "C" void UnityWebRequest_get_method_m2179159226 ();
+extern "C" void UnityWebRequest_set_method_m1722009751 ();
+extern "C" void UnityWebRequest_InternalGetError_m2798049916 ();
+extern "C" void UnityWebRequest_get_error_m3454762737 ();
+extern "C" void UnityWebRequest_get_useHttpContinue_m1179324476 ();
+extern "C" void UnityWebRequest_set_useHttpContinue_m2050235493 ();
+extern "C" void UnityWebRequest_get_url_m2722270872 ();
+extern "C" void UnityWebRequest_set_url_m2069928379 ();
+extern "C" void UnityWebRequest_InternalGetUrl_m3811648454 ();
+extern "C" void UnityWebRequest_InternalSetUrl_m786692491 ();
+extern "C" void UnityWebRequest_get_responseCode_m3154397829 ();
+extern "C" void UnityWebRequest_get_uploadProgress_m3424452368 ();
+extern "C" void UnityWebRequest_get_isModifiable_m1721967914 ();
+extern "C" void UnityWebRequest_get_isDone_m3067820008 ();
+extern "C" void UnityWebRequest_get_isError_m1590593988 ();
+extern "C" void UnityWebRequest_get_downloadProgress_m2117726359 ();
+extern "C" void UnityWebRequest_get_uploadedBytes_m320219387 ();
+extern "C" void UnityWebRequest_get_downloadedBytes_m835542676 ();
+extern "C" void UnityWebRequest_get_redirectLimit_m800465451 ();
+extern "C" void UnityWebRequest_set_redirectLimit_m1472631432 ();
+extern "C" void UnityWebRequest_get_chunkedTransfer_m3211590493 ();
+extern "C" void UnityWebRequest_set_chunkedTransfer_m3848763846 ();
+extern "C" void UnityWebRequest_GetRequestHeader_m3609839564 ();
+extern "C" void UnityWebRequest_InternalSetRequestHeader_m2365080026 ();
+extern "C" void UnityWebRequest_SetRequestHeader_m704789911 ();
+extern "C" void UnityWebRequest_GetResponseHeader_m2057835244 ();
+extern "C" void UnityWebRequest_InternalGetResponseHeaderKeys_m3036141519 ();
+extern "C" void UnityWebRequest_GetResponseHeaders_m3107028988 ();
+extern "C" void UnityWebRequest_get_uploadHandler_m1049527436 ();
+extern "C" void UnityWebRequest_set_uploadHandler_m2165710363 ();
+extern "C" void UnityWebRequest_get_downloadHandler_m2799190910 ();
+extern "C" void UnityWebRequest_set_downloadHandler_m1376606139 ();
+extern "C" void UnityWebRequest_ContainsForbiddenCharacters_m630797512 ();
+extern "C" void UnityWebRequest_IsHeaderNameLegal_m1178792156 ();
+extern "C" void UnityWebRequest_IsHeaderValueLegal_m2225854992 ();
+extern "C" void UnityWebRequest_GetErrorDescription_m2694082268 ();
+extern "C" void UploadHandler__ctor_m4145774046 ();
+extern "C" void UploadHandler_InternalCreateRaw_m3364909982 ();
+extern "C" void UploadHandler_InternalDestroy_m3840871545 ();
+extern "C" void UploadHandler_Finalize_m777547204 ();
+extern "C" void UploadHandler_Dispose_m2552457883 ();
+extern "C" void UploadHandler_set_contentType_m3087243632 ();
+extern "C" void UploadHandler_SetContentType_m1034215851 ();
+extern "C" void UploadHandlerRaw__ctor_m1657900425 ();
+extern "C" void UploadHandlerRaw_InternalSetContentType_m4172044752 ();
+extern "C" void UploadHandlerRaw_SetContentType_m2065574029 ();
+extern "C" void NetworkMessageInfo_get_timestamp_m3597535726_AdjustorThunk ();
+extern "C" void NetworkMessageInfo_get_sender_m2720861079_AdjustorThunk ();
+extern "C" void NetworkMessageInfo_get_networkView_m221874487_AdjustorThunk ();
+extern "C" void NetworkMessageInfo_NullNetworkView_m516412409_AdjustorThunk ();
+extern "C" void NetworkPlayer__ctor_m978047135_AdjustorThunk ();
 extern "C" void NetworkPlayer_Internal_GetIPAddress_m2705922677 ();
 extern "C" void NetworkPlayer_Internal_GetPort_m2646691040 ();
 extern "C" void NetworkPlayer_Internal_GetExternalIP_m4147820797 ();
@@ -8367,14 +8590,14 @@ extern "C" void NetworkPlayer_Internal_GetLocalPort_m4290647008 ();
 extern "C" void NetworkPlayer_Internal_GetPlayerIndex_m1155344837 ();
 extern "C" void NetworkPlayer_Internal_GetGUID_m82698821 ();
 extern "C" void NetworkPlayer_Internal_GetLocalGUID_m668021995 ();
-extern "C" void NetworkPlayer_GetHashCode_m2832997817 ();
-extern "C" void NetworkPlayer_Equals_m1380117345 ();
-extern "C" void NetworkPlayer_get_ipAddress_m206939407 ();
-extern "C" void NetworkPlayer_get_port_m4260923428 ();
-extern "C" void NetworkPlayer_get_guid_m1193250345 ();
-extern "C" void NetworkPlayer_ToString_m4115863651 ();
-extern "C" void NetworkPlayer_get_externalIP_m420672594 ();
-extern "C" void NetworkPlayer_get_externalPort_m2392166863 ();
+extern "C" void NetworkPlayer_GetHashCode_m2832997817_AdjustorThunk ();
+extern "C" void NetworkPlayer_Equals_m1380117345_AdjustorThunk ();
+extern "C" void NetworkPlayer_get_ipAddress_m206939407_AdjustorThunk ();
+extern "C" void NetworkPlayer_get_port_m4260923428_AdjustorThunk ();
+extern "C" void NetworkPlayer_get_guid_m1193250345_AdjustorThunk ();
+extern "C" void NetworkPlayer_ToString_m4115863651_AdjustorThunk ();
+extern "C" void NetworkPlayer_get_externalIP_m420672594_AdjustorThunk ();
+extern "C" void NetworkPlayer_get_externalPort_m2392166863_AdjustorThunk ();
 extern "C" void NetworkPlayer_get_unassigned_m865556847 ();
 extern "C" void NetworkPlayer_op_Equality_m1190866952 ();
 extern "C" void NetworkPlayer_op_Inequality_m3921017795 ();
@@ -8390,17 +8613,23 @@ extern "C" void NetworkViewID_Internal_GetString_m679444096 ();
 extern "C" void NetworkViewID_INTERNAL_CALL_Internal_GetString_m1523080203 ();
 extern "C" void NetworkViewID_Internal_Compare_m2541220858 ();
 extern "C" void NetworkViewID_INTERNAL_CALL_Internal_Compare_m1319175441 ();
-extern "C" void NetworkViewID_GetHashCode_m2420635706 ();
-extern "C" void NetworkViewID_Equals_m2612049122 ();
-extern "C" void NetworkViewID_get_isMine_m2754407673 ();
-extern "C" void NetworkViewID_get_owner_m576069262 ();
-extern "C" void NetworkViewID_ToString_m3783538050 ();
+extern "C" void NetworkViewID_GetHashCode_m2420635706_AdjustorThunk ();
+extern "C" void NetworkViewID_Equals_m2612049122_AdjustorThunk ();
+extern "C" void NetworkViewID_get_isMine_m2754407673_AdjustorThunk ();
+extern "C" void NetworkViewID_get_owner_m576069262_AdjustorThunk ();
+extern "C" void NetworkViewID_ToString_m3783538050_AdjustorThunk ();
 extern "C" void NetworkViewID_op_Equality_m776200489 ();
 extern "C" void NetworkViewID_op_Inequality_m4224856356 ();
 extern "C" void Object__ctor_m570634126 ();
+extern "C" void Object__cctor_m27692511 ();
 extern "C" void Object_Internal_CloneSingle_m3129073756 ();
+extern "C" void Object_Internal_CloneSingleWithParent_m1998670682 ();
 extern "C" void Object_Internal_InstantiateSingle_m3047563925 ();
 extern "C" void Object_INTERNAL_CALL_Internal_InstantiateSingle_m1201424140 ();
+extern "C" void Object_Internal_InstantiateSingleWithParent_m2082722510 ();
+extern "C" void Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m3885041925 ();
+extern "C" void Object_GetOffsetOfInstanceIDInCPlusPlusObject_m1992516375 ();
+extern "C" void Object_EnsureRunningOnMainThread_m3486236431 ();
 extern "C" void Object_Destroy_m2260435093 ();
 extern "C" void Object_Destroy_m176400816 ();
 extern "C" void Object_DestroyImmediate_m1826427014 ();
@@ -8417,14 +8646,17 @@ extern "C" void Object_FindSceneObjectsOfType_m2168852346 ();
 extern "C" void Object_FindObjectsOfTypeIncludingAssets_m1276784656 ();
 extern "C" void Object_ToString_m2155033093 ();
 extern "C" void Object_DoesObjectWithInstanceIDExist_m3762691104 ();
-extern "C" void Object_Equals_m1697651929 ();
+extern "C" void Object_GetInstanceID_m200424466 ();
 extern "C" void Object_GetHashCode_m1758859581 ();
+extern "C" void Object_Equals_m1697651929 ();
 extern "C" void Object_CompareBaseObjects_m2625210252 ();
 extern "C" void Object_IsNativeObjectAlive_m434626365 ();
-extern "C" void Object_GetInstanceID_m200424466 ();
 extern "C" void Object_GetCachedPtr_m1583421857 ();
 extern "C" void Object_Instantiate_m2255090103 ();
+extern "C" void Object_Instantiate_m1991490798 ();
 extern "C" void Object_Instantiate_m3040600263 ();
+extern "C" void Object_Instantiate_m871497726 ();
+extern "C" void Object_Instantiate_m1911199679 ();
 extern "C" void Object_CheckNullArgument_m264735768 ();
 extern "C" void Object_FindObjectOfType_m3820159265 ();
 extern "C" void Object_op_Implicit_m2106766291 ();
@@ -8446,72 +8678,72 @@ extern "C" void Physics2D_Raycast_m1435321255 ();
 extern "C" void Physics2D_Raycast_m301626417 ();
 extern "C" void Physics2D_GetRayIntersectionAll_m2520210479 ();
 extern "C" void Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m2968135304 ();
-extern "C" void Plane__ctor_m2201046863 ();
-extern "C" void Plane_get_normal_m3534129213 ();
-extern "C" void Plane_get_distance_m2612484153 ();
-extern "C" void Plane_Raycast_m2829769106 ();
+extern "C" void Plane__ctor_m2201046863_AdjustorThunk ();
+extern "C" void Plane_get_normal_m3534129213_AdjustorThunk ();
+extern "C" void Plane_get_distance_m2612484153_AdjustorThunk ();
+extern "C" void Plane_Raycast_m2829769106_AdjustorThunk ();
 extern "C" void PropertyAttribute__ctor_m1741701746 ();
-extern "C" void Quaternion__ctor_m1100844011 ();
+extern "C" void Quaternion__ctor_m1100844011_AdjustorThunk ();
 extern "C" void Quaternion_Dot_m580284 ();
 extern "C" void Quaternion_Inverse_m3542515566 ();
 extern "C" void Quaternion_INTERNAL_CALL_Inverse_m4175627710 ();
-extern "C" void Quaternion_ToString_m1793285860 ();
+extern "C" void Quaternion_ToString_m1793285860_AdjustorThunk ();
 extern "C" void Quaternion_Euler_m1204688217 ();
 extern "C" void Quaternion_Internal_FromEulerRad_m3681319598 ();
 extern "C" void Quaternion_INTERNAL_CALL_Internal_FromEulerRad_m1312441940 ();
-extern "C" void Quaternion_GetHashCode_m3823258238 ();
-extern "C" void Quaternion_Equals_m3843409946 ();
+extern "C" void Quaternion_GetHashCode_m3823258238_AdjustorThunk ();
+extern "C" void Quaternion_Equals_m3843409946_AdjustorThunk ();
 extern "C" void Quaternion_op_Multiply_m3077481361 ();
 extern "C" void Quaternion_op_Multiply_m3771288979 ();
 extern "C" void Quaternion_op_Inequality_m4197259746 ();
 extern "C" void Random_Range_m75452833 ();
 extern "C" void Random_RandomRangeInt_m1203631415 ();
 extern "C" void RangeAttribute__ctor_m1279576482 ();
-extern "C" void Ray__ctor_m2662468509 ();
-extern "C" void Ray_get_origin_m3064983562 ();
-extern "C" void Ray_get_direction_m3201866877 ();
-extern "C" void Ray_GetPoint_m1171104822 ();
-extern "C" void Ray_ToString_m1391619614 ();
-extern "C" void RaycastHit_get_point_m4165497838 ();
-extern "C" void RaycastHit_get_normal_m1346998891 ();
-extern "C" void RaycastHit_get_distance_m800944203 ();
-extern "C" void RaycastHit_get_collider_m3116882274 ();
-extern "C" void RaycastHit2D_get_point_m2072691227 ();
-extern "C" void RaycastHit2D_get_normal_m894503390 ();
-extern "C" void RaycastHit2D_get_fraction_m2313516650 ();
-extern "C" void RaycastHit2D_get_collider_m789902306 ();
-extern "C" void RaycastHit2D_get_rigidbody_m1059160360 ();
-extern "C" void RaycastHit2D_get_transform_m1318597140 ();
-extern "C" void Rect__ctor_m3291325233 ();
-extern "C" void Rect_get_x_m982385354 ();
-extern "C" void Rect_set_x_m577970569 ();
-extern "C" void Rect_get_y_m982386315 ();
-extern "C" void Rect_set_y_m67436392 ();
-extern "C" void Rect_get_position_m2933356232 ();
-extern "C" void Rect_get_center_m610643572 ();
-extern "C" void Rect_get_min_m275942709 ();
-extern "C" void Rect_get_max_m275713991 ();
-extern "C" void Rect_get_width_m2824209432 ();
-extern "C" void Rect_set_width_m3771513595 ();
-extern "C" void Rect_get_height_m2154960823 ();
-extern "C" void Rect_set_height_m3398820332 ();
-extern "C" void Rect_get_size_m136480416 ();
-extern "C" void Rect_get_xMin_m371109962 ();
-extern "C" void Rect_set_xMin_m265803321 ();
-extern "C" void Rect_get_yMin_m399739113 ();
-extern "C" void Rect_set_yMin_m3716298746 ();
-extern "C" void Rect_get_xMax_m370881244 ();
-extern "C" void Rect_set_xMax_m1513853159 ();
-extern "C" void Rect_get_yMax_m399510395 ();
-extern "C" void Rect_set_yMax_m669381288 ();
-extern "C" void Rect_ToString_m2093687658 ();
-extern "C" void Rect_Contains_m3556594010 ();
-extern "C" void Rect_Contains_m3556594041 ();
+extern "C" void Ray__ctor_m2662468509_AdjustorThunk ();
+extern "C" void Ray_get_origin_m3064983562_AdjustorThunk ();
+extern "C" void Ray_get_direction_m3201866877_AdjustorThunk ();
+extern "C" void Ray_GetPoint_m1171104822_AdjustorThunk ();
+extern "C" void Ray_ToString_m1391619614_AdjustorThunk ();
+extern "C" void RaycastHit_get_point_m4165497838_AdjustorThunk ();
+extern "C" void RaycastHit_get_normal_m1346998891_AdjustorThunk ();
+extern "C" void RaycastHit_get_distance_m800944203_AdjustorThunk ();
+extern "C" void RaycastHit_get_collider_m3116882274_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_point_m2072691227_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_normal_m894503390_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_fraction_m2313516650_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_collider_m789902306_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_rigidbody_m1059160360_AdjustorThunk ();
+extern "C" void RaycastHit2D_get_transform_m1318597140_AdjustorThunk ();
+extern "C" void Rect__ctor_m3291325233_AdjustorThunk ();
+extern "C" void Rect_get_x_m982385354_AdjustorThunk ();
+extern "C" void Rect_set_x_m577970569_AdjustorThunk ();
+extern "C" void Rect_get_y_m982386315_AdjustorThunk ();
+extern "C" void Rect_set_y_m67436392_AdjustorThunk ();
+extern "C" void Rect_get_position_m2933356232_AdjustorThunk ();
+extern "C" void Rect_get_center_m610643572_AdjustorThunk ();
+extern "C" void Rect_get_min_m275942709_AdjustorThunk ();
+extern "C" void Rect_get_max_m275713991_AdjustorThunk ();
+extern "C" void Rect_get_width_m2824209432_AdjustorThunk ();
+extern "C" void Rect_set_width_m3771513595_AdjustorThunk ();
+extern "C" void Rect_get_height_m2154960823_AdjustorThunk ();
+extern "C" void Rect_set_height_m3398820332_AdjustorThunk ();
+extern "C" void Rect_get_size_m136480416_AdjustorThunk ();
+extern "C" void Rect_get_xMin_m371109962_AdjustorThunk ();
+extern "C" void Rect_set_xMin_m265803321_AdjustorThunk ();
+extern "C" void Rect_get_yMin_m399739113_AdjustorThunk ();
+extern "C" void Rect_set_yMin_m3716298746_AdjustorThunk ();
+extern "C" void Rect_get_xMax_m370881244_AdjustorThunk ();
+extern "C" void Rect_set_xMax_m1513853159_AdjustorThunk ();
+extern "C" void Rect_get_yMax_m399510395_AdjustorThunk ();
+extern "C" void Rect_set_yMax_m669381288_AdjustorThunk ();
+extern "C" void Rect_ToString_m2093687658_AdjustorThunk ();
+extern "C" void Rect_Contains_m3556594010_AdjustorThunk ();
+extern "C" void Rect_Contains_m3556594041_AdjustorThunk ();
 extern "C" void Rect_OrderMinMax_m3424313368 ();
-extern "C" void Rect_Overlaps_m669681106 ();
-extern "C" void Rect_Overlaps_m2751672171 ();
-extern "C" void Rect_GetHashCode_m89026168 ();
-extern "C" void Rect_Equals_m1091722644 ();
+extern "C" void Rect_Overlaps_m669681106_AdjustorThunk ();
+extern "C" void Rect_Overlaps_m2751672171_AdjustorThunk ();
+extern "C" void Rect_GetHashCode_m89026168_AdjustorThunk ();
+extern "C" void Rect_Equals_m1091722644_AdjustorThunk ();
 extern "C" void Rect_op_Inequality_m2236552616 ();
 extern "C" void Rect_op_Equality_m1552341101 ();
 extern "C" void RectOffset__ctor_m2395783478 ();
@@ -8590,10 +8822,17 @@ extern "C" void ResourceRequest__ctor_m2863879896 ();
 extern "C" void ResourceRequest_get_asset_m670320982 ();
 extern "C" void Resources_Load_m2187391845 ();
 extern "C" void Resources_Load_m3601699608 ();
+extern "C" void Resources_GetBuiltinResource_m1250078467 ();
 extern "C" void RPC__ctor_m281827604 ();
+extern "C" void Scene_get_handle_m2277248521_AdjustorThunk ();
+extern "C" void Scene_GetHashCode_m2000109307_AdjustorThunk ();
+extern "C" void Scene_Equals_m93578403_AdjustorThunk ();
 extern "C" void SceneManager_LoadScene_m2167814033 ();
 extern "C" void SceneManager_LoadScene_m3907168970 ();
 extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3775081569 ();
+extern "C" void SceneManager_Internal_SceneLoaded_m1398790415 ();
+extern "C" void SceneManager_Internal_SceneUnloaded_m3773648285 ();
+extern "C" void SceneManager_Internal_ActiveSceneChanged_m3583151927 ();
 extern "C" void Screen_get_width_m3080333084 ();
 extern "C" void Screen_get_height_m1504859443 ();
 extern "C" void Screen_get_dpi_m3780069159 ();
@@ -8610,13 +8849,14 @@ extern "C" void SendMouseEvents__cctor_m2731695210 ();
 extern "C" void SendMouseEvents_SetMouseMoved_m2590456785 ();
 extern "C" void SendMouseEvents_DoSendMouseEvents_m4104134333 ();
 extern "C" void SendMouseEvents_SendEvents_m3877180750 ();
-extern "C" void HitInfo_SendMessage_m2569183060 ();
+extern "C" void HitInfo_SendMessage_m2569183060_AdjustorThunk ();
 extern "C" void HitInfo_Compare_m4083757090 ();
 extern "C" void HitInfo_op_Implicit_m1943931337 ();
 extern "C" void FormerlySerializedAsAttribute__ctor_m2703462003 ();
 extern "C" void FormerlySerializedAsAttribute_get_oldName_m2935479929 ();
 extern "C" void SerializeField__ctor_m4068807987 ();
 extern "C" void SerializePrivateVariables__ctor_m889466149 ();
+extern "C" void SetupCoroutine_InvokeMoveNext_m3556339879 ();
 extern "C" void SetupCoroutine_InvokeMember_m3691215301 ();
 extern "C" void Shader_PropertyToID_m3019342011 ();
 extern "C" void SharedBetweenAnimatorsAttribute__ctor_m2764338918 ();
@@ -8682,8 +8922,8 @@ extern "C" void GameCenterPlatform_SafeClearArray_m2546851889 ();
 extern "C" void GameCenterPlatform_CreateLeaderboard_m2295049883 ();
 extern "C" void GameCenterPlatform_CreateAchievement_m1828880347 ();
 extern "C" void GameCenterPlatform_TriggerResetAchievementCallback_m1285257317 ();
-extern "C" void GcAchievementData_ToAchievement_m3239514930 ();
-extern "C" void GcAchievementDescriptionData_ToAchievementDescription_m3125480712 ();
+extern "C" void GcAchievementData_ToAchievement_m3239514930_AdjustorThunk ();
+extern "C" void GcAchievementDescriptionData_ToAchievementDescription_m3125480712_AdjustorThunk ();
 extern "C" void GcLeaderboard__ctor_m4042810199 ();
 extern "C" void GcLeaderboard_Finalize_m4015840938 ();
 extern "C" void GcLeaderboard_Contains_m100384368 ();
@@ -8695,9 +8935,9 @@ extern "C" void GcLeaderboard_Internal_LoadScores_m1783152707 ();
 extern "C" void GcLeaderboard_Internal_LoadScoresWithUsers_m1315210452 ();
 extern "C" void GcLeaderboard_Loading_m294711596 ();
 extern "C" void GcLeaderboard_Dispose_m301614325 ();
-extern "C" void GcScoreData_ToScore_m2728389301 ();
-extern "C" void GcUserProfileData_ToUserProfile_m1509702721 ();
-extern "C" void GcUserProfileData_AddToArray_m3757655355 ();
+extern "C" void GcScoreData_ToScore_m2728389301_AdjustorThunk ();
+extern "C" void GcUserProfileData_ToUserProfile_m1509702721_AdjustorThunk ();
+extern "C" void GcUserProfileData_AddToArray_m3757655355_AdjustorThunk ();
 extern "C" void Achievement__ctor_m377036415 ();
 extern "C" void Achievement__ctor_m2960680429 ();
 extern "C" void Achievement__ctor_m3345265521 ();
@@ -8756,7 +8996,7 @@ extern "C" void UserProfile_get_userName_m3149753764 ();
 extern "C" void UserProfile_get_id_m2095754825 ();
 extern "C" void UserProfile_get_isFriend_m1712941209 ();
 extern "C" void UserProfile_get_state_m1340538601 ();
-extern "C" void Range__ctor_m872630735 ();
+extern "C" void Range__ctor_m872630735_AdjustorThunk ();
 extern "C" void SortingLayer_GetLayerValueFromID_m2560954442 ();
 extern "C" void SpaceAttribute__ctor_m3636842103 ();
 extern "C" void SpaceAttribute__ctor_m2299833492 ();
@@ -8764,6 +9004,7 @@ extern "C" void Sprite_get_rect_m132626493 ();
 extern "C" void Sprite_INTERNAL_get_rect_m853825042 ();
 extern "C" void Sprite_get_pixelsPerUnit_m2438708453 ();
 extern "C" void Sprite_get_texture_m1481489947 ();
+extern "C" void Sprite_get_associatedAlphaSplitTexture_m4226901177 ();
 extern "C" void Sprite_get_textureRect_m3946160520 ();
 extern "C" void Sprite_INTERNAL_get_textureRect_m1939414807 ();
 extern "C" void Sprite_get_border_m1562752938 ();
@@ -8800,9 +9041,9 @@ extern "C" void StateMachineBehaviour_OnStateMachineEnter_m2392556512 ();
 extern "C" void StateMachineBehaviour_OnStateMachineExit_m2976228338 ();
 extern "C" void TextAreaAttribute__ctor_m2577573455 ();
 extern "C" void TextEditor__ctor_m1029296947 ();
-extern "C" void TextGenerationSettings_CompareColors_m2801108564 ();
-extern "C" void TextGenerationSettings_CompareVector2_m332687775 ();
-extern "C" void TextGenerationSettings_Equals_m3950599493 ();
+extern "C" void TextGenerationSettings_CompareColors_m2801108564_AdjustorThunk ();
+extern "C" void TextGenerationSettings_CompareVector2_m332687775_AdjustorThunk ();
+extern "C" void TextGenerationSettings_Equals_m3950599493_AdjustorThunk ();
 extern "C" void TextGenerator__ctor_m3994909811 ();
 extern "C" void TextGenerator__ctor_m1563237700 ();
 extern "C" void TextGenerator_System_IDisposable_Dispose_m3586435340 ();
@@ -8838,7 +9079,10 @@ extern "C" void Texture_Internal_GetWidth_m1143336192 ();
 extern "C" void Texture_Internal_GetHeight_m1065663213 ();
 extern "C" void Texture_get_width_m1557399609 ();
 extern "C" void Texture_get_height_m1538561974 ();
+extern "C" void Texture_get_texelSize_m3893699517 ();
+extern "C" void Texture_INTERNAL_get_texelSize_m2038139996 ();
 extern "C" void Texture_GetNativeTexturePtr_m2052913073 ();
+extern "C" void Texture_INTERNAL_CALL_GetNativeTexturePtr_m3914929197 ();
 extern "C" void Texture2D__ctor_m1883511258 ();
 extern "C" void Texture2D__ctor_m3705883154 ();
 extern "C" void Texture2D_Internal_Create_m457592211 ();
@@ -8860,16 +9104,17 @@ extern "C" void Texture2D_Resize_m3471718048 ();
 extern "C" void Texture2D_Internal_ResizeWH_m3271797007 ();
 extern "C" void Texture2D_EncodeToJPG_m1915683733 ();
 extern "C" void Texture2D_EncodeToJPG_m2459014212 ();
+extern "C" void ThreadAndSerializationSafe__ctor_m4149745981 ();
 extern "C" void Time_get_deltaTime_m2741110510 ();
 extern "C" void Time_get_unscaledTime_m319114521 ();
 extern "C" void Time_get_unscaledDeltaTime_m285638843 ();
 extern "C" void Time_get_realtimeSinceStartup_m2972554983 ();
 extern "C" void TooltipAttribute__ctor_m3341446606 ();
-extern "C" void Touch_get_fingerId_m1427167959 ();
-extern "C" void Touch_get_position_m1943849441 ();
-extern "C" void Touch_get_deltaPosition_m3983677995 ();
-extern "C" void Touch_get_phase_m3314549414 ();
-extern "C" void Touch_get_type_m1428398012 ();
+extern "C" void Touch_get_fingerId_m1427167959_AdjustorThunk ();
+extern "C" void Touch_get_position_m1943849441_AdjustorThunk ();
+extern "C" void Touch_get_deltaPosition_m3983677995_AdjustorThunk ();
+extern "C" void Touch_get_phase_m3314549414_AdjustorThunk ();
+extern "C" void Touch_get_type_m1428398012_AdjustorThunk ();
 extern "C" void TouchScreenKeyboard__ctor_m3607055310 ();
 extern "C" void TouchScreenKeyboard_Destroy_m3865079199 ();
 extern "C" void TouchScreenKeyboard_Finalize_m541415163 ();
@@ -8938,15 +9183,15 @@ extern "C" void UnityException__ctor_m743662351 ();
 extern "C" void UnityException__ctor_m2780758535 ();
 extern "C" void UnityException__ctor_m2001840532 ();
 extern "C" void UnityString_Format_m427603113 ();
-extern "C" void Vector2__ctor_m1517109030 ();
-extern "C" void Vector2_get_Item_m2185542843 ();
-extern "C" void Vector2_set_Item_m2767519328 ();
+extern "C" void Vector2__ctor_m1517109030_AdjustorThunk ();
+extern "C" void Vector2_get_Item_m2185542843_AdjustorThunk ();
+extern "C" void Vector2_set_Item_m2767519328_AdjustorThunk ();
 extern "C" void Vector2_Scale_m1743563745 ();
-extern "C" void Vector2_ToString_m3859776067 ();
-extern "C" void Vector2_GetHashCode_m128434585 ();
-extern "C" void Vector2_Equals_m3404198849 ();
+extern "C" void Vector2_ToString_m3859776067_AdjustorThunk ();
+extern "C" void Vector2_GetHashCode_m128434585_AdjustorThunk ();
+extern "C" void Vector2_Equals_m3404198849_AdjustorThunk ();
 extern "C" void Vector2_Dot_m2437602225 ();
-extern "C" void Vector2_get_sqrMagnitude_m996072851 ();
+extern "C" void Vector2_get_sqrMagnitude_m996072851_AdjustorThunk ();
 extern "C" void Vector2_SqrMagnitude_m4007443280 ();
 extern "C" void Vector2_get_zero_m199872368 ();
 extern "C" void Vector2_get_one_m2767488832 ();
@@ -8959,21 +9204,21 @@ extern "C" void Vector2_op_Equality_m1927481448 ();
 extern "C" void Vector2_op_Inequality_m1638984867 ();
 extern "C" void Vector2_op_Implicit_m4083860659 ();
 extern "C" void Vector2_op_Implicit_m482286037 ();
-extern "C" void Vector3__ctor_m2926210380 ();
-extern "C" void Vector3__ctor_m1846874791 ();
+extern "C" void Vector3__ctor_m2926210380_AdjustorThunk ();
+extern "C" void Vector3__ctor_m1846874791_AdjustorThunk ();
 extern "C" void Vector3_Lerp_m650470329 ();
-extern "C" void Vector3_get_Item_m108333500 ();
-extern "C" void Vector3_set_Item_m1844835745 ();
-extern "C" void Vector3_GetHashCode_m3912867704 ();
-extern "C" void Vector3_Equals_m3337192096 ();
+extern "C" void Vector3_get_Item_m108333500_AdjustorThunk ();
+extern "C" void Vector3_set_Item_m1844835745_AdjustorThunk ();
+extern "C" void Vector3_GetHashCode_m3912867704_AdjustorThunk ();
+extern "C" void Vector3_Equals_m3337192096_AdjustorThunk ();
 extern "C" void Vector3_Normalize_m3047997355 ();
-extern "C" void Vector3_get_normalized_m2650940353 ();
-extern "C" void Vector3_ToString_m3566373060 ();
+extern "C" void Vector3_get_normalized_m2650940353_AdjustorThunk ();
+extern "C" void Vector3_ToString_m3566373060_AdjustorThunk ();
 extern "C" void Vector3_Dot_m2370485424 ();
 extern "C" void Vector3_Distance_m3366690344 ();
 extern "C" void Vector3_Magnitude_m995314358 ();
 extern "C" void Vector3_SqrMagnitude_m1662776270 ();
-extern "C" void Vector3_get_sqrMagnitude_m1207423764 ();
+extern "C" void Vector3_get_sqrMagnitude_m1207423764_AdjustorThunk ();
 extern "C" void Vector3_Min_m10392601 ();
 extern "C" void Vector3_Max_m545730887 ();
 extern "C" void Vector3_get_zero_m2017759730 ();
@@ -8990,15 +9235,15 @@ extern "C" void Vector3_op_Multiply_m973638459 ();
 extern "C" void Vector3_op_Division_m4277988370 ();
 extern "C" void Vector3_op_Equality_m582817895 ();
 extern "C" void Vector3_op_Inequality_m231387234 ();
-extern "C" void Vector4__ctor_m2441427762 ();
-extern "C" void Vector4_get_Item_m2326091453 ();
-extern "C" void Vector4_set_Item_m922152162 ();
-extern "C" void Vector4_GetHashCode_m3402333527 ();
-extern "C" void Vector4_Equals_m3270185343 ();
-extern "C" void Vector4_ToString_m3272970053 ();
+extern "C" void Vector4__ctor_m2441427762_AdjustorThunk ();
+extern "C" void Vector4_get_Item_m2326091453_AdjustorThunk ();
+extern "C" void Vector4_set_Item_m922152162_AdjustorThunk ();
+extern "C" void Vector4_GetHashCode_m3402333527_AdjustorThunk ();
+extern "C" void Vector4_Equals_m3270185343_AdjustorThunk ();
+extern "C" void Vector4_ToString_m3272970053_AdjustorThunk ();
 extern "C" void Vector4_Dot_m2303368623 ();
 extern "C" void Vector4_SqrMagnitude_m3613076556 ();
-extern "C" void Vector4_get_sqrMagnitude_m1418774677 ();
+extern "C" void Vector4_get_sqrMagnitude_m1418774677_AdjustorThunk ();
 extern "C" void Vector4_get_zero_m3835647092 ();
 extern "C" void Vector4_op_Subtraction_m3588766929 ();
 extern "C" void Vector4_op_Division_m3513381747 ();
@@ -9006,8 +9251,10 @@ extern "C" void Vector4_op_Equality_m3533121638 ();
 extern "C" void WaitForEndOfFrame__ctor_m4124201226 ();
 extern "C" void WaitForFixedUpdate__ctor_m2916734308 ();
 extern "C" void WaitForSeconds__ctor_m3184996201 ();
-extern "C" void WebCamDevice_get_name_m2875559007 ();
-extern "C" void WebCamDevice_get_isFrontFacing_m3402023620 ();
+extern "C" void WaitForSecondsRealtime__ctor_m1777059252 ();
+extern "C" void WaitForSecondsRealtime_get_keepWaiting_m2193585742 ();
+extern "C" void WebCamDevice_get_name_m2875559007_AdjustorThunk ();
+extern "C" void WebCamDevice_get_isFrontFacing_m3402023620_AdjustorThunk ();
 extern "C" void WebCamTexture__ctor_m3779632809 ();
 extern "C" void WebCamTexture__ctor_m1800008749 ();
 extern "C" void WebCamTexture_Internal_CreateWebCamTexture_m384251711 ();
@@ -9027,6 +9274,21 @@ extern "C" void WebCamTexture_get_videoVerticallyMirrored_m1911394608 ();
 extern "C" void WebCamTexture_get_didUpdateThisFrame_m2572205429 ();
 extern "C" void WrapperlessIcall__ctor_m1888400594 ();
 extern "C" void WritableAttribute__ctor_m2205809533 ();
+extern "C" void WWW_Dispose_m2446678367 ();
+extern "C" void WWW_Finalize_m1793349504 ();
+extern "C" void WWW_DestroyWWW_m300967382 ();
+extern "C" void WWW_get_DefaultEncoding_m2507364293 ();
+extern "C" void WWWForm_get_headers_m370408569 ();
+extern "C" void WWWForm_get_data_m2893811951 ();
+extern "C" void WWWTranscoder__cctor_m1486747496 ();
+extern "C" void WWWTranscoder_Byte2Hex_m2414999496 ();
+extern "C" void WWWTranscoder_URLEncode_m3301913818 ();
+extern "C" void WWWTranscoder_URLEncode_m4039667511 ();
+extern "C" void WWWTranscoder_QPEncode_m1021207296 ();
+extern "C" void WWWTranscoder_Encode_m2677436946 ();
+extern "C" void WWWTranscoder_ByteArrayContains_m3244919989 ();
+extern "C" void WWWTranscoder_SevenBitClean_m1805125217 ();
+extern "C" void WWWTranscoder_SevenBitClean_m945043319 ();
 extern "C" void YieldInstruction__ctor_m539393484 ();
 extern "C" void GenericStack__ctor_m2328546233 ();
 extern "C" void MathfInternal__cctor_m2600550988 ();
@@ -9238,10 +9500,10 @@ extern "C" void RaycasterManager__cctor_m1509381251 ();
 extern "C" void RaycasterManager_AddRaycaster_m4159868023 ();
 extern "C" void RaycasterManager_GetRaycasters_m4152256966 ();
 extern "C" void RaycasterManager_RemoveRaycasters_m4290330819 ();
-extern "C" void RaycastResult_get_gameObject_m1138099278 ();
-extern "C" void RaycastResult_set_gameObject_m726369707 ();
-extern "C" void RaycastResult_get_isValid_m3098154392 ();
-extern "C" void RaycastResult_ToString_m2924263764 ();
+extern "C" void RaycastResult_get_gameObject_m1138099278_AdjustorThunk ();
+extern "C" void RaycastResult_set_gameObject_m726369707_AdjustorThunk ();
+extern "C" void RaycastResult_get_isValid_m3098154392_AdjustorThunk ();
+extern "C" void RaycastResult_ToString_m2924263764_AdjustorThunk ();
 extern "C" void StandaloneInputModule__ctor_m3585261844 ();
 extern "C" void StandaloneInputModule_get_inputMode_m3683217473 ();
 extern "C" void StandaloneInputModule_get_allowActivationOnMobileDevice_m898677649 ();
@@ -9400,18 +9662,18 @@ extern "C" void ClipperRegistry_Register_m2777461237 ();
 extern "C" void ClipperRegistry_Unregister_m926013180 ();
 extern "C" void Clipping_FindCullAndClipWorldRect_m3007966961 ();
 extern "C" void Clipping_RectIntersect_m2589422792 ();
-extern "C" void ColorBlock_get_normalColor_m1021113593 ();
-extern "C" void ColorBlock_get_highlightedColor_m2834784533 ();
-extern "C" void ColorBlock_get_pressedColor_m2014354534 ();
-extern "C" void ColorBlock_get_disabledColor_m2484721348 ();
-extern "C" void ColorBlock_get_colorMultiplier_m2799886278 ();
-extern "C" void ColorBlock_set_colorMultiplier_m1029562789 ();
-extern "C" void ColorBlock_get_fadeDuration_m2386809488 ();
-extern "C" void ColorBlock_set_fadeDuration_m1171991323 ();
+extern "C" void ColorBlock_get_normalColor_m1021113593_AdjustorThunk ();
+extern "C" void ColorBlock_get_highlightedColor_m2834784533_AdjustorThunk ();
+extern "C" void ColorBlock_get_pressedColor_m2014354534_AdjustorThunk ();
+extern "C" void ColorBlock_get_disabledColor_m2484721348_AdjustorThunk ();
+extern "C" void ColorBlock_get_colorMultiplier_m2799886278_AdjustorThunk ();
+extern "C" void ColorBlock_set_colorMultiplier_m1029562789_AdjustorThunk ();
+extern "C" void ColorBlock_get_fadeDuration_m2386809488_AdjustorThunk ();
+extern "C" void ColorBlock_set_fadeDuration_m1171991323_AdjustorThunk ();
 extern "C" void ColorBlock_get_defaultColorBlock_m533915527 ();
-extern "C" void ColorBlock_Equals_m4183618976 ();
-extern "C" void ColorBlock_Equals_m3761062129 ();
-extern "C" void ColorBlock_GetHashCode_m2259731448 ();
+extern "C" void ColorBlock_Equals_m4183618976_AdjustorThunk ();
+extern "C" void ColorBlock_Equals_m3761062129_AdjustorThunk ();
+extern "C" void ColorBlock_GetHashCode_m2259731448_AdjustorThunk ();
 extern "C" void ContentSizeFitter__ctor_m3832398161 ();
 extern "C" void ContentSizeFitter_get_horizontalFit_m2851743464 ();
 extern "C" void ContentSizeFitter_set_horizontalFit_m798679123 ();
@@ -9425,35 +9687,35 @@ extern "C" void ContentSizeFitter_HandleSelfFittingAlongAxis_m2083972471 ();
 extern "C" void ContentSizeFitter_SetLayoutHorizontal_m629859679 ();
 extern "C" void ContentSizeFitter_SetLayoutVertical_m2322479793 ();
 extern "C" void ContentSizeFitter_SetDirty_m162055523 ();
-extern "C" void ColorTween_get_startColor_m2341745789 ();
-extern "C" void ColorTween_set_startColor_m1548058556 ();
-extern "C" void ColorTween_get_targetColor_m3334930584 ();
-extern "C" void ColorTween_set_targetColor_m1091345019 ();
-extern "C" void ColorTween_get_tweenMode_m4011161954 ();
-extern "C" void ColorTween_set_tweenMode_m1316837809 ();
-extern "C" void ColorTween_get_duration_m2603018997 ();
-extern "C" void ColorTween_set_duration_m347866734 ();
-extern "C" void ColorTween_get_ignoreTimeScale_m27222826 ();
-extern "C" void ColorTween_set_ignoreTimeScale_m4222585787 ();
-extern "C" void ColorTween_TweenValue_m3209849337 ();
-extern "C" void ColorTween_AddOnChangedCallback_m1109647485 ();
-extern "C" void ColorTween_GetIgnoreTimescale_m2054009071 ();
-extern "C" void ColorTween_GetDuration_m1400665524 ();
-extern "C" void ColorTween_ValidTarget_m2504867349 ();
+extern "C" void ColorTween_get_startColor_m2341745789_AdjustorThunk ();
+extern "C" void ColorTween_set_startColor_m1548058556_AdjustorThunk ();
+extern "C" void ColorTween_get_targetColor_m3334930584_AdjustorThunk ();
+extern "C" void ColorTween_set_targetColor_m1091345019_AdjustorThunk ();
+extern "C" void ColorTween_get_tweenMode_m4011161954_AdjustorThunk ();
+extern "C" void ColorTween_set_tweenMode_m1316837809_AdjustorThunk ();
+extern "C" void ColorTween_get_duration_m2603018997_AdjustorThunk ();
+extern "C" void ColorTween_set_duration_m347866734_AdjustorThunk ();
+extern "C" void ColorTween_get_ignoreTimeScale_m27222826_AdjustorThunk ();
+extern "C" void ColorTween_set_ignoreTimeScale_m4222585787_AdjustorThunk ();
+extern "C" void ColorTween_TweenValue_m3209849337_AdjustorThunk ();
+extern "C" void ColorTween_AddOnChangedCallback_m1109647485_AdjustorThunk ();
+extern "C" void ColorTween_GetIgnoreTimescale_m2054009071_AdjustorThunk ();
+extern "C" void ColorTween_GetDuration_m1400665524_AdjustorThunk ();
+extern "C" void ColorTween_ValidTarget_m2504867349_AdjustorThunk ();
 extern "C" void ColorTweenCallback__ctor_m1815857490 ();
-extern "C" void FloatTween_get_startValue_m3485407671 ();
-extern "C" void FloatTween_set_startValue_m367615212 ();
-extern "C" void FloatTween_get_targetValue_m197139962 ();
-extern "C" void FloatTween_set_targetValue_m27109721 ();
-extern "C" void FloatTween_get_duration_m108772764 ();
-extern "C" void FloatTween_set_duration_m4177197863 ();
-extern "C" void FloatTween_get_ignoreTimeScale_m1786680995 ();
-extern "C" void FloatTween_set_ignoreTimeScale_m556709748 ();
-extern "C" void FloatTween_TweenValue_m1980315890 ();
-extern "C" void FloatTween_AddOnChangedCallback_m2815182481 ();
-extern "C" void FloatTween_GetIgnoreTimescale_m1972218454 ();
-extern "C" void FloatTween_GetDuration_m2290037293 ();
-extern "C" void FloatTween_ValidTarget_m3394239118 ();
+extern "C" void FloatTween_get_startValue_m3485407671_AdjustorThunk ();
+extern "C" void FloatTween_set_startValue_m367615212_AdjustorThunk ();
+extern "C" void FloatTween_get_targetValue_m197139962_AdjustorThunk ();
+extern "C" void FloatTween_set_targetValue_m27109721_AdjustorThunk ();
+extern "C" void FloatTween_get_duration_m108772764_AdjustorThunk ();
+extern "C" void FloatTween_set_duration_m4177197863_AdjustorThunk ();
+extern "C" void FloatTween_get_ignoreTimeScale_m1786680995_AdjustorThunk ();
+extern "C" void FloatTween_set_ignoreTimeScale_m556709748_AdjustorThunk ();
+extern "C" void FloatTween_TweenValue_m1980315890_AdjustorThunk ();
+extern "C" void FloatTween_AddOnChangedCallback_m2815182481_AdjustorThunk ();
+extern "C" void FloatTween_GetIgnoreTimescale_m1972218454_AdjustorThunk ();
+extern "C" void FloatTween_GetDuration_m2290037293_AdjustorThunk ();
+extern "C" void FloatTween_ValidTarget_m3394239118_AdjustorThunk ();
 extern "C" void FloatTweenCallback__ctor_m2342804402 ();
 extern "C" void Dropdown__ctor_m3574287322 ();
 extern "C" void Dropdown__cctor_m2946628371 ();
@@ -9673,6 +9935,7 @@ extern "C" void Image_get_sprite_m3572636301 ();
 extern "C" void Image_set_sprite_m572551402 ();
 extern "C" void Image_get_overrideSprite_m3218085753 ();
 extern "C" void Image_set_overrideSprite_m129622486 ();
+extern "C" void Image_get_activeSprite_m1026504307 ();
 extern "C" void Image_get_type_m1778977993 ();
 extern "C" void Image_set_type_m3406009990 ();
 extern "C" void Image_get_preserveAspect_m1146932479 ();
@@ -9689,14 +9952,20 @@ extern "C" void Image_get_fillOrigin_m2333809822 ();
 extern "C" void Image_set_fillOrigin_m3202820731 ();
 extern "C" void Image_get_eventAlphaThreshold_m2236338352 ();
 extern "C" void Image_set_eventAlphaThreshold_m229582947 ();
+extern "C" void Image_get_alphaHitTestMinimumThreshold_m818947869 ();
+extern "C" void Image_set_alphaHitTestMinimumThreshold_m3515403590 ();
+extern "C" void Image_get_defaultETC1GraphicMaterial_m3310415159 ();
 extern "C" void Image_get_mainTexture_m3619971528 ();
 extern "C" void Image_get_hasBorder_m2233588589 ();
 extern "C" void Image_get_pixelsPerUnit_m2679127645 ();
+extern "C" void Image_get_material_m1084482253 ();
+extern "C" void Image_set_material_m1151700522 ();
 extern "C" void Image_OnBeforeSerialize_m3089868192 ();
 extern "C" void Image_OnAfterDeserialize_m1760560454 ();
 extern "C" void Image_GetDrawingDimensions_m755640489 ();
 extern "C" void Image_SetNativeSize_m828608152 ();
 extern "C" void Image_OnPopulateMesh_m435930979 ();
+extern "C" void Image_UpdateMaterial_m74239060 ();
 extern "C" void Image_GenerateSimpleSprite_m106729008 ();
 extern "C" void Image_GenerateSlicedSprite_m4239922765 ();
 extern "C" void Image_GenerateTiledSprite_m4269137945 ();
@@ -9723,7 +9992,6 @@ extern "C" void InputField_get_mesh_m2359671532 ();
 extern "C" void InputField_get_cachedInputTextGenerator_m1093502060 ();
 extern "C" void InputField_set_shouldHideMobileInput_m4025452486 ();
 extern "C" void InputField_get_shouldHideMobileInput_m3268284241 ();
-extern "C" void InputField_get_shouldActivateOnSelect_m3772452453 ();
 extern "C" void InputField_get_text_m3972300732 ();
 extern "C" void InputField_set_text_m203843887 ();
 extern "C" void InputField_get_isFocused_m1249071051 ();
@@ -9990,37 +10258,40 @@ extern "C" void MaskableGraphic_get_maskable_m2226181992 ();
 extern "C" void MaskableGraphic_set_maskable_m3088187909 ();
 extern "C" void MaskableGraphic_GetModifiedMaterial_m2422156902 ();
 extern "C" void MaskableGraphic_Cull_m1710243867 ();
+extern "C" void MaskableGraphic_UpdateCull_m3192993021 ();
 extern "C" void MaskableGraphic_SetClipRect_m3970693835 ();
 extern "C" void MaskableGraphic_OnEnable_m487460141 ();
 extern "C" void MaskableGraphic_OnDisable_m2667299744 ();
 extern "C" void MaskableGraphic_OnTransformParentChanged_m2836893064 ();
 extern "C" void MaskableGraphic_ParentMaskStateChanged_m3501359204 ();
 extern "C" void MaskableGraphic_OnCanvasHierarchyChanged_m3030160609 ();
-extern "C" void MaskableGraphic_get_canvasRect_m2184399948 ();
+extern "C" void MaskableGraphic_get_rootCanvasRect_m40685262 ();
 extern "C" void MaskableGraphic_UpdateClipParent_m2337272942 ();
 extern "C" void MaskableGraphic_RecalculateClipping_m400162188 ();
 extern "C" void MaskableGraphic_RecalculateMasking_m2250524558 ();
+extern "C" void MaskableGraphic_UnityEngine_UI_IClippable_get_gameObject_m3411396686 ();
 extern "C" void MaskableGraphic_UnityEngine_UI_IClippable_get_rectTransform_m3856601786 ();
 extern "C" void CullStateChangedEvent__ctor_m2540235971 ();
 extern "C" void MaskUtilities_Notify2DMaskStateChanged_m2199550555 ();
 extern "C" void MaskUtilities_NotifyStencilStateChanged_m2159873435 ();
 extern "C" void MaskUtilities_FindRootSortOverrideCanvas_m4219954651 ();
 extern "C" void MaskUtilities_GetStencilDepth_m2786493988 ();
+extern "C" void MaskUtilities_IsDescendantOrSelf_m675247529 ();
 extern "C" void MaskUtilities_GetRectMaskForClippable_m396614586 ();
 extern "C" void MaskUtilities_GetRectMasksForClip_m447525417 ();
 extern "C" void Misc_DestroyImmediate_m40421862 ();
-extern "C" void Navigation_get_mode_m721480509 ();
-extern "C" void Navigation_set_mode_m1506614802 ();
-extern "C" void Navigation_get_selectOnUp_m2566832818 ();
-extern "C" void Navigation_set_selectOnUp_m2875366329 ();
-extern "C" void Navigation_get_selectOnDown_m929912185 ();
-extern "C" void Navigation_set_selectOnDown_m2647056978 ();
-extern "C" void Navigation_get_selectOnLeft_m1149209502 ();
-extern "C" void Navigation_set_selectOnLeft_m619081677 ();
-extern "C" void Navigation_get_selectOnRight_m2410966663 ();
-extern "C" void Navigation_set_selectOnRight_m1544013280 ();
+extern "C" void Navigation_get_mode_m721480509_AdjustorThunk ();
+extern "C" void Navigation_set_mode_m1506614802_AdjustorThunk ();
+extern "C" void Navigation_get_selectOnUp_m2566832818_AdjustorThunk ();
+extern "C" void Navigation_set_selectOnUp_m2875366329_AdjustorThunk ();
+extern "C" void Navigation_get_selectOnDown_m929912185_AdjustorThunk ();
+extern "C" void Navigation_set_selectOnDown_m2647056978_AdjustorThunk ();
+extern "C" void Navigation_get_selectOnLeft_m1149209502_AdjustorThunk ();
+extern "C" void Navigation_set_selectOnLeft_m619081677_AdjustorThunk ();
+extern "C" void Navigation_get_selectOnRight_m2410966663_AdjustorThunk ();
+extern "C" void Navigation_set_selectOnRight_m1544013280_AdjustorThunk ();
 extern "C" void Navigation_get_defaultNavigation_m492829917 ();
-extern "C" void Navigation_Equals_m3278735261 ();
+extern "C" void Navigation_Equals_m3278735261_AdjustorThunk ();
 extern "C" void Outline__ctor_m4004117817 ();
 extern "C" void Outline_ModifyMesh_m4125422123 ();
 extern "C" void PositionAsUV1__ctor_m3124267078 ();
@@ -10303,10 +10574,10 @@ extern "C" void Slider_SetDirection_m1955116790 ();
 extern "C" void Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m1155329269 ();
 extern "C" void Slider_UnityEngine_UI_ICanvasElement_get_transform_m2086174425 ();
 extern "C" void SliderEvent__ctor_m1429088576 ();
-extern "C" void SpriteState_get_highlightedSprite_m2511270273 ();
-extern "C" void SpriteState_get_pressedSprite_m591013456 ();
-extern "C" void SpriteState_get_disabledSprite_m1512804506 ();
-extern "C" void SpriteState_Equals_m895455353 ();
+extern "C" void SpriteState_get_highlightedSprite_m2511270273_AdjustorThunk ();
+extern "C" void SpriteState_get_pressedSprite_m591013456_AdjustorThunk ();
+extern "C" void SpriteState_get_disabledSprite_m1512804506_AdjustorThunk ();
+extern "C" void SpriteState_Equals_m895455353_AdjustorThunk ();
 extern "C" void StencilMaterial__cctor_m2688860949 ();
 extern "C" void StencilMaterial_Add_m310944030 ();
 extern "C" void StencilMaterial_Add_m264449278 ();
@@ -10348,6 +10619,7 @@ extern "C" void Text_get_pixelsPerUnit_m4148756467 ();
 extern "C" void Text_OnEnable_m3618900104 ();
 extern "C" void Text_OnDisable_m957690789 ();
 extern "C" void Text_UpdateGeometry_m1493208737 ();
+extern "C" void Text_AssignDefaultFont_m1282297949 ();
 extern "C" void Text_GetGenerationSettings_m554596117 ();
 extern "C" void Text_GetTextAnchorPivot_m7192668 ();
 extern "C" void Text_OnPopulateMesh_m869628001 ();
@@ -14350,7 +14622,7 @@ extern "C" void RecognizeAlgo__ctor_m2349219498 ();
 extern "C" void RecognizeAlgo_createDataSet_m3151877655 ();
 extern "C" void TouchController__ctor_m1747329456 ();
 extern "C" void TouchController_Update_m59500381 ();
-extern const methodPointerType g_MethodPointers[14339] = 
+extern const Il2CppMethodPointer g_MethodPointers[14611] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -14360,7 +14632,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SafeWaitHandle_ReleaseHandle_m225694928,
 	CodePointIndexer__ctor_m1627820919,
 	CodePointIndexer_ToIndex_m2811911057,
-	TableRange__ctor_m3599194282,
+	TableRange__ctor_m3599194282_AdjustorThunk,
 	Contraction__ctor_m4198429461,
 	ContractionComparer__ctor_m1678187352,
 	ContractionComparer__cctor_m2104149,
@@ -14443,8 +14715,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SimpleCollator_MatchesPrimitive_m4274637912,
 	SimpleCollator_MatchesBackward_m2723732854,
 	SimpleCollator_MatchesBackwardCore_m1571229341,
-	Context__ctor_m1103265712,
-	PreviousInfo__ctor_m144561586,
+	Context__ctor_m1103265712_AdjustorThunk,
+	PreviousInfo__ctor_m144561586_AdjustorThunk,
 	SortKeyBuffer__ctor_m3429486059,
 	SortKeyBuffer_Reset_m3243252295,
 	SortKeyBuffer_Initialize_m100616957,
@@ -14858,6 +15130,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	AttrListImpl_Clear_m110682032,
 	AttrListImpl_Add_m1977035706,
 	SmallXmlParserException__ctor_m2365134382,
+	__Il2CppComObject_Finalize_m3853271133,
 	AccessViolationException__ctor_m1376995463,
 	AccessViolationException__ctor_m1694290248,
 	ActivationContext_System_Runtime_Serialization_ISerializable_GetObjectData_m1366995411,
@@ -14898,8 +15171,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ApplicationException__ctor_m2651787575,
 	ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m769720520,
 	ApplicationIdentity_ToString_m654104720,
-	ArgIterator_Equals_m1215992796,
-	ArgIterator_GetHashCode_m3474761664,
+	ArgIterator_Equals_m1215992796_AdjustorThunk,
+	ArgIterator_GetHashCode_m3474761664_AdjustorThunk,
 	ArgumentException__ctor_m571182463,
 	ArgumentException__ctor_m3544856547,
 	ArgumentException__ctor_m2711220147,
@@ -15068,85 +15341,85 @@ extern const methodPointerType g_MethodPointers[14339] =
 	BitConverter_ToString_m1865594174,
 	BitConverter_ToString_m190732574,
 	Boolean__cctor_m1619527460,
-	Boolean_System_IConvertible_ToType_m305773363,
-	Boolean_System_IConvertible_ToBoolean_m1529027437,
-	Boolean_System_IConvertible_ToByte_m689202539,
-	Boolean_System_IConvertible_ToChar_m61046955,
-	Boolean_System_IConvertible_ToDateTime_m2146018443,
-	Boolean_System_IConvertible_ToDecimal_m2708222975,
-	Boolean_System_IConvertible_ToDouble_m4044182987,
-	Boolean_System_IConvertible_ToInt16_m1902909573,
-	Boolean_System_IConvertible_ToInt32_m282594809,
-	Boolean_System_IConvertible_ToInt64_m2886263351,
-	Boolean_System_IConvertible_ToSByte_m2350844819,
-	Boolean_System_IConvertible_ToSingle_m249236267,
-	Boolean_System_IConvertible_ToUInt16_m136688779,
-	Boolean_System_IConvertible_ToUInt32_m3723299531,
-	Boolean_System_IConvertible_ToUInt64_m119372075,
-	Boolean_CompareTo_m324613897,
-	Boolean_Equals_m1178456600,
-	Boolean_CompareTo_m3388665506,
-	Boolean_Equals_m4087985523,
-	Boolean_GetHashCode_m841540860,
+	Boolean_System_IConvertible_ToType_m305773363_AdjustorThunk,
+	Boolean_System_IConvertible_ToBoolean_m1529027437_AdjustorThunk,
+	Boolean_System_IConvertible_ToByte_m689202539_AdjustorThunk,
+	Boolean_System_IConvertible_ToChar_m61046955_AdjustorThunk,
+	Boolean_System_IConvertible_ToDateTime_m2146018443_AdjustorThunk,
+	Boolean_System_IConvertible_ToDecimal_m2708222975_AdjustorThunk,
+	Boolean_System_IConvertible_ToDouble_m4044182987_AdjustorThunk,
+	Boolean_System_IConvertible_ToInt16_m1902909573_AdjustorThunk,
+	Boolean_System_IConvertible_ToInt32_m282594809_AdjustorThunk,
+	Boolean_System_IConvertible_ToInt64_m2886263351_AdjustorThunk,
+	Boolean_System_IConvertible_ToSByte_m2350844819_AdjustorThunk,
+	Boolean_System_IConvertible_ToSingle_m249236267_AdjustorThunk,
+	Boolean_System_IConvertible_ToUInt16_m136688779_AdjustorThunk,
+	Boolean_System_IConvertible_ToUInt32_m3723299531_AdjustorThunk,
+	Boolean_System_IConvertible_ToUInt64_m119372075_AdjustorThunk,
+	Boolean_CompareTo_m324613897_AdjustorThunk,
+	Boolean_Equals_m1178456600_AdjustorThunk,
+	Boolean_CompareTo_m3388665506_AdjustorThunk,
+	Boolean_Equals_m4087985523_AdjustorThunk,
+	Boolean_GetHashCode_m841540860_AdjustorThunk,
 	Boolean_Parse_m3007515274,
-	Boolean_ToString_m2512358154,
-	Boolean_GetTypeCode_m1624087223,
-	Boolean_ToString_m2019601528,
+	Boolean_ToString_m2512358154_AdjustorThunk,
+	Boolean_GetTypeCode_m1624087223_AdjustorThunk,
+	Boolean_ToString_m2019601528_AdjustorThunk,
 	Buffer_ByteLength_m3699202119,
 	Buffer_BlockCopy_m1580643184,
 	Buffer_ByteLengthInternal_m22076516,
 	Buffer_BlockCopyInternal_m1988595087,
-	Byte_System_IConvertible_ToType_m2101067301,
-	Byte_System_IConvertible_ToBoolean_m750195189,
-	Byte_System_IConvertible_ToByte_m2117963023,
-	Byte_System_IConvertible_ToChar_m1237710763,
-	Byte_System_IConvertible_ToDateTime_m3914393141,
-	Byte_System_IConvertible_ToDecimal_m2270065237,
-	Byte_System_IConvertible_ToDouble_m2741577889,
-	Byte_System_IConvertible_ToInt16_m1270736309,
-	Byte_System_IConvertible_ToInt32_m1299459829,
-	Byte_System_IConvertible_ToInt64_m3271837141,
-	Byte_System_IConvertible_ToSByte_m864432533,
-	Byte_System_IConvertible_ToSingle_m3059059407,
-	Byte_System_IConvertible_ToUInt16_m1061177661,
-	Byte_System_IConvertible_ToUInt32_m4228367665,
-	Byte_System_IConvertible_ToUInt64_m2529248559,
-	Byte_CompareTo_m1774805901,
-	Byte_Equals_m4077775008,
-	Byte_GetHashCode_m2610389752,
-	Byte_CompareTo_m3248632740,
-	Byte_Equals_m2522538359,
+	Byte_System_IConvertible_ToType_m2101067301_AdjustorThunk,
+	Byte_System_IConvertible_ToBoolean_m750195189_AdjustorThunk,
+	Byte_System_IConvertible_ToByte_m2117963023_AdjustorThunk,
+	Byte_System_IConvertible_ToChar_m1237710763_AdjustorThunk,
+	Byte_System_IConvertible_ToDateTime_m3914393141_AdjustorThunk,
+	Byte_System_IConvertible_ToDecimal_m2270065237_AdjustorThunk,
+	Byte_System_IConvertible_ToDouble_m2741577889_AdjustorThunk,
+	Byte_System_IConvertible_ToInt16_m1270736309_AdjustorThunk,
+	Byte_System_IConvertible_ToInt32_m1299459829_AdjustorThunk,
+	Byte_System_IConvertible_ToInt64_m3271837141_AdjustorThunk,
+	Byte_System_IConvertible_ToSByte_m864432533_AdjustorThunk,
+	Byte_System_IConvertible_ToSingle_m3059059407_AdjustorThunk,
+	Byte_System_IConvertible_ToUInt16_m1061177661_AdjustorThunk,
+	Byte_System_IConvertible_ToUInt32_m4228367665_AdjustorThunk,
+	Byte_System_IConvertible_ToUInt64_m2529248559_AdjustorThunk,
+	Byte_CompareTo_m1774805901_AdjustorThunk,
+	Byte_Equals_m4077775008_AdjustorThunk,
+	Byte_GetHashCode_m2610389752_AdjustorThunk,
+	Byte_CompareTo_m3248632740_AdjustorThunk,
+	Byte_Equals_m2522538359_AdjustorThunk,
 	Byte_Parse_m1558065596,
 	Byte_Parse_m3498070023,
 	Byte_Parse_m2576952376,
 	Byte_TryParse_m1476880242,
 	Byte_TryParse_m570779293,
-	Byte_ToString_m961894880,
-	Byte_ToString_m3965014306,
-	Byte_ToString_m4244510414,
-	Byte_ToString_m1210459538,
+	Byte_ToString_m961894880_AdjustorThunk,
+	Byte_ToString_m3965014306_AdjustorThunk,
+	Byte_ToString_m4244510414_AdjustorThunk,
+	Byte_ToString_m1210459538_AdjustorThunk,
 	Char__cctor_m3887439662,
-	Char_System_IConvertible_ToType_m2466414707,
-	Char_System_IConvertible_ToBoolean_m661905383,
-	Char_System_IConvertible_ToByte_m4241151069,
-	Char_System_IConvertible_ToChar_m3360898809,
-	Char_System_IConvertible_ToDateTime_m1177409155,
-	Char_System_IConvertible_ToDecimal_m2181775431,
-	Char_System_IConvertible_ToDouble_m3015824495,
-	Char_System_IConvertible_ToInt16_m2665056295,
-	Char_System_IConvertible_ToInt32_m2693779815,
-	Char_System_IConvertible_ToInt64_m371189831,
-	Char_System_IConvertible_ToSByte_m2258752519,
-	Char_System_IConvertible_ToSingle_m3333306013,
-	Char_System_IConvertible_ToUInt16_m1335424267,
-	Char_System_IConvertible_ToUInt32_m207646975,
-	Char_System_IConvertible_ToUInt64_m2803495165,
+	Char_System_IConvertible_ToType_m2466414707_AdjustorThunk,
+	Char_System_IConvertible_ToBoolean_m661905383_AdjustorThunk,
+	Char_System_IConvertible_ToByte_m4241151069_AdjustorThunk,
+	Char_System_IConvertible_ToChar_m3360898809_AdjustorThunk,
+	Char_System_IConvertible_ToDateTime_m1177409155_AdjustorThunk,
+	Char_System_IConvertible_ToDecimal_m2181775431_AdjustorThunk,
+	Char_System_IConvertible_ToDouble_m3015824495_AdjustorThunk,
+	Char_System_IConvertible_ToInt16_m2665056295_AdjustorThunk,
+	Char_System_IConvertible_ToInt32_m2693779815_AdjustorThunk,
+	Char_System_IConvertible_ToInt64_m371189831_AdjustorThunk,
+	Char_System_IConvertible_ToSByte_m2258752519_AdjustorThunk,
+	Char_System_IConvertible_ToSingle_m3333306013_AdjustorThunk,
+	Char_System_IConvertible_ToUInt16_m1335424267_AdjustorThunk,
+	Char_System_IConvertible_ToUInt32_m207646975_AdjustorThunk,
+	Char_System_IConvertible_ToUInt64_m2803495165_AdjustorThunk,
 	Char_GetDataTablePointers_m2324968695,
-	Char_CompareTo_m3049402459,
-	Char_Equals_m158269074,
-	Char_CompareTo_m2003432292,
-	Char_Equals_m2979193691,
-	Char_GetHashCode_m3546188522,
+	Char_CompareTo_m3049402459_AdjustorThunk,
+	Char_Equals_m158269074_AdjustorThunk,
+	Char_CompareTo_m2003432292_AdjustorThunk,
+	Char_Equals_m2979193691_AdjustorThunk,
+	Char_GetHashCode_m3546188522_AdjustorThunk,
 	Char_GetUnicodeCategory_m494586991,
 	Char_IsDigit_m1743537211,
 	Char_IsLetter_m1699036490,
@@ -15163,9 +15436,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Char_ToLower_m849361594,
 	Char_ToUpper_m3343442427,
 	Char_ToUpperInvariant_m4158859197,
-	Char_ToString_m2089191214,
-	Char_ToString_m2826712476,
-	Char_GetTypeCode_m4226232807,
+	Char_ToString_m2089191214_AdjustorThunk,
+	Char_ToString_m2826712476_AdjustorThunk,
+	Char_GetTypeCode_m4226232807_AdjustorThunk,
 	CharEnumerator__ctor_m2119134439,
 	CharEnumerator_System_Collections_IEnumerator_get_Current_m1493871051,
 	CharEnumerator_System_IDisposable_Dispose_m2219960452,
@@ -15363,9 +15636,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Comparer__cctor_m647232606,
 	Comparer_Compare_m3505220244,
 	Comparer_GetObjectData_m2758478157,
-	DictionaryEntry__ctor_m2600671860,
-	DictionaryEntry_get_Key_m3516209325,
-	DictionaryEntry_get_Value_m4281303039,
+	DictionaryEntry__ctor_m2600671860_AdjustorThunk,
+	DictionaryEntry_get_Key_m3516209325_AdjustorThunk,
+	DictionaryEntry_get_Value_m4281303039_AdjustorThunk,
 	KeyNotFoundException__ctor_m3542895460,
 	KeyNotFoundException__ctor_m171814565,
 	Hashtable__ctor_m1514037738,
@@ -15740,59 +16013,59 @@ extern const methodPointerType g_MethodPointers[14339] =
 	CurrentSystemTimeZone_GetUtcOffset_m376788806,
 	CurrentSystemTimeZone_OnDeserialization_m3995478209,
 	CurrentSystemTimeZone_GetDaylightTimeFromData_m3433378959,
-	DateTime__ctor_m4059138700,
-	DateTime__ctor_m145640619,
-	DateTime__ctor_m580066412,
-	DateTime__ctor_m1594789867,
-	DateTime__ctor_m270463751,
-	DateTime__ctor_m2747883466,
-	DateTime__ctor_m3805233578,
+	DateTime__ctor_m4059138700_AdjustorThunk,
+	DateTime__ctor_m145640619_AdjustorThunk,
+	DateTime__ctor_m580066412_AdjustorThunk,
+	DateTime__ctor_m1594789867_AdjustorThunk,
+	DateTime__ctor_m270463751_AdjustorThunk,
+	DateTime__ctor_m2747883466_AdjustorThunk,
+	DateTime__ctor_m3805233578_AdjustorThunk,
 	DateTime__cctor_m2266812979,
-	DateTime_System_IConvertible_ToBoolean_m2607169538,
-	DateTime_System_IConvertible_ToByte_m3369899810,
-	DateTime_System_IConvertible_ToChar_m4085197502,
-	DateTime_System_IConvertible_ToDateTime_m1478929736,
-	DateTime_System_IConvertible_ToDecimal_m53652706,
-	DateTime_System_IConvertible_ToDouble_m3492146548,
-	DateTime_System_IConvertible_ToInt16_m3303672066,
-	DateTime_System_IConvertible_ToInt32_m2595315522,
-	DateTime_System_IConvertible_ToInt64_m3286355362,
-	DateTime_System_IConvertible_ToSByte_m551886946,
-	DateTime_System_IConvertible_ToSingle_m1051597858,
-	DateTime_System_IConvertible_ToType_m1980756024,
-	DateTime_System_IConvertible_ToUInt16_m3136984848,
-	DateTime_System_IConvertible_ToUInt32_m634562052,
-	DateTime_System_IConvertible_ToUInt64_m2163654274,
+	DateTime_System_IConvertible_ToBoolean_m2607169538_AdjustorThunk,
+	DateTime_System_IConvertible_ToByte_m3369899810_AdjustorThunk,
+	DateTime_System_IConvertible_ToChar_m4085197502_AdjustorThunk,
+	DateTime_System_IConvertible_ToDateTime_m1478929736_AdjustorThunk,
+	DateTime_System_IConvertible_ToDecimal_m53652706_AdjustorThunk,
+	DateTime_System_IConvertible_ToDouble_m3492146548_AdjustorThunk,
+	DateTime_System_IConvertible_ToInt16_m3303672066_AdjustorThunk,
+	DateTime_System_IConvertible_ToInt32_m2595315522_AdjustorThunk,
+	DateTime_System_IConvertible_ToInt64_m3286355362_AdjustorThunk,
+	DateTime_System_IConvertible_ToSByte_m551886946_AdjustorThunk,
+	DateTime_System_IConvertible_ToSingle_m1051597858_AdjustorThunk,
+	DateTime_System_IConvertible_ToType_m1980756024_AdjustorThunk,
+	DateTime_System_IConvertible_ToUInt16_m3136984848_AdjustorThunk,
+	DateTime_System_IConvertible_ToUInt32_m634562052_AdjustorThunk,
+	DateTime_System_IConvertible_ToUInt64_m2163654274_AdjustorThunk,
 	DateTime_AbsoluteDays_m1774199309,
-	DateTime_FromTicks_m1238653738,
-	DateTime_get_Month_m1871036171,
-	DateTime_get_Day_m609985447,
-	DateTime_get_DayOfWeek_m1793620473,
-	DateTime_get_Hour_m1857077531,
-	DateTime_get_Minute_m1138831307,
-	DateTime_get_Second_m3430069803,
+	DateTime_FromTicks_m1238653738_AdjustorThunk,
+	DateTime_get_Month_m1871036171_AdjustorThunk,
+	DateTime_get_Day_m609985447_AdjustorThunk,
+	DateTime_get_DayOfWeek_m1793620473_AdjustorThunk,
+	DateTime_get_Hour_m1857077531_AdjustorThunk,
+	DateTime_get_Minute_m1138831307_AdjustorThunk,
+	DateTime_get_Second_m3430069803_AdjustorThunk,
 	DateTime_GetTimeMonotonic_m2483860980,
 	DateTime_GetNow_m2752959917,
 	DateTime_get_Now_m1812131422,
-	DateTime_get_Ticks_m386468226,
+	DateTime_get_Ticks_m386468226_AdjustorThunk,
 	DateTime_get_Today_m3010825801,
 	DateTime_get_UtcNow_m685282732,
-	DateTime_get_Year_m2333942068,
-	DateTime_get_Kind_m3496013602,
-	DateTime_Add_m1332740042,
-	DateTime_AddTicks_m2395456952,
-	DateTime_AddMilliseconds_m1717403134,
-	DateTime_AddSeconds_m2515640243,
+	DateTime_get_Year_m2333942068_AdjustorThunk,
+	DateTime_get_Kind_m3496013602_AdjustorThunk,
+	DateTime_Add_m1332740042_AdjustorThunk,
+	DateTime_AddTicks_m2395456952_AdjustorThunk,
+	DateTime_AddMilliseconds_m1717403134_AdjustorThunk,
+	DateTime_AddSeconds_m2515640243_AdjustorThunk,
 	DateTime_Compare_m1646075697,
-	DateTime_CompareTo_m246114144,
-	DateTime_CompareTo_m1522800900,
-	DateTime_Equals_m1479384337,
+	DateTime_CompareTo_m246114144_AdjustorThunk,
+	DateTime_CompareTo_m1522800900_AdjustorThunk,
+	DateTime_Equals_m1479384337_AdjustorThunk,
 	DateTime_FromBinary_m1447091502,
 	DateTime_SpecifyKind_m2123544880,
 	DateTime_DaysInMonth_m1394183022,
-	DateTime_Equals_m13666989,
-	DateTime_CheckDateTimeKind_m1840811157,
-	DateTime_GetHashCode_m2255586565,
+	DateTime_Equals_m13666989_AdjustorThunk,
+	DateTime_CheckDateTimeKind_m1840811157_AdjustorThunk,
+	DateTime_GetHashCode_m2255586565_AdjustorThunk,
 	DateTime_IsLeapYear_m3404721384,
 	DateTime_Parse_m1801557718,
 	DateTime_Parse_m1424797081,
@@ -15810,12 +16083,12 @@ extern const methodPointerType g_MethodPointers[14339] =
 	DateTime_ParseExact_m4017898168,
 	DateTime_CheckStyle_m1804676438,
 	DateTime_ParseExact_m3576065686,
-	DateTime_Subtract_m4130550807,
-	DateTime_ToString_m3221907059,
-	DateTime_ToString_m1268589345,
-	DateTime_ToString_m2141430949,
-	DateTime_ToLocalTime_m3629183118,
-	DateTime_ToUniversalTime_m691668206,
+	DateTime_Subtract_m4130550807_AdjustorThunk,
+	DateTime_ToString_m3221907059_AdjustorThunk,
+	DateTime_ToString_m1268589345_AdjustorThunk,
+	DateTime_ToString_m2141430949_AdjustorThunk,
+	DateTime_ToLocalTime_m3629183118_AdjustorThunk,
+	DateTime_ToUniversalTime_m691668206_AdjustorThunk,
 	DateTime_op_Addition_m4061583523,
 	DateTime_op_Equality_m2277436664,
 	DateTime_op_GreaterThan_m3846016869,
@@ -15824,23 +16097,23 @@ extern const methodPointerType g_MethodPointers[14339] =
 	DateTime_op_LessThan_m35073816,
 	DateTime_op_LessThanOrEqual_m354447689,
 	DateTime_op_Subtraction_m3609021319,
-	DateTimeOffset__ctor_m206991153,
-	DateTimeOffset__ctor_m2612619655,
-	DateTimeOffset__ctor_m2468003023,
-	DateTimeOffset__ctor_m846097640,
+	DateTimeOffset__ctor_m206991153_AdjustorThunk,
+	DateTimeOffset__ctor_m2612619655_AdjustorThunk,
+	DateTimeOffset__ctor_m2468003023_AdjustorThunk,
+	DateTimeOffset__ctor_m846097640_AdjustorThunk,
 	DateTimeOffset__cctor_m2485435494,
-	DateTimeOffset_System_IComparable_CompareTo_m1459743069,
-	DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m2682194308,
-	DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m3161484655,
-	DateTimeOffset_CompareTo_m1122350244,
-	DateTimeOffset_Equals_m4108087019,
-	DateTimeOffset_Equals_m1431331290,
-	DateTimeOffset_GetHashCode_m1972583858,
-	DateTimeOffset_ToString_m983707174,
-	DateTimeOffset_ToString_m4001156824,
-	DateTimeOffset_get_DateTime_m2501837032,
-	DateTimeOffset_get_Offset_m3938299132,
-	DateTimeOffset_get_UtcDateTime_m2831969300,
+	DateTimeOffset_System_IComparable_CompareTo_m1459743069_AdjustorThunk,
+	DateTimeOffset_System_Runtime_Serialization_ISerializable_GetObjectData_m2682194308_AdjustorThunk,
+	DateTimeOffset_System_Runtime_Serialization_IDeserializationCallback_OnDeserialization_m3161484655_AdjustorThunk,
+	DateTimeOffset_CompareTo_m1122350244_AdjustorThunk,
+	DateTimeOffset_Equals_m4108087019_AdjustorThunk,
+	DateTimeOffset_Equals_m1431331290_AdjustorThunk,
+	DateTimeOffset_GetHashCode_m1972583858_AdjustorThunk,
+	DateTimeOffset_ToString_m983707174_AdjustorThunk,
+	DateTimeOffset_ToString_m4001156824_AdjustorThunk,
+	DateTimeOffset_get_DateTime_m2501837032_AdjustorThunk,
+	DateTimeOffset_get_Offset_m3938299132_AdjustorThunk,
+	DateTimeOffset_get_UtcDateTime_m2831969300_AdjustorThunk,
 	DateTimeUtils_CountRepeat_m1708225203,
 	DateTimeUtils_ZeroPad_m685144038,
 	DateTimeUtils_ParseQuotedString_m3109565730,
@@ -15869,54 +16142,54 @@ extern const methodPointerType g_MethodPointers[14339] =
 	DBNull_GetObjectData_m825308334,
 	DBNull_ToString_m1866708381,
 	DBNull_ToString_m1417959115,
-	Decimal__ctor_m2513372273,
-	Decimal__ctor_m3224507889,
-	Decimal__ctor_m2172724314,
-	Decimal__ctor_m3224510834,
-	Decimal__ctor_m2172727259,
-	Decimal__ctor_m1313518859,
-	Decimal__ctor_m1063956130,
+	Decimal__ctor_m2513372273_AdjustorThunk,
+	Decimal__ctor_m3224507889_AdjustorThunk,
+	Decimal__ctor_m2172724314_AdjustorThunk,
+	Decimal__ctor_m3224510834_AdjustorThunk,
+	Decimal__ctor_m2172727259_AdjustorThunk,
+	Decimal__ctor_m1313518859_AdjustorThunk,
+	Decimal__ctor_m1063956130_AdjustorThunk,
 	Decimal__cctor_m2694156045,
-	Decimal_System_IConvertible_ToType_m3174931036,
-	Decimal_System_IConvertible_ToBoolean_m632609316,
-	Decimal_System_IConvertible_ToByte_m852949524,
-	Decimal_System_IConvertible_ToChar_m224793940,
-	Decimal_System_IConvertible_ToDateTime_m126860468,
-	Decimal_System_IConvertible_ToDecimal_m1811804854,
-	Decimal_System_IConvertible_ToDouble_m2491245620,
-	Decimal_System_IConvertible_ToInt16_m2684098812,
-	Decimal_System_IConvertible_ToInt32_m1063784048,
-	Decimal_System_IConvertible_ToInt64_m3667452590,
-	Decimal_System_IConvertible_ToSByte_m3132034058,
-	Decimal_System_IConvertible_ToSingle_m2991266196,
-	Decimal_System_IConvertible_ToUInt16_m2878718708,
-	Decimal_System_IConvertible_ToUInt32_m2170362164,
-	Decimal_System_IConvertible_ToUInt64_m2861402004,
+	Decimal_System_IConvertible_ToType_m3174931036_AdjustorThunk,
+	Decimal_System_IConvertible_ToBoolean_m632609316_AdjustorThunk,
+	Decimal_System_IConvertible_ToByte_m852949524_AdjustorThunk,
+	Decimal_System_IConvertible_ToChar_m224793940_AdjustorThunk,
+	Decimal_System_IConvertible_ToDateTime_m126860468_AdjustorThunk,
+	Decimal_System_IConvertible_ToDecimal_m1811804854_AdjustorThunk,
+	Decimal_System_IConvertible_ToDouble_m2491245620_AdjustorThunk,
+	Decimal_System_IConvertible_ToInt16_m2684098812_AdjustorThunk,
+	Decimal_System_IConvertible_ToInt32_m1063784048_AdjustorThunk,
+	Decimal_System_IConvertible_ToInt64_m3667452590_AdjustorThunk,
+	Decimal_System_IConvertible_ToSByte_m3132034058_AdjustorThunk,
+	Decimal_System_IConvertible_ToSingle_m2991266196_AdjustorThunk,
+	Decimal_System_IConvertible_ToUInt16_m2878718708_AdjustorThunk,
+	Decimal_System_IConvertible_ToUInt32_m2170362164_AdjustorThunk,
+	Decimal_System_IConvertible_ToUInt64_m2861402004_AdjustorThunk,
 	Decimal_GetBits_m3135740910,
 	Decimal_Add_m228744192,
 	Decimal_Subtract_m4038646005,
-	Decimal_GetHashCode_m3725649587,
+	Decimal_GetHashCode_m3725649587_AdjustorThunk,
 	Decimal_u64_m2792266019,
 	Decimal_s64_m2409928640,
 	Decimal_Equals_m1154754945,
-	Decimal_Equals_m3414174927,
-	Decimal_IsZero_m379800408,
+	Decimal_Equals_m3414174927_AdjustorThunk,
+	Decimal_IsZero_m379800408_AdjustorThunk,
 	Decimal_Floor_m2586872671,
 	Decimal_Multiply_m201714661,
 	Decimal_Divide_m555230192,
 	Decimal_Compare_m2326407199,
-	Decimal_CompareTo_m2551434482,
-	Decimal_CompareTo_m2260095952,
-	Decimal_Equals_m3235245971,
+	Decimal_CompareTo_m2551434482_AdjustorThunk,
+	Decimal_CompareTo_m2260095952_AdjustorThunk,
+	Decimal_Equals_m3235245971_AdjustorThunk,
 	Decimal_Parse_m3786250826,
 	Decimal_ThrowAtPos_m2498186320,
 	Decimal_ThrowInvalidExp_m2882909866,
 	Decimal_stripStyles_m1011490529,
 	Decimal_Parse_m2075137301,
 	Decimal_PerformParse_m2251733520,
-	Decimal_ToString_m3542473445,
-	Decimal_ToString_m143310003,
-	Decimal_ToString_m1778338145,
+	Decimal_ToString_m3542473445_AdjustorThunk,
+	Decimal_ToString_m143310003_AdjustorThunk,
+	Decimal_ToString_m1778338145_AdjustorThunk,
 	Decimal_decimal2UInt64_m3964664210,
 	Decimal_decimal2Int64_m4033216548,
 	Decimal_decimalIncr_m877616783,
@@ -16017,26 +16290,26 @@ extern const methodPointerType g_MethodPointers[14339] =
 	DivideByZeroException__ctor_m581941947,
 	DllNotFoundException__ctor_m3414970969,
 	DllNotFoundException__ctor_m2210937882,
-	Double_System_IConvertible_ToType_m3081766574,
-	Double_System_IConvertible_ToBoolean_m1420114956,
-	Double_System_IConvertible_ToByte_m3166411992,
-	Double_System_IConvertible_ToChar_m832351220,
-	Double_System_IConvertible_ToDateTime_m2501791934,
-	Double_System_IConvertible_ToDecimal_m87321260,
-	Double_System_IConvertible_ToDouble_m233905130,
-	Double_System_IConvertible_ToInt16_m3883955340,
-	Double_System_IConvertible_ToInt32_m1264391244,
-	Double_System_IConvertible_ToInt64_m1713000172,
-	Double_System_IConvertible_ToSByte_m140140076,
-	Double_System_IConvertible_ToSingle_m1798614104,
-	Double_System_IConvertible_ToUInt16_m3970470150,
-	Double_System_IConvertible_ToUInt32_m2350155386,
-	Double_System_IConvertible_ToUInt64_m658856632,
-	Double_CompareTo_m2864423062,
-	Double_Equals_m1597124279,
-	Double_CompareTo_m2074073668,
-	Double_Equals_m806774885,
-	Double_GetHashCode_m2106126735,
+	Double_System_IConvertible_ToType_m3081766574_AdjustorThunk,
+	Double_System_IConvertible_ToBoolean_m1420114956_AdjustorThunk,
+	Double_System_IConvertible_ToByte_m3166411992_AdjustorThunk,
+	Double_System_IConvertible_ToChar_m832351220_AdjustorThunk,
+	Double_System_IConvertible_ToDateTime_m2501791934_AdjustorThunk,
+	Double_System_IConvertible_ToDecimal_m87321260_AdjustorThunk,
+	Double_System_IConvertible_ToDouble_m233905130_AdjustorThunk,
+	Double_System_IConvertible_ToInt16_m3883955340_AdjustorThunk,
+	Double_System_IConvertible_ToInt32_m1264391244_AdjustorThunk,
+	Double_System_IConvertible_ToInt64_m1713000172_AdjustorThunk,
+	Double_System_IConvertible_ToSByte_m140140076_AdjustorThunk,
+	Double_System_IConvertible_ToSingle_m1798614104_AdjustorThunk,
+	Double_System_IConvertible_ToUInt16_m3970470150_AdjustorThunk,
+	Double_System_IConvertible_ToUInt32_m2350155386_AdjustorThunk,
+	Double_System_IConvertible_ToUInt64_m658856632_AdjustorThunk,
+	Double_CompareTo_m2864423062_AdjustorThunk,
+	Double_Equals_m1597124279_AdjustorThunk,
+	Double_CompareTo_m2074073668_AdjustorThunk,
+	Double_Equals_m806774885_AdjustorThunk,
+	Double_GetHashCode_m2106126735_AdjustorThunk,
 	Double_IsInfinity_m3094155474,
 	Double_IsNaN_m506471885,
 	Double_IsNegativeInfinity_m553043933,
@@ -16047,9 +16320,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Double_Parse_m1451965917,
 	Double_TryParseStringConstant_m2653461779,
 	Double_ParseImpl_m1244982012,
-	Double_ToString_m3380246633,
-	Double_ToString_m937670807,
-	Double_ToString_m2573497243,
+	Double_ToString_m3380246633_AdjustorThunk,
+	Double_ToString_m937670807_AdjustorThunk,
+	Double_ToString_m2573497243_AdjustorThunk,
 	EntryPointNotFoundException__ctor_m2371781647,
 	EntryPointNotFoundException__ctor_m3139612880,
 	Enum__ctor_m701753108,
@@ -16126,6 +16399,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Exception__ctor_m3602014243,
 	Exception__ctor_m1328171222,
 	Exception_get_InnerException_m1427945535,
+	Exception_get_HResult_m3941496800,
 	Exception_set_HResult_m3566571225,
 	Exception_get_ClassName_m2925782135,
 	Exception_get_Message_m1013139483,
@@ -16342,79 +16616,80 @@ extern const methodPointerType g_MethodPointers[14339] =
 	TextInfo_ToLower_m4134533294,
 	TextInfo_ToUpper_m87931053,
 	TextInfo_ToLower_m1323104334,
+	TextInfo_ToUpper_m3778720909,
 	TextInfo_Clone_m2796816861,
-	Guid__ctor_m4231849149,
-	Guid__ctor_m1439809125,
+	Guid__ctor_m4231849149_AdjustorThunk,
+	Guid__ctor_m1439809125_AdjustorThunk,
 	Guid__cctor_m2766110369,
 	Guid_CheckNull_m2831368219,
 	Guid_CheckLength_m1965613350,
 	Guid_CheckArray_m2333985879,
 	Guid_Compare_m3677181275,
-	Guid_CompareTo_m899467726,
-	Guid_Equals_m1613304319,
-	Guid_CompareTo_m4163940548,
-	Guid_Equals_m2229489973,
-	Guid_GetHashCode_m885349207,
+	Guid_CompareTo_m899467726_AdjustorThunk,
+	Guid_Equals_m1613304319_AdjustorThunk,
+	Guid_CompareTo_m4163940548_AdjustorThunk,
+	Guid_Equals_m2229489973_AdjustorThunk,
+	Guid_GetHashCode_m885349207_AdjustorThunk,
 	Guid_ToHex_m1518905113,
 	Guid_NewGuid_m3560729310,
 	Guid_AppendInt_m60474956,
 	Guid_AppendShort_m2766674707,
 	Guid_AppendByte_m1375613333,
-	Guid_BaseToString_m2905357353,
-	Guid_ToString_m2528531937,
-	Guid_ToString_m2135662273,
-	Guid_ToString_m3177248019,
+	Guid_BaseToString_m2905357353_AdjustorThunk,
+	Guid_ToString_m2528531937_AdjustorThunk,
+	Guid_ToString_m2135662273_AdjustorThunk,
+	Guid_ToString_m3177248019_AdjustorThunk,
 	IndexOutOfRangeException__ctor_m707236112,
 	IndexOutOfRangeException__ctor_m1621772274,
 	IndexOutOfRangeException__ctor_m2445908561,
-	Int16_System_IConvertible_ToBoolean_m669530817,
-	Int16_System_IConvertible_ToByte_m3751510295,
-	Int16_System_IConvertible_ToChar_m946778327,
-	Int16_System_IConvertible_ToDateTime_m1660193143,
-	Int16_System_IConvertible_ToDecimal_m86989203,
-	Int16_System_IConvertible_ToDouble_m2343874615,
-	Int16_System_IConvertible_ToInt16_m1181902809,
-	Int16_System_IConvertible_ToInt32_m54125517,
-	Int16_System_IConvertible_ToInt64_m2649973707,
-	Int16_System_IConvertible_ToSByte_m2013479079,
-	Int16_System_IConvertible_ToSingle_m2834549719,
-	Int16_System_IConvertible_ToType_m1209633567,
-	Int16_System_IConvertible_ToUInt16_m2309149559,
-	Int16_System_IConvertible_ToUInt32_m3984552759,
-	Int16_System_IConvertible_ToUInt64_m138194391,
-	Int16_CompareTo_m2745013685,
-	Int16_Equals_m3652534636,
-	Int16_GetHashCode_m2943154640,
-	Int16_CompareTo_m759386634,
-	Int16_Equals_m373019507,
+	Int16_System_IConvertible_ToBoolean_m669530817_AdjustorThunk,
+	Int16_System_IConvertible_ToByte_m3751510295_AdjustorThunk,
+	Int16_System_IConvertible_ToChar_m946778327_AdjustorThunk,
+	Int16_System_IConvertible_ToDateTime_m1660193143_AdjustorThunk,
+	Int16_System_IConvertible_ToDecimal_m86989203_AdjustorThunk,
+	Int16_System_IConvertible_ToDouble_m2343874615_AdjustorThunk,
+	Int16_System_IConvertible_ToInt16_m1181902809_AdjustorThunk,
+	Int16_System_IConvertible_ToInt32_m54125517_AdjustorThunk,
+	Int16_System_IConvertible_ToInt64_m2649973707_AdjustorThunk,
+	Int16_System_IConvertible_ToSByte_m2013479079_AdjustorThunk,
+	Int16_System_IConvertible_ToSingle_m2834549719_AdjustorThunk,
+	Int16_System_IConvertible_ToType_m1209633567_AdjustorThunk,
+	Int16_System_IConvertible_ToUInt16_m2309149559_AdjustorThunk,
+	Int16_System_IConvertible_ToUInt32_m3984552759_AdjustorThunk,
+	Int16_System_IConvertible_ToUInt64_m138194391_AdjustorThunk,
+	Int16_CompareTo_m2745013685_AdjustorThunk,
+	Int16_Equals_m3652534636_AdjustorThunk,
+	Int16_GetHashCode_m2943154640_AdjustorThunk,
+	Int16_CompareTo_m759386634_AdjustorThunk,
+	Int16_Equals_m373019507_AdjustorThunk,
 	Int16_Parse_m1211345080,
 	Int16_Parse_m1815685098,
 	Int16_Parse_m1284520629,
 	Int16_TryParse_m1822994460,
-	Int16_ToString_m1124031606,
-	Int16_ToString_m3882509540,
-	Int16_ToString_m2054337100,
-	Int16_ToString_m416093480,
-	Int32_System_IConvertible_ToBoolean_m1849098567,
-	Int32_System_IConvertible_ToByte_m3739727953,
-	Int32_System_IConvertible_ToChar_m934995985,
-	Int32_System_IConvertible_ToDateTime_m3867055025,
-	Int32_System_IConvertible_ToDecimal_m1266556953,
-	Int32_System_IConvertible_ToDouble_m3905945841,
-	Int32_System_IConvertible_ToInt16_m816650207,
-	Int32_System_IConvertible_ToInt32_m3983840211,
-	Int32_System_IConvertible_ToInt64_m2284721105,
-	Int32_System_IConvertible_ToSByte_m1648226477,
-	Int32_System_IConvertible_ToSingle_m101653649,
-	Int32_System_IConvertible_ToType_m3850025817,
-	Int32_System_IConvertible_ToUInt16_m3871220785,
-	Int32_System_IConvertible_ToUInt32_m1251656689,
-	Int32_System_IConvertible_ToUInt64_m1700265617,
-	Int32_CompareTo_m2684051823,
-	Int32_Equals_m4061110258,
-	Int32_GetHashCode_m3396943446,
-	Int32_CompareTo_m2558537238,
-	Int32_Equals_m3849884467,
+	Int16_ToString_m1124031606_AdjustorThunk,
+	Int16_ToString_m3882509540_AdjustorThunk,
+	Int16_ToString_m2054337100_AdjustorThunk,
+	Int16_ToString_m416093480_AdjustorThunk,
+	Int32_System_IConvertible_ToBoolean_m1849098567_AdjustorThunk,
+	Int32_System_IConvertible_ToByte_m3739727953_AdjustorThunk,
+	Int32_System_IConvertible_ToChar_m934995985_AdjustorThunk,
+	Int32_System_IConvertible_ToDateTime_m3867055025_AdjustorThunk,
+	Int32_System_IConvertible_ToDecimal_m1266556953_AdjustorThunk,
+	Int32_System_IConvertible_ToDouble_m3905945841_AdjustorThunk,
+	Int32_System_IConvertible_ToInt16_m816650207_AdjustorThunk,
+	Int32_System_IConvertible_ToInt32_m3983840211_AdjustorThunk,
+	Int32_System_IConvertible_ToInt64_m2284721105_AdjustorThunk,
+	Int32_System_IConvertible_ToSByte_m1648226477_AdjustorThunk,
+	Int32_System_IConvertible_ToSingle_m101653649_AdjustorThunk,
+	Int32_System_IConvertible_ToType_m3850025817_AdjustorThunk,
+	Int32_System_IConvertible_ToUInt16_m3871220785_AdjustorThunk,
+	Int32_System_IConvertible_ToUInt32_m1251656689_AdjustorThunk,
+	Int32_System_IConvertible_ToUInt64_m1700265617_AdjustorThunk,
+	Int32_CompareTo_m2684051823_AdjustorThunk,
+	Int32_Equals_m4061110258_AdjustorThunk,
+	Int32_GetHashCode_m3396943446_AdjustorThunk,
+	Int32_CompareTo_m2558537238_AdjustorThunk,
+	Int32_Equals_m3849884467_AdjustorThunk,
 	Int32_ProcessTrailingWhitespace_m1289423315,
 	Int32_Parse_m95497208,
 	Int32_Parse_m981442986,
@@ -16431,31 +16706,31 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Int32_Parse_m2659730549,
 	Int32_TryParse_m695344220,
 	Int32_TryParse_m2457543725,
-	Int32_ToString_m1286526384,
-	Int32_ToString_m881186462,
-	Int32_ToString_m3853485906,
-	Int32_ToString_m4261017954,
-	Int32_GetTypeCode_m1231080401,
-	Int64_System_IConvertible_ToBoolean_m3781149192,
-	Int64_System_IConvertible_ToByte_m1202689840,
-	Int64_System_IConvertible_ToChar_m2692925168,
-	Int64_System_IConvertible_ToDateTime_m3631082256,
-	Int64_System_IConvertible_ToDecimal_m3198607578,
-	Int64_System_IConvertible_ToDouble_m1058776080,
-	Int64_System_IConvertible_ToInt16_m3772847328,
-	Int64_System_IConvertible_ToInt32_m2645070036,
-	Int64_System_IConvertible_ToInt64_m945950930,
-	Int64_System_IConvertible_ToSByte_m309456302,
-	Int64_System_IConvertible_ToSingle_m1549451184,
-	Int64_System_IConvertible_ToType_m3213378488,
-	Int64_System_IConvertible_ToUInt16_m1024051024,
-	Int64_System_IConvertible_ToUInt32_m2699454224,
-	Int64_System_IConvertible_ToUInt64_m3148063152,
-	Int64_CompareTo_m3843070222,
-	Int64_Equals_m1990436019,
-	Int64_GetHashCode_m2140836887,
-	Int64_CompareTo_m1210454552,
-	Int64_Equals_m1843428819,
+	Int32_ToString_m1286526384_AdjustorThunk,
+	Int32_ToString_m881186462_AdjustorThunk,
+	Int32_ToString_m3853485906_AdjustorThunk,
+	Int32_ToString_m4261017954_AdjustorThunk,
+	Int32_GetTypeCode_m1231080401_AdjustorThunk,
+	Int64_System_IConvertible_ToBoolean_m3781149192_AdjustorThunk,
+	Int64_System_IConvertible_ToByte_m1202689840_AdjustorThunk,
+	Int64_System_IConvertible_ToChar_m2692925168_AdjustorThunk,
+	Int64_System_IConvertible_ToDateTime_m3631082256_AdjustorThunk,
+	Int64_System_IConvertible_ToDecimal_m3198607578_AdjustorThunk,
+	Int64_System_IConvertible_ToDouble_m1058776080_AdjustorThunk,
+	Int64_System_IConvertible_ToInt16_m3772847328_AdjustorThunk,
+	Int64_System_IConvertible_ToInt32_m2645070036_AdjustorThunk,
+	Int64_System_IConvertible_ToInt64_m945950930_AdjustorThunk,
+	Int64_System_IConvertible_ToSByte_m309456302_AdjustorThunk,
+	Int64_System_IConvertible_ToSingle_m1549451184_AdjustorThunk,
+	Int64_System_IConvertible_ToType_m3213378488_AdjustorThunk,
+	Int64_System_IConvertible_ToUInt16_m1024051024_AdjustorThunk,
+	Int64_System_IConvertible_ToUInt32_m2699454224_AdjustorThunk,
+	Int64_System_IConvertible_ToUInt64_m3148063152_AdjustorThunk,
+	Int64_CompareTo_m3843070222_AdjustorThunk,
+	Int64_Equals_m1990436019_AdjustorThunk,
+	Int64_GetHashCode_m2140836887_AdjustorThunk,
+	Int64_CompareTo_m1210454552_AdjustorThunk,
+	Int64_Equals_m1843428819_AdjustorThunk,
 	Int64_Parse_m3451396568,
 	Int64_Parse_m1096035146,
 	Int64_Parse_m3299867831,
@@ -16463,22 +16738,22 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Int64_Parse_m913466901,
 	Int64_TryParse_m2106581948,
 	Int64_TryParse_m1199101227,
-	Int64_ToString_m3478011791,
-	Int64_ToString_m1593114429,
-	Int64_ToString_m2505400275,
-	Int64_ToString_m3523878849,
-	IntPtr__ctor_m2136600871,
-	IntPtr__ctor_m2136603816,
-	IntPtr__ctor_m2509422495,
-	IntPtr__ctor_m1930682647,
-	IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1875995893,
+	Int64_ToString_m3478011791_AdjustorThunk,
+	Int64_ToString_m1593114429_AdjustorThunk,
+	Int64_ToString_m2505400275_AdjustorThunk,
+	Int64_ToString_m3523878849_AdjustorThunk,
+	IntPtr__ctor_m2136600871_AdjustorThunk,
+	IntPtr__ctor_m2136603816_AdjustorThunk,
+	IntPtr__ctor_m2509422495_AdjustorThunk,
+	IntPtr__ctor_m1930682647_AdjustorThunk,
+	IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1875995893_AdjustorThunk,
 	IntPtr_get_Size_m2848612188,
-	IntPtr_Equals_m3488505417,
-	IntPtr_GetHashCode_m783209249,
-	IntPtr_ToInt64_m2695254659,
-	IntPtr_ToPointer_m2676680906,
-	IntPtr_ToString_m1212174359,
-	IntPtr_ToString_m2416995403,
+	IntPtr_Equals_m3488505417_AdjustorThunk,
+	IntPtr_GetHashCode_m783209249_AdjustorThunk,
+	IntPtr_ToInt64_m2695254659_AdjustorThunk,
+	IntPtr_ToPointer_m2676680906_AdjustorThunk,
+	IntPtr_ToString_m1212174359_AdjustorThunk,
+	IntPtr_ToString_m2416995403_AdjustorThunk,
 	IntPtr_op_Equality_m72843924,
 	IntPtr_op_Inequality_m10053967,
 	IntPtr_op_Explicit_m2174167756,
@@ -16904,7 +17179,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	AttributeInfo_get_Usage_m2602974155,
 	AttributeInfo_get_InheritanceLevel_m2614791067,
 	MonoDocumentationNoteAttribute__ctor_m723067872,
-	MonoEnumInfo__ctor_m427288990,
+	MonoEnumInfo__ctor_m427288990_AdjustorThunk,
 	MonoEnumInfo__cctor_m2878678058,
 	MonoEnumInfo_get_enum_info_m1623052572,
 	MonoEnumInfo_get_Cache_m295946653,
@@ -16993,7 +17268,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	NotSupportedException__ctor_m133757637,
 	NotSupportedException__ctor_m1093508894,
 	NullReferenceException__ctor_m622546858,
-	NullReferenceException__ctor_m2208732056,
 	NullReferenceException__ctor_m2985950699,
 	NumberFormatter__ctor_m2111196867,
 	NumberFormatter__cctor_m1125188925,
@@ -17223,12 +17497,12 @@ extern const methodPointerType g_MethodPointers[14339] =
 	CustomAttributeData_ToString_m440699946,
 	CustomAttributeData_Equals_m613333846,
 	CustomAttributeData_GetHashCode_m2481020718,
-	CustomAttributeNamedArgument_ToString_m3812330896,
-	CustomAttributeNamedArgument_Equals_m109042642,
-	CustomAttributeNamedArgument_GetHashCode_m910635190,
-	CustomAttributeTypedArgument_ToString_m2065140801,
-	CustomAttributeTypedArgument_Equals_m464286849,
-	CustomAttributeTypedArgument_GetHashCode_m1079175269,
+	CustomAttributeNamedArgument_ToString_m3812330896_AdjustorThunk,
+	CustomAttributeNamedArgument_Equals_m109042642_AdjustorThunk,
+	CustomAttributeNamedArgument_GetHashCode_m910635190_AdjustorThunk,
+	CustomAttributeTypedArgument_ToString_m2065140801_AdjustorThunk,
+	CustomAttributeTypedArgument_Equals_m464286849_AdjustorThunk,
+	CustomAttributeTypedArgument_GetHashCode_m1079175269_AdjustorThunk,
 	DefaultMemberAttribute__ctor_m66421301,
 	DefaultMemberAttribute_get_MemberName_m2366986664,
 	AssemblyBuilder_get_Location_m2002209681,
@@ -17394,11 +17668,11 @@ extern const methodPointerType g_MethodPointers[14339] =
 	MethodBuilder_get_IsGenericMethod_m3124339088,
 	MethodBuilder_GetGenericArguments_m2521139370,
 	MethodBuilder_get_Module_m2724160805,
-	MethodToken__ctor_m3710649922,
+	MethodToken__ctor_m3710649922_AdjustorThunk,
 	MethodToken__cctor_m2370742108,
-	MethodToken_Equals_m1986642400,
-	MethodToken_GetHashCode_m1919356356,
-	MethodToken_get_Token_m1317996739,
+	MethodToken_Equals_m1986642400_AdjustorThunk,
+	MethodToken_GetHashCode_m1919356356_AdjustorThunk,
+	MethodToken_get_Token_m1317996739_AdjustorThunk,
 	ModuleBuilder__cctor_m1218472467,
 	ModuleBuilder_get_next_table_index_m3600803990,
 	ModuleBuilder_GetTypes_m2017043429,
@@ -17408,14 +17682,14 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ModuleBuilder_GetTokenGenerator_m4211747974,
 	ModuleBuilderTokenGenerator__ctor_m3538557064,
 	ModuleBuilderTokenGenerator_GetToken_m2106467927,
-	OpCode__ctor_m742870391,
-	OpCode_GetHashCode_m1885918234,
-	OpCode_Equals_m3328690754,
-	OpCode_ToString_m4043065278,
-	OpCode_get_Name_m386372902,
-	OpCode_get_Size_m2313922819,
-	OpCode_get_StackBehaviourPop_m4109383719,
-	OpCode_get_StackBehaviourPush_m2842535718,
+	OpCode__ctor_m742870391_AdjustorThunk,
+	OpCode_GetHashCode_m1885918234_AdjustorThunk,
+	OpCode_Equals_m3328690754_AdjustorThunk,
+	OpCode_ToString_m4043065278_AdjustorThunk,
+	OpCode_get_Name_m386372902_AdjustorThunk,
+	OpCode_get_Size_m2313922819_AdjustorThunk,
+	OpCode_get_StackBehaviourPop_m4109383719_AdjustorThunk,
+	OpCode_get_StackBehaviourPush_m2842535718_AdjustorThunk,
 	OpCodeNames__cctor_m1465031614,
 	OpCodes__cctor_m1331312969,
 	ParameterBuilder_get_Attributes_m2640139997,
@@ -17733,7 +18007,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ResourceReader_Close_m551956177,
 	ResourceReader_GetEnumerator_m1820124275,
 	ResourceReader_Dispose_m1411491503,
-	ResourceCacheItem__ctor_m3336742541,
+	ResourceCacheItem__ctor_m3336742541_AdjustorThunk,
 	ResourceEnumerator__ctor_m3994194575,
 	ResourceEnumerator_get_Entry_m715318570,
 	ResourceEnumerator_get_Key_m424542697,
@@ -17742,7 +18016,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ResourceEnumerator_MoveNext_m3916307456,
 	ResourceEnumerator_Reset_m4126890775,
 	ResourceEnumerator_FillCache_m1751484935,
-	ResourceInfo__ctor_m4205157633,
+	ResourceInfo__ctor_m4205157633_AdjustorThunk,
 	ResourceSet__ctor_m2155833766,
 	ResourceSet__ctor_m1435739197,
 	ResourceSet__ctor_m1446669582,
@@ -17778,24 +18052,29 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ReliabilityContractAttribute__ctor_m1813433017,
 	ClassInterfaceAttribute__ctor_m3543181584,
 	ComDefaultInterfaceAttribute__ctor_m3894140624,
+	COMException__ctor_m2663339678,
+	COMException__ctor_m3642568415,
+	COMException_ToString_m3547469967,
 	ComImportAttribute__ctor_m1130850294,
 	ComVisibleAttribute__ctor_m1005514726,
 	DispIdAttribute__ctor_m2923147436,
 	DllImportAttribute__ctor_m1952564553,
 	DllImportAttribute_get_Value_m819189346,
+	ExternalException__ctor_m3484548022,
+	ExternalException__ctor_m1975451639,
 	FieldOffsetAttribute__ctor_m3654465902,
-	GCHandle__ctor_m396637490,
-	GCHandle_get_IsAllocated_m1991616348,
-	GCHandle_get_Target_m1356841761,
-	GCHandle_AddrOfPinnedObject_m292237702,
+	GCHandle__ctor_m396637490_AdjustorThunk,
+	GCHandle_get_IsAllocated_m1991616348_AdjustorThunk,
+	GCHandle_get_Target_m1356841761_AdjustorThunk,
+	GCHandle_AddrOfPinnedObject_m292237702_AdjustorThunk,
 	GCHandle_Alloc_m4018232088,
-	GCHandle_Free_m2878302728,
+	GCHandle_Free_m2878302728_AdjustorThunk,
 	GCHandle_GetTarget_m385786707,
 	GCHandle_GetTargetHandle_m414463034,
 	GCHandle_FreeHandle_m2607926881,
 	GCHandle_GetAddrOfPinnedObject_m524729089,
-	GCHandle_Equals_m2737763611,
-	GCHandle_GetHashCode_m3173355379,
+	GCHandle_Equals_m2737763611_AdjustorThunk,
+	GCHandle_GetHashCode_m3173355379_AdjustorThunk,
 	GuidAttribute__ctor_m174694299,
 	InAttribute__ctor_m476828707,
 	InterfaceTypeAttribute__ctor_m2093508533,
@@ -18084,7 +18363,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	MethodDictionary_SetMethodProperty_m3901784959,
 	MethodDictionary_get_Values_m1423085072,
 	MethodDictionary_Add_m3929391976,
-	MethodDictionary_Contains_m853564490,
 	MethodDictionary_Remove_m2229484935,
 	MethodDictionary_get_Count_m2528789795,
 	MethodDictionary_get_IsSynchronized_m687173714,
@@ -18384,9 +18662,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	CallbackHandler_Invoke_m2801241699,
 	CallbackHandler_BeginInvoke_m1384672208,
 	CallbackHandler_EndInvoke_m522922181,
-	SerializationEntry__ctor_m2883191396,
-	SerializationEntry_get_Name_m929676406,
-	SerializationEntry_get_Value_m522021722,
+	SerializationEntry__ctor_m2883191396_AdjustorThunk,
+	SerializationEntry_get_Name_m929676406_AdjustorThunk,
+	SerializationEntry_get_Value_m522021722_AdjustorThunk,
 	SerializationException__ctor_m136694722,
 	SerializationException__ctor_m4216356480,
 	SerializationException__ctor_m987964931,
@@ -18415,55 +18693,55 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SerializationInfoEnumerator_get_Value_m4259496148,
 	SerializationInfoEnumerator_MoveNext_m4116766855,
 	SerializationInfoEnumerator_Reset_m1660715632,
-	StreamingContext__ctor_m165676124,
-	StreamingContext__ctor_m404323882,
-	StreamingContext_get_State_m334223851,
-	StreamingContext_Equals_m3567411783,
-	StreamingContext_GetHashCode_m1804520735,
-	RuntimeFieldHandle__ctor_m4059484332,
-	RuntimeFieldHandle_get_Value_m2124751302,
-	RuntimeFieldHandle_GetObjectData_m1415752713,
-	RuntimeFieldHandle_Equals_m3155639198,
-	RuntimeFieldHandle_GetHashCode_m2620685942,
-	RuntimeMethodHandle__ctor_m794057668,
-	RuntimeMethodHandle__ctor_m3786030033,
-	RuntimeMethodHandle_get_Value_m2270388129,
-	RuntimeMethodHandle_GetObjectData_m3915325998,
-	RuntimeMethodHandle_Equals_m3425680831,
-	RuntimeMethodHandle_GetHashCode_m1771691683,
-	RuntimeTypeHandle__ctor_m437060952,
-	RuntimeTypeHandle_get_Value_m3549598952,
-	RuntimeTypeHandle_GetObjectData_m2331997365,
-	RuntimeTypeHandle_Equals_m3214712582,
-	RuntimeTypeHandle_GetHashCode_m3575892074,
-	SByte_System_IConvertible_ToBoolean_m1411907866,
-	SByte_System_IConvertible_ToByte_m3014394206,
-	SByte_System_IConvertible_ToChar_m209662238,
-	SByte_System_IConvertible_ToDateTime_m3199045182,
-	SByte_System_IConvertible_ToDecimal_m829366252,
-	SByte_System_IConvertible_ToDouble_m2644916926,
-	SByte_System_IConvertible_ToInt16_m4101107826,
-	SByte_System_IConvertible_ToInt32_m2973330534,
-	SByte_System_IConvertible_ToInt64_m1274211428,
-	SByte_System_IConvertible_ToSByte_m637716800,
-	SByte_System_IConvertible_ToSingle_m3135592030,
-	SByte_System_IConvertible_ToType_m767613158,
-	SByte_System_IConvertible_ToUInt16_m2610191870,
-	SByte_System_IConvertible_ToUInt32_m4285595070,
-	SByte_System_IConvertible_ToUInt64_m439236702,
-	SByte_CompareTo_m2989383868,
-	SByte_Equals_m1310501829,
-	SByte_GetHashCode_m3213675817,
-	SByte_CompareTo_m874593596,
-	SByte_Equals_m958983443,
+	StreamingContext__ctor_m165676124_AdjustorThunk,
+	StreamingContext__ctor_m404323882_AdjustorThunk,
+	StreamingContext_get_State_m334223851_AdjustorThunk,
+	StreamingContext_Equals_m3567411783_AdjustorThunk,
+	StreamingContext_GetHashCode_m1804520735_AdjustorThunk,
+	RuntimeFieldHandle__ctor_m4059484332_AdjustorThunk,
+	RuntimeFieldHandle_get_Value_m2124751302_AdjustorThunk,
+	RuntimeFieldHandle_GetObjectData_m1415752713_AdjustorThunk,
+	RuntimeFieldHandle_Equals_m3155639198_AdjustorThunk,
+	RuntimeFieldHandle_GetHashCode_m2620685942_AdjustorThunk,
+	RuntimeMethodHandle__ctor_m794057668_AdjustorThunk,
+	RuntimeMethodHandle__ctor_m3786030033_AdjustorThunk,
+	RuntimeMethodHandle_get_Value_m2270388129_AdjustorThunk,
+	RuntimeMethodHandle_GetObjectData_m3915325998_AdjustorThunk,
+	RuntimeMethodHandle_Equals_m3425680831_AdjustorThunk,
+	RuntimeMethodHandle_GetHashCode_m1771691683_AdjustorThunk,
+	RuntimeTypeHandle__ctor_m437060952_AdjustorThunk,
+	RuntimeTypeHandle_get_Value_m3549598952_AdjustorThunk,
+	RuntimeTypeHandle_GetObjectData_m2331997365_AdjustorThunk,
+	RuntimeTypeHandle_Equals_m3214712582_AdjustorThunk,
+	RuntimeTypeHandle_GetHashCode_m3575892074_AdjustorThunk,
+	SByte_System_IConvertible_ToBoolean_m1411907866_AdjustorThunk,
+	SByte_System_IConvertible_ToByte_m3014394206_AdjustorThunk,
+	SByte_System_IConvertible_ToChar_m209662238_AdjustorThunk,
+	SByte_System_IConvertible_ToDateTime_m3199045182_AdjustorThunk,
+	SByte_System_IConvertible_ToDecimal_m829366252_AdjustorThunk,
+	SByte_System_IConvertible_ToDouble_m2644916926_AdjustorThunk,
+	SByte_System_IConvertible_ToInt16_m4101107826_AdjustorThunk,
+	SByte_System_IConvertible_ToInt32_m2973330534_AdjustorThunk,
+	SByte_System_IConvertible_ToInt64_m1274211428_AdjustorThunk,
+	SByte_System_IConvertible_ToSByte_m637716800_AdjustorThunk,
+	SByte_System_IConvertible_ToSingle_m3135592030_AdjustorThunk,
+	SByte_System_IConvertible_ToType_m767613158_AdjustorThunk,
+	SByte_System_IConvertible_ToUInt16_m2610191870_AdjustorThunk,
+	SByte_System_IConvertible_ToUInt32_m4285595070_AdjustorThunk,
+	SByte_System_IConvertible_ToUInt64_m439236702_AdjustorThunk,
+	SByte_CompareTo_m2989383868_AdjustorThunk,
+	SByte_Equals_m1310501829_AdjustorThunk,
+	SByte_GetHashCode_m3213675817_AdjustorThunk,
+	SByte_CompareTo_m874593596_AdjustorThunk,
+	SByte_Equals_m958983443_AdjustorThunk,
 	SByte_Parse_m1565801368,
 	SByte_Parse_m798902410,
 	SByte_Parse_m1445278549,
 	SByte_TryParse_m1515780220,
-	SByte_ToString_m1290989501,
-	SByte_ToString_m3084859627,
-	SByte_ToString_m1923672677,
-	SByte_ToString_m926863599,
+	SByte_ToString_m1290989501_AdjustorThunk,
+	SByte_ToString_m3084859627_AdjustorThunk,
+	SByte_ToString_m1923672677_AdjustorThunk,
+	SByte_ToString_m926863599_AdjustorThunk,
 	CodeAccessPermission__ctor_m1762050467,
 	CodeAccessPermission_Equals_m3733109266,
 	CodeAccessPermission_GetHashCode_m621045366,
@@ -18768,6 +19046,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SHA256Managed_ProcessFinalBlock_m2991256248,
 	SHA256Managed_AddLength_m4004035979,
 	SHA384__ctor_m2952988926,
+	SHA384_Create_m594431813,
+	SHA384_Create_m2276657117,
 	SHA384Managed__ctor_m3972787977,
 	SHA384Managed_Initialize_m2139501410,
 	SHA384Managed_Initialize_m1947821355,
@@ -18780,6 +19060,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SHA384Managed_processLength_m3108542004,
 	SHA384Managed_processBlock_m2376644313,
 	SHA512__ctor_m3297938999,
+	SHA512_Create_m543419283,
+	SHA512_Create_m4182661711,
 	SHA512Managed__ctor_m2261764016,
 	SHA512Managed_Initialize_m3491115867,
 	SHA512Managed_Initialize_m1471536356,
@@ -18959,12 +19241,12 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SecurityException_get_RefusedSet_m4272843656,
 	SecurityException_GetObjectData_m2715021970,
 	SecurityException_ToString_m3022084793,
-	SecurityFrame__ctor_m1972945906,
+	SecurityFrame__ctor_m1972945906_AdjustorThunk,
 	SecurityFrame__GetSecurityStack_m4181326791,
-	SecurityFrame_InitFromRuntimeFrame_m2623746169,
-	SecurityFrame_get_Assembly_m2156341276,
-	SecurityFrame_get_Domain_m2707144406,
-	SecurityFrame_ToString_m3072626007,
+	SecurityFrame_InitFromRuntimeFrame_m2623746169_AdjustorThunk,
+	SecurityFrame_get_Assembly_m2156341276_AdjustorThunk,
+	SecurityFrame_get_Domain_m2707144406_AdjustorThunk,
+	SecurityFrame_ToString_m3072626007_AdjustorThunk,
 	SecurityFrame_GetStack_m2712475205,
 	SecurityManager__cctor_m3992604439,
 	SecurityManager_get_SecurityEnabled_m2857115566,
@@ -18974,35 +19256,35 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SuppressUnmanagedCodeSecurityAttribute__ctor_m4118844453,
 	UnverifiableCodeAttribute__ctor_m3261770352,
 	SerializableAttribute__ctor_m3559493780,
-	Single_System_IConvertible_ToBoolean_m1763424693,
-	Single_System_IConvertible_ToByte_m3813746639,
-	Single_System_IConvertible_ToChar_m1479685867,
-	Single_System_IConvertible_ToDateTime_m259491893,
-	Single_System_IConvertible_ToDecimal_m430630997,
-	Single_System_IConvertible_ToDouble_m3847210273,
-	Single_System_IConvertible_ToInt16_m2476492917,
-	Single_System_IConvertible_ToInt32_m4151896117,
-	Single_System_IConvertible_ToInt64_m305537749,
-	Single_System_IConvertible_ToSByte_m3027644949,
-	Single_System_IConvertible_ToSingle_m1116951951,
-	Single_System_IConvertible_ToType_m1756485413,
-	Single_System_IConvertible_ToUInt16_m3288807997,
-	Single_System_IConvertible_ToUInt32_m1668493233,
-	Single_System_IConvertible_ToUInt64_m4272161775,
-	Single_CompareTo_m4059132493,
-	Single_Equals_m2650902624,
-	Single_CompareTo_m3518345828,
-	Single_Equals_m2110115959,
-	Single_GetHashCode_m65342520,
+	Single_System_IConvertible_ToBoolean_m1763424693_AdjustorThunk,
+	Single_System_IConvertible_ToByte_m3813746639_AdjustorThunk,
+	Single_System_IConvertible_ToChar_m1479685867_AdjustorThunk,
+	Single_System_IConvertible_ToDateTime_m259491893_AdjustorThunk,
+	Single_System_IConvertible_ToDecimal_m430630997_AdjustorThunk,
+	Single_System_IConvertible_ToDouble_m3847210273_AdjustorThunk,
+	Single_System_IConvertible_ToInt16_m2476492917_AdjustorThunk,
+	Single_System_IConvertible_ToInt32_m4151896117_AdjustorThunk,
+	Single_System_IConvertible_ToInt64_m305537749_AdjustorThunk,
+	Single_System_IConvertible_ToSByte_m3027644949_AdjustorThunk,
+	Single_System_IConvertible_ToSingle_m1116951951_AdjustorThunk,
+	Single_System_IConvertible_ToType_m1756485413_AdjustorThunk,
+	Single_System_IConvertible_ToUInt16_m3288807997_AdjustorThunk,
+	Single_System_IConvertible_ToUInt32_m1668493233_AdjustorThunk,
+	Single_System_IConvertible_ToUInt64_m4272161775_AdjustorThunk,
+	Single_CompareTo_m4059132493_AdjustorThunk,
+	Single_Equals_m2650902624_AdjustorThunk,
+	Single_CompareTo_m3518345828_AdjustorThunk,
+	Single_Equals_m2110115959_AdjustorThunk,
+	Single_GetHashCode_m65342520_AdjustorThunk,
 	Single_IsInfinity_m1725004900,
 	Single_IsNaN_m2036953453,
 	Single_IsNegativeInfinity_m3390831215,
 	Single_IsPositiveInfinity_m1894985771,
 	Single_Parse_m4064562812,
-	Single_ToString_m5736032,
-	Single_ToString_m1436803918,
-	Single_ToString_m3798733330,
-	Single_GetTypeCode_m4165632757,
+	Single_ToString_m5736032_AdjustorThunk,
+	Single_ToString_m1436803918_AdjustorThunk,
+	Single_ToString_m3798733330_AdjustorThunk,
+	Single_GetTypeCode_m4165632757_AdjustorThunk,
 	String__ctor_m2618237231,
 	String__ctor_m683273815,
 	String__ctor_m2956844983,
@@ -19094,6 +19376,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	String_ToLower_m2421900555,
 	String_ToLower_m2140020155,
 	String_ToLowerInvariant_m4111189975,
+	String_ToUpper_m1841663596,
+	String_ToUpper_m1750246172,
+	String_ToUpperInvariant_m267877270,
 	String_ToString_m1382284457,
 	String_ToString_m1534627031,
 	String_Format_m2471250780,
@@ -19258,6 +19543,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Encoding_GetPreamble_m1160659539,
 	Encoding_GetString_m565750122,
 	Encoding_GetString_m3808087178,
+	Encoding_get_HeaderName_m1171313419,
 	Encoding_get_ASCII_m1425378925,
 	Encoding_get_BigEndianUnicode_m1578127592,
 	Encoding_InternalCodePage_m1810234872,
@@ -19287,6 +19573,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Latin1Encoding_GetMaxCharCount_m3191404014,
 	Latin1Encoding_GetString_m1453607223,
 	Latin1Encoding_GetString_m2574520983,
+	Latin1Encoding_get_HeaderName_m1411610136,
 	StringBuilder__ctor_m4031300257,
 	StringBuilder__ctor_m3542181846,
 	StringBuilder__ctor_m135953004,
@@ -19537,39 +19824,39 @@ extern const methodPointerType g_MethodPointers[14339] =
 	WaitHandle_CheckDisposed_m3718910029,
 	WaitHandle_Finalize_m1174780672,
 	ThreadStaticAttribute__ctor_m1966759021,
-	TimeSpan__ctor_m477860848,
-	TimeSpan__ctor_m4160332047,
-	TimeSpan__ctor_m3191091631,
+	TimeSpan__ctor_m477860848_AdjustorThunk,
+	TimeSpan__ctor_m4160332047_AdjustorThunk,
+	TimeSpan__ctor_m3191091631_AdjustorThunk,
 	TimeSpan__cctor_m2918891343,
 	TimeSpan_CalculateTicks_m897131370,
-	TimeSpan_get_Days_m1311834346,
-	TimeSpan_get_Hours_m1664362814,
-	TimeSpan_get_Milliseconds_m424744421,
-	TimeSpan_get_Minutes_m1876674446,
-	TimeSpan_get_Seconds_m4185591086,
-	TimeSpan_get_Ticks_m315930342,
-	TimeSpan_get_TotalDays_m3523943921,
-	TimeSpan_get_TotalHours_m1520282903,
-	TimeSpan_get_TotalMilliseconds_m4053613548,
-	TimeSpan_get_TotalMinutes_m854833447,
-	TimeSpan_get_TotalSeconds_m3163750087,
-	TimeSpan_Add_m1523355138,
+	TimeSpan_get_Days_m1311834346_AdjustorThunk,
+	TimeSpan_get_Hours_m1664362814_AdjustorThunk,
+	TimeSpan_get_Milliseconds_m424744421_AdjustorThunk,
+	TimeSpan_get_Minutes_m1876674446_AdjustorThunk,
+	TimeSpan_get_Seconds_m4185591086_AdjustorThunk,
+	TimeSpan_get_Ticks_m315930342_AdjustorThunk,
+	TimeSpan_get_TotalDays_m3523943921_AdjustorThunk,
+	TimeSpan_get_TotalHours_m1520282903_AdjustorThunk,
+	TimeSpan_get_TotalMilliseconds_m4053613548_AdjustorThunk,
+	TimeSpan_get_TotalMinutes_m854833447_AdjustorThunk,
+	TimeSpan_get_TotalSeconds_m3163750087_AdjustorThunk,
+	TimeSpan_Add_m1523355138_AdjustorThunk,
 	TimeSpan_Compare_m206019349,
-	TimeSpan_CompareTo_m4037254268,
-	TimeSpan_CompareTo_m2960988804,
-	TimeSpan_Equals_m3271948249,
-	TimeSpan_Duration_m4177061277,
-	TimeSpan_Equals_m2969422609,
+	TimeSpan_CompareTo_m4037254268_AdjustorThunk,
+	TimeSpan_CompareTo_m2960988804_AdjustorThunk,
+	TimeSpan_Equals_m3271948249_AdjustorThunk,
+	TimeSpan_Duration_m4177061277_AdjustorThunk,
+	TimeSpan_Equals_m2969422609_AdjustorThunk,
 	TimeSpan_FromDays_m2307041176,
 	TimeSpan_FromHours_m3804628420,
 	TimeSpan_FromMinutes_m785017204,
 	TimeSpan_FromSeconds_m1904297940,
 	TimeSpan_FromMilliseconds_m1386660477,
 	TimeSpan_From_m739812553,
-	TimeSpan_GetHashCode_m3188156777,
-	TimeSpan_Negate_m3511877003,
-	TimeSpan_Subtract_m1410255071,
-	TimeSpan_ToString_m2803989647,
+	TimeSpan_GetHashCode_m3188156777_AdjustorThunk,
+	TimeSpan_Negate_m3511877003_AdjustorThunk,
+	TimeSpan_Subtract_m1410255071_AdjustorThunk,
+	TimeSpan_ToString_m2803989647_AdjustorThunk,
 	TimeSpan_op_Addition_m141072959,
 	TimeSpan_op_Equality_m2213378780,
 	TimeSpan_op_GreaterThan_m3920451985,
@@ -19657,8 +19944,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Type_get_IsGenericParameter_m1053942860,
 	Type_get_IsNested_m2782386097,
 	Type_GetPseudoCustomAttributes_m3344475752,
-	TypedReference_Equals_m2626069127,
-	TypedReference_GetHashCode_m1538911,
+	TypedReference_Equals_m2626069127_AdjustorThunk,
+	TypedReference_GetHashCode_m1538911_AdjustorThunk,
 	TypeInitializationException__ctor_m679814589,
 	TypeInitializationException_GetObjectData_m2924961818,
 	TypeLoadException__ctor_m2756824898,
@@ -19666,103 +19953,103 @@ extern const methodPointerType g_MethodPointers[14339] =
 	TypeLoadException__ctor_m2496850307,
 	TypeLoadException_get_Message_m2467761275,
 	TypeLoadException_GetObjectData_m1260387808,
-	UInt16_System_IConvertible_ToBoolean_m1669361982,
-	UInt16_System_IConvertible_ToByte_m1909834982,
-	UInt16_System_IConvertible_ToChar_m3870741506,
-	UInt16_System_IConvertible_ToDateTime_m1638515148,
-	UInt16_System_IConvertible_ToDecimal_m336568286,
-	UInt16_System_IConvertible_ToDouble_m3844175992,
-	UInt16_System_IConvertible_ToInt16_m3584773694,
-	UInt16_System_IConvertible_ToInt32_m965209598,
-	UInt16_System_IConvertible_ToInt64_m1413818526,
-	UInt16_System_IConvertible_ToSByte_m4135925726,
-	UInt16_System_IConvertible_ToSingle_m1113917670,
-	UInt16_System_IConvertible_ToType_m435718588,
-	UInt16_System_IConvertible_ToUInt16_m3285773716,
-	UInt16_System_IConvertible_ToUInt32_m1665458952,
-	UInt16_System_IConvertible_ToUInt64_m4269127494,
-	UInt16_CompareTo_m2016984612,
-	UInt16_Equals_m857648105,
-	UInt16_GetHashCode_m592888001,
-	UInt16_CompareTo_m2335401604,
-	UInt16_Equals_m1176065097,
+	UInt16_System_IConvertible_ToBoolean_m1669361982_AdjustorThunk,
+	UInt16_System_IConvertible_ToByte_m1909834982_AdjustorThunk,
+	UInt16_System_IConvertible_ToChar_m3870741506_AdjustorThunk,
+	UInt16_System_IConvertible_ToDateTime_m1638515148_AdjustorThunk,
+	UInt16_System_IConvertible_ToDecimal_m336568286_AdjustorThunk,
+	UInt16_System_IConvertible_ToDouble_m3844175992_AdjustorThunk,
+	UInt16_System_IConvertible_ToInt16_m3584773694_AdjustorThunk,
+	UInt16_System_IConvertible_ToInt32_m965209598_AdjustorThunk,
+	UInt16_System_IConvertible_ToInt64_m1413818526_AdjustorThunk,
+	UInt16_System_IConvertible_ToSByte_m4135925726_AdjustorThunk,
+	UInt16_System_IConvertible_ToSingle_m1113917670_AdjustorThunk,
+	UInt16_System_IConvertible_ToType_m435718588_AdjustorThunk,
+	UInt16_System_IConvertible_ToUInt16_m3285773716_AdjustorThunk,
+	UInt16_System_IConvertible_ToUInt32_m1665458952_AdjustorThunk,
+	UInt16_System_IConvertible_ToUInt64_m4269127494_AdjustorThunk,
+	UInt16_CompareTo_m2016984612_AdjustorThunk,
+	UInt16_Equals_m857648105_AdjustorThunk,
+	UInt16_GetHashCode_m592888001_AdjustorThunk,
+	UInt16_CompareTo_m2335401604_AdjustorThunk,
+	UInt16_Equals_m1176065097_AdjustorThunk,
 	UInt16_Parse_m1444018254,
 	UInt16_Parse_m148894233,
 	UInt16_TryParse_m1136207264,
 	UInt16_TryParse_m3401065021,
-	UInt16_ToString_m741885559,
-	UInt16_ToString_m921266213,
-	UInt16_ToString_m3898855915,
-	UInt16_ToString_m1090572969,
-	UInt32_System_IConvertible_ToBoolean_m2848929732,
-	UInt32_System_IConvertible_ToByte_m1898052640,
-	UInt32_System_IConvertible_ToChar_m3858959164,
-	UInt32_System_IConvertible_ToDateTime_m3845377030,
-	UInt32_System_IConvertible_ToDecimal_m1516136036,
-	UInt32_System_IConvertible_ToDouble_m1111279922,
-	UInt32_System_IConvertible_ToInt16_m3219521092,
-	UInt32_System_IConvertible_ToInt32_m599956996,
-	UInt32_System_IConvertible_ToInt64_m1048565924,
-	UInt32_System_IConvertible_ToSByte_m3770673124,
-	UInt32_System_IConvertible_ToSingle_m2675988896,
-	UInt32_System_IConvertible_ToType_m3076110838,
-	UInt32_System_IConvertible_ToUInt16_m552877646,
-	UInt32_System_IConvertible_ToUInt32_m3227530178,
-	UInt32_System_IConvertible_ToUInt64_m1536231424,
-	UInt32_CompareTo_m1956022750,
-	UInt32_Equals_m1266223727,
-	UInt32_GetHashCode_m1046676807,
-	UInt32_CompareTo_m2274441540,
-	UInt32_Equals_m1584642517,
+	UInt16_ToString_m741885559_AdjustorThunk,
+	UInt16_ToString_m921266213_AdjustorThunk,
+	UInt16_ToString_m3898855915_AdjustorThunk,
+	UInt16_ToString_m1090572969_AdjustorThunk,
+	UInt32_System_IConvertible_ToBoolean_m2848929732_AdjustorThunk,
+	UInt32_System_IConvertible_ToByte_m1898052640_AdjustorThunk,
+	UInt32_System_IConvertible_ToChar_m3858959164_AdjustorThunk,
+	UInt32_System_IConvertible_ToDateTime_m3845377030_AdjustorThunk,
+	UInt32_System_IConvertible_ToDecimal_m1516136036_AdjustorThunk,
+	UInt32_System_IConvertible_ToDouble_m1111279922_AdjustorThunk,
+	UInt32_System_IConvertible_ToInt16_m3219521092_AdjustorThunk,
+	UInt32_System_IConvertible_ToInt32_m599956996_AdjustorThunk,
+	UInt32_System_IConvertible_ToInt64_m1048565924_AdjustorThunk,
+	UInt32_System_IConvertible_ToSByte_m3770673124_AdjustorThunk,
+	UInt32_System_IConvertible_ToSingle_m2675988896_AdjustorThunk,
+	UInt32_System_IConvertible_ToType_m3076110838_AdjustorThunk,
+	UInt32_System_IConvertible_ToUInt16_m552877646_AdjustorThunk,
+	UInt32_System_IConvertible_ToUInt32_m3227530178_AdjustorThunk,
+	UInt32_System_IConvertible_ToUInt64_m1536231424_AdjustorThunk,
+	UInt32_CompareTo_m1956022750_AdjustorThunk,
+	UInt32_Equals_m1266223727_AdjustorThunk,
+	UInt32_GetHashCode_m1046676807_AdjustorThunk,
+	UInt32_CompareTo_m2274441540_AdjustorThunk,
+	UInt32_Equals_m1584642517_AdjustorThunk,
 	UInt32_Parse_m178847972,
 	UInt32_Parse_m3291857117,
 	UInt32_Parse_m1670428837,
 	UInt32_Parse_m3087278554,
 	UInt32_TryParse_m537116052,
 	UInt32_TryParse_m3950000893,
-	UInt32_ToString_m904380337,
-	UInt32_ToString_m2214910431,
-	UInt32_ToString_m1403037425,
-	UInt32_ToString_m640530147,
-	UInt64_System_IConvertible_ToBoolean_m486013061,
-	UInt64_System_IConvertible_ToByte_m3655981823,
-	UInt64_System_IConvertible_ToChar_m1321921051,
-	UInt64_System_IConvertible_ToDateTime_m3609404261,
-	UInt64_System_IConvertible_ToDecimal_m3448186661,
-	UInt64_System_IConvertible_ToDouble_m2559077457,
-	UInt64_System_IConvertible_ToInt16_m1880750917,
-	UInt64_System_IConvertible_ToInt32_m3556154117,
-	UInt64_System_IConvertible_ToInt64_m4004763045,
-	UInt64_System_IConvertible_ToSByte_m2431902949,
-	UInt64_System_IConvertible_ToSingle_m4123786431,
-	UInt64_System_IConvertible_ToType_m2439463509,
-	UInt64_System_IConvertible_ToUInt16_m2000675181,
-	UInt64_System_IConvertible_ToUInt32_m380360417,
-	UInt64_System_IConvertible_ToUInt64_m2984028959,
-	UInt64_CompareTo_m3115041149,
-	UInt64_Equals_m3490516784,
-	UInt64_GetHashCode_m4085537544,
-	UInt64_CompareTo_m3433462884,
-	UInt64_Equals_m3808938519,
+	UInt32_ToString_m904380337_AdjustorThunk,
+	UInt32_ToString_m2214910431_AdjustorThunk,
+	UInt32_ToString_m1403037425_AdjustorThunk,
+	UInt32_ToString_m640530147_AdjustorThunk,
+	UInt64_System_IConvertible_ToBoolean_m486013061_AdjustorThunk,
+	UInt64_System_IConvertible_ToByte_m3655981823_AdjustorThunk,
+	UInt64_System_IConvertible_ToChar_m1321921051_AdjustorThunk,
+	UInt64_System_IConvertible_ToDateTime_m3609404261_AdjustorThunk,
+	UInt64_System_IConvertible_ToDecimal_m3448186661_AdjustorThunk,
+	UInt64_System_IConvertible_ToDouble_m2559077457_AdjustorThunk,
+	UInt64_System_IConvertible_ToInt16_m1880750917_AdjustorThunk,
+	UInt64_System_IConvertible_ToInt32_m3556154117_AdjustorThunk,
+	UInt64_System_IConvertible_ToInt64_m4004763045_AdjustorThunk,
+	UInt64_System_IConvertible_ToSByte_m2431902949_AdjustorThunk,
+	UInt64_System_IConvertible_ToSingle_m4123786431_AdjustorThunk,
+	UInt64_System_IConvertible_ToType_m2439463509_AdjustorThunk,
+	UInt64_System_IConvertible_ToUInt16_m2000675181_AdjustorThunk,
+	UInt64_System_IConvertible_ToUInt32_m380360417_AdjustorThunk,
+	UInt64_System_IConvertible_ToUInt64_m2984028959_AdjustorThunk,
+	UInt64_CompareTo_m3115041149_AdjustorThunk,
+	UInt64_Equals_m3490516784_AdjustorThunk,
+	UInt64_GetHashCode_m4085537544_AdjustorThunk,
+	UInt64_CompareTo_m3433462884_AdjustorThunk,
+	UInt64_Equals_m3808938519_AdjustorThunk,
 	UInt64_Parse_m3335137308,
 	UInt64_Parse_m4183475069,
 	UInt64_Parse_m3644239463,
 	UInt64_TryParse_m1333073810,
-	UInt64_ToString_m3095865744,
-	UInt64_ToString_m2926838398,
-	UInt64_ToString_m54951794,
-	UInt64_ToString_m4198358338,
-	UIntPtr__ctor_m3952300446,
-	UIntPtr__ctor_m3952297501,
-	UIntPtr__ctor_m1853619782,
+	UInt64_ToString_m3095865744_AdjustorThunk,
+	UInt64_ToString_m2926838398_AdjustorThunk,
+	UInt64_ToString_m54951794_AdjustorThunk,
+	UInt64_ToString_m4198358338_AdjustorThunk,
+	UIntPtr__ctor_m3952300446_AdjustorThunk,
+	UIntPtr__ctor_m3952297501_AdjustorThunk,
+	UIntPtr__ctor_m1853619782_AdjustorThunk,
 	UIntPtr__cctor_m3952213328,
-	UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1506461934,
-	UIntPtr_Equals_m2746368876,
-	UIntPtr_GetHashCode_m939387472,
-	UIntPtr_ToUInt32_m3683901238,
-	UIntPtr_ToUInt64_m958857238,
-	UIntPtr_ToPointer_m365084105,
-	UIntPtr_ToString_m2250548790,
+	UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m1506461934_AdjustorThunk,
+	UIntPtr_Equals_m2746368876_AdjustorThunk,
+	UIntPtr_GetHashCode_m939387472_AdjustorThunk,
+	UIntPtr_ToUInt32_m3683901238_AdjustorThunk,
+	UIntPtr_ToUInt64_m958857238_AdjustorThunk,
+	UIntPtr_ToPointer_m365084105_AdjustorThunk,
+	UIntPtr_ToString_m2250548790_AdjustorThunk,
 	UIntPtr_get_Size_m3534433933,
 	UIntPtr_op_Equality_m2619366549,
 	UIntPtr_op_Inequality_m3507406160,
@@ -19824,54 +20111,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	WeakReference_get_TrackResurrection_m2498111523,
 	WeakReference_Finalize_m3030916772,
 	WeakReference_GetObjectData_m1524996508,
-	Locale_GetText_m2031928403,
-	Locale_GetText_m2138526911,
-	KeyBuilder_get_Rng_m1224245225,
-	KeyBuilder_Key_m489708312,
-	KeyBuilder_IV_m3901719576,
-	SymmetricTransform__ctor_m1205754880,
-	SymmetricTransform_System_IDisposable_Dispose_m455424824,
-	SymmetricTransform_Finalize_m1432383547,
-	SymmetricTransform_Dispose_m2730879931,
-	SymmetricTransform_get_CanReuseTransform_m725989976,
-	SymmetricTransform_Transform_m3903574043,
-	SymmetricTransform_CBC_m2217465763,
-	SymmetricTransform_CFB_m3609349384,
-	SymmetricTransform_OFB_m962939772,
-	SymmetricTransform_CTS_m122988069,
-	SymmetricTransform_CheckInput_m3506478922,
-	SymmetricTransform_TransformBlock_m1944043099,
-	SymmetricTransform_get_KeepLastBlock_m2173858210,
-	SymmetricTransform_InternalTransformBlock_m3380491768,
-	SymmetricTransform_Random_m3415780681,
-	SymmetricTransform_ThrowBadPaddingException_m2083216889,
-	SymmetricTransform_FinalEncrypt_m975601255,
-	SymmetricTransform_FinalDecrypt_m3742401599,
-	SymmetricTransform_TransformFinalBlock_m2524388439,
-	Check_SourceAndPredicate_m2252398949,
-	Check_FirstAndSecond_m3893233125,
-	ExtensionAttribute__ctor_m1242622322,
-	Aes__ctor_m380511311,
-	AesManaged__ctor_m1572578968,
-	AesManaged_GenerateIV_m4188712014,
-	AesManaged_GenerateKey_m1003425312,
-	AesManaged_CreateDecryptor_m1952358980,
-	AesManaged_CreateEncryptor_m2258087532,
-	AesManaged_get_IV_m3771642968,
-	AesManaged_set_IV_m2456625939,
-	AesManaged_get_Key_m959186774,
-	AesManaged_set_Key_m1884561361,
-	AesManaged_get_KeySize_m1856785595,
-	AesManaged_set_KeySize_m838068010,
-	AesManaged_CreateDecryptor_m2733487560,
-	AesManaged_CreateEncryptor_m3462881952,
-	AesManaged_Dispose_m2950523276,
-	AesTransform__ctor_m2781154868,
-	AesTransform__cctor_m1179286690,
-	AesTransform_ECB_m2589908703,
-	AesTransform_SubByte_m1214814958,
-	AesTransform_Encrypt128_m3651261907,
-	AesTransform_Decrypt128_m3310750971,
 	Locale_GetText_m3269873186,
 	Locale_GetText_m946430094,
 	HybridDictionary__ctor_m951312923,
@@ -19884,7 +20123,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	HybridDictionary_set_Item_m2233477417,
 	HybridDictionary_get_SyncRoot_m1280025498,
 	HybridDictionary_Add_m1798913928,
-	HybridDictionary_Contains_m356410114,
 	HybridDictionary_CopyTo_m1553338168,
 	HybridDictionary_GetEnumerator_m3022935527,
 	HybridDictionary_Remove_m1597248871,
@@ -19903,7 +20141,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ListDictionary_set_Item_m588649799,
 	ListDictionary_Add_m1089190058,
 	ListDictionary_Clear_m3043881700,
-	ListDictionary_Contains_m142502176,
 	ListDictionary_GetEnumerator_m2156198277,
 	ListDictionary_Remove_m4061265285,
 	DictionaryNode__ctor_m424034580,
@@ -20264,10 +20501,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	X509ChainPolicy_get_VerificationFlags_m1052595485,
 	X509ChainPolicy_get_VerificationTime_m2439570886,
 	X509ChainPolicy_Reset_m3900463811,
-	X509ChainStatus__ctor_m452901827,
-	X509ChainStatus_get_Status_m805216413,
-	X509ChainStatus_set_Status_m2412197578,
-	X509ChainStatus_set_StatusInformation_m2801383985,
+	X509ChainStatus__ctor_m452901827_AdjustorThunk,
+	X509ChainStatus_get_Status_m805216413_AdjustorThunk,
+	X509ChainStatus_set_Status_m2412197578_AdjustorThunk,
+	X509ChainStatus_set_StatusInformation_m2801383985_AdjustorThunk,
 	X509ChainStatus_GetInformation_m369546830,
 	X509EnhancedKeyUsageExtension__ctor_m1143045852,
 	X509EnhancedKeyUsageExtension_CopyFrom_m3559074914,
@@ -20322,14 +20559,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	X509SubjectKeyIdentifierExtension_Encode_m852919050,
 	X509SubjectKeyIdentifierExtension_ToString_m2596463486,
 	BaseMachine__ctor_m17432691,
-	BaseMachine_Replace_m3336556800,
 	BaseMachine_Scan_m223381495,
-	BaseMachine_LTRReplace_m3233399719,
-	BaseMachine_RTLReplace_m1984309653,
-	MatchAppendEvaluator__ctor_m44201646,
-	MatchAppendEvaluator_Invoke_m2910809428,
-	MatchAppendEvaluator_BeginInvoke_m1979969071,
-	MatchAppendEvaluator_EndInvoke_m4264062910,
 	Capture__ctor_m3100758399,
 	Capture__ctor_m3886528031,
 	Capture_get_Index_m2179527098,
@@ -20390,10 +20620,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Interpreter_GetGroupInfo_m10584263,
 	Interpreter_PopulateGroup_m2805800912,
 	Interpreter_GenerateMatch_m2993936796,
-	IntStack_Pop_m1434102286,
-	IntStack_Push_m2506448672,
-	IntStack_get_Count_m897242211,
-	IntStack_set_Count_m518204432,
+	IntStack_Pop_m1434102286_AdjustorThunk,
+	IntStack_Push_m2506448672_AdjustorThunk,
+	IntStack_get_Count_m897242211_AdjustorThunk,
+	IntStack_set_Count_m518204432_AdjustorThunk,
 	RepeatContext__ctor_m788719250,
 	RepeatContext_get_Count_m4097254526,
 	RepeatContext_set_Count_m4149390859,
@@ -20413,19 +20643,19 @@ extern const methodPointerType g_MethodPointers[14339] =
 	InterpreterFactory_set_Mapping_m1196240885,
 	InterpreterFactory_get_NamesMapping_m2841689669,
 	InterpreterFactory_set_NamesMapping_m2940156550,
-	Interval__ctor_m4154124910,
+	Interval__ctor_m4154124910_AdjustorThunk,
 	Interval_get_Empty_m2836746235,
-	Interval_get_IsDiscontiguous_m4161255183,
-	Interval_get_IsSingleton_m4044965956,
-	Interval_get_IsEmpty_m2142357766,
-	Interval_get_Size_m2053259174,
-	Interval_IsDisjoint_m1461504100,
-	Interval_IsAdjacent_m1171307166,
-	Interval_Contains_m2884982059,
-	Interval_Contains_m724747494,
-	Interval_Intersects_m1836714230,
-	Interval_Merge_m2623693586,
-	Interval_CompareTo_m953943694,
+	Interval_get_IsDiscontiguous_m4161255183_AdjustorThunk,
+	Interval_get_IsSingleton_m4044965956_AdjustorThunk,
+	Interval_get_IsEmpty_m2142357766_AdjustorThunk,
+	Interval_get_Size_m2053259174_AdjustorThunk,
+	Interval_IsDisjoint_m1461504100_AdjustorThunk,
+	Interval_IsAdjacent_m1171307166_AdjustorThunk,
+	Interval_Contains_m2884982059_AdjustorThunk,
+	Interval_Contains_m724747494_AdjustorThunk,
+	Interval_Intersects_m1836714230_AdjustorThunk,
+	Interval_Merge_m2623693586_AdjustorThunk,
+	Interval_CompareTo_m953943694_AdjustorThunk,
 	IntervalCollection__ctor_m1317729402,
 	IntervalCollection_get_Item_m658194390,
 	IntervalCollection_Add_m622937095,
@@ -20449,9 +20679,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	LinkStack__ctor_m840569467,
 	LinkStack_Push_m185806851,
 	LinkStack_Pop_m192057428,
-	Mark_get_IsDefined_m36891578,
-	Mark_get_Index_m4214982375,
-	Mark_get_Length_m3639380819,
+	Mark_get_IsDefined_m36891578_AdjustorThunk,
+	Mark_get_Index_m4214982375_AdjustorThunk,
+	Mark_get_Length_m3639380819_AdjustorThunk,
 	Match__ctor_m4051317828,
 	Match__ctor_m798974407,
 	Match__ctor_m4138800752,
@@ -20473,10 +20703,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Enumerator_System_Collections_IEnumerator_Reset_m4262909997,
 	Enumerator_System_Collections_IEnumerator_get_Current_m360409,
 	Enumerator_System_Collections_IEnumerator_MoveNext_m1106607422,
-	MatchEvaluator__ctor_m2957600143,
-	MatchEvaluator_Invoke_m3215261838,
-	MatchEvaluator_BeginInvoke_m3315747252,
-	MatchEvaluator_EndInvoke_m3976645020,
 	MRUList__ctor_m3161932411,
 	MRUList_Use_m4144664628,
 	MRUList_Evict_m3673261069,
@@ -20541,15 +20767,12 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Regex__ctor_m1618790979,
 	Regex__cctor_m2866248683,
 	Regex_System_Runtime_Serialization_ISerializable_GetObjectData_m522480713,
-	Regex_Replace_m2658391113,
-	Regex_Replace_m1218008337,
 	Regex_validate_options_m625353623,
 	Regex_Init_m938259986,
 	Regex_InitNewRegex_m2419508729,
 	Regex_CreateMachineFactory_m2347116393,
 	Regex_get_Options_m3928047814,
 	Regex_get_RightToLeft_m3494755007,
-	Regex_GroupNumberFromName_m2580513429,
 	Regex_GetGroupIndex_m547759882,
 	Regex_default_startat_m996366267,
 	Regex_IsMatch_m2967892253,
@@ -20557,23 +20780,11 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Regex_Match_m1021969427,
 	Regex_Matches_m3092142232,
 	Regex_Matches_m4271078207,
-	Regex_Replace_m853874381,
-	Regex_Replace_m1882314221,
 	Regex_ToString_m3480281169,
-	Regex_get_GroupCount_m2128334859,
 	Regex_get_Gap_m2153899613,
 	Regex_CreateMachine_m1572823491,
 	Regex_GetGroupNamesArray_m3739926801,
 	Regex_get_GroupNumbers_m2500558052,
-	ReplacementEvaluator__ctor_m2774850658,
-	ReplacementEvaluator_Evaluate_m4205324994,
-	ReplacementEvaluator_EvaluateAppend_m4266406947,
-	ReplacementEvaluator_get_NeedsGroupsOrCaptures_m1475641324,
-	ReplacementEvaluator_Ensure_m619661651,
-	ReplacementEvaluator_AddFromReplacement_m4144056411,
-	ReplacementEvaluator_AddInt_m3650451619,
-	ReplacementEvaluator_Compile_m763546001,
-	ReplacementEvaluator_CompileTerm_m2939168366,
 	Alternation__ctor_m1090419051,
 	Alternation_get_Alternatives_m1740410205,
 	Alternation_AddAlternative_m3695967311,
@@ -20718,8 +20929,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Uri__ctor_m1721267859,
 	Uri__ctor_m4101815696,
 	Uri__ctor_m1689224330,
+	Uri__ctor_m2876888702,
 	Uri__cctor_m2145170622,
 	Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m3581151196,
+	Uri_Merge_m1925025748,
 	Uri_get_AbsoluteUri_m2228269430,
 	Uri_get_Authority_m1914393796,
 	Uri_get_Host_m1446697833,
@@ -20761,9 +20974,11 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Uri_GetOpaqueWiseSchemeDelimiter_m3781205887,
 	Uri_IsPredefinedScheme_m2987522946,
 	Uri_get_Parser_m533607664,
+	Uri_NeedToEscapeDataChar_m2713938880,
+	Uri_EscapeDataString_m3238747918,
 	Uri_EnsureAbsoluteUri_m3407571844,
 	Uri_op_Equality_m877019543,
-	UriScheme__ctor_m535258662,
+	UriScheme__ctor_m535258662_AdjustorThunk,
 	UriFormatException__ctor_m2977644479,
 	UriFormatException__ctor_m3185454499,
 	UriFormatException__ctor_m262177920,
@@ -20918,6 +21133,24 @@ extern const methodPointerType g_MethodPointers[14339] =
 	MD2Managed_HashCore_m848434243,
 	MD2Managed_HashFinal_m3903508827,
 	MD2Managed_MD2Transform_m1178472146,
+	MD4__ctor_m1413318394,
+	MD4_Create_m2349802207,
+	MD4_Create_m3484180099,
+	MD4Managed__ctor_m669187469,
+	MD4Managed_Initialize_m1417333031,
+	MD4Managed_HashCore_m1409134021,
+	MD4Managed_HashFinal_m31243357,
+	MD4Managed_Padding_m4232872567,
+	MD4Managed_F_m2420274358,
+	MD4Managed_G_m1395580437,
+	MD4Managed_H_m370886516,
+	MD4Managed_ROL_m1328645290,
+	MD4Managed_FF_m1309814654,
+	MD4Managed_GG_m1268768670,
+	MD4Managed_HH_m1227722686,
+	MD4Managed_Encode_m3840946190,
+	MD4Managed_Decode_m3307472097,
+	MD4Managed_MD4Transform_m352429890,
 	MD5SHA1__ctor_m2374690196,
 	MD5SHA1_Initialize_m1333120384,
 	MD5SHA1_HashFinal_m1928907216,
@@ -21604,7 +21837,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	X509CertificateEnumerator_System_Collections_IEnumerator_MoveNext_m1008796181,
 	X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m2173605650,
 	X509CertificateEnumerator_get_Current_m1696796071,
-	X509CertificateEnumerator_MoveNext_m4038787598,
+	X509CertificateEnumerator_MoveNext_m1597080434,
 	X509CertificateEnumerator_Reset_m2282105749,
 	X509Chain__ctor_m4239706530,
 	X509Chain__ctor_m2818311608,
@@ -21664,6 +21897,55 @@ extern const methodPointerType g_MethodPointers[14339] =
 	X509Stores__ctor_m3067409489,
 	X509Stores_get_TrustedRoot_m4006515680,
 	X509Stores_Open_m3798926259,
+	Locale_GetText_m2031928403,
+	Locale_GetText_m2138526911,
+	KeyBuilder_get_Rng_m1224245225,
+	KeyBuilder_Key_m489708312,
+	KeyBuilder_IV_m3901719576,
+	SymmetricTransform__ctor_m1205754880,
+	SymmetricTransform_System_IDisposable_Dispose_m455424824,
+	SymmetricTransform_Finalize_m1432383547,
+	SymmetricTransform_Dispose_m2730879931,
+	SymmetricTransform_get_CanReuseTransform_m725989976,
+	SymmetricTransform_Transform_m3903574043,
+	SymmetricTransform_CBC_m2217465763,
+	SymmetricTransform_CFB_m3609349384,
+	SymmetricTransform_OFB_m962939772,
+	SymmetricTransform_CTS_m122988069,
+	SymmetricTransform_CheckInput_m3506478922,
+	SymmetricTransform_TransformBlock_m1944043099,
+	SymmetricTransform_get_KeepLastBlock_m2173858210,
+	SymmetricTransform_InternalTransformBlock_m3380491768,
+	SymmetricTransform_Random_m3415780681,
+	SymmetricTransform_ThrowBadPaddingException_m2083216889,
+	SymmetricTransform_FinalEncrypt_m975601255,
+	SymmetricTransform_FinalDecrypt_m3742401599,
+	SymmetricTransform_TransformFinalBlock_m2524388439,
+	Check_SourceAndPredicate_m2252398949,
+	Check_FirstAndSecond_m3893233125,
+	MonoTODOAttribute__ctor_m1033053463,
+	ExtensionAttribute__ctor_m1242622322,
+	Aes__ctor_m380511311,
+	AesManaged__ctor_m1572578968,
+	AesManaged_GenerateIV_m4188712014,
+	AesManaged_GenerateKey_m1003425312,
+	AesManaged_CreateDecryptor_m1952358980,
+	AesManaged_CreateEncryptor_m2258087532,
+	AesManaged_get_IV_m3771642968,
+	AesManaged_set_IV_m2456625939,
+	AesManaged_get_Key_m959186774,
+	AesManaged_set_Key_m1884561361,
+	AesManaged_get_KeySize_m1856785595,
+	AesManaged_set_KeySize_m838068010,
+	AesManaged_CreateDecryptor_m2733487560,
+	AesManaged_CreateEncryptor_m3462881952,
+	AesManaged_Dispose_m2950523276,
+	AesTransform__ctor_m2781154868,
+	AesTransform__cctor_m1179286690,
+	AesTransform_ECB_m2589908703,
+	AesTransform_SubByte_m1214814958,
+	AesTransform_Encrypt128_m3651261907,
+	AesTransform_Decrypt128_m3310750971,
 	AddComponentMenu__ctor_m1521317712,
 	AddComponentMenu__ctor_m3281913735,
 	AnimationCurve__ctor_m2436282331,
@@ -21700,26 +21982,26 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Animator_StringToHash_m4020897098,
 	Animator_SetTriggerString_m1378271133,
 	Animator_ResetTriggerString_m1817269834,
-	AnimatorStateInfo_IsName_m1653922768,
-	AnimatorStateInfo_get_fullPathHash_m3257074542,
-	AnimatorStateInfo_get_nameHash_m453823205,
-	AnimatorStateInfo_get_shortNameHash_m994885515,
-	AnimatorStateInfo_get_normalizedTime_m2531821060,
-	AnimatorStateInfo_get_length_m3147284742,
-	AnimatorStateInfo_get_speed_m247405833,
-	AnimatorStateInfo_get_speedMultiplier_m489756842,
-	AnimatorStateInfo_get_tagHash_m3543262078,
-	AnimatorStateInfo_IsTag_m119936877,
-	AnimatorStateInfo_get_loop_m1495892586,
-	AnimatorTransitionInfo_IsName_m1283663078,
-	AnimatorTransitionInfo_IsUserName_m2732197659,
-	AnimatorTransitionInfo_get_fullPathHash_m3335466636,
-	AnimatorTransitionInfo_get_nameHash_m2102867203,
-	AnimatorTransitionInfo_get_userNameHash_m249220782,
-	AnimatorTransitionInfo_get_normalizedTime_m3258684986,
-	AnimatorTransitionInfo_get_anyState_m3421556405,
-	AnimatorTransitionInfo_get_entry_m2038132324,
-	AnimatorTransitionInfo_get_exit_m2568505102,
+	AnimatorStateInfo_IsName_m1653922768_AdjustorThunk,
+	AnimatorStateInfo_get_fullPathHash_m3257074542_AdjustorThunk,
+	AnimatorStateInfo_get_nameHash_m453823205_AdjustorThunk,
+	AnimatorStateInfo_get_shortNameHash_m994885515_AdjustorThunk,
+	AnimatorStateInfo_get_normalizedTime_m2531821060_AdjustorThunk,
+	AnimatorStateInfo_get_length_m3147284742_AdjustorThunk,
+	AnimatorStateInfo_get_speed_m247405833_AdjustorThunk,
+	AnimatorStateInfo_get_speedMultiplier_m489756842_AdjustorThunk,
+	AnimatorStateInfo_get_tagHash_m3543262078_AdjustorThunk,
+	AnimatorStateInfo_IsTag_m119936877_AdjustorThunk,
+	AnimatorStateInfo_get_loop_m1495892586_AdjustorThunk,
+	AnimatorTransitionInfo_IsName_m1283663078_AdjustorThunk,
+	AnimatorTransitionInfo_IsUserName_m2732197659_AdjustorThunk,
+	AnimatorTransitionInfo_get_fullPathHash_m3335466636_AdjustorThunk,
+	AnimatorTransitionInfo_get_nameHash_m2102867203_AdjustorThunk,
+	AnimatorTransitionInfo_get_userNameHash_m249220782_AdjustorThunk,
+	AnimatorTransitionInfo_get_normalizedTime_m3258684986_AdjustorThunk,
+	AnimatorTransitionInfo_get_anyState_m3421556405_AdjustorThunk,
+	AnimatorTransitionInfo_get_entry_m2038132324_AdjustorThunk,
+	AnimatorTransitionInfo_get_exit_m2568505102_AdjustorThunk,
 	Application_get_isPlaying_m987993960,
 	Application_get_isEditor_m1279348309,
 	Application_get_platform_m2918632856,
@@ -21733,7 +22015,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	AssemblyIsEditorAssembly__ctor_m582741130,
 	AssetBundleCreateRequest__ctor_m109192972,
 	AssetBundleCreateRequest_get_assetBundle_m198975995,
-	AssetBundleCreateRequest_DisableCompatibilityChecks_m616322731,
+	AssetBundleCreateRequest_get_compatibilityChecks_m2695878008,
+	AssetBundleCreateRequest_set_compatibilityChecks_m2361646811,
 	AssetBundleRequest__ctor_m1736261360,
 	AssetBundleRequest_get_asset_m1874521436,
 	AssetBundleRequest_get_allAssets_m2335877586,
@@ -21796,20 +22079,20 @@ extern const methodPointerType g_MethodPointers[14339] =
 	BitStream_get_isReading_m3929869641,
 	BitStream_get_isWriting_m3632391065,
 	BitStream_Serialize_m2763015060,
-	Bounds__ctor_m4160293652,
-	Bounds_GetHashCode_m3067388679,
-	Bounds_Equals_m2517451939,
-	Bounds_get_center_m4084610404,
-	Bounds_set_center_m2605643707,
-	Bounds_get_size_m3666348432,
-	Bounds_set_size_m4109809039,
-	Bounds_get_extents_m2111648188,
-	Bounds_set_extents_m2603836823,
-	Bounds_get_min_m2329472069,
-	Bounds_get_max_m2329243351,
-	Bounds_SetMinMax_m2186020994,
-	Bounds_Encapsulate_m3624685234,
-	Bounds_ToString_m1795228795,
+	Bounds__ctor_m4160293652_AdjustorThunk,
+	Bounds_GetHashCode_m3067388679_AdjustorThunk,
+	Bounds_Equals_m2517451939_AdjustorThunk,
+	Bounds_get_center_m4084610404_AdjustorThunk,
+	Bounds_set_center_m2605643707_AdjustorThunk,
+	Bounds_get_size_m3666348432_AdjustorThunk,
+	Bounds_set_size_m4109809039_AdjustorThunk,
+	Bounds_get_extents_m2111648188_AdjustorThunk,
+	Bounds_set_extents_m2603836823_AdjustorThunk,
+	Bounds_get_min_m2329472069_AdjustorThunk,
+	Bounds_get_max_m2329243351_AdjustorThunk,
+	Bounds_SetMinMax_m2186020994_AdjustorThunk,
+	Bounds_Encapsulate_m3624685234_AdjustorThunk,
+	Bounds_ToString_m1795228795_AdjustorThunk,
 	Bounds_op_Equality_m2855966622,
 	Bounds_op_Inequality_m4292292377,
 	Camera_get_nearClipPlane_m4074655061,
@@ -21859,7 +22142,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Canvas_set_sortingOrder_m1522807655,
 	Canvas_get_sortingLayerID_m3425838272,
 	Canvas_set_sortingLayerID_m2317502469,
+	Canvas_get_rootCanvas_m3652460242,
 	Canvas_GetDefaultCanvasMaterial_m1655363178,
+	Canvas_GetETC1SupportedCanvasMaterial_m91460986,
 	Canvas_SendWillRenderCanvases_m1768133093,
 	Canvas_ForceUpdateCanvases_m1970133101,
 	WillRenderCanvases__ctor_m1509285774,
@@ -21887,6 +22172,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	CanvasRenderer_set_popMaterialCount_m589784503,
 	CanvasRenderer_SetPopMaterial_m1315408685,
 	CanvasRenderer_SetTexture_m137327939,
+	CanvasRenderer_SetAlphaTexture_m2838514431,
 	CanvasRenderer_SetMesh_m1150548475,
 	CanvasRenderer_Clear_m1606508093,
 	CanvasRenderer_SplitUIVertexStreams_m4126093916,
@@ -21920,11 +22206,11 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Collision2D_get_gameObject_m718845954,
 	Collision2D_get_contacts_m4248754423,
 	Collision2D_get_relativeVelocity_m2960747782,
-	Color__ctor_m2252924356,
-	Color__ctor_m103496991,
-	Color_ToString_m2277845527,
-	Color_GetHashCode_m170503301,
-	Color_Equals_m3016668205,
+	Color__ctor_m2252924356_AdjustorThunk,
+	Color__ctor_m103496991_AdjustorThunk,
+	Color_ToString_m2277845527_AdjustorThunk,
+	Color_GetHashCode_m170503301_AdjustorThunk,
+	Color_Equals_m3016668205_AdjustorThunk,
 	Color_Lerp_m3494628845,
 	Color_get_red_m4288945411,
 	Color_get_white_m3038282331,
@@ -21933,8 +22219,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Color_op_Multiply_m204757678,
 	Color_op_Equality_m4163276884,
 	Color_op_Implicit_m2638307542,
-	Color32__ctor_m576906339,
-	Color32_ToString_m909782902,
+	Color32__ctor_m576906339_AdjustorThunk,
+	Color32_ToString_m909782902_AdjustorThunk,
 	Color32_op_Implicit_m3684884838,
 	Color32_op_Implicit_m358459656,
 	Component__ctor_m4238603388,
@@ -21991,6 +22277,11 @@ extern const methodPointerType g_MethodPointers[14339] =
 	StateChanged_Invoke_m3174530616,
 	StateChanged_BeginInvoke_m163021837,
 	StateChanged_EndInvoke_m4182061596,
+	Cursor_get_lockState_m2795946910,
+	CustomYieldInstruction__ctor_m2800749531,
+	CustomYieldInstruction_get_Current_m640561716,
+	CustomYieldInstruction_MoveNext_m489270227,
+	CustomYieldInstruction_Reset_m447182472,
 	Debug__cctor_m37515655,
 	Debug_get_logger_m275693158,
 	Debug_Log_m1731103628,
@@ -22000,6 +22291,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Debug_LogException_m2264672311,
 	Debug_LogWarning_m3123317694,
 	Debug_LogWarning_m4097176146,
+	Debug_LogWarningFormat_m193815327,
 	DebugLogHandler__ctor_m1521597024,
 	DebugLogHandler_Internal_Log_m3731237167,
 	DebugLogHandler_Internal_LogException_m1007136309,
@@ -22015,8 +22307,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	DisplaysUpdatedDelegate_Invoke_m3958989829,
 	DisplaysUpdatedDelegate_BeginInvoke_m3264685798,
 	DisplaysUpdatedDelegate_EndInvoke_m3466741627,
-	DrivenRectTransformTracker_Add_m3461523141,
-	DrivenRectTransformTracker_Clear_m309315364,
+	DrivenRectTransformTracker_Add_m3461523141_AdjustorThunk,
+	DrivenRectTransformTracker_Clear_m309315364_AdjustorThunk,
 	Event__ctor_m1609448063,
 	Event__ctor_m66398544,
 	Event_Finalize_m2449826179,
@@ -22096,53 +22388,128 @@ extern const methodPointerType g_MethodPointers[14339] =
 	UnityEventBase_ToString_m249191135,
 	UnityEventBase_GetValidMethodInfo_m2325301202,
 	ExecuteInEditMode__ctor_m1394231890,
-	Playable__ctor_m2241556995,
-	Playable__ctor_m3752126010,
-	Playable_Dispose_m2747727607,
-	Playable_GetUniqueIDInternal_m1016415712,
-	Playable_Connect_m622693985,
+	AnimationPlayable_get_node_m3540398430_AdjustorThunk,
+	AnimationPlayable_AddInput_m522981513_AdjustorThunk,
+	AnimationPlayable_SetInput_m3182409941_AdjustorThunk,
+	AnimationPlayable_SetInputs_m2769494846_AdjustorThunk,
+	AnimationPlayable_RemoveInput_m2864857726_AdjustorThunk,
+	AnimationPlayable_RemoveAllInputs_m624300749_AdjustorThunk,
+	AnimationPlayable_Equals_m758693402_AdjustorThunk,
+	AnimationPlayable_GetHashCode_m1995312370_AdjustorThunk,
+	AnimationPlayable_IsValid_m3295368185_AdjustorThunk,
+	AnimationPlayable_get_inputCount_m3625682607_AdjustorThunk,
+	AnimationPlayable_GetInput_m1254613720_AdjustorThunk,
+	AnimationPlayable_op_Implicit_m679995841,
+	AnimationPlayableUtilities_AddInputValidated_m580261089,
+	AnimationPlayableUtilities_SetInputValidated_m2322495521,
+	AnimationPlayableUtilities_SetInputsValidated_m1364271782,
+	AnimationPlayableUtilities_RemoveInputValidated_m1233499216,
+	AnimationPlayableUtilities_RemoveAllInputsValidated_m870139853,
+	AnimatorControllerPlayable_get_node_m3242771325_AdjustorThunk,
+	AnimatorControllerPlayable_Equals_m3639847979_AdjustorThunk,
+	AnimatorControllerPlayable_GetHashCode_m3116606223_AdjustorThunk,
+	AnimatorControllerPlayable_op_Implicit_m10207343,
+	CustomAnimationPlayable__ctor_m3236254932,
+	CustomAnimationPlayable_get_node_m987475821,
+	CustomAnimationPlayable_SetHandle_m3182957115,
+	CustomAnimationPlayable_Destroy_m2118830892,
+	CustomAnimationPlayable_PrepareFrame_m159894296,
+	CustomAnimationPlayable_OnSetTime_m2716909577,
+	CustomAnimationPlayable_OnSetPlayState_m1231532734,
+	CustomAnimationPlayable_get_inputCount_m1582109438,
+	CustomAnimationPlayable_GetInput_m301843047,
+	CustomAnimationPlayable_get_outputCount_m458643767,
+	CustomAnimationPlayable_GetOutput_m4116503080,
+	CustomAnimationPlayable_GetInputWeight_m4148655265,
+	CustomAnimationPlayable_SetInputWeight_m1269015238,
+	CustomAnimationPlayable_get_state_m2235187075,
+	CustomAnimationPlayable_set_state_m1222744546,
+	CustomAnimationPlayable_get_time_m3450542115,
+	CustomAnimationPlayable_set_time_m1309743400,
+	CustomAnimationPlayable_get_duration_m3156322986,
+	CustomAnimationPlayable_set_duration_m406084993,
+	CustomAnimationPlayable_AddInput_m4182892888,
+	CustomAnimationPlayable_SetInput_m120417254,
+	CustomAnimationPlayable_SetInputs_m491446927,
+	CustomAnimationPlayable_RemoveInput_m4082440847,
+	CustomAnimationPlayable_RemoveAllInputs_m3435563998,
+	CustomAnimationPlayable_op_Implicit_m2643963169,
+	CustomAnimationPlayable_op_Implicit_m1020808859,
+	GenericMixerPlayable_get_node_m1524549772_AdjustorThunk,
+	GenericMixerPlayable_Create_m2197665611,
+	GenericMixerPlayable_InternalCreate_m1179042611,
+	GenericMixerPlayable_Destroy_m153858505_AdjustorThunk,
+	GenericMixerPlayable_op_Implicit_m2273972689,
+	Playable_Destroy_m3991820443_AdjustorThunk,
+	Playable_IsValid_m4190676077_AdjustorThunk,
+	Playable_IsValidInternal_m1664100387,
+	Playable_INTERNAL_CALL_IsValidInternal_m576585442,
 	Playable_Connect_m1578187905,
 	Playable_Disconnect_m3811503323,
-	Playable_ReleaseEnginePlayable_m2094169144,
-	Playable_InstantiateEnginePlayable_m3931021595,
-	Playable_GenerateUniqueId_m3980506242,
-	Playable_SetInputWeightInternal_m3751861498,
-	Playable_GetInputWeightInternal_m2277506695,
-	Playable_get_time_m4261299130,
-	Playable_set_time_m4095539287,
-	Playable_get_state_m3392280896,
-	Playable_set_state_m2851443923,
-	Playable_ConnectInternal_m3467855684,
-	Playable_DisconnectInternal_m216904862,
-	Playable_GetInput_m777009268,
-	Playable_GetInputs_m1899129588,
-	Playable_get_inputCount_m3038792623,
-	Playable_get_outputCount_m2666149542,
-	Playable_ClearInputs_m4141811767,
-	Playable_GetOutput_m1666786747,
-	Playable_GetOutputs_m3506315017,
-	Playable_GetInputsInternal_m2169096151,
-	Playable_GetOutputsInternal_m891872506,
-	Playable_Finalize_m175426431,
-	Playable_Dispose_m2255939968,
-	Playable_Equals_m1149042830,
-	Playable_GetHashCode_m3165087730,
-	Playable_CompareIntPtr_m2113594311,
-	Playable_IsNativePlayableAlive_m1365031800,
-	Playable_CheckPlayableValidity_m2318405566,
-	Playable_CheckInputBounds_m1883207375,
-	Playable_CheckInputBounds_m3596125390,
-	Playable_GetInputWeight_m837530218,
-	Playable_SetInputWeight_m2698917277,
-	Playable_GetInputs_m1527871507,
-	Playable_GetOutputs_m3459436598,
-	Playable_PrepareFrame_m497491591,
-	Playable_ProcessFrame_m2039333501,
-	Playable_OnSetTime_m3177236154,
-	Playable_OnSetPlayState_m3539986029,
-	Playable_op_Equality_m3091846835,
-	Playable_op_Inequality_m3181167342,
-	Playable_op_Implicit_m2513159357,
+	Playable_get_inputCount_m3038792623_AdjustorThunk,
+	Playable_get_outputCount_m2666149542_AdjustorThunk,
+	Playable_get_state_m3392280896_AdjustorThunk,
+	Playable_set_state_m2851443923_AdjustorThunk,
+	Playable_get_time_m4261299130_AdjustorThunk,
+	Playable_set_time_m4095539287_AdjustorThunk,
+	Playable_GetPlayStateInternal_m1502071519,
+	Playable_INTERNAL_CALL_GetPlayStateInternal_m1885336768,
+	Playable_SetPlayStateInternal_m1327718134,
+	Playable_INTERNAL_CALL_SetPlayStateInternal_m387121047,
+	Playable_GetTimeInternal_m4145233711,
+	Playable_INTERNAL_CALL_GetTimeInternal_m2681702190,
+	Playable_SetTimeInternal_m3597934204,
+	Playable_INTERNAL_CALL_SetTimeInternal_m272098683,
+	Playable_get_duration_m4046926529_AdjustorThunk,
+	Playable_set_duration_m164564272_AdjustorThunk,
+	Playable_GetDurationInternal_m31704136,
+	Playable_INTERNAL_CALL_GetDurationInternal_m2671113415,
+	Playable_SetDurationInternal_m1327518549,
+	Playable_INTERNAL_CALL_SetDurationInternal_m3818554068,
+	Playable_GetInputCountInternal_m3587540212,
+	Playable_INTERNAL_CALL_GetInputCountInternal_m3535592179,
+	Playable_GetOutputCountInternal_m3807774807,
+	Playable_INTERNAL_CALL_GetOutputCountInternal_m2197385784,
+	Playable_GetInputs_m1899129588_AdjustorThunk,
+	Playable_GetInput_m777009268_AdjustorThunk,
+	Playable_GetInputInternal_m3090485450,
+	Playable_INTERNAL_CALL_GetInputInternal_m4091069890,
+	Playable_GetOutput_m1666786747_AdjustorThunk,
+	Playable_GetOutputInternal_m2061023377,
+	Playable_INTERNAL_CALL_GetOutputInternal_m382403975,
+	Playable_SetInputWeightFromIndexInternal_m1604381493,
+	Playable_INTERNAL_CALL_SetInputWeightFromIndexInternal_m3111770262,
+	Playable_SetInputWeight_m2698917277_AdjustorThunk,
+	Playable_GetInputWeight_m837530218_AdjustorThunk,
+	Playable_GetInputWeightInternal_m681352128,
+	Playable_INTERNAL_CALL_GetInputWeightInternal_m662708863,
+	Playable_Equals_m1149042830_AdjustorThunk,
+	Playable_GetHashCode_m3165087730_AdjustorThunk,
+	Playable_CheckInputBounds_m1883207375_AdjustorThunk,
+	Playable_CheckInputBounds_m3596125390_AdjustorThunk,
+	Playables_CastToInternal_m3521890406,
+	Playables_InternalDestroy_m3949572482,
+	Playables_INTERNAL_CALL_InternalDestroy_m1453669761,
+	Playables_ConnectInternal_m267734425,
+	Playables_INTERNAL_CALL_ConnectInternal_m524648664,
+	Playables_DisconnectInternal_m4214943703,
+	Playables_INTERNAL_CALL_DisconnectInternal_m624205270,
+	Playables_CheckInputBounds_m2114632179,
+	Playables_IsValid_m2470091365,
+	Playables_GetInputCountValidated_m1590651641,
+	Playables_GetOutputCountValidated_m708466518,
+	Playables_GetPlayStateValidated_m1788069712,
+	Playables_SetPlayStateValidated_m2009824181,
+	Playables_GetTimeValidated_m2484996622,
+	Playables_SetTimeValidated_m778916929,
+	Playables_GetDurationValidated_m2822701863,
+	Playables_SetDurationValidated_m2881460762,
+	Playables_GetInputValidated_m176010709,
+	Playables_GetOutputValidated_m70115406,
+	Playables_SetInputWeightValidated_m799805684,
+	Playables_GetInputWeightValidated_m870617231,
+	Playables_Equals_m2773836346,
+	ScriptPlayable__ctor_m2840346104,
 	Font_add_textureRebuilt_m3323945916,
 	Font_remove_textureRebuilt_m2804643593,
 	Font_get_material_m2407307367,
@@ -22250,6 +22617,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GUISettings_Internal_GetCursorFlashSpeed_m2094683006,
 	GUISkin__ctor_m3819836417,
 	GUISkin_OnEnable_m3659769829,
+	GUISkin_CleanupRoots_m3660939120,
 	GUISkin_get_font_m4064925714,
 	GUISkin_set_font_m2298219977,
 	GUISkin_get_box_m3284280323,
@@ -22310,6 +22678,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GUIStyle__ctor_m584655914,
 	GUIStyle__cctor_m1452061078,
 	GUIStyle_Finalize_m3401789451,
+	GUIStyle_CleanupRoots_m2484468154,
 	GUIStyle_InternalOnAfterDeserialize_m1012732492,
 	GUIStyle_get_normal_m42729964,
 	GUIStyle_set_normal_m3590268413,
@@ -22367,8 +22736,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GUIStyle_get_name_m4046186628,
 	GUIStyle_set_name_m4125925261,
 	GUIStyle_GetStyleStatePtr_m2550872619,
+	GUIStyle_INTERNAL_CALL_GetStyleStatePtr_m962079390,
 	GUIStyle_AssignStyleState_m4030196091,
 	GUIStyle_GetRectOffsetPtr_m1931607252,
+	GUIStyle_INTERNAL_CALL_GetRectOffsetPtr_m3917515975,
 	GUIStyle_AssignRectOffset_m519705394,
 	GUIStyle_get_imagePosition_m3876152522,
 	GUIStyle_set_imagePosition_m1689669769,
@@ -22439,6 +22810,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GUITargetAttribute_GetGUITargetAttrValue_m1884776752,
 	GUIUtility__cctor_m2712534225,
 	GUIUtility_get_pixelsPerPoint_m2351352349,
+	GUIUtility_set_guiIsExiting_m442089339,
 	GUIUtility_get_hotControl_m4135893409,
 	GUIUtility_GetDefaultSkin_m3151786562,
 	GUIUtility_BeginGUI_m1799121707,
@@ -22453,6 +22825,12 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GUIUtility_Internal_GetDefaultSkin_m1795114979,
 	GUIUtility_Internal_ExitGUI_m725832131,
 	GUIUtility_Internal_GetGUIDepth_m2619692036,
+	Hash128__ctor_m425960966_AdjustorThunk,
+	Hash128_ToString_m1757027933_AdjustorThunk,
+	Hash128_Internal_Hash128ToString_m956268818,
+	Hash128_Equals_m3805193063_AdjustorThunk,
+	Hash128_GetHashCode_m3551754047_AdjustorThunk,
+	Hash128_op_Equality_m784872782,
 	HideInInspector__ctor_m1076518313,
 	HostData__ctor_m2522227771,
 	HostData_get_useNat_m4254429010,
@@ -22475,10 +22853,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	HostData_set_comment_m3861418087,
 	HostData_get_guid_m4094499646,
 	HostData_set_guid_m3576769299,
-	HumanBone_get_boneName_m4281149553,
-	HumanBone_set_boneName_m2758161818,
-	HumanBone_get_humanName_m1702517944,
-	HumanBone_set_humanName_m1186126593,
+	HumanBone_get_boneName_m4281149553_AdjustorThunk,
+	HumanBone_set_boneName_m2758161818_AdjustorThunk,
+	HumanBone_get_humanName_m1702517944_AdjustorThunk,
+	HumanBone_set_humanName_m1186126593_AdjustorThunk,
 	IL2CPPStructAlignmentAttribute__ctor_m55581643,
 	Input__cctor_m1327041086,
 	Input_GetAxisRaw_m1900207208,
@@ -22492,6 +22870,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Input_INTERNAL_get_mouseScrollDelta_m2726147504,
 	Input_get_mousePresent_m3235491246,
 	Input_GetTouch_m2282421092,
+	Input_INTERNAL_CALL_GetTouch_m1845826650,
 	Input_get_touchCount_m1430909390,
 	Input_get_touchSupported_m634162567,
 	Input_set_imeCompositionMode_m1719849947,
@@ -22572,18 +22951,18 @@ extern const methodPointerType g_MethodPointers[14339] =
 	RemoteNotification_get_userInfo_m4136631987,
 	RemoteNotification_Destroy_m570710259,
 	RemoteNotification_Finalize_m1495193127,
-	Keyframe__ctor_m2655645489,
-	Keyframe__ctor_m3412708539,
-	Keyframe_get_time_m1367974951,
-	Keyframe_set_time_m2674731900,
-	Keyframe_get_value_m1003136441,
-	Keyframe_set_value_m2735107322,
-	Keyframe_get_inTangent_m2236973672,
-	Keyframe_set_inTangent_m1264152747,
-	Keyframe_get_outTangent_m2520753969,
-	Keyframe_set_outTangent_m4071134898,
-	Keyframe_get_tangentMode_m1245220572,
-	Keyframe_set_tangentMode_m2444824761,
+	Keyframe__ctor_m2655645489_AdjustorThunk,
+	Keyframe__ctor_m3412708539_AdjustorThunk,
+	Keyframe_get_time_m1367974951_AdjustorThunk,
+	Keyframe_set_time_m2674731900_AdjustorThunk,
+	Keyframe_get_value_m1003136441_AdjustorThunk,
+	Keyframe_set_value_m2735107322_AdjustorThunk,
+	Keyframe_get_inTangent_m2236973672_AdjustorThunk,
+	Keyframe_set_inTangent_m1264152747_AdjustorThunk,
+	Keyframe_get_outTangent_m2520753969_AdjustorThunk,
+	Keyframe_set_outTangent_m4071134898_AdjustorThunk,
+	Keyframe_get_tangentMode_m1245220572_AdjustorThunk,
+	Keyframe_set_tangentMode_m2444824761_AdjustorThunk,
 	LayerMask_op_Implicit_m1595580047,
 	LayerMask_op_Implicit_m2608572187,
 	Logger__ctor_m654679389,
@@ -22640,37 +23019,49 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Mathf_SmoothDamp_m779170481,
 	Mathf_Repeat_m3424250200,
 	Mathf_InverseLerp_m152689993,
-	Matrix4x4_get_Item_m2279862332,
-	Matrix4x4_get_Item_m1280478331,
-	Matrix4x4_GetHashCode_m4083477721,
-	Matrix4x4_Equals_m3534208385,
-	Matrix4x4_GetColumn_m786071102,
-	Matrix4x4_MultiplyPoint3x4_m2198174902,
-	Matrix4x4_ToString_m294134723,
+	Matrix4x4_get_Item_m2279862332_AdjustorThunk,
+	Matrix4x4_get_Item_m1280478331_AdjustorThunk,
+	Matrix4x4_GetHashCode_m4083477721_AdjustorThunk,
+	Matrix4x4_Equals_m3534208385_AdjustorThunk,
+	Matrix4x4_GetColumn_m786071102_AdjustorThunk,
+	Matrix4x4_MultiplyPoint3x4_m2198174902_AdjustorThunk,
+	Matrix4x4_ToString_m294134723_AdjustorThunk,
 	Mesh__ctor_m2684203808,
 	Mesh_Internal_Create_m3749730360,
 	Mesh_Clear_m1789068674,
 	Mesh_Clear_m90337099,
+	Mesh_get_canAccess_m3042962979,
+	Mesh_PrintErrorCantAccessMesh_m548718398,
+	Mesh_PrintErrorCantAccessMeshForIndices_m2814194066,
+	Mesh_PrintErrorBadSubmeshIndexTriangles_m3501404064,
+	Mesh_PrintErrorBadSubmeshIndexIndices_m3296825820,
+	Mesh_SetArrayForChannelImpl_m1509779596,
+	Mesh_GetAllocArrayFromChannelImpl_m3495880964,
+	Mesh_HasChannel_m1377438973,
+	Mesh_ExtractArrayFromList_m2300152603,
+	Mesh_GetIndicesImpl_m2338120260,
+	Mesh_SetTrianglesImpl_m3687620564,
+	Mesh_SetTriangles_m456382467,
+	Mesh_SetTriangles_m2073498906,
+	Mesh_RecalculateBounds_m3754336742,
+	Mesh_get_subMeshCount_m4159827535,
+	Mesh_GetUVChannel_m584432922,
+	Mesh_DefaultDimensionForChannel_m1889643149,
+	Mesh_SetSizedArrayForChannel_m2551235175,
 	Mesh_get_vertices_m3685486174,
-	Mesh_SetVertices_m701834806,
-	Mesh_SetVerticesInternal_m1274639230,
 	Mesh_get_normals_m3396909641,
-	Mesh_SetNormals_m2039144779,
-	Mesh_SetNormalsInternal_m1710845385,
 	Mesh_get_tangents_m3235865682,
-	Mesh_SetTangents_m2005345740,
-	Mesh_SetTangentsInternal_m763303177,
 	Mesh_get_uv_m558008935,
 	Mesh_get_uv2_m118417421,
-	Mesh_ExtractListData_m2453560898,
-	Mesh_SetUVsInternal_m4014622176,
-	Mesh_SetUVs_m116216925,
 	Mesh_get_colors32_m192356802,
+	Mesh_SetVertices_m701834806,
+	Mesh_SetNormals_m2039144779,
+	Mesh_SetTangents_m2005345740,
 	Mesh_SetColors_m3313707935,
-	Mesh_SetColors32Internal_m1830241000,
-	Mesh_RecalculateBounds_m3754336742,
-	Mesh_SetTriangles_m456382467,
-	Mesh_SetTrianglesInternal_m2955775213,
+	Mesh_SetUVs_m116216925,
+	Mesh_CheckCanAccessSubmesh_m3375419187,
+	Mesh_CheckCanAccessSubmeshTriangles_m1968826789,
+	Mesh_CheckCanAccessSubmeshIndices_m3478679265,
 	Mesh_GetIndices_m637494532,
 	MonoBehaviour__ctor_m2022291967,
 	MonoBehaviour_Internal_CancelInvokeAll_m972795186,
@@ -22694,11 +23085,115 @@ extern const methodPointerType g_MethodPointers[14339] =
 	MonoBehaviour_print_m1497342762,
 	MonoBehaviour_get_useGUILayout_m4058409766,
 	MonoBehaviour_set_useGUILayout_m589898551,
-	NetworkMessageInfo_get_timestamp_m3597535726,
-	NetworkMessageInfo_get_sender_m2720861079,
-	NetworkMessageInfo_get_networkView_m221874487,
-	NetworkMessageInfo_NullNetworkView_m516412409,
-	NetworkPlayer__ctor_m978047135,
+	DownloadHandler__ctor_m2530543973,
+	DownloadHandler_InternalCreateBuffer_m90273976,
+	DownloadHandler_InternalCreateTexture_m3794532220,
+	DownloadHandler_InternalCreateAssetBundle_m2968064314,
+	DownloadHandler_InternalCreateAssetBundle_m4164801108,
+	DownloadHandler_INTERNAL_CALL_InternalCreateAssetBundle_m900957164,
+	DownloadHandler_InternalCreateAudioClip_m3659398341,
+	DownloadHandler_InternalDestroy_m2735807296,
+	DownloadHandler_Finalize_m2272026845,
+	DownloadHandler_Dispose_m799551586,
+	DownloadHandlerAssetBundle__ctor_m1343790375,
+	DownloadHandlerAssetBundle__ctor_m3076523803,
+	DownloadHandlerAssetBundle__ctor_m3772065217,
+	DownloadHandlerAudioClip__ctor_m2530782554,
+	DownloadHandlerBuffer__ctor_m890192773,
+	DownloadHandlerTexture__ctor_m1620444605,
+	UnityWebRequest__ctor_m1876705495,
+	UnityWebRequest__ctor_m800174987,
+	UnityWebRequest__ctor_m2883079303,
+	UnityWebRequest__ctor_m3561636576,
+	UnityWebRequest__cctor_m1861199286,
+	UnityWebRequest_Get_m242769177,
+	UnityWebRequest_Delete_m263716936,
+	UnityWebRequest_Head_m587951091,
+	UnityWebRequest_GetTexture_m3181785294,
+	UnityWebRequest_GetTexture_m1775545583,
+	UnityWebRequest_GetAudioClip_m1644470838,
+	UnityWebRequest_GetAssetBundle_m3001500023,
+	UnityWebRequest_GetAssetBundle_m3192971115,
+	UnityWebRequest_GetAssetBundle_m1397031519,
+	UnityWebRequest_GetAssetBundle_m3405356549,
+	UnityWebRequest_Put_m2257537347,
+	UnityWebRequest_Put_m20375676,
+	UnityWebRequest_Post_m1220303919,
+	UnityWebRequest_Post_m1253059835,
+	UnityWebRequest_Post_m2284933306,
+	UnityWebRequest_Post_m1323437117,
+	UnityWebRequest_Post_m3509843812,
+	UnityWebRequest_SerializeFormSections_m1305467155,
+	UnityWebRequest_GenerateBoundary_m3873910070,
+	UnityWebRequest_SerializeSimpleForm_m302816210,
+	UnityWebRequest_get_disposeDownloadHandlerOnDispose_m2347066627,
+	UnityWebRequest_set_disposeDownloadHandlerOnDispose_m4263077100,
+	UnityWebRequest_get_disposeUploadHandlerOnDispose_m2617950012,
+	UnityWebRequest_set_disposeUploadHandlerOnDispose_m3879152613,
+	UnityWebRequest_InternalCreate_m2803869286,
+	UnityWebRequest_InternalDestroy_m2409049138,
+	UnityWebRequest_InternalSetDefaults_m2130746124,
+	UnityWebRequest_Finalize_m1446616107,
+	UnityWebRequest_Dispose_m3820966740,
+	UnityWebRequest_InternalBegin_m3730330388,
+	UnityWebRequest_InternalAbort_m2162080680,
+	UnityWebRequest_Send_m3727536514,
+	UnityWebRequest_Abort_m1526250789,
+	UnityWebRequest_InternalSetMethod_m2772078444,
+	UnityWebRequest_InternalSetCustomMethod_m1516182,
+	UnityWebRequest_InternalGetMethod_m3295898255,
+	UnityWebRequest_InternalGetCustomMethod_m1233973213,
+	UnityWebRequest_get_method_m2179159226,
+	UnityWebRequest_set_method_m1722009751,
+	UnityWebRequest_InternalGetError_m2798049916,
+	UnityWebRequest_get_error_m3454762737,
+	UnityWebRequest_get_useHttpContinue_m1179324476,
+	UnityWebRequest_set_useHttpContinue_m2050235493,
+	UnityWebRequest_get_url_m2722270872,
+	UnityWebRequest_set_url_m2069928379,
+	UnityWebRequest_InternalGetUrl_m3811648454,
+	UnityWebRequest_InternalSetUrl_m786692491,
+	UnityWebRequest_get_responseCode_m3154397829,
+	UnityWebRequest_get_uploadProgress_m3424452368,
+	UnityWebRequest_get_isModifiable_m1721967914,
+	UnityWebRequest_get_isDone_m3067820008,
+	UnityWebRequest_get_isError_m1590593988,
+	UnityWebRequest_get_downloadProgress_m2117726359,
+	UnityWebRequest_get_uploadedBytes_m320219387,
+	UnityWebRequest_get_downloadedBytes_m835542676,
+	UnityWebRequest_get_redirectLimit_m800465451,
+	UnityWebRequest_set_redirectLimit_m1472631432,
+	UnityWebRequest_get_chunkedTransfer_m3211590493,
+	UnityWebRequest_set_chunkedTransfer_m3848763846,
+	UnityWebRequest_GetRequestHeader_m3609839564,
+	UnityWebRequest_InternalSetRequestHeader_m2365080026,
+	UnityWebRequest_SetRequestHeader_m704789911,
+	UnityWebRequest_GetResponseHeader_m2057835244,
+	UnityWebRequest_InternalGetResponseHeaderKeys_m3036141519,
+	UnityWebRequest_GetResponseHeaders_m3107028988,
+	UnityWebRequest_get_uploadHandler_m1049527436,
+	UnityWebRequest_set_uploadHandler_m2165710363,
+	UnityWebRequest_get_downloadHandler_m2799190910,
+	UnityWebRequest_set_downloadHandler_m1376606139,
+	UnityWebRequest_ContainsForbiddenCharacters_m630797512,
+	UnityWebRequest_IsHeaderNameLegal_m1178792156,
+	UnityWebRequest_IsHeaderValueLegal_m2225854992,
+	UnityWebRequest_GetErrorDescription_m2694082268,
+	UploadHandler__ctor_m4145774046,
+	UploadHandler_InternalCreateRaw_m3364909982,
+	UploadHandler_InternalDestroy_m3840871545,
+	UploadHandler_Finalize_m777547204,
+	UploadHandler_Dispose_m2552457883,
+	UploadHandler_set_contentType_m3087243632,
+	UploadHandler_SetContentType_m1034215851,
+	UploadHandlerRaw__ctor_m1657900425,
+	UploadHandlerRaw_InternalSetContentType_m4172044752,
+	UploadHandlerRaw_SetContentType_m2065574029,
+	NetworkMessageInfo_get_timestamp_m3597535726_AdjustorThunk,
+	NetworkMessageInfo_get_sender_m2720861079_AdjustorThunk,
+	NetworkMessageInfo_get_networkView_m221874487_AdjustorThunk,
+	NetworkMessageInfo_NullNetworkView_m516412409_AdjustorThunk,
+	NetworkPlayer__ctor_m978047135_AdjustorThunk,
 	NetworkPlayer_Internal_GetIPAddress_m2705922677,
 	NetworkPlayer_Internal_GetPort_m2646691040,
 	NetworkPlayer_Internal_GetExternalIP_m4147820797,
@@ -22708,14 +23203,14 @@ extern const methodPointerType g_MethodPointers[14339] =
 	NetworkPlayer_Internal_GetPlayerIndex_m1155344837,
 	NetworkPlayer_Internal_GetGUID_m82698821,
 	NetworkPlayer_Internal_GetLocalGUID_m668021995,
-	NetworkPlayer_GetHashCode_m2832997817,
-	NetworkPlayer_Equals_m1380117345,
-	NetworkPlayer_get_ipAddress_m206939407,
-	NetworkPlayer_get_port_m4260923428,
-	NetworkPlayer_get_guid_m1193250345,
-	NetworkPlayer_ToString_m4115863651,
-	NetworkPlayer_get_externalIP_m420672594,
-	NetworkPlayer_get_externalPort_m2392166863,
+	NetworkPlayer_GetHashCode_m2832997817_AdjustorThunk,
+	NetworkPlayer_Equals_m1380117345_AdjustorThunk,
+	NetworkPlayer_get_ipAddress_m206939407_AdjustorThunk,
+	NetworkPlayer_get_port_m4260923428_AdjustorThunk,
+	NetworkPlayer_get_guid_m1193250345_AdjustorThunk,
+	NetworkPlayer_ToString_m4115863651_AdjustorThunk,
+	NetworkPlayer_get_externalIP_m420672594_AdjustorThunk,
+	NetworkPlayer_get_externalPort_m2392166863_AdjustorThunk,
 	NetworkPlayer_get_unassigned_m865556847,
 	NetworkPlayer_op_Equality_m1190866952,
 	NetworkPlayer_op_Inequality_m3921017795,
@@ -22731,17 +23226,23 @@ extern const methodPointerType g_MethodPointers[14339] =
 	NetworkViewID_INTERNAL_CALL_Internal_GetString_m1523080203,
 	NetworkViewID_Internal_Compare_m2541220858,
 	NetworkViewID_INTERNAL_CALL_Internal_Compare_m1319175441,
-	NetworkViewID_GetHashCode_m2420635706,
-	NetworkViewID_Equals_m2612049122,
-	NetworkViewID_get_isMine_m2754407673,
-	NetworkViewID_get_owner_m576069262,
-	NetworkViewID_ToString_m3783538050,
+	NetworkViewID_GetHashCode_m2420635706_AdjustorThunk,
+	NetworkViewID_Equals_m2612049122_AdjustorThunk,
+	NetworkViewID_get_isMine_m2754407673_AdjustorThunk,
+	NetworkViewID_get_owner_m576069262_AdjustorThunk,
+	NetworkViewID_ToString_m3783538050_AdjustorThunk,
 	NetworkViewID_op_Equality_m776200489,
 	NetworkViewID_op_Inequality_m4224856356,
 	Object__ctor_m570634126,
+	Object__cctor_m27692511,
 	Object_Internal_CloneSingle_m3129073756,
+	Object_Internal_CloneSingleWithParent_m1998670682,
 	Object_Internal_InstantiateSingle_m3047563925,
 	Object_INTERNAL_CALL_Internal_InstantiateSingle_m1201424140,
+	Object_Internal_InstantiateSingleWithParent_m2082722510,
+	Object_INTERNAL_CALL_Internal_InstantiateSingleWithParent_m3885041925,
+	Object_GetOffsetOfInstanceIDInCPlusPlusObject_m1992516375,
+	Object_EnsureRunningOnMainThread_m3486236431,
 	Object_Destroy_m2260435093,
 	Object_Destroy_m176400816,
 	Object_DestroyImmediate_m1826427014,
@@ -22758,14 +23259,17 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Object_FindObjectsOfTypeIncludingAssets_m1276784656,
 	Object_ToString_m2155033093,
 	Object_DoesObjectWithInstanceIDExist_m3762691104,
-	Object_Equals_m1697651929,
+	Object_GetInstanceID_m200424466,
 	Object_GetHashCode_m1758859581,
+	Object_Equals_m1697651929,
 	Object_CompareBaseObjects_m2625210252,
 	Object_IsNativeObjectAlive_m434626365,
-	Object_GetInstanceID_m200424466,
 	Object_GetCachedPtr_m1583421857,
 	Object_Instantiate_m2255090103,
+	Object_Instantiate_m1991490798,
 	Object_Instantiate_m3040600263,
+	Object_Instantiate_m871497726,
+	Object_Instantiate_m1911199679,
 	Object_CheckNullArgument_m264735768,
 	Object_FindObjectOfType_m3820159265,
 	Object_op_Implicit_m2106766291,
@@ -22787,72 +23291,72 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Physics2D_Raycast_m301626417,
 	Physics2D_GetRayIntersectionAll_m2520210479,
 	Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m2968135304,
-	Plane__ctor_m2201046863,
-	Plane_get_normal_m3534129213,
-	Plane_get_distance_m2612484153,
-	Plane_Raycast_m2829769106,
+	Plane__ctor_m2201046863_AdjustorThunk,
+	Plane_get_normal_m3534129213_AdjustorThunk,
+	Plane_get_distance_m2612484153_AdjustorThunk,
+	Plane_Raycast_m2829769106_AdjustorThunk,
 	PropertyAttribute__ctor_m1741701746,
-	Quaternion__ctor_m1100844011,
+	Quaternion__ctor_m1100844011_AdjustorThunk,
 	Quaternion_Dot_m580284,
 	Quaternion_Inverse_m3542515566,
 	Quaternion_INTERNAL_CALL_Inverse_m4175627710,
-	Quaternion_ToString_m1793285860,
+	Quaternion_ToString_m1793285860_AdjustorThunk,
 	Quaternion_Euler_m1204688217,
 	Quaternion_Internal_FromEulerRad_m3681319598,
 	Quaternion_INTERNAL_CALL_Internal_FromEulerRad_m1312441940,
-	Quaternion_GetHashCode_m3823258238,
-	Quaternion_Equals_m3843409946,
+	Quaternion_GetHashCode_m3823258238_AdjustorThunk,
+	Quaternion_Equals_m3843409946_AdjustorThunk,
 	Quaternion_op_Multiply_m3077481361,
 	Quaternion_op_Multiply_m3771288979,
 	Quaternion_op_Inequality_m4197259746,
 	Random_Range_m75452833,
 	Random_RandomRangeInt_m1203631415,
 	RangeAttribute__ctor_m1279576482,
-	Ray__ctor_m2662468509,
-	Ray_get_origin_m3064983562,
-	Ray_get_direction_m3201866877,
-	Ray_GetPoint_m1171104822,
-	Ray_ToString_m1391619614,
-	RaycastHit_get_point_m4165497838,
-	RaycastHit_get_normal_m1346998891,
-	RaycastHit_get_distance_m800944203,
-	RaycastHit_get_collider_m3116882274,
-	RaycastHit2D_get_point_m2072691227,
-	RaycastHit2D_get_normal_m894503390,
-	RaycastHit2D_get_fraction_m2313516650,
-	RaycastHit2D_get_collider_m789902306,
-	RaycastHit2D_get_rigidbody_m1059160360,
-	RaycastHit2D_get_transform_m1318597140,
-	Rect__ctor_m3291325233,
-	Rect_get_x_m982385354,
-	Rect_set_x_m577970569,
-	Rect_get_y_m982386315,
-	Rect_set_y_m67436392,
-	Rect_get_position_m2933356232,
-	Rect_get_center_m610643572,
-	Rect_get_min_m275942709,
-	Rect_get_max_m275713991,
-	Rect_get_width_m2824209432,
-	Rect_set_width_m3771513595,
-	Rect_get_height_m2154960823,
-	Rect_set_height_m3398820332,
-	Rect_get_size_m136480416,
-	Rect_get_xMin_m371109962,
-	Rect_set_xMin_m265803321,
-	Rect_get_yMin_m399739113,
-	Rect_set_yMin_m3716298746,
-	Rect_get_xMax_m370881244,
-	Rect_set_xMax_m1513853159,
-	Rect_get_yMax_m399510395,
-	Rect_set_yMax_m669381288,
-	Rect_ToString_m2093687658,
-	Rect_Contains_m3556594010,
-	Rect_Contains_m3556594041,
+	Ray__ctor_m2662468509_AdjustorThunk,
+	Ray_get_origin_m3064983562_AdjustorThunk,
+	Ray_get_direction_m3201866877_AdjustorThunk,
+	Ray_GetPoint_m1171104822_AdjustorThunk,
+	Ray_ToString_m1391619614_AdjustorThunk,
+	RaycastHit_get_point_m4165497838_AdjustorThunk,
+	RaycastHit_get_normal_m1346998891_AdjustorThunk,
+	RaycastHit_get_distance_m800944203_AdjustorThunk,
+	RaycastHit_get_collider_m3116882274_AdjustorThunk,
+	RaycastHit2D_get_point_m2072691227_AdjustorThunk,
+	RaycastHit2D_get_normal_m894503390_AdjustorThunk,
+	RaycastHit2D_get_fraction_m2313516650_AdjustorThunk,
+	RaycastHit2D_get_collider_m789902306_AdjustorThunk,
+	RaycastHit2D_get_rigidbody_m1059160360_AdjustorThunk,
+	RaycastHit2D_get_transform_m1318597140_AdjustorThunk,
+	Rect__ctor_m3291325233_AdjustorThunk,
+	Rect_get_x_m982385354_AdjustorThunk,
+	Rect_set_x_m577970569_AdjustorThunk,
+	Rect_get_y_m982386315_AdjustorThunk,
+	Rect_set_y_m67436392_AdjustorThunk,
+	Rect_get_position_m2933356232_AdjustorThunk,
+	Rect_get_center_m610643572_AdjustorThunk,
+	Rect_get_min_m275942709_AdjustorThunk,
+	Rect_get_max_m275713991_AdjustorThunk,
+	Rect_get_width_m2824209432_AdjustorThunk,
+	Rect_set_width_m3771513595_AdjustorThunk,
+	Rect_get_height_m2154960823_AdjustorThunk,
+	Rect_set_height_m3398820332_AdjustorThunk,
+	Rect_get_size_m136480416_AdjustorThunk,
+	Rect_get_xMin_m371109962_AdjustorThunk,
+	Rect_set_xMin_m265803321_AdjustorThunk,
+	Rect_get_yMin_m399739113_AdjustorThunk,
+	Rect_set_yMin_m3716298746_AdjustorThunk,
+	Rect_get_xMax_m370881244_AdjustorThunk,
+	Rect_set_xMax_m1513853159_AdjustorThunk,
+	Rect_get_yMax_m399510395_AdjustorThunk,
+	Rect_set_yMax_m669381288_AdjustorThunk,
+	Rect_ToString_m2093687658_AdjustorThunk,
+	Rect_Contains_m3556594010_AdjustorThunk,
+	Rect_Contains_m3556594041_AdjustorThunk,
 	Rect_OrderMinMax_m3424313368,
-	Rect_Overlaps_m669681106,
-	Rect_Overlaps_m2751672171,
-	Rect_GetHashCode_m89026168,
-	Rect_Equals_m1091722644,
+	Rect_Overlaps_m669681106_AdjustorThunk,
+	Rect_Overlaps_m2751672171_AdjustorThunk,
+	Rect_GetHashCode_m89026168_AdjustorThunk,
+	Rect_Equals_m1091722644_AdjustorThunk,
 	Rect_op_Inequality_m2236552616,
 	Rect_op_Equality_m1552341101,
 	RectOffset__ctor_m2395783478,
@@ -22931,10 +23435,17 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ResourceRequest_get_asset_m670320982,
 	Resources_Load_m2187391845,
 	Resources_Load_m3601699608,
+	Resources_GetBuiltinResource_m1250078467,
 	RPC__ctor_m281827604,
+	Scene_get_handle_m2277248521_AdjustorThunk,
+	Scene_GetHashCode_m2000109307_AdjustorThunk,
+	Scene_Equals_m93578403_AdjustorThunk,
 	SceneManager_LoadScene_m2167814033,
 	SceneManager_LoadScene_m3907168970,
 	SceneManager_LoadSceneAsyncNameIndexInternal_m3775081569,
+	SceneManager_Internal_SceneLoaded_m1398790415,
+	SceneManager_Internal_SceneUnloaded_m3773648285,
+	SceneManager_Internal_ActiveSceneChanged_m3583151927,
 	Screen_get_width_m3080333084,
 	Screen_get_height_m1504859443,
 	Screen_get_dpi_m3780069159,
@@ -22951,13 +23462,14 @@ extern const methodPointerType g_MethodPointers[14339] =
 	SendMouseEvents_SetMouseMoved_m2590456785,
 	SendMouseEvents_DoSendMouseEvents_m4104134333,
 	SendMouseEvents_SendEvents_m3877180750,
-	HitInfo_SendMessage_m2569183060,
+	HitInfo_SendMessage_m2569183060_AdjustorThunk,
 	HitInfo_Compare_m4083757090,
 	HitInfo_op_Implicit_m1943931337,
 	FormerlySerializedAsAttribute__ctor_m2703462003,
 	FormerlySerializedAsAttribute_get_oldName_m2935479929,
 	SerializeField__ctor_m4068807987,
 	SerializePrivateVariables__ctor_m889466149,
+	SetupCoroutine_InvokeMoveNext_m3556339879,
 	SetupCoroutine_InvokeMember_m3691215301,
 	Shader_PropertyToID_m3019342011,
 	SharedBetweenAnimatorsAttribute__ctor_m2764338918,
@@ -23023,8 +23535,8 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GameCenterPlatform_CreateLeaderboard_m2295049883,
 	GameCenterPlatform_CreateAchievement_m1828880347,
 	GameCenterPlatform_TriggerResetAchievementCallback_m1285257317,
-	GcAchievementData_ToAchievement_m3239514930,
-	GcAchievementDescriptionData_ToAchievementDescription_m3125480712,
+	GcAchievementData_ToAchievement_m3239514930_AdjustorThunk,
+	GcAchievementDescriptionData_ToAchievementDescription_m3125480712_AdjustorThunk,
 	GcLeaderboard__ctor_m4042810199,
 	GcLeaderboard_Finalize_m4015840938,
 	GcLeaderboard_Contains_m100384368,
@@ -23036,9 +23548,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	GcLeaderboard_Internal_LoadScoresWithUsers_m1315210452,
 	GcLeaderboard_Loading_m294711596,
 	GcLeaderboard_Dispose_m301614325,
-	GcScoreData_ToScore_m2728389301,
-	GcUserProfileData_ToUserProfile_m1509702721,
-	GcUserProfileData_AddToArray_m3757655355,
+	GcScoreData_ToScore_m2728389301_AdjustorThunk,
+	GcUserProfileData_ToUserProfile_m1509702721_AdjustorThunk,
+	GcUserProfileData_AddToArray_m3757655355_AdjustorThunk,
 	Achievement__ctor_m377036415,
 	Achievement__ctor_m2960680429,
 	Achievement__ctor_m3345265521,
@@ -23097,7 +23609,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	UserProfile_get_id_m2095754825,
 	UserProfile_get_isFriend_m1712941209,
 	UserProfile_get_state_m1340538601,
-	Range__ctor_m872630735,
+	Range__ctor_m872630735_AdjustorThunk,
 	SortingLayer_GetLayerValueFromID_m2560954442,
 	SpaceAttribute__ctor_m3636842103,
 	SpaceAttribute__ctor_m2299833492,
@@ -23105,6 +23617,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Sprite_INTERNAL_get_rect_m853825042,
 	Sprite_get_pixelsPerUnit_m2438708453,
 	Sprite_get_texture_m1481489947,
+	Sprite_get_associatedAlphaSplitTexture_m4226901177,
 	Sprite_get_textureRect_m3946160520,
 	Sprite_INTERNAL_get_textureRect_m1939414807,
 	Sprite_get_border_m1562752938,
@@ -23141,9 +23654,9 @@ extern const methodPointerType g_MethodPointers[14339] =
 	StateMachineBehaviour_OnStateMachineExit_m2976228338,
 	TextAreaAttribute__ctor_m2577573455,
 	TextEditor__ctor_m1029296947,
-	TextGenerationSettings_CompareColors_m2801108564,
-	TextGenerationSettings_CompareVector2_m332687775,
-	TextGenerationSettings_Equals_m3950599493,
+	TextGenerationSettings_CompareColors_m2801108564_AdjustorThunk,
+	TextGenerationSettings_CompareVector2_m332687775_AdjustorThunk,
+	TextGenerationSettings_Equals_m3950599493_AdjustorThunk,
 	TextGenerator__ctor_m3994909811,
 	TextGenerator__ctor_m1563237700,
 	TextGenerator_System_IDisposable_Dispose_m3586435340,
@@ -23179,7 +23692,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Texture_Internal_GetHeight_m1065663213,
 	Texture_get_width_m1557399609,
 	Texture_get_height_m1538561974,
+	Texture_get_texelSize_m3893699517,
+	Texture_INTERNAL_get_texelSize_m2038139996,
 	Texture_GetNativeTexturePtr_m2052913073,
+	Texture_INTERNAL_CALL_GetNativeTexturePtr_m3914929197,
 	Texture2D__ctor_m1883511258,
 	Texture2D__ctor_m3705883154,
 	Texture2D_Internal_Create_m457592211,
@@ -23201,16 +23717,17 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Texture2D_Internal_ResizeWH_m3271797007,
 	Texture2D_EncodeToJPG_m1915683733,
 	Texture2D_EncodeToJPG_m2459014212,
+	ThreadAndSerializationSafe__ctor_m4149745981,
 	Time_get_deltaTime_m2741110510,
 	Time_get_unscaledTime_m319114521,
 	Time_get_unscaledDeltaTime_m285638843,
 	Time_get_realtimeSinceStartup_m2972554983,
 	TooltipAttribute__ctor_m3341446606,
-	Touch_get_fingerId_m1427167959,
-	Touch_get_position_m1943849441,
-	Touch_get_deltaPosition_m3983677995,
-	Touch_get_phase_m3314549414,
-	Touch_get_type_m1428398012,
+	Touch_get_fingerId_m1427167959_AdjustorThunk,
+	Touch_get_position_m1943849441_AdjustorThunk,
+	Touch_get_deltaPosition_m3983677995_AdjustorThunk,
+	Touch_get_phase_m3314549414_AdjustorThunk,
+	Touch_get_type_m1428398012_AdjustorThunk,
 	TouchScreenKeyboard__ctor_m3607055310,
 	TouchScreenKeyboard_Destroy_m3865079199,
 	TouchScreenKeyboard_Finalize_m541415163,
@@ -23279,15 +23796,15 @@ extern const methodPointerType g_MethodPointers[14339] =
 	UnityException__ctor_m2780758535,
 	UnityException__ctor_m2001840532,
 	UnityString_Format_m427603113,
-	Vector2__ctor_m1517109030,
-	Vector2_get_Item_m2185542843,
-	Vector2_set_Item_m2767519328,
+	Vector2__ctor_m1517109030_AdjustorThunk,
+	Vector2_get_Item_m2185542843_AdjustorThunk,
+	Vector2_set_Item_m2767519328_AdjustorThunk,
 	Vector2_Scale_m1743563745,
-	Vector2_ToString_m3859776067,
-	Vector2_GetHashCode_m128434585,
-	Vector2_Equals_m3404198849,
+	Vector2_ToString_m3859776067_AdjustorThunk,
+	Vector2_GetHashCode_m128434585_AdjustorThunk,
+	Vector2_Equals_m3404198849_AdjustorThunk,
 	Vector2_Dot_m2437602225,
-	Vector2_get_sqrMagnitude_m996072851,
+	Vector2_get_sqrMagnitude_m996072851_AdjustorThunk,
 	Vector2_SqrMagnitude_m4007443280,
 	Vector2_get_zero_m199872368,
 	Vector2_get_one_m2767488832,
@@ -23300,21 +23817,21 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Vector2_op_Inequality_m1638984867,
 	Vector2_op_Implicit_m4083860659,
 	Vector2_op_Implicit_m482286037,
-	Vector3__ctor_m2926210380,
-	Vector3__ctor_m1846874791,
+	Vector3__ctor_m2926210380_AdjustorThunk,
+	Vector3__ctor_m1846874791_AdjustorThunk,
 	Vector3_Lerp_m650470329,
-	Vector3_get_Item_m108333500,
-	Vector3_set_Item_m1844835745,
-	Vector3_GetHashCode_m3912867704,
-	Vector3_Equals_m3337192096,
+	Vector3_get_Item_m108333500_AdjustorThunk,
+	Vector3_set_Item_m1844835745_AdjustorThunk,
+	Vector3_GetHashCode_m3912867704_AdjustorThunk,
+	Vector3_Equals_m3337192096_AdjustorThunk,
 	Vector3_Normalize_m3047997355,
-	Vector3_get_normalized_m2650940353,
-	Vector3_ToString_m3566373060,
+	Vector3_get_normalized_m2650940353_AdjustorThunk,
+	Vector3_ToString_m3566373060_AdjustorThunk,
 	Vector3_Dot_m2370485424,
 	Vector3_Distance_m3366690344,
 	Vector3_Magnitude_m995314358,
 	Vector3_SqrMagnitude_m1662776270,
-	Vector3_get_sqrMagnitude_m1207423764,
+	Vector3_get_sqrMagnitude_m1207423764_AdjustorThunk,
 	Vector3_Min_m10392601,
 	Vector3_Max_m545730887,
 	Vector3_get_zero_m2017759730,
@@ -23331,15 +23848,15 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Vector3_op_Division_m4277988370,
 	Vector3_op_Equality_m582817895,
 	Vector3_op_Inequality_m231387234,
-	Vector4__ctor_m2441427762,
-	Vector4_get_Item_m2326091453,
-	Vector4_set_Item_m922152162,
-	Vector4_GetHashCode_m3402333527,
-	Vector4_Equals_m3270185343,
-	Vector4_ToString_m3272970053,
+	Vector4__ctor_m2441427762_AdjustorThunk,
+	Vector4_get_Item_m2326091453_AdjustorThunk,
+	Vector4_set_Item_m922152162_AdjustorThunk,
+	Vector4_GetHashCode_m3402333527_AdjustorThunk,
+	Vector4_Equals_m3270185343_AdjustorThunk,
+	Vector4_ToString_m3272970053_AdjustorThunk,
 	Vector4_Dot_m2303368623,
 	Vector4_SqrMagnitude_m3613076556,
-	Vector4_get_sqrMagnitude_m1418774677,
+	Vector4_get_sqrMagnitude_m1418774677_AdjustorThunk,
 	Vector4_get_zero_m3835647092,
 	Vector4_op_Subtraction_m3588766929,
 	Vector4_op_Division_m3513381747,
@@ -23347,8 +23864,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	WaitForEndOfFrame__ctor_m4124201226,
 	WaitForFixedUpdate__ctor_m2916734308,
 	WaitForSeconds__ctor_m3184996201,
-	WebCamDevice_get_name_m2875559007,
-	WebCamDevice_get_isFrontFacing_m3402023620,
+	WaitForSecondsRealtime__ctor_m1777059252,
+	WaitForSecondsRealtime_get_keepWaiting_m2193585742,
+	WebCamDevice_get_name_m2875559007_AdjustorThunk,
+	WebCamDevice_get_isFrontFacing_m3402023620_AdjustorThunk,
 	WebCamTexture__ctor_m3779632809,
 	WebCamTexture__ctor_m1800008749,
 	WebCamTexture_Internal_CreateWebCamTexture_m384251711,
@@ -23368,6 +23887,21 @@ extern const methodPointerType g_MethodPointers[14339] =
 	WebCamTexture_get_didUpdateThisFrame_m2572205429,
 	WrapperlessIcall__ctor_m1888400594,
 	WritableAttribute__ctor_m2205809533,
+	WWW_Dispose_m2446678367,
+	WWW_Finalize_m1793349504,
+	WWW_DestroyWWW_m300967382,
+	WWW_get_DefaultEncoding_m2507364293,
+	WWWForm_get_headers_m370408569,
+	WWWForm_get_data_m2893811951,
+	WWWTranscoder__cctor_m1486747496,
+	WWWTranscoder_Byte2Hex_m2414999496,
+	WWWTranscoder_URLEncode_m3301913818,
+	WWWTranscoder_URLEncode_m4039667511,
+	WWWTranscoder_QPEncode_m1021207296,
+	WWWTranscoder_Encode_m2677436946,
+	WWWTranscoder_ByteArrayContains_m3244919989,
+	WWWTranscoder_SevenBitClean_m1805125217,
+	WWWTranscoder_SevenBitClean_m945043319,
 	YieldInstruction__ctor_m539393484,
 	GenericStack__ctor_m2328546233,
 	MathfInternal__cctor_m2600550988,
@@ -23579,10 +24113,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	RaycasterManager_AddRaycaster_m4159868023,
 	RaycasterManager_GetRaycasters_m4152256966,
 	RaycasterManager_RemoveRaycasters_m4290330819,
-	RaycastResult_get_gameObject_m1138099278,
-	RaycastResult_set_gameObject_m726369707,
-	RaycastResult_get_isValid_m3098154392,
-	RaycastResult_ToString_m2924263764,
+	RaycastResult_get_gameObject_m1138099278_AdjustorThunk,
+	RaycastResult_set_gameObject_m726369707_AdjustorThunk,
+	RaycastResult_get_isValid_m3098154392_AdjustorThunk,
+	RaycastResult_ToString_m2924263764_AdjustorThunk,
 	StandaloneInputModule__ctor_m3585261844,
 	StandaloneInputModule_get_inputMode_m3683217473,
 	StandaloneInputModule_get_allowActivationOnMobileDevice_m898677649,
@@ -23741,18 +24275,18 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ClipperRegistry_Unregister_m926013180,
 	Clipping_FindCullAndClipWorldRect_m3007966961,
 	Clipping_RectIntersect_m2589422792,
-	ColorBlock_get_normalColor_m1021113593,
-	ColorBlock_get_highlightedColor_m2834784533,
-	ColorBlock_get_pressedColor_m2014354534,
-	ColorBlock_get_disabledColor_m2484721348,
-	ColorBlock_get_colorMultiplier_m2799886278,
-	ColorBlock_set_colorMultiplier_m1029562789,
-	ColorBlock_get_fadeDuration_m2386809488,
-	ColorBlock_set_fadeDuration_m1171991323,
+	ColorBlock_get_normalColor_m1021113593_AdjustorThunk,
+	ColorBlock_get_highlightedColor_m2834784533_AdjustorThunk,
+	ColorBlock_get_pressedColor_m2014354534_AdjustorThunk,
+	ColorBlock_get_disabledColor_m2484721348_AdjustorThunk,
+	ColorBlock_get_colorMultiplier_m2799886278_AdjustorThunk,
+	ColorBlock_set_colorMultiplier_m1029562789_AdjustorThunk,
+	ColorBlock_get_fadeDuration_m2386809488_AdjustorThunk,
+	ColorBlock_set_fadeDuration_m1171991323_AdjustorThunk,
 	ColorBlock_get_defaultColorBlock_m533915527,
-	ColorBlock_Equals_m4183618976,
-	ColorBlock_Equals_m3761062129,
-	ColorBlock_GetHashCode_m2259731448,
+	ColorBlock_Equals_m4183618976_AdjustorThunk,
+	ColorBlock_Equals_m3761062129_AdjustorThunk,
+	ColorBlock_GetHashCode_m2259731448_AdjustorThunk,
 	ContentSizeFitter__ctor_m3832398161,
 	ContentSizeFitter_get_horizontalFit_m2851743464,
 	ContentSizeFitter_set_horizontalFit_m798679123,
@@ -23766,35 +24300,35 @@ extern const methodPointerType g_MethodPointers[14339] =
 	ContentSizeFitter_SetLayoutHorizontal_m629859679,
 	ContentSizeFitter_SetLayoutVertical_m2322479793,
 	ContentSizeFitter_SetDirty_m162055523,
-	ColorTween_get_startColor_m2341745789,
-	ColorTween_set_startColor_m1548058556,
-	ColorTween_get_targetColor_m3334930584,
-	ColorTween_set_targetColor_m1091345019,
-	ColorTween_get_tweenMode_m4011161954,
-	ColorTween_set_tweenMode_m1316837809,
-	ColorTween_get_duration_m2603018997,
-	ColorTween_set_duration_m347866734,
-	ColorTween_get_ignoreTimeScale_m27222826,
-	ColorTween_set_ignoreTimeScale_m4222585787,
-	ColorTween_TweenValue_m3209849337,
-	ColorTween_AddOnChangedCallback_m1109647485,
-	ColorTween_GetIgnoreTimescale_m2054009071,
-	ColorTween_GetDuration_m1400665524,
-	ColorTween_ValidTarget_m2504867349,
+	ColorTween_get_startColor_m2341745789_AdjustorThunk,
+	ColorTween_set_startColor_m1548058556_AdjustorThunk,
+	ColorTween_get_targetColor_m3334930584_AdjustorThunk,
+	ColorTween_set_targetColor_m1091345019_AdjustorThunk,
+	ColorTween_get_tweenMode_m4011161954_AdjustorThunk,
+	ColorTween_set_tweenMode_m1316837809_AdjustorThunk,
+	ColorTween_get_duration_m2603018997_AdjustorThunk,
+	ColorTween_set_duration_m347866734_AdjustorThunk,
+	ColorTween_get_ignoreTimeScale_m27222826_AdjustorThunk,
+	ColorTween_set_ignoreTimeScale_m4222585787_AdjustorThunk,
+	ColorTween_TweenValue_m3209849337_AdjustorThunk,
+	ColorTween_AddOnChangedCallback_m1109647485_AdjustorThunk,
+	ColorTween_GetIgnoreTimescale_m2054009071_AdjustorThunk,
+	ColorTween_GetDuration_m1400665524_AdjustorThunk,
+	ColorTween_ValidTarget_m2504867349_AdjustorThunk,
 	ColorTweenCallback__ctor_m1815857490,
-	FloatTween_get_startValue_m3485407671,
-	FloatTween_set_startValue_m367615212,
-	FloatTween_get_targetValue_m197139962,
-	FloatTween_set_targetValue_m27109721,
-	FloatTween_get_duration_m108772764,
-	FloatTween_set_duration_m4177197863,
-	FloatTween_get_ignoreTimeScale_m1786680995,
-	FloatTween_set_ignoreTimeScale_m556709748,
-	FloatTween_TweenValue_m1980315890,
-	FloatTween_AddOnChangedCallback_m2815182481,
-	FloatTween_GetIgnoreTimescale_m1972218454,
-	FloatTween_GetDuration_m2290037293,
-	FloatTween_ValidTarget_m3394239118,
+	FloatTween_get_startValue_m3485407671_AdjustorThunk,
+	FloatTween_set_startValue_m367615212_AdjustorThunk,
+	FloatTween_get_targetValue_m197139962_AdjustorThunk,
+	FloatTween_set_targetValue_m27109721_AdjustorThunk,
+	FloatTween_get_duration_m108772764_AdjustorThunk,
+	FloatTween_set_duration_m4177197863_AdjustorThunk,
+	FloatTween_get_ignoreTimeScale_m1786680995_AdjustorThunk,
+	FloatTween_set_ignoreTimeScale_m556709748_AdjustorThunk,
+	FloatTween_TweenValue_m1980315890_AdjustorThunk,
+	FloatTween_AddOnChangedCallback_m2815182481_AdjustorThunk,
+	FloatTween_GetIgnoreTimescale_m1972218454_AdjustorThunk,
+	FloatTween_GetDuration_m2290037293_AdjustorThunk,
+	FloatTween_ValidTarget_m3394239118_AdjustorThunk,
 	FloatTweenCallback__ctor_m2342804402,
 	Dropdown__ctor_m3574287322,
 	Dropdown__cctor_m2946628371,
@@ -24014,6 +24548,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Image_set_sprite_m572551402,
 	Image_get_overrideSprite_m3218085753,
 	Image_set_overrideSprite_m129622486,
+	Image_get_activeSprite_m1026504307,
 	Image_get_type_m1778977993,
 	Image_set_type_m3406009990,
 	Image_get_preserveAspect_m1146932479,
@@ -24030,14 +24565,20 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Image_set_fillOrigin_m3202820731,
 	Image_get_eventAlphaThreshold_m2236338352,
 	Image_set_eventAlphaThreshold_m229582947,
+	Image_get_alphaHitTestMinimumThreshold_m818947869,
+	Image_set_alphaHitTestMinimumThreshold_m3515403590,
+	Image_get_defaultETC1GraphicMaterial_m3310415159,
 	Image_get_mainTexture_m3619971528,
 	Image_get_hasBorder_m2233588589,
 	Image_get_pixelsPerUnit_m2679127645,
+	Image_get_material_m1084482253,
+	Image_set_material_m1151700522,
 	Image_OnBeforeSerialize_m3089868192,
 	Image_OnAfterDeserialize_m1760560454,
 	Image_GetDrawingDimensions_m755640489,
 	Image_SetNativeSize_m828608152,
 	Image_OnPopulateMesh_m435930979,
+	Image_UpdateMaterial_m74239060,
 	Image_GenerateSimpleSprite_m106729008,
 	Image_GenerateSlicedSprite_m4239922765,
 	Image_GenerateTiledSprite_m4269137945,
@@ -24064,7 +24605,6 @@ extern const methodPointerType g_MethodPointers[14339] =
 	InputField_get_cachedInputTextGenerator_m1093502060,
 	InputField_set_shouldHideMobileInput_m4025452486,
 	InputField_get_shouldHideMobileInput_m3268284241,
-	InputField_get_shouldActivateOnSelect_m3772452453,
 	InputField_get_text_m3972300732,
 	InputField_set_text_m203843887,
 	InputField_get_isFocused_m1249071051,
@@ -24331,37 +24871,40 @@ extern const methodPointerType g_MethodPointers[14339] =
 	MaskableGraphic_set_maskable_m3088187909,
 	MaskableGraphic_GetModifiedMaterial_m2422156902,
 	MaskableGraphic_Cull_m1710243867,
+	MaskableGraphic_UpdateCull_m3192993021,
 	MaskableGraphic_SetClipRect_m3970693835,
 	MaskableGraphic_OnEnable_m487460141,
 	MaskableGraphic_OnDisable_m2667299744,
 	MaskableGraphic_OnTransformParentChanged_m2836893064,
 	MaskableGraphic_ParentMaskStateChanged_m3501359204,
 	MaskableGraphic_OnCanvasHierarchyChanged_m3030160609,
-	MaskableGraphic_get_canvasRect_m2184399948,
+	MaskableGraphic_get_rootCanvasRect_m40685262,
 	MaskableGraphic_UpdateClipParent_m2337272942,
 	MaskableGraphic_RecalculateClipping_m400162188,
 	MaskableGraphic_RecalculateMasking_m2250524558,
+	MaskableGraphic_UnityEngine_UI_IClippable_get_gameObject_m3411396686,
 	MaskableGraphic_UnityEngine_UI_IClippable_get_rectTransform_m3856601786,
 	CullStateChangedEvent__ctor_m2540235971,
 	MaskUtilities_Notify2DMaskStateChanged_m2199550555,
 	MaskUtilities_NotifyStencilStateChanged_m2159873435,
 	MaskUtilities_FindRootSortOverrideCanvas_m4219954651,
 	MaskUtilities_GetStencilDepth_m2786493988,
+	MaskUtilities_IsDescendantOrSelf_m675247529,
 	MaskUtilities_GetRectMaskForClippable_m396614586,
 	MaskUtilities_GetRectMasksForClip_m447525417,
 	Misc_DestroyImmediate_m40421862,
-	Navigation_get_mode_m721480509,
-	Navigation_set_mode_m1506614802,
-	Navigation_get_selectOnUp_m2566832818,
-	Navigation_set_selectOnUp_m2875366329,
-	Navigation_get_selectOnDown_m929912185,
-	Navigation_set_selectOnDown_m2647056978,
-	Navigation_get_selectOnLeft_m1149209502,
-	Navigation_set_selectOnLeft_m619081677,
-	Navigation_get_selectOnRight_m2410966663,
-	Navigation_set_selectOnRight_m1544013280,
+	Navigation_get_mode_m721480509_AdjustorThunk,
+	Navigation_set_mode_m1506614802_AdjustorThunk,
+	Navigation_get_selectOnUp_m2566832818_AdjustorThunk,
+	Navigation_set_selectOnUp_m2875366329_AdjustorThunk,
+	Navigation_get_selectOnDown_m929912185_AdjustorThunk,
+	Navigation_set_selectOnDown_m2647056978_AdjustorThunk,
+	Navigation_get_selectOnLeft_m1149209502_AdjustorThunk,
+	Navigation_set_selectOnLeft_m619081677_AdjustorThunk,
+	Navigation_get_selectOnRight_m2410966663_AdjustorThunk,
+	Navigation_set_selectOnRight_m1544013280_AdjustorThunk,
 	Navigation_get_defaultNavigation_m492829917,
-	Navigation_Equals_m3278735261,
+	Navigation_Equals_m3278735261_AdjustorThunk,
 	Outline__ctor_m4004117817,
 	Outline_ModifyMesh_m4125422123,
 	PositionAsUV1__ctor_m3124267078,
@@ -24644,10 +25187,10 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m1155329269,
 	Slider_UnityEngine_UI_ICanvasElement_get_transform_m2086174425,
 	SliderEvent__ctor_m1429088576,
-	SpriteState_get_highlightedSprite_m2511270273,
-	SpriteState_get_pressedSprite_m591013456,
-	SpriteState_get_disabledSprite_m1512804506,
-	SpriteState_Equals_m895455353,
+	SpriteState_get_highlightedSprite_m2511270273_AdjustorThunk,
+	SpriteState_get_pressedSprite_m591013456_AdjustorThunk,
+	SpriteState_get_disabledSprite_m1512804506_AdjustorThunk,
+	SpriteState_Equals_m895455353_AdjustorThunk,
 	StencilMaterial__cctor_m2688860949,
 	StencilMaterial_Add_m310944030,
 	StencilMaterial_Add_m264449278,
@@ -24689,6 +25232,7 @@ extern const methodPointerType g_MethodPointers[14339] =
 	Text_OnEnable_m3618900104,
 	Text_OnDisable_m957690789,
 	Text_UpdateGeometry_m1493208737,
+	Text_AssignDefaultFont_m1282297949,
 	Text_GetGenerationSettings_m554596117,
 	Text_GetTextAnchorPivot_m7192668,
 	Text_OnPopulateMesh_m869628001,

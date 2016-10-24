@@ -11,8 +11,8 @@
 #include <stdint.h>
 
 
-#include "mscorlib_System_Object837106420.h"
-#include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E_U214874486.h"
+#include "mscorlib_System_Object4170816371.h"
+#include "UnityEngine_UI_U3CPrivateImplementationDetailsU3E_3379220348.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -32,13 +32,13 @@ struct U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields
 {
 public:
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-0
-	U24ArrayTypeU2412_t214874489  ___U24U24fieldU2D0_0;
+	U24ArrayTypeU2412_t3379220351  ___U24U24fieldU2D0_0;
 
 public:
 	inline static int32_t get_offset_of_U24U24fieldU2D0_0() { return static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t3053238937_StaticFields, ___U24U24fieldU2D0_0)); }
-	inline U24ArrayTypeU2412_t214874489  get_U24U24fieldU2D0_0() const { return ___U24U24fieldU2D0_0; }
-	inline U24ArrayTypeU2412_t214874489 * get_address_of_U24U24fieldU2D0_0() { return &___U24U24fieldU2D0_0; }
-	inline void set_U24U24fieldU2D0_0(U24ArrayTypeU2412_t214874489  value)
+	inline U24ArrayTypeU2412_t3379220351  get_U24U24fieldU2D0_0() const { return ___U24U24fieldU2D0_0; }
+	inline U24ArrayTypeU2412_t3379220351 * get_address_of_U24U24fieldU2D0_0() { return &___U24U24fieldU2D0_0; }
+	inline void set_U24U24fieldU2D0_0(U24ArrayTypeU2412_t3379220351  value)
 	{
 		___U24U24fieldU2D0_0 = value;
 	}

@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t4012695102;
+struct GameObject_t3674682005;
 
-#include "UnityEngine_UnityEngine_MonoBehaviour3012272455.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour667441552.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -22,19 +22,19 @@ struct GameObject_t4012695102;
 #endif
 
 // TouchController
-struct  TouchController_t2155287579  : public MonoBehaviour_t3012272455
+struct  TouchController_t2155287579  : public MonoBehaviour_t667441552
 {
 public:
 	// UnityEngine.GameObject TouchController::Cube
-	GameObject_t4012695102 * ___Cube_2;
+	GameObject_t3674682005 * ___Cube_2;
 	// System.Single TouchController::Speed
 	float ___Speed_3;
 
 public:
 	inline static int32_t get_offset_of_Cube_2() { return static_cast<int32_t>(offsetof(TouchController_t2155287579, ___Cube_2)); }
-	inline GameObject_t4012695102 * get_Cube_2() const { return ___Cube_2; }
-	inline GameObject_t4012695102 ** get_address_of_Cube_2() { return &___Cube_2; }
-	inline void set_Cube_2(GameObject_t4012695102 * value)
+	inline GameObject_t3674682005 * get_Cube_2() const { return ___Cube_2; }
+	inline GameObject_t3674682005 ** get_address_of_Cube_2() { return &___Cube_2; }
+	inline void set_Cube_2(GameObject_t3674682005 * value)
 	{
 		___Cube_2 = value;
 		Il2CppCodeGenWriteBarrier(&___Cube_2, value);

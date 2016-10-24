@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 
-#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_Object4170816371.h"
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -20,7 +20,7 @@
 #endif
 
 // Locale
-struct  Locale_t2281372285  : public Il2CppObject
+struct  Locale_t2281372284  : public Il2CppObject
 {
 public:
 
